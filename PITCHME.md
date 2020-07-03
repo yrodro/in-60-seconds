@@ -13,7 +13,7 @@
 ## aaaa
 @snapend
 
-@snap[north-east span-45]
+@snap[north-east span-70]
 ![IMAGE](assets/img/presentation.png)
 @snapend
 
