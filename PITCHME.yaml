@@ -17,6 +17,7 @@ theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
 layout           : center
 
+background : assests/img/background.png
 #
 # Highlight Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
