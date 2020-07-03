@@ -58,6 +58,10 @@ int main() {
    printf("Hello World!");
    return 0;
 }
+int main() {
+   printf("Hello World!");
+   return 0;
+}
 ```
 
 @snap[south span-100 text-gray text-08]
