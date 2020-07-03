@@ -5,17 +5,17 @@
 # Theme Template
 # Doc: https://gitpitch.com/docs/themes/default
 #
-theme            : template
+#theme            : template
 
-theme-background : [ "#FFAABB" ]
-theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
-theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
-theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
-theme-links      : [ "#F1C40F", "#5254F7" ]
-theme-code       : [ "Source Code Pro", "100", "120" ]
-theme-controls   : [ "#C0C0C0" ]
-theme-margins    : [ "0", "15px" ]
-layout           : center
+#theme-background : [ "#FFAABB" ]
+#theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
+#theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
+#theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
+#theme-links      : [ "#F1C40F", "#5254F7" ]
+#theme-code       : [ "Source Code Pro", "100", "120" ]
+#theme-controls   : [ "#C0C0C0" ]
+#theme-margins    : [ "0", "15px" ]
+#layout           : center
 
 background : assests/img/background.png
 #
@@ -28,7 +28,7 @@ highlight : tomorrow
 # Theme-Override Setting
 # Doc: https://gitpitch.com/docs/settings/custom-theme
 #
-theme-override: assets/css/PITCHME.css
+#theme-override: assets/css/PITCHME.css
 
 #
 # Logo Setting
