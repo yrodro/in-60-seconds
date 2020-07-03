@@ -7,7 +7,7 @@
 #
 theme            : template
 
-theme-background : [ "#EFFFD6" ]
+theme-background : [ "#FFAABB" ]
 theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
 theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
 theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
@@ -33,8 +33,8 @@ theme-override: assets/css/PITCHME.css
 # Logo Setting
 # https://gitpitch.com/docs/settings/logo
 #
-logo : assets/img/logo.png
-logo-position : top-left
+#logo : assets/img/logo.png
+#logo-position : top-left
 
 #
 # Layout Setting
@@ -46,19 +46,10 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "GitPitch - The Fastest Way From Idea To Presentation"
+footnote : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 
 #
 # Published Setting
 # Doc: https://gitpitch.com/docs/settings/published
 #
 published : true
-
-#
-# Twitter Card Settings [Pro Only]
-# Doc: https://gitpitch.com/docs/settings/twitter-card
-#
-title : "GitPitch In 60 Seconds"
-description : "A short tutorial introducing GitPitch Markdown Presentations for Developers."
-thumbnail : https://gitpitch.com/gpimg/tutorial-thumb.png
-
