@@ -1,3 +1,3 @@
-# Linear Algebra
+# Math 351 Linear Algebra
 
 ---
