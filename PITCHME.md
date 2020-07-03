@@ -32,7 +32,7 @@ Snap Layouts let you create custom slide designs directly within your markdown.
 @ul[list-spaced-bullets text-09]
 - You will be amazed
 - What you can achieve
-- With a **little imagination**
+- With a *italics* **bold** ~~cross~~ __underline__ ***italics and bold***
 - And GitPitch Markdown
 @ulend
 @snapend
