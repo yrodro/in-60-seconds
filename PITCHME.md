@@ -6,8 +6,8 @@
 
 ![IMAGE](assets/img/presentation.png)
 
----?color=linear-gradient(180deg, white 75%, black 25%)
-@title[Customize Slide Layout]
+---?color=linear-gradient(130deg, white 50%, black 50%)
+@title[lllll]
 
 @snap[west span-55]
 ## Customize the Layout
