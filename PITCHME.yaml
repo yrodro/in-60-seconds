@@ -53,3 +53,5 @@ footnote : "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 # Doc: https://gitpitch.com/docs/settings/published
 #
 published : true
+
+mathjax : TeX-MML-AM_HTMLorMML-full
