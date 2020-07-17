@@ -2,7 +2,9 @@
 
 ---
 
+@snap[north span-80]
 ### What is linear algebra
+@snapend
 
 @snap[center span-80]
 @math
@@ -18,7 +20,10 @@
 
 ---
 
+@snap[north span-80]
 ### What is linear algebra
+@snapend
+
 
 @snap[center span-80]
 @math
@@ -28,7 +33,9 @@
 
 ---
 
+@snap[north span-80]
 ### What is linear algebra
+@snapend
 
 @snap[center span-80 fragment]
 @math
