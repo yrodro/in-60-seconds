@@ -1,7 +1,3 @@
 # **Math 351 Linear Algebra**
-### Fall 2020
-
----?image=assets/img/background.png&size=contain&opacity=5%
-
-### Our first lesson :)))))))))))
-
+### What is linear algebra?
+@snap[center span-80]
