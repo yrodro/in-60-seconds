@@ -30,8 +30,30 @@
 
 ---
 
-### Linear Algebra is the mathematics of the Distributive Property
+@snap[north span-80]
+**Linear Algebra is the mathematics of the Distributive Property**
+@snapend
 
+@snap[fragment]
+You learned all the LA of numbers when you learned to multiply:
+@snapend
+
+@snap[center span-80 fragment]
+@math
+`$3x + 5 = 20$`
+@mathend
+@snapend
+@snap[center span-80 fragment]
+@math
+`$\longrightarrow 3x = 20 - 5$`
+@mathend
+@snapend
+
+@snap[center span-80 fragment]
+@math
+`$\longrightarrow x = \tfrac {20 - 5}{3}$`
+@mathend
+@snapend
 
 ---
 
