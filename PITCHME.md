@@ -6,7 +6,7 @@
 ### What is linear algebra V. A
 @snapend
 
-@snap[center east-40 span-80]
+@snap[center span-80]
 @math
 `\[49 \cdot 237 + 763 \cdot 49 = ?\]`
 @mathend
