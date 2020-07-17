@@ -10,7 +10,7 @@
 @mathend
 @snapend
 
-@snap[center span-80]
+@snap[center span-80 fragment]
 @math
 `\[49 \cdot \big(237+763\big) = \]`
 @mathend
