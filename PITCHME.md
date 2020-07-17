@@ -4,5 +4,7 @@
 
 ### What is linear algebra?
 @snap[center span-80]
+@math
 `\[49 \cdot 237 + 763 \cdot 49 = ?\]`
+@mathend
 @snapend
