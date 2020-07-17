@@ -51,7 +51,7 @@ You learned all the LA of numbers when you learned to multiply:
 
 @snap[center span-80 fragment]
 @math
-`$\longrightarrow x = \tfrac {20 - 5}{3}$`
+`$\longrightarrow x = \tfrac {20 - 5}{3} \mathop{DP}{=} \tfrac{20}{3}-\tfrac{5}{3} = 5$`
 @mathend
 @snapend
 
