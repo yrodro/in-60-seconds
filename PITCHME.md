@@ -3,7 +3,7 @@
 ---
 
 @snap[north span-80]
-### What is linear algebra
+### What is linear algebra V. A
 @snapend
 
 @snap[center span-80]
@@ -21,7 +21,7 @@
 ---
 
 @snap[north span-80]
-### What is linear algebra
+### What is linear algebra V. B
 @snapend
 
 
@@ -34,10 +34,10 @@
 ---
 
 @snap[north span-80]
-### What is linear algebra
+### What is linear algebra V. B
 @snapend
 
-@snap[center span-80 fragment]
+@snap[center span-80]
 @math
 `\[49 \cdot \big(237+763\big) = \]`
 @mathend
