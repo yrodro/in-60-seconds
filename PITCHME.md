@@ -83,11 +83,14 @@ So...
 @snap[southwest snap-80 fragment]
 What is a
 @snapend
-@snap[southwest snap-80 fragment]
+@snap[southwest snap-30 fragment]
 ![](assets/img/vector.png)
 @snapend
 
-
+@snap[south fragment]
+and what is a
+@snapend
+?image=assets/img/matrix.jpg
 
 ---
 
