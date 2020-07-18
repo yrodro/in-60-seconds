@@ -55,6 +55,37 @@ You learned all the LA of numbers when you learned to multiply:
 @mathend
 @snapend
 
+@snap[south snap-80]
+** Linear equations ARE Linear algebra**
+@snapend
+
+---
+
+@snap[north snap-80]
+### What about math351?
+@snapend
+
+@snap[center snap-80]
+This semester you will learn the mathematics of the distributive property, but applied to some mathematical structures that are a little more involved than plain numbers:
+@snapend
+
+@ul[south snap-80](false)
+- Vectors
+- Matrices
+@ulend
+
+---
+
+@snap{north snap-80]
+So...
+@snapend
+
+@snap[southwest snap-80 fragment]
+![What is a vector?](assets/img/vector.png)
+@snapend
+
+
+
 ---
 
 ### The End
