@@ -80,11 +80,11 @@ This semester you will learn the mathematics of the distributive property, but a
 So...
 @snapend
 
-@snap[soutwest snap-80 fragment]
+@snap[southwest snap-80 fragment]
 What is a
 @snapend
 @snap[southwest snap-80 fragment]
-!(assets/img/vector.png)
+![](assets/img/vector.png)
 @snapend
 
 
