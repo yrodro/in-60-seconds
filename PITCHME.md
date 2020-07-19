@@ -6,8 +6,8 @@
 ### What is linear algebra
 @snapend
 
-@snap[center span-55 fragment]
-@ul[list-spaced-bullets text-09]
+@snap[center span-45 fragment]
+@ul[list-spaced-bullets list-style: none text-09]
 - $49 \cdot 237 + 763 \cdot 49 = ?$
 - $49 \cdot \big( 237+763 \big) =$
 - $49 \cdot 1000 = 49000$
