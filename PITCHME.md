@@ -29,10 +29,10 @@
 @snapend
 
 @snap[west span-55] @ul[list-spaced-bullets text-09]
-    You will be amazed
-    @math $49 \cdot \big( 237+763 \big) =$ @mathend
-    With a little imagination
-    And GitPitch Markdown
+- You will be amazed
+- @math $49 \cdot \big( 237+763 \big) =$ @mathend
+- With a little imagination
+- And GitPitch Markdown
 @ulend @snapend
 
 ---
