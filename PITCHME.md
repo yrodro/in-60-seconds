@@ -7,33 +7,18 @@
 @snapend
 
 @snap[center span-80]
-@math
-`\[49 \cdot 237 + 763 \cdot 49 = ?\]`
-@mathend
-@snapend
-
-@snap[center span-80 fragment]
-@math
-`\[49 \cdot \big(237+763\big) = \]`
-@mathend
-@snapend
-
-@snap[center span-80 fragment]
-@math
 `\[49 \cdot 1000 = 49000\]`
-@mathend
-@snapend
+
+@snap[west span-55 fragment]
+@ul[list-spaced-bullets text-09]
+- $49 \cdot 237 + 763 \cdot 49 = ?$
+- $49 \cdot \big( 237+763 \big) =$
+- $49 \cdot 1000 = 49000$
+@ulend @snapend
 
 @snap[south span-80 fragment]
 **Distributive Property**
 @snapend
-
-@snap[west span-55] @ul[list-spaced-bullets text-09]
-- You will be amazed
-- @math $49 \cdot \big( 237+763 \big) =$ @mathend
-- With a little imagination
-- And GitPitch Markdown
-@ulend @snapend
 
 ---
 
