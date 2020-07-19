@@ -6,10 +6,7 @@
 ### What is linear algebra
 @snapend
 
-@snap[center span-80]
-`\[49 \cdot 1000 = 49000\]`
-
-@snap[west span-55 fragment]
+@snap[center span-55 fragment]
 @ul[list-spaced-bullets text-09]
 - $49 \cdot 237 + 763 \cdot 49 = ?$
 - $49 \cdot \big( 237+763 \big) =$
@@ -17,7 +14,7 @@
 @ulend @snapend
 
 @snap[south span-80 fragment]
-**Distributive Property**
+It's all about the **Distributive Property**
 @snapend
 
 ---
