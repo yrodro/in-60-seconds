@@ -3,7 +3,7 @@
 ---
 
 @snap[north span-80]
-### What is linear algebra V. A
+### What is linear algebra
 @snapend
 
 @snap[center span-80]
@@ -28,6 +28,13 @@
 **Distributive Property**
 @snapend
 
+@snap[west span-55] @ul[list-spaced-bullets text-09]
+    You will be amazed
+    @math $49 \cdot \big( 237+763 \big) =$ @mathend
+    With a little imagination
+    And GitPitch Markdown
+@ulend @snapend
+
 ---
 
 @snap[north span-80]
@@ -45,17 +52,17 @@ You learned all the LA of numbers when you learned to multiply:
 @snapend
 @snap[center span-80 fragment]
 @math
-`$\longrightarrow 3x = 20 - 5$`
+`$3x = 20 - 5$`
 @mathend
 @snapend
 
 @snap[center span-80 fragment]
 @math
-`$\longrightarrow x = \tfrac {20 - 5}{3} \mathop{DP}{=} \tfrac{20}{3}-\tfrac{5}{3} = 5$`
+`$x = \tfrac {20 - 5}{3} \mathop{DP}{=} \tfrac{20}{3}-\tfrac{5}{3} = 5$`
 @mathend
 @snapend
 
-@snap[south snap-80]
+@snap[south snap-80 fragment]
 ** Linear equations ARE Linear algebra**
 @snapend
 
