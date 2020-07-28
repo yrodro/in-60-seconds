@@ -92,7 +92,7 @@ What is a
 @snap[south fragment]
 and what is a
 @snapend
-?image=assets/img/matrix.jpg
+![](assets/img/matrix.jpg)
 
 ---
 @snap[north snap-80]
