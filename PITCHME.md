@@ -1,11 +1,25 @@
 # **Math 351 Linear Algebra**
 
 ---
+@snap[north span-80]
+### Why do we study linear algebra?
+@snapend
+
+@snap[center span-45 fragment]
+@ul[list-spaced-bullets list-style: non text-09]
+- To solve systems of linear equations
+- To do computer graphics computations
+- 
+- Linear programming optimization
+- Eigen problems e.g.: Google
+@ulend @snapend
+
+---
 
 @snap[north span-80]
 ### What is linear algebra
 @snapend
-
+We keep talking about linear this and linear that. What is linear?
 @snap[center span-45 fragment]
 @ul[list-spaced-bullets list-style: none text-09]
 - $49 \cdot 237 + 763 \cdot 49 = ?$
@@ -43,7 +57,7 @@ You learned all the LA of numbers when you learned to multiply:
 `$x = \tfrac {20 - 5}{3} \mathop{DP}{=} \tfrac{20}{3}-\tfrac{5}{3} = 5$`
 @mathend
 @snapend
-
+Note for teacher: add linear equations to show distibuty
 @snap[south snap-80 fragment]
 ** Linear equations ARE Linear algebra**
 @snapend
