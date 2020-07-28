@@ -46,7 +46,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-
+footnote : "Maria helped :P"
 #
 # Published Setting
 # Doc: https://gitpitch.com/docs/settings/published
