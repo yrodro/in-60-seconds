@@ -95,11 +95,15 @@ and what is a
 ?image=assets/img/matrix.jpg
 
 ---
-
-
+@snap[north snap-80]
+###Vectors
+@snapend
+Note: ask students to point at my nose, then cartoons start to appear starting with azula, make sure everyone is pointing in a different __direction__ to the same __point__, then ask everyone to point north
+Question: What is Spongebob's address PLUS Patrick's address, it makes no sense to add locations (Take 10 steps + take 10 steps nort = take 14 steps northeast)
+We can *add* directions
+Think of a vector as a directional instruction
 
 ---
 ### The End
-
 ---
 
