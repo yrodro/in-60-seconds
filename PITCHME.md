@@ -8,7 +8,6 @@
 @ul[list-spaced-bullets list-style: non text-09]
 - To solve systems of linear equations
 - To do computer graphics computations
-- 
 - Linear programming optimization
 - Eigen problems e.g.: Google
 @ulend @snapend
@@ -102,7 +101,7 @@ Note: ask students to point at my nose, then cartoons start to appear starting w
 Question: What is Spongebob's address PLUS Patrick's address, it makes no sense to add locations (Take 10 steps + take 10 steps nort = take 14 steps northeast)
 We can *add* directions
 Think of a vector as a directional instruction
-
+What is a matrix?
 ---
 ### The End
 ---
