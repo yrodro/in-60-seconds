@@ -1,5 +1,4 @@
 # **Math 351 Linear Algebra**
-[//]: <> (This is also a comment.)
 ---
 @snap[north span-80]
 ### Why do we study linear algebra?
