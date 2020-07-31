@@ -5,36 +5,38 @@
 IUPUI, Fall 2020
 
 ---
-@snap[north]
+@snap[north span-80]
 ### **How** will we study Linear Algebra?
 @snapend
 
-@snap[midpoint span-70 fragment]
+@snap[midpoint span-90 fragment]
 @ul[list-spaced-bullets list-style: none text-09]
-- Text
-- rperez
-- grades
-- etc
+- Elementary Linear Algebra, H. Anton; 11th ed.
+- Dr Rodrigo Perez, rperez@math.iupui.edu
+- Weekly assignments 20%, 3 midterm exams 30% ea, Final 20%
+- 50-65% **D**, 65-80% **C**, 80-90% **B**, 90-100% **A**
 @ulend @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### **Why** do we study Linear Algebra?
 @snapend
 
 @snap[midpoint span-70 fragment]
+@ul[list-spaced-bullets list-style: none text-09]
 - Solve systems of linear equations
 - Do computer graphics computations
 - Solve linear programming optimization problems
 - Solve eigen-problems, including
 - Markov chain processes
+@ulend @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Linear Systems
 @snapend
 
-@snap[midpoint]
+@snap[midpoint span-50]
 @math
 `\[
    \begin{align*}
@@ -46,11 +48,11 @@ IUPUI, Fall 2020
 @mathend @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Linear Systems
 @snapend
 
-@snap[midpoint]
+@snap[midpoint span-50]
 @math
 `\[
    \begin{align*}
@@ -62,11 +64,11 @@ IUPUI, Fall 2020
 @mathend @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Linear Systems
 @snapend
 
-@snap[midpoint]
+@snap[midpoint span-50]
 @math
 `\[
    \begin{align*}
@@ -78,11 +80,11 @@ IUPUI, Fall 2020
 @mathend @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Linear Systems
 @snapend
 
-@snap[midpoint]
+@snap[midpoint span-50]
 @math
 `\[
    \begin{align*}
@@ -94,11 +96,11 @@ IUPUI, Fall 2020
 @mathend @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Linear Systems
 @snapend
 
-@snap[midpoint]
+@snap[midpoint span-50]
 @math
 `\[
    \begin{align*}
@@ -110,11 +112,11 @@ IUPUI, Fall 2020
 @mathend @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Linear Systems
 @snapend
 
-@snap[midpoint]
+@snap[midpoint span-50]
 @math
 `\[
    \begin{align*}
@@ -126,11 +128,11 @@ IUPUI, Fall 2020
 @mathend @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Linear Systems
 @snapend
 
-@snap[midpoint]
+@snap[midpoint span-50]
 @math
 `\[
    \begin{align*}
@@ -142,11 +144,11 @@ IUPUI, Fall 2020
 @mathend @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Linear Systems
 @snapend
 
-@snap[midpoint]
+@snap[midpoint span-50]
 @math
 `\[
    \begin{align*}
@@ -157,40 +159,39 @@ IUPUI, Fall 2020
   \]`
 @mathend @snapend
 
-@snap[south]
+@snap[south span-80]
 **We will fix that...**
 @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Computer graphics
 @snapend
 
 @snap[midpoint]
+INSERT VIDEO HERE
 https://www.youtube.com/watch?v=SMAnlPTmAwE
 @snapend
 
-@snap[south]
-INSERT VIDEO HERE
+@snap[south span-80 fragment]
 **Want to land a dream job at Pixar?**
 @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Eigenvectors and Markov processes
 @snapend
 
-@snap[midpoint]
-INSERT FIGURE HERE
-assets/img/googlePagerank.jpg
+@snap[midpoint span-80]
+@img[span-65](assets/img/googlePagerank.jpg)
 @snapend
 
-@snap[south]
+@snap[south fragment span-80]
 **Would you like to ace a class that can make you a billionaire?**
 @snapend]
 
 ---
-@snap[north]
+@snap[north span-80]
 ### What is Linear Algebra?
 @snapend
 
@@ -202,16 +203,16 @@ assets/img/googlePagerank.jpg
 - **49000**
 @ulend @snapend
 
-@snap[south]
+@snap[south fragment]
 The **Distributive Property** (or DP)
 @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### Linear Algebra is all about the DP
 @snapend
 
-@snap[north-east span-65]
+@snap[midpoint span-65]
 @quote[If some mathematical objects can be added and multiplied
  by scalars (i.e., numbers), and if the addition and product
  harmonize toghether nicely in the sense of following the (DP),
@@ -220,29 +221,29 @@ The **Distributive Property** (or DP)
 
 
 ---
-@snap[north]
+@snap[north span-80]
 ### What is Linear Algebra?
 @snapend
 
 @snap[midpoint span-70 fragment]
-@ul[list-spaced-bullets list-style: none text-09]
+@ul[list-no-bullets list-style: none text-09]
 - $3x + 5 = 20$
 - $3x     = 15$
 - $ x     =  5$
 @ulend @snapend
 
-@snap[south]
+@snap[south span-80]
 @ul[list-spaced-bullets list-style: none text-09]
 - Vectors
 - Matrices
 @ulend @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### What is a **vector**?
 @snapend
 
 ---
-@snap[north]
+@snap[north span-80]
 ### What is a **matrix**?
 @snapend
