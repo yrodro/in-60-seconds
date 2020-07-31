@@ -1,373 +1,179 @@
-[![GitPitch](https://gitpitch.com/assets/badge.svg)](https://gitpitch.com/gitpitch/in-60-seconds/master?grs=github)
+### Why do we study Linear Algebra?
+
+Among many other applications, to:
+
+- Solve systems of linear equations
+- Do computer graphics computations
+- Solve linear programming optimization problems
+- Solve eigen-problems, including
+- Markov processes
+
+Let's talk about all these
+
+### Linear systems
+are the most familiar type of problem we will face:
+2x -  y +  z =  3
+3x + 2y -  z = -1
+ x - 3y + 2z =  2
+
+Do you know how to find the solution? You probably
+have an idea of eliminating variables; e.g., to
+solve for a variable, then substitute into another
+equation, then simplify, and repeat, until we find
+one of the values, and then substitute to find the
+others.
+Let's perform that **horrible** task, just to see
+what NOT to do:
+
+The easiest way to start is to notice the positive
+and negative z's in the first two equations. We decide
+to eliminate z by adding these equations to get
+2x -  y +  z =  3
+5x +  y      =  2
+ x - 3y + 2z =  2
+
+We can also multiply the first equation by 2, and
+subtract the third equation
+2x -  y +  z =  3
+5x +  y      =  2
+3x +  y      =  4
+
+Now the two bottom lines hold a linear system in two
+equations, and we have to repeat the whole shebang.
+In order to eliminate y, let's subtract line 3 from
+line 2:
+2x -  y +  z =  3
+2x           = -2
+3x +  y      =  4
+
+We are getting somewhere! Now it is clear that x = -1.
+Then, substituting this value in the third line we get
+2x -  y +  z =  3
+ x           = -1
+3(-1) + y    =  4
+
+or
+2x -  y +  z =  3
+ x           = -1
+      y      =  7
+
+Then, substituting the values for x and y in the first
+line, we find
+2(-1) - 7 + z =  3
+ x            = -1
+      y       =  7
 
-# GitPitch In 60 Seconds
+Or, putting everything in order,
+ x            = -1
+      y       =  7
+            z = 12
+
+Did you follow everything? There is a handout in Canvas
+waiting for you, but do not worry too much, because this
+cumbersome method is useless when dealing with larger
+systems; like... which line do we subtract next, and
+what variable are we eliminating, and...?
+There is no order or method!
+**We will fix that**
 
-To experience the simplicity and power of the GitPitch markdown
-presentation service, follow along with this short tutorial.
+### Computer graphics
 
-> Tutorial also available for [GitLab](https://gitlab.com/gitpitch/in-60-seconds) and [Bitbucket](https://bitbucket.org/gitpitch/in-60-seconds) users.
+https://www.youtube.com/watch?v=SMAnlPTmAwE
 
-### Introduction
+Linear transformations are the mathematical tool needed to
 
-The recommended and best way to create, preview, and
-present a GitPitch markdown presentation is to use
-[GitPitch Desktop](https://gitpitch.com/docs/pro-features/desktop). But for an
-almost instant introduction to GitPitch without needing to download anything
-we can work directly within a respository on Git. And that's what we'll do 
-right here.
+- Rotation + Translation
+- Translation + Rotation
+- Mirroring
 
-As a *GitHub* user you are probably familiar with the **README.md** convention.
-A convention that automatically turns any **README.md** file found within a
-*GitHub* repository into nicely rendered project documentation on *github.com*.
+But also, to keep track of
+- the position and 3D-orientation of the object.
+- the position and direction of the light source.
+- the position, 3D-orientation, and lens aperture
+  angle of the camera.
 
-GitPitch introduces a brand new convention for all *GitHub* users, the
-**PITCHME.md** convention.
+**Want to land a dream job at Pixar?**
 
-This new convention automatically turns any **PITCHME.md** file found within a *GitHub* repository into a modern, responsive slide deck that is automatically available for sharing and presenting directly on
-[gitpitch.com](https://gitpitch.com).
+### Eigenvectors and Markov processes
 
-With awareness of this new **PITCHME.md** convention in mind, let's jump
-straight into the *GitPitch In 60 Seconds* tutorial.
+This graph represents a (slightly) simplified internet
+map, with only four websites. The probability of
+arriving at page A is the sum of probabilities of
+- being in B and linking to A
+- being in C and linking to A
+- being in D and linking to A
 
-<br>
+Since each page has different numbers of links to A, (and
+there are a few more pages in real life) computing these
+probablilities is not fun. ** MOREOVER** the fun has just
+started because we need the probabilities of arriving at
+B, C, and D; and worse! We need the probabilities of arriving
+at different pages **after long chains of random jumps.**
 
-### Step 1. Fork this Repository
+The original Google algorithm solved this by simply listing
+all probabilities, and running a linear algorithm to compute
+the **eigenvector** of solutions.
 
-Create a fork of this repository.
+**Would you like to ace a class that can make you a billionaire?**
 
-Forking this repository will create a new `in-60-seconds` repository under
-your own *GitHub* account. Within your new repository you will find the basic
-file structure for a GitPitch slideshow presentation:
+### What is Linear Algebra?
 
-```
-.
-├── PITCHME.md
-├── PITCHME.yaml
-└── assets
-    ├── css
-    │   └── PITCHME.css
-    └── img
-        └── *.png, jpg, gif
-```
+We keep talking of "linear this" and "linear that" What is the
+meaning of the word linear!? Here is a baby problem for you.
+You have 10 seconds to find the answer:
 
-Only one file is *required* to create a GitPitch slideshow presentation, a
-**PITCHME.md** markdown file. This is the file where you add the markdown
-content for your slides. Optional files, such as **PITCHME.yaml** and
-**PITCHME.css** can be added to activate custom settings and styles for your
-slide deck.
+49 x 237  +  763 x 49  =  ?
 
-Having *forked* this repository you are now ready to move on to step 2. in this
-*GitPitch In 60 Seconds* tutorial.
+What? You can't do that math in your head? No problem!
+Collect the 49s:
 
-<br>
+49 (237 + 763) =
 
-### Step 2. Congrats on creating your first GitPitch Markdown Presentation!
+49    (1000)   =
 
-Following a *fork* of the repository a **PITCHME.md** markdown file will be
-found in your new repository. This means that your first GitPitch slide deck
-is immediately available at the following URL:
+  **49000**
 
-```
-https://gitpitch.com/$USER/in-60-seconds
-```
+What did we do? We used the **distributive property**
 
-> You must substitute **your** *GitHub* account name for `$USER` in the above slideshow URL.
+### Linear Algebra is all about the DP
 
-Using **your** slideshow URL, go ahead and open your new slide deck in the
-browser now. When you open your slide deck you should see the first sample
-slide that should look a lot like this screenshot:
+Our semester-long mantra is
+BOX
+ Any mathematical objects that can be added and multiplied
+ by scalars (i.e., numbers), and for which the addition and
+ product harmonize toghether nicely in the sense of following
+ the Distributive Property (DP) are object behaving **LINEARLY**
+BOX
 
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-1.png)
+You already know all you need to know about the Linear
+Algebra of plain numbers (you learned it in elementary
+school).
 
-> For comparison purposes, the slideshow URL for the GitPitch In-60-Seconds sample presentation associated with the *gitpitch* GitHub account can be launched [here](https://gitpitch.com/gitpitch/in-60-seconds).
+What about the so-called linear equations? Well, we can add and
+multiply:
 
-<br>
+3x + 5 = 20
 
-That's it for the first part of the *GitPitch In 60 Seconds* tutorial. If you
-are eager to jump straight back into the *GitPitch Docs* so you can download
-**GitPitch Desktop**, click
-[here](https://gitpitch.com/docs/getting-started/tutorial). But if you want to
-learn a little more about how the sample presentation for this tutorial was
-created - *and that's strongly recommended* - then read on for additional
-details and tips.
+3x     = 15
 
-<br>
+ x     =  5
 
-### The PITCHME.md Markdown File
+But recall the linear system at the begining? Eliminating variables
+means that we can collect them together, and that means using the
+DP on variables like x,y,z (as opposed to using it on plain numbers)
 
-Here are some top tips about **PITCHME.md** markdown files that are used to
-create GitPitch slide decks:
+This semester you will learn the mathematics of the DP, but applied
+to some mathematical objects that are more involved than plain
+numbers:
 
-1. The **PITCHME.md** file name is a new convention introduced by GitPitch
-1. The **PITCHME.md** file name is case sensitive
-1. The **PITCHME.md** file content is standard GitHub Flavored Markdown
-1. The **PITCHME.md** file content also supports [GitPitch Markdown Widgets](https://gitpitch.com/docs/markdown-features/widgets)
-1. The `---` markdown fragment acts as a [slide delimiter](https://gitpitch.com/docs/getting-started/delimiters/) that partitions your slideshow content
+- Vectors
+- Matrices
 
 
-<br>
+So...
 
-### Inside the PITCHME.md Markdown File
+### What is a **vector**?
 
-The sample **PITCHME.md** within this repository is automatically rendered
-as a slide deck with just 6 slides. Each slide introduces important new
-concepts while demonstrating the simplicity and power of
-*GitHub Flavored Markdown* combined with
-[GitPitch Markdown Widgets](https://gitpitch.com/docs/markdown-features/widgets).
+and..
 
-The following sections discuss the *markdown* snippets used on each slide
-within the sample **PITCHME.md** file in this repository to help you quickly
-familiarize yourself with some of the most fundamental and *fun* GitPitch
-capabilities.
-
-### Sample Slide #1
-
-Let's jump straight in. The *markdown* snippet for the first slide in the
-sample slide deck is shown here:
-
-```
-
-# Let's Get **Started**
-
-```
-
-This *markdown* snippet renders as follows:
-
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-1.png)
-
-As you can see, this slide couldn't be much simpler. The slide uses standard
-markdown heading syntax to render text on the slide. The text is automatically
-centered on the slide thanks to the default [automatic layout policies](https://gitpitch.com/docs/layout-features/automatic-layout/)
-for GitPitch slide decks. It's also worth nothing that emphasized text, such
-as bold and italics, can be automatically rendered by your 
-[custom theme](https://gitpitch.com/docs/themes/default) to use a distinct
-color for additional emphasis on any word or phrase. Nice!
-
-### Sample Slide #2
-
-The *markdown* snippet for the second slide in the sample slide deck is shown
-here:
-
-```
-
----
-
-### Add Some Slide Candy
-
-![IMAGE](assets/img/presentation.png)
-
-
-```
-
-This *markdown* snippet renders as follows:
-
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-2.png)
-
-This sample slide introduces the first use of a [slide delimiter](https://gitpitch.com/docs/getting-started/delimiters/). Slide
-delimiters are used to denote the starting point of each new slide in the
-deck. This sample slide also demonstrates a mixture of text and image content
-being rendered on the slide. Again, only standard markdown syntax is being
-used here.
-
-We also see the first use of a relative path to a repository file -
-`assets/img/presentation.png` - to *render* the content of that file on the
-slide. **PITCHME.md** files can reference source-code, text, image, and
-even video files [(pro only)](https://gitpitch.com/docs/pro-features/power)
-within the repository and see the contents of those files rendered on any
-slide. Cool ;)
-
-
-### Sample Slide #3
-
-The *markdown* snippet for the third slide in the sample slide deck is shown
-here:
-
-```
-
----?color=linear-gradient(180deg, white 75%, black 25%)
-
-@snap[west span-55]
-## Customize the Layout
-@snapend
-
-@snap[north-east span-45]
-![IMAGE](assets/img/presentation.png)
-@snapend
-
-@snap[south span-100]
-Snap Layouts let you create custom slide designs directly within your markdown.
-@snapend
-
-```
-
-This *markdown* snippet renders as follows:
-
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-3.png)
-
-What just happened? This sample slide introduces one of the most exciting
-and unique GitPitch features -
-[Snap Layouts](https://gitpitch.com/docs/layout-features/snap-layouts).
-
-Most markdown presentation tools and services offer little control
-over the layout of content on slides. But GitPitch gives you complete control
-over slide-content layout. The same kind of flexibility you may have enjoyed
-when working with old fashioned *drag-and-drop* tools like Powerpoint and
-Keynote. But now powered by Markdown. The *snap-layouts* feature allows you to
-create unique slide designs that fit your specific needs.
-
-If you look carefully at the sample *markdown* snippet for this slide you can
-see that the `@snap` tag syntax introduced by *snap-layouts* simply wraps
-blocks of standard markdown slide content. It couldn't be easier!
-
-### Sample Slide #4
-
-The *markdown* snippet for the fourth slide in the sample slide deck is shown
-here:
-
-```
-
----
-
-@snap[north-west span-50 text-center]
-#### Engage your Audience
-@snapend
-
-@snap[west span-55]
-@ul[list-spaced-bullets text-09]
-- You will be amazed
-- What you can achieve
-- With a **little imagination**
-- And GitPitch Markdown
-@ulend
-@snapend
-
-@snap[east span-45]
-![IMAGE](assets/img/conference.png)
-@snapend
-
-@snap[south span-100 bg-black fragment]
-@img[shadow](assets/img/conference.png)
-@snapend
-
-```
-
-This *markdown* snippet renders as follows:
-
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds.gif)
-
-I thought it was time we added a little *interaction* to our
-slide deck ;-) This sample slide demonstrates a number of great features. We
-have already been introduced above to
-[snap layouts](https://gitpitch.com/docs/layout-features/snap-layouts)
-so we will focus on what's new on this slide.
-
-This sample slide also demonstrates the use of a hugely popular GitPitch feature
-known as [Markdown Fragments](https://gitpitch.com/docs/markdown-features/fragments/).
-Fragments can be used to reveal individual elements on a slide one-by-one. As distinct
-to revealing all elements on the slide at once. In this case, we are
-revealing list items. But fragments can be applied to just about any content
-on your slides. As we can see with the reveal of the final large image on the slide.
-
-### Sample Slide #5
-
-The *markdown* snippet for the fifth slide in the sample slide deck is shown
-here:
-
-```
-
----
-
-@snap[north-east span-100 text-pink text-06]
-Let your code do the talking!
-@snapend
-
-    ```sql zoom-18
-    CREATE TABLE "topic" (
-        "id" serial NOT NULL PRIMARY KEY,
-        "forum_id" integer NOT NULL,
-        "subject" varchar(255) NOT NULL
-    );
-    ALTER TABLE "topic"
-    ADD CONSTRAINT forum_id
-    FOREIGN KEY ("forum_id")
-    REFERENCES "forum" ("id");
-    ```
-
-@snap[south span-100 text-gray text-08]
-@[1-5](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[6,7, zoom-13](Using GitPitch live code presenting with optional annotations.)
-@[8-9, zoom-12](This means no more switching between your slide deck and IDE on stage.)
-@snapend
-
-```
-
-This *markdown* snippet renders as follows:
-
-![LIVE-CODE-PRESENTING](/doc/assets/gitpitch-in-60-seconds-code.gif)
-
-This sample slide demonstrates the basic features of
-[GitPitch Live Code Presenting](https://gitpitch.com/docs/code-features/presenting).
-See the docs to learn more about the wide range of unique code presenting
-features available to GitPitch presentation authors.
-
-
-### Sample Slide #6
-
-The *markdown* snippet for this final slide in the sample slide deck is shown
-here:
-
-```
-
----?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
-
-@snap[east span-50 text-center]
-## Now It's **Your** Turn
-@snapend
-
-@snap[south-east span-50 text-center text-06]
-[Download GitPitch Desktop @fa[external-link]](https://gitpitch.com/docs/getting-started/tutorial/)
-@snapend
-
-```
-
-This *markdown* snippet renders as follows:
-
-![TUTORIAL](/doc/assets/gitpitch-in-60-seconds-6.png)
-
-
-This slide demonstrates the use of
-[background image delimiter syntax](https://gitpitch.com/docs/image-features/background/)
-that can be used to inject an image as a background for any slide. Additional
-parameters on this *image* delimiter can be used to position, size, scale, and
-even control opacity [(pro only)](https://gitpitch.com/docs/pro-features/power)
-so you can create the background effects you need.
-
-Again, if you look carefully at the sample *markdown* snippet for this slide
-you can see that the `@snap` tag syntax introduced by *snap-layouts* is taking
-advantage of a number of
-[built-in CSS styles](https://gitpitch.com/docs/themes/css-utility-styles/) -
-such as `span-50` and `text-06` - to control the appearance of content
-displayed on the slide. As a presentation author this features gives you
-almost unlimited flexibility to create slide decks that truly reflect your
-product or brand.
-
-<br>
-
-### The Fastest Way from Idea to Presentation.
-
-And that brings us to the end of our whirlwind tour - the
-*GitPitch In 60 Seconds* tutorial. If you made it all the way to the end,
-congratulations!
-
-While this short tutorial only introduces you to a small number of available
-[GitPitch features](https://gitpitch.com/features) we hope what
-you have seen so far has made you eager to learn more. And here's one final
-enticement...a quick intro to **GitPitch Desktop**, the dedicated presentation
-tool for MacOS, Linux, and Windows 10 [Pro + Enterprise].
-
-![DESKTOP](assets/img/gitpitch-desktop.gif)
-
-<br>
-
-Excited? We hope so. Time now to jump straight back into the GitPitch docs
-and download [GitPitch Desktop](https://gitpitch.com/docs/getting-started/tutorial).
+### What is a **matrix**?
