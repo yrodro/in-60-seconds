@@ -1,6 +1,6 @@
 # **Linear Algebra**
 
-## Math 35100
+### Math 35100
 
 IUPUI, Fall 2020
 
