@@ -192,11 +192,11 @@ Linear Systems
 
 ---
 @snap[north span-80]
-### What is Linear Algebra?
+### **What** is Linear Algebra?
 @snapend
 
 @snap[midpoint span-70]
-@ul[list-spaced-bullets list-style: none text-09]
+@ul[list-style: none text-09]
 - 49 x 237  +  763 x 49  =  ?
 - 49 (237 + 763) =
 - 49    (1000)   =
