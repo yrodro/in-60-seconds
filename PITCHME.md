@@ -164,7 +164,6 @@ Linear Systems
 @snapend
 
 @snap[midpoint]
-INSERT VIDEO HERE
 [![](https://img.youtube.com/vi/SMAnlPTmAwE/0.jpg)](https://www.youtube.com/watch?v=SMAnlPTmAwE)
 @snapend
 
@@ -190,7 +189,7 @@ INSERT VIDEO HERE
 ### What is Linear Algebra?
 @snapend
 
-@snap[midpoint span-70 fragment]
+@snap[midpoint span-70]
 @ul[list-spaced-bullets list-style: none text-09]
 - 49 x 237  +  763 x 49  =  ?
 - 49 (237 + 763) =
