@@ -158,7 +158,7 @@ Linear Systems
   \]`
 @mathend @snapend
 
-@snap[south-90 span-80 fragment]
+@snap[south-200 span-80 fragment]
 **We will fix that...**
 @snapend
 
