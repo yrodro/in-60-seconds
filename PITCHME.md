@@ -22,7 +22,7 @@ IUPUI, Fall 2020
 ### **Why** do we study Linear Algebra?
 @snapend
 
-@snap[midpoint span-70]
+@snap[south span-70]
 @ul[list-spaced-bullets list-style: none text-09]
 - Solve systems of linear equations
 - Do computer graphics computations
