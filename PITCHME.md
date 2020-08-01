@@ -6,7 +6,7 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-100]
-### **How** will we study Linear Algebra?
+### **How** will we stuy Linear Algebra?
 @snapend
 
 @snap[midpoint span-90]
