@@ -147,6 +147,10 @@ Linear Systems
 Linear Systems
 @snapend
 
+@snap[south fragment]
+**We will fix that...**
+@snapend
+
 @snap[midpoint span-50]
 @math
 `\[
@@ -158,9 +162,7 @@ Linear Systems
   \]`
 @mathend @snapend
 
-@snap[south fragment]
-**We will fix that...**
-@snapend
+
 
 ---
 @snap[north span-80]
