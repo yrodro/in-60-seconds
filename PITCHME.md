@@ -192,7 +192,7 @@ Linear Systems
 
 ---
 @snap[north span-80]
-### **What is Linear Algebra?
+### **What** is Linear Algebra?
 @snapend
 
 @snap[midpoint span-70]
@@ -222,7 +222,7 @@ The **Distributive Property** (or DP)
 
 ---
 @snap[north span-80]
-### What is Linear Algebra?
+### **What** is Linear Algebra?
 @snapend
 
 @snap[midpoint span-70]
@@ -242,8 +242,13 @@ The **Distributive Property** (or DP)
 @snap[north span-80]
 ### What is a **vector**?
 @snapend
-
+@snap[midpoint span-80 fragment]
+![](assets/img/vector.png)
+@snapend
 ---
 @snap[north span-80]
 ### What is a **matrix**?
+@snapend
+@snap[midpoint span-80 fragment]
+![](assets/img/matrix.jpg)
 @snapend
