@@ -192,18 +192,18 @@ Linear Systems
 
 ---
 @snap[north span-80]
-### **What** is Linear Algebra?
+### **What is Linear Algebra?
 @snapend
 
 @snap[midpoint span-70]
-@ul[list-style: none text-09]
+@ul[list-no-bullets none text-09]
 - 49 x 237  +  763 x 49  =  ?
 - 49 (237 + 763) =
 - 49    (1000)   =
 - **49000**
 @ulend @snapend
 
-@snap[south fragment]
+@snap[south span-80 fragment]
 The **Distributive Property** (or DP)
 @snapend
 
