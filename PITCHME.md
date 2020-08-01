@@ -33,7 +33,7 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
