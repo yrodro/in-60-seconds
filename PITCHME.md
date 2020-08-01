@@ -46,6 +46,10 @@ Linear Systems
    \end{align*}
 \]`
 @mathend @snapend
+---
+@snap[north span-80]
+Linear Systems
+@snapend
 
 @snap[midpoint span-50 fragment]
 @math
@@ -60,7 +64,7 @@ Linear Systems
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -76,7 +80,7 @@ Linear Systems
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -92,7 +96,7 @@ Linear Systems
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -108,7 +112,7 @@ Linear Systems
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -124,7 +128,7 @@ Linear Systems
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -140,7 +144,7 @@ Linear Systems
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -154,7 +158,7 @@ Linear Systems
   \]`
 @mathend @snapend
 
-@snap[south span-80]
+@snap[south span-80 fragment]
 **We will fix that...**
 @snapend
 
