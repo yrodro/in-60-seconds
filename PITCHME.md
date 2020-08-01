@@ -6,10 +6,10 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-100]
-### **How** will we stuy Linear Algebra?
+### **How** will we study Linear Algebra?
 @snapend
 
-@snap[midpoint span-90]
+@snap[south span-90]
 @ul[list-spaced-bullets list-style: none text-09]
 - Elementary Linear Algebra, H. Anton; 11th ed.
 - Dr Rodrigo Perez, rperez@math.iupui.edu
