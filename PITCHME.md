@@ -182,7 +182,7 @@ Linear Systems
 ### Eigenvectors and Markov processes
 @snapend
 
-@snap[moindpoint span-40]
+@snap[south-10 span-80]
 @img[span-65](assets/img/googlePagerank.jpg)
 @snapend
 
