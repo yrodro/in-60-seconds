@@ -47,12 +47,7 @@ Linear Systems
 \]`
 @mathend @snapend
 
----
-@snap[north span-80]
-### Linear Systems
-@snapend
-
-@snap[midpoint span-50]
+@snap[midpoint span-50 fragment]
 @math
 `\[
    \begin{align*}
