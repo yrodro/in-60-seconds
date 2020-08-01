@@ -9,7 +9,7 @@ IUPUI, Fall 2020
 ### **How** will we study Linear Algebra?
 @snapend
 
-@snap[midpoint span-90 fragment]
+@snap[midpoint span-90]
 @ul[list-spaced-bullets list-style: none text-09]
 - Elementary Linear Algebra, H. Anton; 11th ed.
 - Dr Rodrigo Perez, rperez@math.iupui.edu
@@ -207,12 +207,10 @@ The **Distributive Property** (or DP)
 @snapend
 
 @snap[midpoint span-65]
-@quote
-[If some mathematical objects can be added and multiplied
+@quote[If some mathematical objects can be added and multiplied
  by scalars (i.e., numbers), and if the addition and product
  harmonize toghether nicely in the sense of following the (DP),
  then these objects are behaving **LINEARLY**]
-@quoteend
 @snapend
 
 
@@ -221,7 +219,7 @@ The **Distributive Property** (or DP)
 ### What is Linear Algebra?
 @snapend
 
-@snap[midpoint span-70 fragment]
+@snap[midpoint span-70]
 @ul[list-no-bullets list-style: none text-09]
 - $3x + 5 = 20$
 - $3x     = 15$
