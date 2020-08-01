@@ -165,7 +165,7 @@ Linear Systems
 
 @snap[midpoint]
 INSERT VIDEO HERE
-[![](https://www.youtube.com/watch?v=SMAnlPTmAwE)]
+[![](	)](https://www.youtube.com/watch?v=SMAnlPTmAwE)
 @snapend
 
 @snap[south span-80 fragment]
