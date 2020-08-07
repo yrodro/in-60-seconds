@@ -183,7 +183,7 @@ Linear Systems
 @snapend
 
 @snap[midpoint span-65]
-@img[spane-65](assets/img/googlePagerank.jpg)
+@img[span-65](assets/img/googlePagerank.jpg)
 @snapend
 
 @snap[south fragment span-80]
@@ -257,3 +257,6 @@ The **Distributive Property** (or DP)
 
 ### Vectors
 1428 Elm Street + 4 Privet Drive
+![](assets/img/chewbacca.jpeg)
+It does not make sense!
+
