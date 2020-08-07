@@ -252,3 +252,8 @@ The **Distributive Property** (or DP)
 @snap[midpoint span-80 fragment]
 ![](assets/img/matrix.jpg)
 @snapend
+
+---
+
+### Vectors
+1428 Elm Street + 4 Privet Drive
