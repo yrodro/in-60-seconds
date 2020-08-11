@@ -289,3 +289,15 @@ It does not make sense!
 @snap[north-east fragment span-40]
 ![](assets/img/fingerPointing8.png)
 @snapend
+
+---
+@snap[north]
+### Vectors 2
+@snapend
+@snap[midpoint fragment]
+@ul[list-no-bullets none text-09]
+- Location (points)
+- Direction (vectors?)
+- Directioncal Instructions
+@ulend
+@snapend
