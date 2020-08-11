@@ -280,10 +280,9 @@ It does not make sense!
 @snap[south-west fragment span-40]
 ![](assets/img/fingerPointing16.gif)
 @snapend
-@snap[north-east fragment span-40]
-![](assets/img/fingerPointing8.jpg)
-@snapend
 @snap[east fragment span-30]
 ![](assets/img/fingerPointing22.gif)
 @snapend
-
+@snap[north-east fragment span-40]
+![](assets/img/fingerPointing8.jpg)
+@snapend
