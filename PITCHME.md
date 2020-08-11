@@ -287,5 +287,5 @@ It does not make sense!
 ![](assets/img/fingerPointing22.gif)
 @snapend
 @snap[north-east fragment span-40]
-![](assets/img/fingerPointing8.jpg)
+![](assets/img/fingerPointing8.jpeg)
 @snapend
