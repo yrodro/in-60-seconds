@@ -177,3 +177,180 @@ So...
 and..
 
 ### What is a **matrix**?
+
+---
+### VECTORS 1
+
+**add**ress.. hm...
+
+What if we add the following addresses:
+
+4 Privet Dr **+** 1428 Elm St = ?
+
+(South Park Chewbacca): "This does not make sense!"
+
+... can't add addresses.
+
+Everybody, please stretch your arms and point south-west
+(really, do it)
+(bunch of arrow pointing down-left)
+
+You are pointing at different points, but in the same direction
+Next,
+Everybody, please stretch your arms and point at my nose
+(really, do it)
+(nose in the center of the screen)?
+(Azula pointing at viewer, centered)
+(other characters pointing at center of screen from different
+directions)
+
+You are pointing in different directions to the same location
+
+So; location, direction...
+
+- location
+- direction
+
+it feels that "location" goes with "point" and "direction"
+with "vector", but reality is a bit more subtle. In fact,
+the notion we want is
+
+(- direction goes gray)
+- directional instructions
+
+ie instructions for **how to move** to a new location.
+
+(- location and - dir.instr. get arrows pointing to point and vector)
+
+Now, everybody take one step down, and then one step left
+(GIF array of points, where each one steps down in turn, and
+then left, one by one)
+
+This is what we want; starting from different points, everyone
+ended in different locations, but followed the same set of
+instructions. That! is a vector.
+
+Moreover, it IS possible to add directional instructions, as
+in
+
+first down **+** then left.
+
+---
+### VECTORS 2
+
+When using coordinates, we write a vector as
+<4,2>
+and think of it as instructions to move 4 units right, and 2 up:
+<4,2> = <4,0> + <0,2>
+
+But those 4 horizontal units break down into individual **steps**
+<4,2> = <4,0> + <0,2> = 4<1,0> + 2<0,1>
+
+**Directional instructions obey the DP**!
+
+Moreover, we can follow the instructions from **anywhere** on the plane
+(previous GIF)
+
+THAT, is what a vector is, and to remind ourselves of the difference
+between point and vector, we will denote them with round and
+pointy brackets respectively. Thus, if we start from different points
+( (2,3)                      (4,2) )
+and put the same vector on each
+( (2,3) + <2,1>              (4,2) + <2,1> )
+we followed the same instructions and ended in different locations
+( (2,3) + <2,1> = (4,4)      (4,2) + <2,1> = (6,3) )
+
+---
+### MATRICES 1
+
+Surprisingly, this one is easier to inderstand, because we
+already did the footwork.
+A matrix is a 2-dimensional array of numbers:
+(
+ ( 1  2  3  4
+   5  6  7  8
+   9 10 11 12 )
+)
+
+The dimensions are 3 by 4
+(vertical 3-arrow and horiz 4-arrow)
+
+and we read them always in that order from top to bottom and
+left to right. Thus, the (2,3) entry is 7
+(circled, and coords indicated)
+and the (4,1) entry is 4
+(erase previous; then circle, and coords indicated)
+
+**Note** This is different from usual coordinates, and
+that is just because different people decided at different times
+
+**Note 2** In coordinates, vectors are special types of matrices
+where one of the dimensions is equal to one. We have row and
+column vectors
+(              1
+  ( 1 2 3 ) , (2)
+               3
+)
+
+---
+### MATRICES 2
+
+You can add matrices coordinate-by-coordinate, and multiply them
+by a scalar, also  coordinate-by-coordinate
+(
+ ( 1  2  3  4     ( 1 4 7 10      (  2  6 10 14
+   5  6  7  8   +   2 5 8 11   =     7 11 15 19
+   9 10 11 12 )     3 6 9 12 )      12 16 20 24 )
+)
+
+(
+ 5  ( 1  2  3  4     (  5 10 15 20
+      5  6  7  8   =   25 30 35 40
+      9 10 11 12 )     45 50 55 60 )
+)
+
+So that matrices also obey the DP
+
+---
+### SUMMARY
+
+- LA is all about the DP
+- numbers, vectors and matrices follow DP
+- think of vectors as diretional instructions
+- think of matrices as arrays of numbers
+
+
+--------------------------------------------------------------------
+
+
+---
+### Gaussian Elimination 1
+
+Recall one of **many** objectives in LA is to solve systems
+of linear equations. First we encode the system into a matrix
+(syst   ->   mtx)
+
+Then we describe a process to automate all those horrible,
+cumbersome steps we took to find the solution.
+
+There are 3 types of "moves" we can perform on a matrix; each
+changes matrix values within individual rows.
+
+First, we can exchange two rows
+(exchange system, then mtx, rows 2 & 3, flipping back and forth)
+
+Next, we can multiply a row by a scalar
+((-2) x row 1, system, then mtx, flip back-n-forth)
+
+Finally, we can add two rows. The result substitutes one of
+said rows
+(blink rows 1,2, then substitute the sum, then flip b-n-f,
+ syst, then mtx)
+
+See? the system got simpler, and the matrix has more zeroes.
+
+Continuing in this fashion, we can simplify the system by
+only looking at matrix entries.
+
+---
+### Gaussian Elimination 2
