@@ -265,6 +265,9 @@ It does not make sense!
 @snap[north]
 ### Vectors 1
 @snapend
+@snap[north fragment span-70]
+![](assets/img/pointing.jpg)
+@snapend
 @snap[midpoint fragment]
 ![](assets/img/fingerPointing9.jpeg)
 @snapend
