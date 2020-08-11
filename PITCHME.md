@@ -264,13 +264,10 @@ It does not make sense!
 ---
 
 ### Vectors 1
-@snap[north fragment]
-![](assets/img/pointing.png)
-@snapend
 @snap[midpoint fragment]
 ![](assets/img/fingerPointing9.jpeg)
 @snapend
-@snap[south fragment]
+@snap[south fragment span-20]
 ![](assets/img/fingerPointing19.png)
 @snapend
 @snap[west fragment]
