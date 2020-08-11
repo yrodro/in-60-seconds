@@ -262,8 +262,9 @@ It does not make sense!
 
 
 ---
-
+@snap[north]
 ### Vectors 1
+@snapend
 @snap[midpoint fragment]
 ![](assets/img/fingerPointing9.jpeg)
 @snapend
@@ -273,13 +274,13 @@ It does not make sense!
 @snap[west fragment span-40]
 ![](assets/img/fingerPointing18.gif)
 @snapend
-@snap[south-east fragment span-20]
+@snap[south-east fragment span-30]
 ![](assets/img/fingerPointing14.png)
 @snapend
-@snap[south-west fragment span-30]
+@snap[south-west fragment span-40]
 ![](assets/img/fingerPointing16.gif)
 @snapend
-@snap[east fragment span-20]
+@snap[east fragment span-30]
 ![](assets/img/fingerPointing22.gif)
 @snapend
 
