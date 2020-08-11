@@ -260,3 +260,9 @@ The **Distributive Property** (or DP)
 ![](assets/img/chewbacca.jpeg)
 It does not make sense!
 
+
+---
+
+### Vectors 1
+![](assets/img/pointing.png)
+![](assets/img/fingerPointing9.jpeg)
