@@ -267,7 +267,7 @@ It does not make sense!
 @snap[midpoint fragment]
 ![](assets/img/fingerPointing9.jpeg)
 @snapend
-@snap[south fragment span-20]
+@snap[south fragment span-30]
 ![](assets/img/fingerPointing19.png)
 @snapend
 @snap[west fragment]
