@@ -5,11 +5,11 @@
 IUPUI, Fall 2020
 
 ---
-@snap[north span-80]
+@snap[north span-100]
 ### **How** will we study Linear Algebra?
 @snapend
 
-@snap[midpoint span-90 fragment]
+@snap[south span-90]
 @ul[list-spaced-bullets list-style: none text-09]
 - Elementary Linear Algebra, H. Anton; 11th ed.
 - Dr Rodrigo Perez, rperez@math.iupui.edu
@@ -22,7 +22,7 @@ IUPUI, Fall 2020
 ### **Why** do we study Linear Algebra?
 @snapend
 
-@snap[midpoint span-70 fragment]
+@snap[south span-70]
 @ul[list-spaced-bullets list-style: none text-09]
 - Solve systems of linear equations
 - Do computer graphics computations
@@ -33,7 +33,7 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -46,13 +46,12 @@ IUPUI, Fall 2020
    \end{align*}
 \]`
 @mathend @snapend
-
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
-@snap[midpoint span-50]
+@snap[midpoint span-50 fragment]
 @math
 `\[
    \begin{align*}
@@ -65,7 +64,7 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -81,7 +80,7 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -97,7 +96,7 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -113,7 +112,7 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -129,7 +128,7 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -145,7 +144,11 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-80]
-### Linear Systems
+Linear Systems
+@snapend
+
+@snap[south fragment]
+**We will fix that...**
 @snapend
 
 @snap[midpoint span-50]
@@ -159,9 +162,7 @@ IUPUI, Fall 2020
   \]`
 @mathend @snapend
 
-@snap[south span-80]
-**We will fix that...**
-@snapend
+
 
 ---
 @snap[north span-80]
@@ -169,8 +170,7 @@ IUPUI, Fall 2020
 @snapend
 
 @snap[midpoint]
-INSERT VIDEO HERE
-https://www.youtube.com/watch?v=SMAnlPTmAwE
+[![](https://img.youtube.com/vi/SMAnlPTmAwE/0.jpg)](https://www.youtube.com/watch?v=SMAnlPTmAwE)
 @snapend
 
 @snap[south span-80 fragment]
@@ -182,7 +182,7 @@ https://www.youtube.com/watch?v=SMAnlPTmAwE
 ### Eigenvectors and Markov processes
 @snapend
 
-@snap[midpoint span-80]
+@snap[midpoint span-65]
 @img[span-65](assets/img/googlePagerank.jpg)
 @snapend
 
@@ -192,18 +192,18 @@ https://www.youtube.com/watch?v=SMAnlPTmAwE
 
 ---
 @snap[north span-80]
-### What is Linear Algebra?
+### **What** is Linear Algebra?
 @snapend
 
-@snap[midpoint span-70 fragment]
-@ul[list-spaced-bullets list-style: none text-09]
+@snap[midpoint span-70]
+@ul[list-no-bullets none text-09]
 - 49 x 237  +  763 x 49  =  ?
 - 49 (237 + 763) =
 - 49    (1000)   =
 - **49000**
 @ulend @snapend
 
-@snap[south fragment]
+@snap[south span-80 fragment]
 The **Distributive Property** (or DP)
 @snapend
 
@@ -222,10 +222,10 @@ The **Distributive Property** (or DP)
 
 ---
 @snap[north span-80]
-### What is Linear Algebra?
+### **What** is Linear Algebra?
 @snapend
 
-@snap[midpoint span-70 fragment]
+@snap[midpoint span-70]
 @ul[list-no-bullets list-style: none text-09]
 - $3x + 5 = 20$
 - $3x     = 15$
@@ -242,8 +242,21 @@ The **Distributive Property** (or DP)
 @snap[north span-80]
 ### What is a **vector**?
 @snapend
-
+@snap[midpoint span-80 fragment]
+![](assets/img/vector.png)
+@snapend
 ---
 @snap[north span-80]
 ### What is a **matrix**?
 @snapend
+@snap[midpoint span-80 fragment]
+![](assets/img/matrix.jpg)
+@snapend
+
+---
+
+### Vectors
+1428 Elm Street + 4 Privet Drive
+![](assets/img/chewbacca.jpeg)
+It does not make sense!
+
