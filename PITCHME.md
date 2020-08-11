@@ -301,6 +301,56 @@ It does not make sense!
 - Directioncal Instructions
 @ulend
 @snapend
-@snap[midpoint span-60 fragment]
+@snap[midpoint span-60]
 ![](assets/img/dirInstrs.gif)
 @snapend
+@snap[south]
+1 step down **+** 1 step left
+@snapend
+
+---
+
+@snap[north]
+### Vectors 3
+@snapend
+@snap[midpoint]
+@math
+`\langle 4,2 \rangle`
+@snapend
+
+@snap[midpoint fragment]
+@math
+`\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle`
+@mathend
+@snapend
+
+@snap[midpoint fragment]
+@math
+`\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle = 4 \langle 1,0 \rangle + 2 \langle 0,1 \rangle`
+@mathend
+@snapend
+
+@snap[south]
+@math
+`(2,3) (4,2)`
+@mathend
+@snapend
+
+@snap[south]
+@math
+`(2,3) + \langle 2,1 \rangle \qquad (4,2) + \langle 2,1 \rangle`
+@mathend
+@snapend
+
+@snap[south]
+@math
+`(2,3) + \langle 2,1 \rangle = (4,4) \qquad (4,2) + \langle 2,1 \rangle = (6,3)`
+@mathend
+@snapend
+
+---
+@snap[north]
+### Matrixes 1
+@snapend
+
+
