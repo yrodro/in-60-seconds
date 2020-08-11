@@ -313,6 +313,7 @@ It does not make sense!
 @snap[north]
 ### Vectors 3
 @snapend
+
 @snap[midpoint]
 @math
 `\langle 4,2 \rangle`
@@ -331,19 +332,19 @@ It does not make sense!
 @mathend
 @snapend
 
-@snap[south]
+@snap[south fragment]
 @math
 `(2,3) (4,2)`
 @mathend
 @snapend
 
-@snap[south]
+@snap[south fragment]
 @math
 `(2,3) + \langle 2,1 \rangle \qquad (4,2) + \langle 2,1 \rangle`
 @mathend
 @snapend
 
-@snap[south]
+@snap[south fragment]
 @math
 `(2,3) + \langle 2,1 \rangle = (4,4) \qquad (4,2) + \langle 2,1 \rangle = (6,3)`
 @mathend
