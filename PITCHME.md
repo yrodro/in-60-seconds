@@ -294,10 +294,13 @@ It does not make sense!
 @snap[north]
 ### Vectors 2
 @snapend
-@snap[midpoint fragment]
+@snap[west]
 @ul[list-no-bullets none text-09]
 - Location (points)
 - Direction (vectors?)
 - Directioncal Instructions
 @ulend
+@snapend
+@snap[midpoint span-60 fragment]
+![](assets/img/dirInstrs.gif)
 @snapend
