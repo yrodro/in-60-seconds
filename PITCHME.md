@@ -264,5 +264,25 @@ It does not make sense!
 ---
 
 ### Vectors 1
+@snap[north fragment]
 ![](assets/img/pointing.png)
+@snapend
+@snap[midpoint fragment]
 ![](assets/img/fingerPointing9.jpeg)
+@snapend
+@snap[south fragment]
+![](assets/img/fingerPointing19.png)
+@snapend
+@snap[west fragment]
+![](assets/img/fingerPointing18.gif)
+@snapend
+@snap[sout-east fragment]
+![](assets/img/fingerPointing14.png)
+@snapend
+@snap[south-west fragment]
+![](assets/img/fingerPointing16.gif)
+@snapend
+@snap[east fragment]
+![](assets/img/fingerPointing22.gif)
+@snapend
+
