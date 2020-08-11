@@ -260,3 +260,29 @@ The **Distributive Property** (or DP)
 ![](assets/img/chewbacca.jpeg)
 It does not make sense!
 
+
+---
+@snap[north]
+### Vectors 1
+@snapend
+@snap[midpoint fragment]
+![](assets/img/fingerPointing9.jpeg)
+@snapend
+@snap[south fragment span-30]
+![](assets/img/fingerPointing19.png)
+@snapend
+@snap[west fragment span-40]
+![](assets/img/fingerPointing18.gif)
+@snapend
+@snap[south-east fragment span-30]
+![](assets/img/fingerPointing14.png)
+@snapend
+@snap[south-west fragment span-40]
+![](assets/img/fingerPointing16.gif)
+@snapend
+@snap[east fragment span-30]
+![](assets/img/fingerPointing22.gif)
+@snapend
+@snap[north-east fragment span-40]
+![](assets/img/fingerPointing8.jpg)
+@snapend
