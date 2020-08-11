@@ -353,4 +353,29 @@ It does not make sense!
 ### Matrixes 1
 @snapend
 
+@snap[midpoint]
+@math
+`\begin{pmatrix}
+1 &  2 &  3 & 4 \\
+5 &  6 &  7 & 8 \\
+9 & 10 & 11 & 12 \\
+\end{pmatrix}`
+@mathend
+@snapend
 
+@snap[east fragment]
+@math
+`\downarrow 3 \rightarrow 4`
+@mathend
+@snapend
+
+@snap[south]
+@math
+`\begin{pmatrix}
+1 & 2 & 3
+\end{pmatrix} \qquad
+\begin{pmatrix}
+1\\2\\3
+\end{pmatrix}`
+@mathend
+@snapend
