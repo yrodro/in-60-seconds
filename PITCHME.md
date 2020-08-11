@@ -273,7 +273,7 @@ It does not make sense!
 @snap[west fragment span-40]
 ![](assets/img/fingerPointing18.gif)
 @snapend
-@snap[sout-east fragment span-70]
+@snap[south-east fragment span-30]
 ![](assets/img/fingerPointing14.png)
 @snapend
 @snap[south-west fragment]
