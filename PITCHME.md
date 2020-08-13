@@ -259,6 +259,8 @@ The **Distributive Property** (or DP)
 
 ### Vectors
 1428 Elm Street + 4 Privet Drive
+![](assets/img/Class01/elmSt.jpg)
+![](assets/img/Class01/privetDr.jpg)
 ![](assets/img/Class01/chewbacca.jpg)
 It does not make sense!
 
@@ -300,9 +302,10 @@ It does not make sense!
 @ul[list-no-bullets none text-09]
 - Location (points)
 - Direction (vectors?)
-- Directioncal Instructions
+- Directional Instructions
 @ulend
 @snapend
+
 @snap[midpoint span-60]
 ![](assets/img/Class01/dirInstrs.gif)
 @snapend
@@ -316,13 +319,13 @@ It does not make sense!
 ### Vectors 3
 @snapend
 
-@snap[midpoint]
+@snap[midpoint step-fade-in-then-out]
 @math
 `$\langle 4,2 \rangle$`
 @mathend
 @snapend
 
-@snap[midpoint fragment]
+@snap[midpoint fragment step-fade-in-then-out]
 @math
 `$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle$`
 @mathend
