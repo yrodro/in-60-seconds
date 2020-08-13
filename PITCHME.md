@@ -322,31 +322,31 @@ It does not make sense!
 
 @snap[midpoint fragment]
 @math
-`\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle`
+`$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle$`
 @mathend
 @snapend
 
 @snap[midpoint fragment]
 @math
-`\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle = 4 \langle 1,0 \rangle + 2 \langle 0,1 \rangle`
+`$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle = 4 \langle 1,0 \rangle + 2 \langle 0,1 \rangle$`
 @mathend
 @snapend
 
 @snap[south fragment]
 @math
-`(2,3) (4,2)`
+`$(2,3) \qquad (4,2)$`
 @mathend
 @snapend
 
 @snap[south fragment]
 @math
-`(2,3) + \langle 2,1 \rangle \qquad (4,2) + \langle 2,1 \rangle`
+`$(2,3) + \langle 2,1 \rangle \qquad (4,2) + \langle 2,1 \rangle$`
 @mathend
 @snapend
 
 @snap[south fragment]
 @math
-`(2,3) + \langle 2,1 \rangle = (4,4) \qquad (4,2) + \langle 2,1 \rangle = (6,3)`
+`$(2,3) + \langle 2,1 \rangle = (4,4) \qquad (4,2) + \langle 2,1 \rangle = (6,3)$`
 @mathend
 @snapend
 
@@ -357,27 +357,27 @@ It does not make sense!
 
 @snap[midpoint]
 @math
-`\begin{pmatrix}
+`$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
 9 & 10 & 11 & 12 \\
-\end{pmatrix}`
+\end{pmatrix}$`
 @mathend
 @snapend
 
 @snap[east fragment]
 @math
-`\downarrow 3 \rightarrow 4`
+`$\downarrow 3 \rightarrow 4$`
 @mathend
 @snapend
 
 @snap[south]
 @math
-`\begin{pmatrix}
+`$\begin{pmatrix}
 1 & 2 & 3
 \end{pmatrix} \qquad
 \begin{pmatrix}
 1\\2\\3
-\end{pmatrix}`
+\end{pmatrix}$`
 @mathend
 @snapend
