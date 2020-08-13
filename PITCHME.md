@@ -1,19 +1,20 @@
+@snap[center span-100]
 # **Linear Algebra**
 
 ## Math 35100
 
 IUPUI, Fall 2020
 
+@endsnap
+
 ---
-@snap[north span-100]
 ### **How** will we study Linear Algebra?
-@snapend
 
 @snap[south span-90]
 @ul[list-spaced-bullets list-style: none text-09]
+- Dr Rodrigo Pérez, rperez@math.iupui.edu
 - Elementary Linear Algebra, H. Anton; 11th ed.
-- Dr Rodrigo Perez, rperez@math.iupui.edu
-- Weekly assignments 20%, 3 midterm exams 30% ea, Final 20%
+- Weekly assignments 20%; 3 midterm exams 30% each; Final 20%
 - 50-65% **D**, 65-80% **C**, 80-90% **B**, 90-100% **A**
 @ulend @snapend
 
@@ -245,7 +246,8 @@ The **Distributive Property** (or DP)
 @snap[midpoint span-80 fragment]
 ![](assets/img/vector.png)
 @snapend
----
+
+---?image=assets/img/matrix.jpg
 @snap[north span-80]
 ### What is a **matrix**?
 @snapend

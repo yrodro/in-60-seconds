@@ -5,9 +5,18 @@
 # Theme Template
 # Doc: https://gitpitch.com/docs/themes/default
 #
+
+# Palette: #66BBDD
+#          #DD8866 (complementary)
+#          #DD66BB
+#          #BBDD66 (triadic)
+#          #C466DD
+#          #DD8866
+#          #7FDD66 (tetradic)
+
 theme            : template
 
-theme-background : [ "#55AABB" ]
+theme-background : [ "#66BBDD" ]
 theme-headline   : [ "Montserrat", "#FBD95E", "none", "#FFFFFF", "100", "120", "15" ]
 theme-byline     : [ "Raleway", "#FFFFFF", "none", "#FBD95E", "100", "110", "15" ]
 theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#A0C865", "100", "100", "15" ]
@@ -15,7 +24,7 @@ theme-links      : [ "#F1C40F", "#5254F7" ]
 theme-code       : [ "Source Code Pro", "100", "120" ]
 theme-controls   : [ "#C0C0C0" ]
 theme-margins    : [ "0", "15px" ]
-layout           : center
+layout           : top-left
 
 #
 # Highlight Setting
@@ -40,13 +49,13 @@ theme-override: assets/css/PITCHME.css
 # Layout Setting
 # Doc: https://gitpitch.com/docs/settings/layout
 #
-layout : center
+layout : top-left
 
 #
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "Maria helped :P"
+footnote : "© 2020 Rodrigo A. Pérez"
 #
 # Published Setting
 # Doc: https://gitpitch.com/docs/settings/published
