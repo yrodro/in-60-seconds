@@ -206,6 +206,9 @@ directions)
 
 You are pointing in different directions to the same location
 
+---
+### VECTORS 2
+
 So; location, direction...
 
 - location
@@ -236,7 +239,7 @@ in
 first down **+** then left.
 
 ---
-### VECTORS 2
+### VECTORS 3
 
 When using coordinates, we write a vector as
 <4,2>
@@ -263,7 +266,7 @@ we followed the same instructions and ended in different locations
 ---
 ### MATRICES 1
 
-Surprisingly, this one is easier to inderstand, because we
+Surprisingly, this one is easier to understand, because we
 already did the footwork.
 A matrix is a 2-dimensional array of numbers:
 (

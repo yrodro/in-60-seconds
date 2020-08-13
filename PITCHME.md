@@ -316,7 +316,7 @@ It does not make sense!
 
 @snap[midpoint]
 @math
-`\langle 4,2 \rangle`
+`$\langle 4,2 \rangle$`
 @mathend
 @snapend
 
