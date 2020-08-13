@@ -241,18 +241,15 @@ The **Distributive Property** (or DP)
 
 ---
 @snap[north span-80]
-### What is a **vector**?
+### What is a ...
 @snapend
 @snap[midpoint span-80 fragment]
 ![](assets/img/Class01/vector.png)
 @snapend
 
----?image=assets/img/Class01/matrix.jpg
+---?image=assets/img/Class01/matrixBKGD.jpg
 @snap[north span-80]
 ### What is a **matrix**?
-@snapend
-@snap[midpoint span-80 fragment]
-![](assets/img/Class01/matrix.jpg)
 @snapend
 
 ---
@@ -307,7 +304,7 @@ It does not make sense!
 @snapend
 
 @snap[midpoint span-60]
-![](assets/img/Class01/dirInstrs.gif)
+![](assets/img/Class01/dirInstrs-bkgd.gif)
 @snapend
 @snap[south]
 1 step down **+** 1 step left
