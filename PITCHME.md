@@ -5,7 +5,7 @@
 
 IUPUI, Fall 2020
 
-@endsnap
+@snapend
 
 ---
 ### **How** will we study Linear Algebra?
@@ -14,7 +14,7 @@ IUPUI, Fall 2020
 @ul[list-spaced-bullets list-style: none text-09]
 - Dr Rodrigo Pérez, rperez@math.iupui.edu
 - Elementary Linear Algebra, H. Anton; 11th ed.
-- Weekly assignments 20%; 3 midterm exams 30% each; Final 20%
+- Assignments 20%; 3 Exams 30% each; Final 20%
 - 50-65% **D**, 65-80% **C**, 80-90% **B**, 90-100% **A**
 @ulend @snapend
 
@@ -184,7 +184,7 @@ Linear Systems
 @snapend
 
 @snap[midpoint span-65]
-@img[span-65](assets/img/googlePagerank.jpg)
+@img[span-65](assets/img/Class01/googlePagerank.jpg)
 @snapend
 
 @snap[south fragment span-80]
@@ -244,22 +244,22 @@ The **Distributive Property** (or DP)
 ### What is a **vector**?
 @snapend
 @snap[midpoint span-80 fragment]
-![](assets/img/vector.png)
+![](assets/img/Class01/vector.png)
 @snapend
 
----?image=assets/img/matrix.jpg
+---?image=assets/img/Class01/matrix.jpg
 @snap[north span-80]
 ### What is a **matrix**?
 @snapend
 @snap[midpoint span-80 fragment]
-![](assets/img/matrix.jpg)
+![](assets/img/Class01/matrix.jpg)
 @snapend
 
 ---
 
 ### Vectors
 1428 Elm Street + 4 Privet Drive
-![](assets/img/chewbacca.jpeg)
+![](assets/img/Class01/chewbacca.jpg)
 It does not make sense!
 
 
@@ -268,28 +268,28 @@ It does not make sense!
 ### Vectors 1
 @snapend
 @snap[north fragment span-70]
-![](assets/img/pointing.jpg)
+![](assets/img/Class01/crowdPointing.jpg)
 @snapend
 @snap[midpoint fragment]
-![](assets/img/fingerPointing9.jpeg)
+![](assets/img/Class01/azula.jpg)
 @snapend
 @snap[south fragment span-30]
-![](assets/img/fingerPointing19.png)
+![](assets/img/Class01/idiot.png)
 @snapend
-@snap[west fragment span-40]
-![](assets/img/fingerPointing18.gif)
+@snap[west fragment span-20]
+![](assets/img/Class01/alladin.gif)
 @snapend
 @snap[south-east fragment span-30]
-![](assets/img/fingerPointing14.png)
+![](assets/img/Class01/mario.png)
 @snapend
 @snap[south-west fragment span-40]
-![](assets/img/fingerPointing16.gif)
+![](assets/img/Class01/homer.gif)
 @snapend
 @snap[east fragment span-30]
-![](assets/img/fingerPointing22.gif)
+![](assets/img/Class01/regular.gif)
 @snapend
 @snap[north-east fragment span-40]
-![](assets/img/fingerPointing8.png)
+![](assets/img/Class01/spongebob.png)
 @snapend
 
 ---
@@ -304,7 +304,7 @@ It does not make sense!
 @ulend
 @snapend
 @snap[midpoint span-60]
-![](assets/img/dirInstrs.gif)
+![](assets/img/Class01/dirInstrs.gif)
 @snapend
 @snap[south]
 1 step down **+** 1 step left
