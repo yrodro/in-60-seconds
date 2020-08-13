@@ -304,7 +304,7 @@ It does not make sense!
 @snapend
 
 @snap[midpoint span-60]
-![](assets/img/Class01/dirInstrs-bkgd.gif)
+![](assets/img/Class01/dirInstrs.gif)
 @snapend
 @snap[south]
 1 step down **+** 1 step left
