@@ -7,6 +7,17 @@ IUPUI, Fall 2020
 
 @snapend
 
+
+---
+@snap[1 center span-50]
+Hola
+@snapend
+
+@snap[2 center span-50]
+Adios
+@snapend
+
+
 ---
 ### **How** will we study Linear Algebra?
 
@@ -17,6 +28,7 @@ IUPUI, Fall 2020
 - Assignments 20%; 3 Exams 30% each; Final 20%
 - 50-65% **D**, 65-80% **C**, 80-90% **B**, 90-100% **A**
 @ulend @snapend
+
 
 ---
 @snap[north span-80]
@@ -31,6 +43,7 @@ IUPUI, Fall 2020
 - Solve eigen-problems, including
 - Markov chain processes
 @ulend @snapend
+
 
 ---
 @snap[north span-80]
@@ -48,6 +61,7 @@ Linear Systems
 \]`
 @mathend@snapend
 
+
 ---
 @snap[north span-80]
 Linear Systems
@@ -64,6 +78,7 @@ Linear Systems
   \]`
 @mathend @snapend
 
+
 ---
 @snap[north span-80]
 Linear Systems
@@ -79,6 +94,7 @@ Linear Systems
    \end{align*}
   \]`
 @mathend @snapend
+
 
 ---
 @snap[north span-80]
@@ -96,6 +112,7 @@ Linear Systems
   \]`
 @mathend @snapend
 
+
 ---
 @snap[north span-80]
 Linear Systems
@@ -111,6 +128,7 @@ Linear Systems
    \end{align*}
   \]`
 @mathend @snapend
+
 
 ---
 @snap[north span-80]
@@ -128,6 +146,7 @@ Linear Systems
   \]`
 @mathend @snapend
 
+
 ---
 @snap[north span-80]
 Linear Systems
@@ -143,6 +162,7 @@ Linear Systems
    \end{align*}
   \]`
 @mathend @snapend
+
 
 ---
 @snap[north span-80]
@@ -166,6 +186,7 @@ Linear Systems
 
 
 
+
 ---
 @snap[north span-80]
 ### Computer graphics
@@ -179,6 +200,7 @@ Linear Systems
 **Want to land a dream job at Pixar?**
 @snapend
 
+
 ---
 @snap[north span-80]
 ### Eigenvectors and Markov processes
@@ -191,6 +213,7 @@ Linear Systems
 @snap[south fragment span-80]
 **Would you like to ace a class that can make you a billionaire?**
 @snapend]
+
 
 ---
 @snap[north span-80]
@@ -209,6 +232,7 @@ Linear Systems
 The **Distributive Property** (or DP)
 @snapend
 
+
 ---
 @snap[north span-80]
 ### Linear Algebra is all about the DP
@@ -220,6 +244,7 @@ The **Distributive Property** (or DP)
  harmonize toghether nicely in the sense of following the (DP),
  then these objects are behaving **LINEARLY**]
 @snapend
+
 
 
 ---
@@ -240,6 +265,7 @@ The **Distributive Property** (or DP)
 - Matrices
 @ulend @snapend
 
+
 ---
 @snap[north span-80]
 ### What is a ...
@@ -248,10 +274,12 @@ The **Distributive Property** (or DP)
 ![](assets/img/Class01/vector.png)
 @snapend
 
+
 ---?image=assets/img/Class01/matrixBKGD.jpg
 @snap[north span-80]
 ### What is a **matrix**?
 @snapend
+
 
 ---
 
@@ -261,6 +289,7 @@ The **Distributive Property** (or DP)
 ![](assets/img/Class01/privetDr.jpg)
 ![](assets/img/Class01/chewbacca.jpg)
 It does not make sense!
+
 
 
 ---
@@ -292,6 +321,7 @@ It does not make sense!
 ![](assets/img/Class01/spongebob.png)
 @snapend
 
+
 ---
 @snap[north]
 ### Vectors 2
@@ -310,6 +340,7 @@ It does not make sense!
 @snap[south]
 1 step down **+** 1 step left
 @snapend
+
 
 ---
 
@@ -353,6 +384,7 @@ It does not make sense!
 @mathend
 @snapend
 
+
 ---
 ### Matrices 1
 
@@ -382,6 +414,7 @@ It does not make sense!
 \end{pmatrix}$`
 @mathend
 @snapend
+
 
 ---
 ### Matrices 2
@@ -422,6 +455,7 @@ $\begin{pmatrix}
 @mathend
 @snapend
 
+
 ---
 ### Summary 1
 
@@ -433,10 +467,11 @@ $\begin{pmatrix}
 - Thnik of matrices as arrays of numbers with meaning.
 @ulend @snapend
 
+
 ---
 ### Gaussian Elimination 1
 
-@snap[midpoint span-20]
+@snap[west span-20]
 @math
 `\[
   \begin{align*}
@@ -448,8 +483,201 @@ $\begin{pmatrix}
   \begin{pmatrix}
     2 & -1 & 1 &  3 \\
     3 &  2 & 1 & -1 \\
-    1 &  3 & 2 &  2 \\
+    1 &  3 & 2 &  2
   \end{pmatrix}$
 \]`
 @mathend@snapend
 
+@snap[west span-20]
+@math
+`\[
+  \begin{align*}
+    x &-& 3y &+& 2z &=&  2 \\
+    3x &+& 2y &-&  z &=& -1 \\
+    2x &-&  y &+&  z &=&  3
+  \end{align*}
+  \longrightarrow
+  \begin{pmatrix}
+    1 &  3 & 2 &  2 \\
+    3 &  2 & 1 & -1 \\
+    2 & -1 & 1 &  3
+  \end{pmatrix}$
+\]`
+@mathend@snapend
+
+@snap[west span-20]
+@math
+`\[
+  \begin{align*}
+    -2x &+& 6y &-& 4z &=& -4 \\
+     3x &+& 2y &-&  z &=& -1 \\
+     2x &-&  y &+&  z &=&  3
+  \end{align*}
+  \longrightarrow
+  \begin{pmatrix}
+    -2 &  6 & -4 & -4 \\
+     3 &  2 &  1 & -1 \\
+     2 & -1 &  1 &  3
+  \end{pmatrix}$
+\]`
+@mathend@snapend
+
+@snap[west span-20]
+@math
+`\[
+  \begin{align*}
+    -2x &+& 6y &-& 4z &=& -4 \\
+     3x &+& 2y &-&  z &=& -1 \\
+        &+& 5y &-& 3z &=& -1
+  \end{align*}
+  \longrightarrow
+  \begin{pmatrix}
+    -2 & 6 & -4 & -4 \\
+     3 & 2 &  1 & -1 \\
+     0 & 5 & -3 & -1
+  \end{pmatrix}$
+\]`
+@mathend@snapend
+
+
+---
+### Gaussian Elimination 2
+
+@snap[east span-50]
+@math
+`\[
+  \begin{pmatrix}
+    2 & -1 &  1 &  3 \\
+    3 &  2 & -1 & -1 \\
+    1 & -3 &  2 &  2
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[east span-50]
+@math
+`\[
+  \begin{pmatrix}
+    1 & -3 &  2 &  2 \\
+    3 &  2 & -1 & -1 \\
+    2 & -1 &  1 &  3
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[east span-50]
+@math
+`\[
+  \begin{pmatrix}
+    1 & -3 &  2 &  2 \\
+    0 & 11 & -7 & -7 \\
+    2 & -1 &  1 &  3
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[east span-50]
+@math
+`\[
+  \begin{pmatrix}
+    1 & -3 &  2 &  2 \\
+    0 & 11 & -7 & -7 \\
+    0 &  5 & -3 & -1
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[east span-50 color-red]
+@math
+`\[
+  \begin{pmatrix}
+    1 & -3 &  2 &  2 \\
+    0 &  1 & \tfrac{-7}{11} & \tfrac{-7}{11} \\
+    0 &  5 & -3 & -1
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[east span-50]
+@math
+`\[
+  \begin{pmatrix}
+    1 & -3 &  2 &  2 \\
+    0 & 11 & -7 & -7 \\
+    0 &  5 & -3 & -1
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[east span-50]
+@math
+`\[
+  \begin{pmatrix}
+    1 & -3 &  2 &  2 \\
+    0 &  1 & -1 & -5 \\
+    0 &  5 & -3 & -1
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[east span-50]
+@math
+`\[
+  \begin{pmatrix}
+    1 & 0 & -1 & -13 \\
+    0 & 1 & -1 &  -5 \\
+    0 & 5 & -3 &  -1
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[east span-50]
+@math
+`\[
+  \begin{pmatrix}
+    1 & 0 & -1 & -13 \\
+    0 & 1 & -1 &  -5 \\
+    0 & 0 &  2 &  24
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[east span-50]
+@math
+`\[
+  \begin{pmatrix}
+    1 & 0 &  0 &  -1 \\
+    0 & 1 & -1 &  -5 \\
+    0 & 0 &  1 &  12
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[east span-50]
+@math
+`\[
+  \begin{pmatrix}
+    1 & 0 & 0 &  -1 \\
+    0 & 1 & 0 &   7 \\
+    0 & 0 & 1 &  12
+  \end{pmatrix}
+\]`
+@mathend@snapend
+
+@snap[south-east span-50 color-blue]
+@math
+`\[
+  \begin{align*}
+    x & &   & &   &=& -1 \\
+      & & y & &   &=&  7 \\
+      & &   & & z &=&  12
+  \end{align*}
+\]`
+@mathend@snapend
+
+
+
+
+
+---
+![](assets/img/thatsAllFolks.jpg)

@@ -391,3 +391,9 @@ Multiply the 2nd pivot by 3 and add it to row 1.
 
 Multiply the 2nd pivot by -5 and add to the 3rd row.
 
+The 3rd pivot is easier to obtain; simply divide the 3rd row by 2.
+We'd rather say that we multiply by 1/2.
+
+Finally, add the 3rd row to the other two in order to clear the 3rd
+column.
+
