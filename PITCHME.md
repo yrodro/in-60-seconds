@@ -38,15 +38,15 @@ Linear Systems
 @snapend
 
 @snap[midpoint span-50]
-@math`
-\[
+@math
+`\[
    \begin{align*}
      2x &-&  y &+&  z &=&  3 \\
      3x &+& 2y &-&  z &=& -1 \\
       x &-& 3y &+& 2z &=&  2
    \end{align*}
-\]
-`@mathend@snapend
+\]`
+@mathend@snapend
 
 ---
 @snap[north span-80]
@@ -54,15 +54,15 @@ Linear Systems
 @snapend
 
 @snap[midpoint span-50 fragment]
-@math`
-\[
+@math
+`\[
    \begin{align*}
      2x &-&  y &+&  z &=&  3 \\
      5x &+&  y &&     &=&  2 \\
       x &-& 3y &+& 2z &=&  2
    \end{align*}
-  \]
-`@mathend @snapend
+  \]`
+@mathend @snapend
 
 ---
 @snap[north span-80]
@@ -70,15 +70,15 @@ Linear Systems
 @snapend
 
 @snap[midpoint span-50]
-@math`
-\[
+@math
+`\[
    \begin{align*}
      2x &-&  y &+&  z &=&  3 \\
      5x &+&  y &&     &=&  2 \\
      3x &+&  y &&     &=&  4
    \end{align*}
-  \]
-`@mathend @snapend
+  \]`
+@mathend @snapend
 
 ---
 @snap[north span-80]
@@ -86,15 +86,15 @@ Linear Systems
 @snapend
 
 @snap[midpoint span-50]
-@math`
-\[
+@math
+`\[
    \begin{align*}
      2x &-&  y &+&  z &=&  3 \\
      2x &&     &&     &=& -2 \\
      3x &+&  y &&     &=&  4
    \end{align*}
-  \]
-`@mathend @snapend
+  \]`
+@mathend @snapend
 
 ---
 @snap[north span-80]
@@ -102,15 +102,15 @@ Linear Systems
 @snapend
 
 @snap[midpoint span-50]
-@math`
-\[
+@math
+`\[
    \begin{align*}
      2x &-&  y &+&  z &=&  3 \\
       x &&     &&     &=& -1 \\
      3(-1) &+& y &&   &=&  4
    \end{align*}
-  \]
-`@mathend @snapend
+  \]`
+@mathend @snapend
 
 ---
 @snap[north span-80]
@@ -118,15 +118,15 @@ Linear Systems
 @snapend
 
 @snap[midpoint span-50]
-@math`
-\[
+@math
+`\[
    \begin{align*}
      2x &-&  y &+&  z &=&  3 \\
       x &&     &&     &=& -1 \\
         &&   y &&     &=&  7
    \end{align*}
-  \]
-`@mathend @snapend
+  \]`
+@mathend @snapend
 
 ---
 @snap[north span-80]
@@ -134,15 +134,15 @@ Linear Systems
 @snapend
 
 @snap[midpoint span-50]
-@math`
-\[
+@math
+`\[
    \begin{align*}
      2(-1) &-& 7 &+& z &=&  3 \\
       x    &&    &&    &=& -1 \\
            &&  y &&    &=&  7
    \end{align*}
-  \]
-`@mathend @snapend
+  \]`
+@mathend @snapend
 
 ---
 @snap[north span-80]
@@ -154,15 +154,15 @@ Linear Systems
 @snapend
 
 @snap[midpoint span-50]
-@math`
-\[
+@math
+`\[
    \begin{align*}
       x &&     &&      &=& -1 \\
         &&   y &&      &=&  7 \\
         &&     &&    z &=& 12
    \end{align*}
-  \]
-`@mathend @snapend
+  \]`
+@mathend @snapend
 
 
 
@@ -318,77 +318,77 @@ It does not make sense!
 @snapend
 
 @snap[midpoint step-fade-in-then-out]
-@math`
-$\langle 4,2 \rangle$
-`@mathend
+@math
+`$\langle 4,2 \rangle$`
+@mathend
 @snapend
 
 @snap[midpoint fragment step-fade-in-then-out]
-@math`
-$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle$
-`@mathend
+@math
+`$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle$`
+@mathend
 @snapend
 
 @snap[midpoint fragment]
-@math`
-$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle = 4 \langle 1,0 \rangle + 2 \langle 0,1 \rangle$
-`@mathend
+@math
+`$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle = 4 \langle 1,0 \rangle + 2 \langle 0,1 \rangle$`
+@mathend
 @snapend
 
 @snap[south fragment]
-@math`
-$(2,3) \qquad (4,2)$
-`@mathend
+@math
+`$(2,3) \qquad (4,2)$`
+@mathend
 @snapend
 
 @snap[south fragment]
-@math`
-$(2,3) + \langle 2,1 \rangle \qquad (4,2) + \langle 2,1 \rangle$
-`@mathend
+@math
+`$(2,3) + \langle 2,1 \rangle \qquad (4,2) + \langle 2,1 \rangle$`
+@mathend
 @snapend
 
 @snap[south fragment]
-@math`
-$(2,3) + \langle 2,1 \rangle = (4,4) \qquad (4,2) + \langle 2,1 \rangle = (6,3)$
-`@mathend
+@math
+`$(2,3) + \langle 2,1 \rangle = (4,4) \qquad (4,2) + \langle 2,1 \rangle = (6,3)$`
+@mathend
 @snapend
 
 ---
 ### Matrices 1
 
 @snap[midpoint]
-@math`
-$\begin{pmatrix}
+@math
+`$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
 9 & 10 & 11 & 12 \\
-\end{pmatrix}$
-`@mathend
+\end{pmatrix}$`
+@mathend
 @snapend
 
 @snap[east fragment]
-@math`
-$\downarrow 3 \rightarrow 4$
-`@mathend
+@math
+`$\downarrow 3 \rightarrow 4$`
+@mathend
 @snapend
 
 @snap[south]
-@math`
-$\begin{pmatrix}
+@math
+`$\begin{pmatrix}
 1 & 2 & 3
 \end{pmatrix} \qquad
 \begin{pmatrix}
 1\\2\\3
-\end{pmatrix}$
-`@mathend
+\end{pmatrix}$`
+@mathend
 @snapend
 
 ---
 ### Matrices 2
 
 @snap[midpoint]
-@math`
-$\begin{pmatrix}
+@math
+`$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
 9 & 10 & 11 & 12 \\
@@ -402,13 +402,13 @@ $\begin{pmatrix}
  2 &  6 & 10 & 14 \\
  7 & 11 & 15 & 19 \\
 12 & 16 & 20 & 24 \\
-\end{pmatrix}$
-`@mathend
+\end{pmatrix}$`
+@mathend
 @snapend
 
 @snap[south]
-@math`
-5
+@math
+`5
 $\begin{pmatrix}
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
@@ -418,8 +418,8 @@ $\begin{pmatrix}
  5 & 20 & 35 & 50 \\
 10 & 25 & 40 & 55 \\
 15 & 30 & 45 & 60 \\
-\end{pmatrix}$
-`@mathend
+\end{pmatrix}$`
+@mathend
 @snapend
 
 ---
@@ -437,8 +437,8 @@ $\begin{pmatrix}
 ### Gaussian Elimination 1
 
 @snap[midpoint span-50]
-@math`
-\[
+@math
+`\[
   \begin{align*}
     2x &-&  y &+&  z &=&  3 \\
     3x &+& 2y &-&  z &=& -1 \\
@@ -450,6 +450,6 @@ $\begin{pmatrix}
     3 &  2 & 1 & -1 \\
     1 &  3 & 2 &  2 \\
   \end{pmatrix}$
-\]
-`@mathend@snapend
+\]`
+@mathend@snapend
 
