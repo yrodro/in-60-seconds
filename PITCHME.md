@@ -436,7 +436,7 @@ $\begin{pmatrix}
 ---
 ### Gaussian Elimination 1
 
-@snap[midpoint span-50]
+@snap[midpoint span-20]
 @math
 `\[
   \begin{align*}
