@@ -13,7 +13,7 @@ IUPUI, Fall 2020
 Hola
 @snapend
 
-@snap[2 center span-50]
+@snap[2 center span-50 fragment]
 Adios
 @snapend
 
