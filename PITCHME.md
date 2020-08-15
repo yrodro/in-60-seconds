@@ -210,7 +210,7 @@ Linear Systems
 - 49 (237 + 763) =
 - 49    (1000)   =
 - **49000**
-@ulend @snapend
+@ulend@snapend
 
 @snap[south span-80 fragment]
 The **Distributive Property** (or DP)
@@ -223,10 +223,10 @@ The **Distributive Property** (or DP)
 @snapend
 
 @snap[midpoint span-65]
-@quote[If some mathematical objects can be added and multiplied
+@quote[](If some mathematical objects can be added and multiplied
  by scalars (i.e., numbers), and if the addition and product
  harmonize toghether nicely in the sense of following the (DP),
- then these objects are behaving **LINEARLY**]
+ then these objects are behaving **LINEARLY**)
 @snapend
 
 
