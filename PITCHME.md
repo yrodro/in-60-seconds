@@ -395,7 +395,7 @@ It does not make sense!
 @mathend
 @snapend
 
-@snap[south]
+@snap[south fragment]
 @math
 `$\begin{pmatrix}
 1 & 2 & 3
@@ -410,7 +410,7 @@ It does not make sense!
 ---
 ### Matrices 2
 
-@snap[midpoint]
+@snap[midpoint span-30]
 @math
 `$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
@@ -430,7 +430,7 @@ $\begin{pmatrix}
 @mathend
 @snapend
 
-@snap[south]
+@snap[south span-30]
 @math
 `5
 $\begin{pmatrix}
