@@ -251,9 +251,8 @@ The **Distributive Property** (or DP)
 
 
 ---
-@snap[north span-80]
 ### What is a ...
-@snapend
+
 @snap[midpoint span-80 fragment]
 ![](assets/img/Class01/vector.png)
 @snapend
@@ -266,21 +265,29 @@ The **Distributive Property** (or DP)
 
 
 ---
-
 ### Vectors
-1428 Elm Street + 4 Privet Drive
-![](assets/img/Class01/elmSt.jpg)
-![](assets/img/Class01/privetDr.jpg)
-![](assets/img/Class01/chewbacca.jpg)
-It does not make sense!
 
+1428 Elm Street + 4 Privet Drive
+
+@snap[south-west span-20]
+![](assets/img/Class01/elmSt.jpg)
+@snapend
+
+@snap[south-east span-20]
+![](assets/img/Class01/privetDr.jpg)
+@snapend
+
+@snap[north-east span-20]
+![](assets/img/Class01/chewbacca.jpg)
+@snapend
+It does not make sense!
 
 
 ---
 @snap[north]
 ### Vectors 1
 @snapend
-@snap[north fragment span-70]
+@snap[north fragment span-70 fragment step-fade-in-then-out]
 ![](assets/img/Class01/crowdPointing.jpg)
 @snapend
 @snap[midpoint fragment]
