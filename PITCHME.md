@@ -34,14 +34,18 @@ IUPUI, Fall 2020
 - Markov chain processes
 @ulend @snapend
 
+*fragment step-fade-in-then-out*
+
 
 ---
 @snap[north span-80]
 ## Linear Systems
 @snapend
 
-@div[midpoint r-stack]
-@math[fragment current-visible]
+@snap[r-block]
+
+@snap[midpoint span-50 fragment current-visible]
+@math
 `\[
    \begin{align*}
      2x &-&  y &+&  z &=&  3 \\
@@ -49,9 +53,10 @@ IUPUI, Fall 2020
       x &-& 3y &+& 2z &=&  2
    \end{align*}
 \]`
-@mathend
+@mathend@snapend
 
-@math[fragment]
+@snap[midpoint span-50 fragment]
+@math
 `\[
    \begin{align*}
      2x &-&  y &+&  z &=&  3 \\
@@ -59,8 +64,9 @@ IUPUI, Fall 2020
       x &-& 3y &+& 2z &=&  2
    \end{align*}
   \]`
-@mathend@divend
+@mathend @snapend
 
+@snapend
 
 ---
 @snap[north span-80]
