@@ -40,7 +40,7 @@ IUPUI, Fall 2020
 ## Linear Systems
 @snapend
 
-@snap[midpoint r-stack]
+@div[midpoint r-stack]
 @math[fragment current-visible]
 `\[
    \begin{align*}
@@ -59,7 +59,7 @@ IUPUI, Fall 2020
       x &-& 3y &+& 2z &=&  2
    \end{align*}
   \]`
-@mathend@snapend
+@mathend@divend
 
 
 ---
