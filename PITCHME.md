@@ -9,26 +9,9 @@ IUPUI, Fall 2020
 
 
 ---
-@snap[1 center span-50]
-Hola
-@snapend
-
-@snap[2 center span-50 fragment]
-Adios
-@snapend
-
-@snap[south span-30 fragment step-fade-in-then-out]
-Hey
-@snapend
-
-@snap[south span-30 fragment step-fade-in-then-out]
-Jude
-@snapend
-
----
 ### **How** will we study Linear Algebra?
 
-@snap[south span-90]
+@snap[midpoint span-90]
 @ul[list-spaced-bullets list-style: none text-09]
 - Dr Rodrigo Pérez, rperez@math.iupui.edu
 - Elementary Linear Algebra, H. Anton; 11th ed.
@@ -54,7 +37,7 @@ Jude
 
 ---
 @snap[north span-80]
-Linear Systems
+## Linear Systems
 @snapend
 
 @snap[midpoint span-50]
@@ -68,13 +51,7 @@ Linear Systems
 \]`
 @mathend@snapend
 
-
----
-@snap[north span-80]
-Linear Systems
-@snapend
-
-@snap[midpoint span-50 fragment]
+@snap[midpoint span-50 fragment step-fade-in-then-out]
 @math
 `\[
    \begin{align*}
