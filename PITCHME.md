@@ -287,7 +287,7 @@ It does not make sense!
 @snap[north]
 ### Vectors 1
 @snapend
-@snap[north fragment span-70 fragment step-fade-in-then-out]
+@snap[midpoint fragment span-70 fragment step-fade-in-then-out]
 ![](assets/img/Class01/crowdPointing.jpg)
 @snapend
 @snap[midpoint fragment]
@@ -296,10 +296,10 @@ It does not make sense!
 @snap[south fragment span-30]
 ![](assets/img/Class01/idiot.png)
 @snapend
-@snap[west fragment span-30]
+@snap[west fragment span-25]
 ![](assets/img/Class01/alladin.gif)
 @snapend
-@snap[south-east fragment span-20]
+@snap[south-east fragment span-25]
 ![](assets/img/Class01/mario.png)
 @snapend
 @snap[south-west fragment span-30]
@@ -325,7 +325,7 @@ It does not make sense!
 @ulend
 @snapend
 
-@snap[east span-60]
+@snap[east fragment span-60]
 ![](assets/img/Class01/dirInstrs.gif)
 @snapend
 @snap[south]
