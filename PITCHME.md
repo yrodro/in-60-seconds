@@ -231,7 +231,6 @@ The **Distributive Property** (or DP)
 @snapend
 
 
-
 ---
 @snap[north span-80]
 ### **What** is Linear Algebra?
@@ -242,13 +241,13 @@ The **Distributive Property** (or DP)
 - $3x + 5 = 20$
 - $3x     = 15$
 - $ x     =  5$
-@ulend @snapend
+@ulend@snapend
 
-@snap[south span-80]
+@snap[south span-60]
 @ul[list-spaced-bullets list-style: none text-09]
 - Vectors
 - Matrices
-@ulend @snapend
+@ulend@snapend
 
 
 ---
