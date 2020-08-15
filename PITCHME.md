@@ -479,7 +479,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[west span-20]
+@snap[west span-20 fragment]
 @math
 `\[
   \begin{align*}
@@ -496,7 +496,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[west span-20]
+@snap[west span-20 fragment]
 @math
 `\[
   \begin{align*}
@@ -513,7 +513,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[west span-20]
+@snap[west span-20 fragment]
 @math
 `\[
   \begin{align*}
@@ -545,7 +545,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[east span-50]
+@snap[east span-50 fragment]
 @math
 `\[
   \begin{pmatrix}
@@ -556,7 +556,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[east span-50]
+@snap[east span-50 fragment]
 @math
 `\[
   \begin{pmatrix}
@@ -567,7 +567,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[east span-50]
+@snap[east span-50 fragment]
 @math
 `\[
   \begin{pmatrix}
@@ -578,7 +578,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[east span-50 color-red]
+@snap[east span-50 color-red fragment]
 @math
 `\[
   \begin{pmatrix}
@@ -589,7 +589,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[east span-50]
+@snap[east span-50 fragment]
 @math
 `\[
   \begin{pmatrix}
@@ -600,7 +600,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[east span-50]
+@snap[east span-50 fragment]
 @math
 `\[
   \begin{pmatrix}
@@ -611,7 +611,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[east span-50]
+@snap[east span-50 fragment]
 @math
 `\[
   \begin{pmatrix}
@@ -622,7 +622,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[east span-50]
+@snap[east span-50 fragment]
 @math
 `\[
   \begin{pmatrix}
@@ -633,7 +633,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[east span-50]
+@snap[east span-50 fragment]
 @math
 `\[
   \begin{pmatrix}
@@ -644,7 +644,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[east span-50]
+@snap[east span-50 fragment]
 @math
 `\[
   \begin{pmatrix}
@@ -655,7 +655,7 @@ $\begin{pmatrix}
 \]`
 @mathend@snapend
 
-@snap[south-east span-50 color-blue]
+@snap[south-east fragment span-50 color-blue]
 @math
 `\[
   \begin{align*}
@@ -671,4 +671,6 @@ $\begin{pmatrix}
 
 
 ---
+@snap[midpoint span-100]
 ![](assets/img/thatsAllFolks.jpg)
+@snapend
