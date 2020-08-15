@@ -42,7 +42,7 @@ IUPUI, Fall 2020
 ## Linear Systems
 @snapend
 
-@snap[r-block]
+@snap[r-stack]
 
 @snap[midpoint span-50 fragment current-visible]
 @math
