@@ -391,7 +391,7 @@ It does not make sense!
 
 @snap[east fragment]
 @math
-`$\downarrow 3 \rightarrow 4$`
+`$\downarrow 3 \qquad \rightarrow 4$`
 @mathend
 @snapend
 
@@ -416,13 +416,13 @@ It does not make sense!
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
 9 & 10 & 11 & 12 \\
-\end{pmatrix}$ +
-$\begin{pmatrix}
+\end{pmatrix} +
+\begin{pmatrix}
 1 & 4 & 7 & 10 \\
 2 & 5 & 8 & 11 \\
 3 & 6 & 9 & 12 \\
-\end{pmatrix}$ =
-$\begin{pmatrix}
+\end{pmatrix} =
+\begin{pmatrix}
  2 &  6 & 10 & 14 \\
  7 & 11 & 15 & 19 \\
 12 & 16 & 20 & 24 \\
@@ -437,8 +437,8 @@ $\begin{pmatrix}
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
 9 & 10 & 11 & 12 \\
-\end{pmatrix}$ =
-$\begin{pmatrix}
+\end{pmatrix} =
+\begin{pmatrix}
  5 & 20 & 35 & 50 \\
 10 & 25 & 40 & 55 \\
 15 & 30 & 45 & 60 \\
