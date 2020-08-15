@@ -40,8 +40,8 @@ IUPUI, Fall 2020
 ## Linear Systems
 @snapend
 
-@snap[midpoint span-50 fragment step-fade-in-then-out]
-@math
+@snap[midpoint r-stack]
+@math[fragment current-visible]
 `\[
    \begin{align*}
      2x &-&  y &+&  z &=&  3 \\
@@ -49,10 +49,9 @@ IUPUI, Fall 2020
       x &-& 3y &+& 2z &=&  2
    \end{align*}
 \]`
-@mathend@snapend
+@mathend
 
-@snap[midpoint span-50]
-@math
+@math[fragment]
 `\[
    \begin{align*}
      2x &-&  y &+&  z &=&  3 \\
@@ -60,7 +59,7 @@ IUPUI, Fall 2020
       x &-& 3y &+& 2z &=&  2
    \end{align*}
   \]`
-@mathend @snapend
+@mathend@snapend
 
 
 ---
