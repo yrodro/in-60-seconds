@@ -296,19 +296,19 @@ It does not make sense!
 @snap[south fragment span-30]
 ![](assets/img/Class01/idiot.png)
 @snapend
-@snap[west fragment span-20]
+@snap[west fragment span-30]
 ![](assets/img/Class01/alladin.gif)
 @snapend
-@snap[south-east fragment span-30]
+@snap[south-east fragment span-20]
 ![](assets/img/Class01/mario.png)
 @snapend
-@snap[south-west fragment span-40]
+@snap[south-west fragment span-30]
 ![](assets/img/Class01/homer.gif)
 @snapend
-@snap[east fragment span-30]
+@snap[east fragment span-25]
 ![](assets/img/Class01/regular.gif)
 @snapend
-@snap[north-east fragment span-40]
+@snap[north-east fragment span-30]
 ![](assets/img/Class01/spongebob.png)
 @snapend
 
