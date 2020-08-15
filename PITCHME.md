@@ -328,25 +328,25 @@ It does not make sense!
 @snap[east fragment span-60]
 ![](assets/img/Class01/dirInstrs.gif)
 @snapend
-@snap[south]
+
+@snap[south fragment]
 1 step down **+** 1 step left
 @snapend
 
 
 ---
-
 @snap[north]
 ### Vectors 3
 @snapend
 
 @snap[midpoint step-fade-in-then-out]
-@math
+@math[fragment step-fade-in-then-out]
 `$\langle 4,2 \rangle$`
 @mathend
 @snapend
 
 @snap[midpoint fragment step-fade-in-then-out]
-@math
+@math[fragment step-fade-in-then-out]
 `$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle$`
 @mathend
 @snapend
