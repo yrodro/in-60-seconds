@@ -44,7 +44,7 @@ IUPUI, Fall 2020
 
 
 
-@snap[midpoint span-50 current-visible]
+@snap[midpoint span-50 fragment current-visible]
 @math
 `\[
    \begin{align*}
@@ -55,7 +55,7 @@ IUPUI, Fall 2020
 \]`
 @mathend@snapend
 
-@snap[midpoint span-50 fragment current-visible]
+@snap[midpoint span-50]
 @math
 `\[
    \begin{align*}
