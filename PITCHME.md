@@ -40,7 +40,7 @@ IUPUI, Fall 2020
 ## Linear Systems
 @snapend
 
-@snap[midpoint span-50]
+@snap[midpoint span-50 fragment step-fade-in-then-out]
 @math
 `\[
    \begin{align*}
