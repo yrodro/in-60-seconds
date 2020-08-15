@@ -17,6 +17,13 @@ Hola
 Adios
 @snapend
 
+@snap[south span-30 fragment step-fade-in-then-out]
+Hey
+@snapend
+
+@snap[south span-30 fragment step-fade-in-then-out]
+Jude
+@snapend
 
 ---
 ### **How** will we study Linear Algebra?
