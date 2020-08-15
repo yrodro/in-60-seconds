@@ -42,7 +42,7 @@ IUPUI, Fall 2020
 ## Linear Systems
 @snapend
 
-@snap[r-stack]
+
 
 @snap[midpoint span-50 fragment current-visible]
 @math
@@ -66,7 +66,7 @@ IUPUI, Fall 2020
   \]`
 @mathend @snapend
 
-@snapend
+
 
 ---
 @snap[north span-80]
