@@ -223,10 +223,11 @@ The **Distributive Property** (or DP)
 @snapend
 
 @snap[midpoint span-65]
-@quote[](If some mathematical objects can be added and multiplied
- by scalars (i.e., numbers), and if the addition and product
- harmonize toghether nicely in the sense of following the (DP),
- then these objects are behaving **LINEARLY**)
+@quote[]
+  If some mathematical objects can be added and multiplied
+  by scalars (i.e., numbers), and if the addition and product
+  harmonize toghether nicely in the sense of following the (DP),
+  then these objects are behaving **LINEARLY**
 @snapend
 
 
