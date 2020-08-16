@@ -34,17 +34,13 @@ IUPUI, Fall 2020
 - Markov chain processes
 @ulend @snapend
 
-*fragment step-fade-in-then-out*
-
 
 ---
 @snap[north span-80]
 ## Linear Systems
 @snapend
 
-
-
-@snap[midpoint span-50 fragment step-fade-in-then-out*]
+@snap[midpoint span-50 fragment current-visible]
 @math
 `\[
    \begin{align*}
@@ -344,18 +340,18 @@ It does not make sense!
 @snapend
 
 @snap[midpoint step-fade-in-then-out]
-@math[fragment step-fade-in-then-out]
+@math[fragment current-visible]
 `$\langle 4,2 \rangle$`
 @mathend
 @snapend
 
-@snap[midpoint fragment step-fade-in-then-out]
+@snap[midpoint fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle$`
 @mathend
 @snapend
 
-@snap[midpoint fragment]
+@snap[midpoint fragment current-visible]
 @math
 `$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle = 4 \langle 1,0 \rangle + 2 \langle 0,1 \rangle$`
 @mathend
