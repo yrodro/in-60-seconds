@@ -339,7 +339,7 @@ It does not make sense!
 ### Vectors 3
 @snapend
 
-@snap[midpoint step-fade-in-then-out]
+@snap[midpoint fragment step-fade-in-then-out]
 @math[fragment current-visible]
 `$\langle 4,2 \rangle$`
 @mathend
