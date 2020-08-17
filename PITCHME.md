@@ -359,13 +359,15 @@ It does not make sense!
 
 @snap[midpoint fragment current-visible]
 @math[fragment step-fade-in-then-out]
-`$(2,3) \qquad (4,2)$`
+`$(2,3) \phantom{+ \langle 2,1 \rangle = (4,4)} \qquad (4,2) \phantom{+ \langle 2,1 \rangle = (6,3)}$`
 @mathend
 @snapend
 
 @snap[midpoint fragment current-visible]
 @math[fragment step-fade-in-then-out]
-`$(2,3) + \langle 2,1 \rangle \qquad (4,2) + \langle 2,1 \rangle$`
+`$(2,3) + \langle 2,1 \rangle \phantom{= (4,4)} \qquad (4,2) + \langle 2,1 \phantom{\rangle = (6,3)}
+(2,3) + \langle 2,1 \rangle \qquad (4,2) + \langle 2,1 \rangle
+$`
 @mathend
 @snapend
 
