@@ -339,7 +339,7 @@ It does not make sense!
 ### Vectors 3
 @snapend
 
-@snap[midpoint fragment step-fade-in-then-out]
+@snap[midpoint]
 @math[fragment current-visible]
 `$\langle 4,2 \rangle \phantom{ = \langle 4,0 \rangle + \langle 0,2 \rangle = 4 \langle 1,0 \rangle + 2 \langle 0,1 \rangle}$`
 @mathend
@@ -347,7 +347,7 @@ It does not make sense!
 
 @snap[midpoint fragment current-visible]
 @math[fragment step-fade-in-then-out]
-`$\hspace{-8pt}\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle  \phantom{ = 4 \langle 1,0 \rangle + 2 \langle 0,1 \rangle}$`
+`$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle  \phantom{ = 4 \langle 1,0 \rangle + 2 \langle 0,1 \rangle}$`
 @mathend
 @snapend
 
