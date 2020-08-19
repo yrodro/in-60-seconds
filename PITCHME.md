@@ -253,7 +253,7 @@ then these objects behave **Linearly**
 
 
 ---
-### Vectors 1
+### Vectors I
 
 @snap[west span-70]
 1428 Elm Street + 4 Privet Drive
@@ -276,7 +276,7 @@ It does not make sense!
 
 
 ---
-### Vectors 2
+### Vectors II
 
 @snap[midpoint fragment span-70 fragment step-fade-in-then-out]
 ![](assets/img/Class01/crowdPointing.jpg)
@@ -305,7 +305,7 @@ It does not make sense!
 
 
 ---
-### Vectors 3
+### Vectors III
 
 @snap[west]
 @ul[list-spaced-bullets list-style: none text-09]
@@ -325,7 +325,7 @@ It does not make sense!
 
 
 ---
-### Vectors 4
+### Vectors IV
 
 @snap[midpoint fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -366,7 +366,7 @@ $`
 
 
 ---
-### Matrices 1
+### Matrices I
 
 @snap[midpoint fragment]
 @math[]
@@ -401,7 +401,7 @@ $3 \times 4$ matrix
 
 
 ---
-### Matrices 2
+### Matrices II
 
 @snap[midpoint fragment current-visible] 
 @math[fragment step-fade-in-then-out]
@@ -453,7 +453,7 @@ $3 \times 4$ matrix
 
 
 ---
-### Gaussian Elimination 1
+### Gaussian Elimination I
 
 @snap[west fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -529,7 +529,7 @@ $3 \times 4$ matrix
 
 
 ---
-### Gaussian Elimination 2
+### Gaussian Elimination II
 
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -643,6 +643,18 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
+    1 & 0 & -1 & -13 \\
+    0 & 1 & -1 &  -5 \\
+    0 & 0 &  1 &  12
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
     1 & 0 &  0 &  -1 \\
     0 & 1 & -1 &  -5 \\
     0 & 0 &  1 &  12
@@ -671,6 +683,25 @@ $3 \times 4$ matrix
       & & y & &   & {}={} &  7 \\
       & &   & & z & {}={} &  12
   \end{alignat*}
+\]`
+@mathend
+@snapend
+
+
+---
+### Reduced Row Echelon Form (**RREF**)
+
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    0 & 1 & 0 & a & a & 0 & a & 0 & 0 \\
+    0 & 0 & 1 & a & a & 0 & a & 0 & 0 \\
+    0 & 0 & 0 & 0 & 0 & 1 & a & 0 & 0 \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+  \end{pmatrix}
 \]`
 @mathend
 @snapend
