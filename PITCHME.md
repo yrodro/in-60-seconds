@@ -253,7 +253,7 @@ then these objects behave **Linearly**
 
 
 ---
-### Vectors
+### Vectors 1
 
 @snap[west span-70]
 1428 Elm Street + 4 Privet Drive
@@ -276,9 +276,8 @@ It does not make sense!
 
 
 ---
-@snap[north]
-### Vectors 1
-@snapend
+### Vectors 2
+
 @snap[midpoint fragment span-70 fragment step-fade-in-then-out]
 ![](assets/img/Class01/crowdPointing.jpg)
 @snapend
@@ -306,13 +305,12 @@ It does not make sense!
 
 
 ---
-@snap[north]
-### Vectors 2
-@snapend
+### Vectors 3
+
 @snap[west]
-@ul[list-no-bullets none text-09]
-- Location (points)
-- Direction (vectors?)
+@ul[list-spaced-bullets list-style: none text-09]
+- Location (as in *points*)
+- Direction (vectors?) **NO!**
 - Directional Instructions
 @ulend
 @snapend
@@ -321,15 +319,13 @@ It does not make sense!
 ![](assets/img/Class01/dirInstrs.gif)
 @snapend
 
-@snap[south fragment]
+@snap[south-east fragment]
 1 step down **+** 1 step left
 @snapend
 
 
 ---
-@snap[north]
-### Vectors 3
-@snapend
+### Vectors 4
 
 @snap[midpoint fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -349,20 +345,20 @@ It does not make sense!
 @mathend
 @snapend
 
-@snap[midpoint fragment current-visible]
+@snap[south fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `$(2,3) \phantom{+ \langle 2,1 \rangle = (4,4)} \qquad (4,2) \phantom{+ \langle 2,1 \rangle = (6,3)}$`
 @mathend
 @snapend
 
-@snap[midpoint fragment current-visible]
+@snap[south fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `$(2,3) + \langle 2,1 \rangle \phantom{= (4,4)} \qquad (4,2) + \langle 2,1 \rangle \phantom{= (6,3)}
 $`
 @mathend
 @snapend
 
-@snap[midpoint fragment current-visible]
+@snap[south fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `$(2,3) + \langle 2,1 \rangle = (4,4) \qquad (4,2) + \langle 2,1 \rangle = (6,3)$`
 @mathend
@@ -372,8 +368,8 @@ $`
 ---
 ### Matrices 1
 
-@snap[midpoint fragment current-visible]
-@math[fragment step-fade-in-then-out]
+@snap[midpoint]
+@math[]
 `$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
@@ -382,13 +378,13 @@ $`
 @mathend
 @snapend
 
-@snap[east fragment current-visible]
+@snap[east fragment]
 @math[fragment step-fade-in-then-out]
 `$\downarrow 3 \qquad \rightarrow 4$`
 @mathend
 @snapend
 
-@snap[south fragment current-visible]
+@snap[south]
 @math[fragment step-fade-in-then-out]
 `$\begin{pmatrix}
 1 & 2 & 3
@@ -403,7 +399,7 @@ $`
 ---
 ### Matrices 2
 
-@snap[midpoint span-30 fragment current-visible] 
+@snap[midpoint fragment current-visible] 
 @math[fragment step-fade-in-then-out]
 `$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
