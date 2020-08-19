@@ -36,9 +36,7 @@ IUPUI, Fall 2020
 
 
 ---
-@snap[north span-80]
 ### **Why** do we study [LA]?
-@snapend
 
 @snap[south span-70]
 @ul[list-spaced-bullets list-style: none text-09]
@@ -51,9 +49,7 @@ IUPUI, Fall 2020
 
 
 ---
-@snap[north span-80]
 ## Linear Systems
-@snapend
 
 @snap[midpoint span-50 fragment current-visible]
 @math
@@ -79,9 +75,7 @@ IUPUI, Fall 2020
 
 
 ---
-@snap[north span-80]
 Linear Systems
-@snapend
 
 @snap[midpoint span-50]
 @math
@@ -96,9 +90,7 @@ Linear Systems
 
 
 ---
-@snap[north span-80]
 Linear Systems
-@snapend
 
 @snap[midpoint span-50]
 @math
@@ -113,9 +105,7 @@ Linear Systems
 
 
 ---
-@snap[north span-80]
 Linear Systems
-@snapend
 
 @snap[midpoint span-50]
 @math
@@ -130,9 +120,7 @@ Linear Systems
 
 
 ---
-@snap[north span-80]
 Linear Systems
-@snapend
 
 @snap[midpoint span-50]
 @math
@@ -147,9 +135,7 @@ Linear Systems
 
 
 ---
-@snap[north span-80]
 Linear Systems
-@snapend
 
 @snap[midpoint span-50]
 @math
@@ -164,9 +150,7 @@ Linear Systems
 
 
 ---
-@snap[north span-80]
 Linear Systems
-@snapend
 
 @snap[south fragment]
 **We will fix that...**
@@ -185,9 +169,7 @@ Linear Systems
 
 
 ---
-@snap[north span-80]
 ### Computer graphics
-@snapend
 
 @snap[midpoint]
 [![](https://img.youtube.com/vi/SMAnlPTmAwE/0.jpg)](https://www.youtube.com/watch?v=SMAnlPTmAwE)
@@ -199,9 +181,7 @@ Linear Systems
 
 
 ---
-@snap[north span-80]
 ### Eigenvectors and Markov processes
-@snapend
 
 @snap[midpoint span-65]
 @img[span-65](assets/img/Class01/googlePagerank.jpg)
@@ -213,9 +193,7 @@ Linear Systems
 
 
 ---
-@snap[north span-80]
 ### **What** is [LA]?
-@snapend
 
 @snap[midpoint span-70]
 @ul[list-no-bullets none text-09]
@@ -231,9 +209,7 @@ The **Distributive Property** (or DP)
 
 
 ---
-@snap[north span-80]
 ### [LA] is all about Distributivity
-@snapend
 
 @snap[midpoint span-80]
 If some mathematical objects satisfy:
@@ -247,9 +223,7 @@ then these objects behave **Linearly**
 
 
 ---
-@snap[north span-80]
 ### **What** is [LA]?
-@snapend
 
 @snap[midpoint span-70]
 @ul[list-no-bullets list-style: none text-09]
@@ -257,7 +231,6 @@ then these objects behave **Linearly**
 - $3x     = 15$
 - $ x     =  5$
 @ulend@snapend
-
 
 @ul[south list-spaced-bullets list-style: none text-09]
 - Vectors
