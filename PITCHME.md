@@ -193,7 +193,7 @@ Linear Systems
 [![](https://img.youtube.com/vi/SMAnlPTmAwE/0.jpg)](https://www.youtube.com/watch?v=SMAnlPTmAwE)
 @snapend
 
-@snap[south span-80 fragment]
+@snap[south span-80]
 **Want that dream job at Pixar?**
 @snapend
 
@@ -207,8 +207,8 @@ Linear Systems
 @img[span-65](assets/img/Class01/googlePagerank.jpg)
 @snapend
 
-@snap[south fragment span-80]
-**This class _could_ make you a billionaire**
+@snap[south span-80]
+**This class could make you a billionaire**
 @snapend]
 
 
@@ -232,7 +232,7 @@ The **Distributive Property** (or DP)
 
 ---
 @snap[north span-80]
-### Linear Algebra is all about the DP
+### [LA] is all about Distributivity
 @snapend
 
 @snap[midpoint span-65]
@@ -241,7 +241,7 @@ The **Distributive Property** (or DP)
   by scalars (i.e., numbers), and if the addition and product
   harmonize toghether nicely in the sense of following the (DP),
   then these objects are behaving **LINEARLY**
-@snapend
+@quoteend@snapend
 
 
 ---
