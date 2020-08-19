@@ -380,12 +380,14 @@ $`
 
 @snap[east fragment]
 @math[fragment step-fade-in-then-out]
-`$\downarrow 3 \qquad \rightarrow 4$`
+`$\downarrow 3 \quad \rightarrow 4$`
 @mathend
+
+so a $3 \times 4$ matrix
 @snapend
 
 @snap[south]
-@math[fragment step-fade-in-then-out]
+@math[fragment]
 `$\begin{pmatrix}
 1 & 2 & 3
 \end{pmatrix} \qquad
