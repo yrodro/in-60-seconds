@@ -44,9 +44,9 @@ IUPUI, Fall 2020
 @math
 `\[
    \begin{align*}
-     2x &-&  y &+&  z &=&  3 \\
-     3x &+& 2y &-&  z &=& -1 \\
-      x &-& 3y &+& 2z &=&  2
+     2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
+     3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
+      x & {}-{} & 3y & {}+{} & 2z & {}={} &  2
    \end{align*}
 \]`
 @mathend@snapend
@@ -55,9 +55,9 @@ IUPUI, Fall 2020
 @math
 `\[
    \begin{align*}
-     2x &-&  y &+&  z &=&  3 \\
-     5x &+&  y &&     &=&  2 \\
-      x &-& 3y &+& 2z &=&  2
+     2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
+     5x & {}+{} &  y &&     & {}={} &  2 \\
+      x & {}-{} & 3y & {}+{} & 2z & {}={} &  2
    \end{align*}
   \]`
 @mathend@snapend
@@ -72,9 +72,9 @@ Linear Systems
 @math
 `\[
    \begin{align*}
-     2x &-&  y &+&  z &=&  3 \\
-     5x &+&  y &&     &=&  2 \\
-     3x &+&  y &&     &=&  4
+     2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
+     5x & {}+{} &  y &&     & {}={} &  2 \\
+     3x & {}+{} &  y &&     & {}={} &  4
    \end{align*}
   \]`
 @mathend @snapend
@@ -89,9 +89,9 @@ Linear Systems
 @math
 `\[
    \begin{align*}
-     2x &-&  y &+&  z &=&  3 \\
-     2x &&     &&     &=& -2 \\
-     3x &+&  y &&     &=&  4
+     2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
+     2x &&     &&     & {}={} & -2 \\
+     3x & {}+{} &  y &&     & {}={} &  4
    \end{align*}
   \]`
 @mathend @snapend
@@ -106,9 +106,9 @@ Linear Systems
 @math
 `\[
    \begin{align*}
-     2x &-&  y &+&  z &=&  3 \\
-      x &&     &&     &=& -1 \\
-     3(-1) &+& y &&   &=&  4
+     2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
+      x &&     &&     & {}={} & -1 \\
+     3(-1) & {}+{} & y &&   & {}={} &  4
    \end{align*}
   \]`
 @mathend @snapend
@@ -123,9 +123,9 @@ Linear Systems
 @math
 `\[
    \begin{align*}
-     2x &-&  y &+&  z &=&  3 \\
-      x &&     &&     &=& -1 \\
-        &&   y &&     &=&  7
+     2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
+      x &&     &&     & {}={} & -1 \\
+        &&   y &&     & {}={} &  7
    \end{align*}
   \]`
 @mathend @snapend
@@ -140,9 +140,9 @@ Linear Systems
 @math
 `\[
    \begin{align*}
-     2(-1) &-& 7 &+& z &=&  3 \\
-      x    &&    &&    &=& -1 \\
-           &&  y &&    &=&  7
+     2(-1) & {}-{} & 7 & {}+{} & z & {}={} &  3 \\
+      x    &&    &&    & {}={} & -1 \\
+           &&  y &&    & {}={} &  7
    \end{align*}
   \]`
 @mathend @snapend
@@ -161,9 +161,9 @@ Linear Systems
 @math
 `\[
    \begin{align*}
-      x &&     &&      &=& -1 \\
-        &&   y &&      &=&  7 \\
-        &&     &&    z &=& 12
+      x &&     &&      & {}={} & -1 \\
+        &&   y &&      & {}={} &  7 \\
+        &&     &&    z & {}={} & 12
    \end{align*}
   \]`
 @mathend @snapend
@@ -390,18 +390,9 @@ $`
 @mathend
 @snapend
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-@snap[east fragment]
-@math
-`$\downarrow 3 \quad \rightarrow 4$`
-=======
-=======
->>>>>>> b4f1aa92077aa1ae145f2c009ba5a3e2ef3dc21f
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `$\downarrow 3 \qquad \rightarrow 4$`
->>>>>>> b4f1aa92077aa1ae145f2c009ba5a3e2ef3dc21f
 @mathend
 @snapend
 
