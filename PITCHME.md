@@ -391,10 +391,13 @@ $`
 @snapend
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 @snap[east fragment]
 @math
 `$\downarrow 3 \quad \rightarrow 4$`
 =======
+=======
+>>>>>>> b4f1aa92077aa1ae145f2c009ba5a3e2ef3dc21f
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `$\downarrow 3 \qquad \rightarrow 4$`
