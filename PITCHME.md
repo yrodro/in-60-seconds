@@ -380,8 +380,8 @@ $`
 ---
 ### Matrices 1
 
-@snap[midpoint]
-@math
+@snap[midpoint fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
@@ -390,14 +390,20 @@ $`
 @mathend
 @snapend
 
+<<<<<<< HEAD
 @snap[east fragment]
 @math
 `$\downarrow 3 \quad \rightarrow 4$`
+=======
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
+`$\downarrow 3 \qquad \rightarrow 4$`
+>>>>>>> b4f1aa92077aa1ae145f2c009ba5a3e2ef3dc21f
 @mathend
 @snapend
 
-@snap[south fragment]
-@math
+@snap[south fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `$\begin{pmatrix}
 1 & 2 & 3
 \end{pmatrix} \qquad
@@ -411,8 +417,8 @@ $`
 ---
 ### Matrices 2
 
-@snap[midpoint span-30]
-@math
+@snap[midpoint span-30 fragment current-visible] 
+@math[fragment step-fade-in-then-out]
 `$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
@@ -431,8 +437,8 @@ $`
 @mathend
 @snapend
 
-@snap[south span-30]
-@math
+@snap[south span-30 fragment current visible]
+@math[fragment step-fade-in-then-out]
 `5
 $\begin{pmatrix}
 1 &  2 &  3 & 4 \\
@@ -463,8 +469,8 @@ $\begin{pmatrix}
 ---
 ### Gaussian Elimination 1
 
-@snap[west span-20]
-@math
+@snap[west span-20 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{align*}
     2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
@@ -478,10 +484,11 @@ $\begin{pmatrix}
     1 &  3 & 2 &  2
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[west span-20 fragment]
-@math
+@snap[west span-20 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{align*}
     x & {}-{} & 3y & {}+{} & 2z & {}={} &  2 \\
@@ -495,10 +502,11 @@ $\begin{pmatrix}
     2 & -1 & 1 &  3
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[west span-20 fragment]
-@math
+@snap[west span-20 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{align*}
     -2x & {}+{} & 6y & {}-{} & 4z & {}={} & -4 \\
@@ -512,10 +520,11 @@ $\begin{pmatrix}
      2 & -1 &  1 &  3
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[west span-20 fragment]
-@math
+@snap[west span-20 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{align*}
     -2x & {}+{} & 6y & {}-{} & 4z & {}={} & -4 \\
@@ -529,14 +538,15 @@ $\begin{pmatrix}
      0 & 5 & -3 & -1
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
 
 ---
 ### Gaussian Elimination 2
 
-@snap[east span-50]
-@math
+@snap[east span-50 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     2 & -1 &  1 &  3 \\
@@ -544,10 +554,11 @@ $\begin{pmatrix}
     1 & -3 &  2 &  2
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[east span-50 fragment]
-@math
+@snap[east span-50 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 & -3 &  2 &  2 \\
@@ -555,10 +566,11 @@ $\begin{pmatrix}
     2 & -1 &  1 &  3
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[east span-50 fragment]
-@math
+@snap[east span-50 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 & -3 &  2 &  2 \\
@@ -566,10 +578,11 @@ $\begin{pmatrix}
     2 & -1 &  1 &  3
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[east span-50 fragment]
-@math
+@snap[east span-50 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 & -3 &  2 &  2 \\
@@ -577,10 +590,11 @@ $\begin{pmatrix}
     0 &  5 & -3 & -1
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[east span-50 color-red fragment]
-@math
+@snap[east span-50 color-red fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 & -3 &  2 &  2 \\
@@ -588,10 +602,11 @@ $\begin{pmatrix}
     0 &  5 & -3 & -1
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[east span-50 fragment]
-@math
+@snap[east span-50 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 & -3 &  2 &  2 \\
@@ -599,10 +614,11 @@ $\begin{pmatrix}
     0 &  5 & -3 & -1
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[east span-50 fragment]
-@math
+@snap[east span-50 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 & -3 &  2 &  2 \\
@@ -610,10 +626,11 @@ $\begin{pmatrix}
     0 &  5 & -3 & -1
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[east span-50 fragment]
-@math
+@snap[east span-50 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 & 0 & -1 & -13 \\
@@ -621,10 +638,11 @@ $\begin{pmatrix}
     0 & 5 & -3 &  -1
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[east span-50 fragment]
-@math
+@snap[east span-50 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 & 0 & -1 & -13 \\
@@ -632,10 +650,11 @@ $\begin{pmatrix}
     0 & 0 &  2 &  24
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[east span-50 fragment]
-@math
+@snap[east span-50 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 & 0 &  0 &  -1 \\
@@ -643,10 +662,11 @@ $\begin{pmatrix}
     0 & 0 &  1 &  12
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[east span-50 fragment]
-@math
+@snap[east span-50 fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 & 0 & 0 &  -1 \\
@@ -654,10 +674,11 @@ $\begin{pmatrix}
     0 & 0 & 1 &  12
   \end{pmatrix}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
-@snap[south-east fragment span-50 color-blue]
-@math
+@snap[south-east fragment span-50 color-blue current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{align*}
     x & &   & &   & {}={} & -1 \\
@@ -665,7 +686,8 @@ $\begin{pmatrix}
       & &   & & z & {}={} &  12
   \end{align*}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
 
 
