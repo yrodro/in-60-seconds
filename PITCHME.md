@@ -423,7 +423,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[south span-30 fragment current visible]
+@snap[south fragment current visible]
 @math[fragment step-fade-in-then-out]
 `$ 5
 \begin{pmatrix}
@@ -445,17 +445,17 @@ $3 \times 4$ matrix
 
 @snap[midpoint span-70]
 @ul[list-spaced-bullets list-style: none text-09]
-- **LA** is all about the **DP**.
-- Numbers, vectors, and matrices obey the DP.
-- Think of vectors as *directional instructions*.
-- Think of matrices as arrays of numbers with meaning.
+- **[LA]** is all about Distributivity
+- Numbers, vectors, and matrices are distributive
+- Think of vectors as *directional instructions*
+- Think of matrices as arrays of numbers with meaning
 @ulend @snapend
 
 
 ---
 ### Gaussian Elimination 1
 
-@snap[west span-20 fragment current-visible]
+@snap[west fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{alignat*}{4}
@@ -473,7 +473,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[west span-20 fragment current-visible]
+@snap[west fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{alignat*}{4}
@@ -491,7 +491,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[west span-20 fragment current-visible]
+@snap[west fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{alignat*}{4}
@@ -509,7 +509,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[west span-20 fragment current-visible]
+@snap[west fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{alignat*}{4}
