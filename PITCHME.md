@@ -257,6 +257,7 @@ then these objects behave **Linearly**
 
 @snap[west span-30]
 1428 Elm Street + 4 Privet Drive
+@snapend
 
 @snap[south-west span-20]
 ![](assets/img/Class01/elmSt.jpg)
