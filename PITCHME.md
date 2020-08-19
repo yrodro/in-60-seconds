@@ -216,7 +216,7 @@ If some mathematical objects satisfy:
 @ul[list-spaced-bullets list-style: none text-09]
 - They can be added together
 - They can be multiplied by scalars (i.e., numbers)
-- The addition and scalar product harmonize toghether (obey the DP)
+- The addition and scalar product harmonize toghether (they obey the DP)
 @ulend
 then these objects behave **Linearly**
 @snapend
@@ -247,7 +247,7 @@ then these objects behave **Linearly**
 
 
 ---?image=assets/img/Class01/matrixBKGD.jpg
-@snap[north span-80]
+@snap[south span-80]
 ### What is a **matrix**?
 @snapend
 
