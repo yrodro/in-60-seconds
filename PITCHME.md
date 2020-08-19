@@ -43,22 +43,22 @@ IUPUI, Fall 2020
 @snap[midpoint span-50 fragment current-visible]
 @math
 `\[
-   \begin{align*}
+   \begin{alignat*}{4}
      2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
      3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
       x & {}-{} & 3y & {}+{} & 2z & {}={} &  2
-   \end{align*}
+   \end{alignat*}
 \]`
 @mathend@snapend
 
 @snap[midpoint span-50 fragment current-visible]
 @math
 `\[
-   \begin{align*}
+   \begin{alignat*}{4}
      2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
      5x & {}+{} &  y &&     & {}={} &  2 \\
       x & {}-{} & 3y & {}+{} & 2z & {}={} &  2
-   \end{align*}
+   \end{alignat*}
   \]`
 @mathend@snapend
 
@@ -71,11 +71,11 @@ Linear Systems
 @snap[midpoint span-50]
 @math
 `\[
-   \begin{align*}
+   \begin{alignat*}{4}
      2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
      5x & {}+{} &  y &&     & {}={} &  2 \\
      3x & {}+{} &  y &&     & {}={} &  4
-   \end{align*}
+   \end{alignat*}
   \]`
 @mathend @snapend
 
@@ -88,11 +88,11 @@ Linear Systems
 @snap[midpoint span-50]
 @math
 `\[
-   \begin{align*}
+   \begin{alignat*}{4}
      2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
      2x &&     &&     & {}={} & -2 \\
      3x & {}+{} &  y &&     & {}={} &  4
-   \end{align*}
+   \end{alignat*}
   \]`
 @mathend @snapend
 
@@ -105,11 +105,11 @@ Linear Systems
 @snap[midpoint span-50]
 @math
 `\[
-   \begin{align*}
+   \begin{alignat*}{4}
      2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
       x &&     &&     & {}={} & -1 \\
      3(-1) & {}+{} & y &&   & {}={} &  4
-   \end{align*}
+   \end{alignat*}
   \]`
 @mathend @snapend
 
@@ -122,11 +122,11 @@ Linear Systems
 @snap[midpoint span-50]
 @math
 `\[
-   \begin{align*}
+   \begin{alignat*}{4}
      2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
       x &&     &&     & {}={} & -1 \\
         &&   y &&     & {}={} &  7
-   \end{align*}
+   \end{alignat*}
   \]`
 @mathend @snapend
 
@@ -139,11 +139,11 @@ Linear Systems
 @snap[midpoint span-50]
 @math
 `\[
-   \begin{align*}
+   \begin{alignat*}{4}
      2(-1) & {}-{} & 7 & {}+{} & z & {}={} &  3 \\
       x    &&    &&    & {}={} & -1 \\
            &&  y &&    & {}={} &  7
-   \end{align*}
+   \end{alignat*}
   \]`
 @mathend @snapend
 
@@ -160,11 +160,11 @@ Linear Systems
 @snap[midpoint span-50]
 @math
 `\[
-   \begin{align*}
+   \begin{alignat*}{4}
       x &&     &&      & {}={} & -1 \\
         &&   y &&      & {}={} &  7 \\
         &&     &&    z & {}={} & 12
-   \end{align*}
+   \end{alignat*}
   \]`
 @mathend @snapend
 
@@ -433,8 +433,8 @@ $`
 
 @snap[south span-30 fragment current visible]
 @math[fragment step-fade-in-then-out]
-`5
-$\begin{pmatrix}
+`$ 5
+\begin{pmatrix}
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
 9 & 10 & 11 & 12 \\
@@ -466,11 +466,11 @@ $\begin{pmatrix}
 @snap[west span-20 fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
-  \begin{align*}
+  \begin{alignat*}{4}
     2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
     3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
     x & {}-{} & 3y & {}+{} & 2z & {}={} &  2
-  \end{align*}
+  \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
     2 & -1 & 1 &  3 \\
@@ -484,11 +484,11 @@ $\begin{pmatrix}
 @snap[west span-20 fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
-  \begin{align*}
+  \begin{alignat*}{4}
     x & {}-{} & 3y & {}+{} & 2z & {}={} &  2 \\
     3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
     2x & {}-{} &  y & {}+{} &  z & {}={} &  3
-  \end{align*}
+  \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
     1 &  3 & 2 &  2 \\
@@ -502,11 +502,11 @@ $\begin{pmatrix}
 @snap[west span-20 fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
-  \begin{align*}
+  \begin{alignat*}{4}
     -2x & {}+{} & 6y & {}-{} & 4z & {}={} & -4 \\
      3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
      2x & {}-{} &  y & {}+{} &  z & {}={} &  3
-  \end{align*}
+  \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
     -2 &  6 & -4 & -4 \\
@@ -520,11 +520,11 @@ $\begin{pmatrix}
 @snap[west span-20 fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
-  \begin{align*}
+  \begin{alignat*}{4}
     -2x & {}+{} & 6y & {}-{} & 4z & {}={} & -4 \\
      3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
         & {}+{} & 5y & {}-{} & 3z & {}={} & -1
-  \end{align*}
+  \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
     -2 & 6 & -4 & -4 \\
@@ -674,11 +674,11 @@ $\begin{pmatrix}
 @snap[south-east fragment span-50 color-blue current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
-  \begin{align*}
+  \begin{alignat*}{4}
     x & &   & &   & {}={} & -1 \\
       & & y & &   & {}={} &  7 \\
       & &   & & z & {}={} &  12
-  \end{align*}
+  \end{alignat*}
 \]`
 @mathend
 @snapend
