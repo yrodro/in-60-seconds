@@ -248,27 +248,30 @@ then these objects behave **Linearly**
 
 ---?image=assets/img/Class01/matrixBKGD.jpg
 @snap[south span-80]
-### What is a **matrix**?
+## What is a **matrix**?
 @snapend
 
 
 ---
 ### Vectors
 
+@snap[west span-30]
 1428 Elm Street + 4 Privet Drive
 
 @snap[south-west span-20]
 ![](assets/img/Class01/elmSt.jpg)
 @snapend
 
-@snap[south-east span-20]
+@snap[midpoint span-20]
 ![](assets/img/Class01/privetDr.jpg)
 @snapend
 
-@snap[north-east span-20]
+@snap[north-east fragment span-20]
 ![](assets/img/Class01/chewbacca.jpg)
-@snapend
+
 It does not make sense!
+@snapend
+
 
 
 ---
