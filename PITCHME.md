@@ -255,7 +255,7 @@ then these objects behave **Linearly**
 ---
 ### Vectors
 
-@snap[west span-30]
+@snap[west span-70]
 1428 Elm Street + 4 Privet Drive
 @snapend
 
