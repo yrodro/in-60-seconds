@@ -253,7 +253,7 @@ then these objects behave **Linearly**
 
 
 ---
-### Vectors I
+### Vectors (I)
 
 @snap[west span-70]
 1428 Elm Street + 4 Privet Drive
@@ -276,7 +276,7 @@ It does not make sense!
 
 
 ---
-### Vectors II
+### Vectors (II)
 
 @snap[midpoint fragment span-70 fragment step-fade-in-then-out]
 ![](assets/img/Class01/crowdPointing.jpg)
@@ -305,7 +305,7 @@ It does not make sense!
 
 
 ---
-### Vectors III
+### Vectors (III)
 
 @snap[west]
 @ul[list-spaced-bullets list-style: none text-09]
@@ -325,7 +325,7 @@ It does not make sense!
 
 
 ---
-### Vectors IV
+### Vectors (IV)
 
 @snap[midpoint fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -366,7 +366,7 @@ $`
 
 
 ---
-### Matrices I
+### Matrices (I)
 
 @snap[midpoint fragment]
 @math[]
@@ -401,7 +401,7 @@ $3 \times 4$ matrix
 
 
 ---
-### Matrices II
+### Matrices (II)
 
 @snap[midpoint fragment current-visible] 
 @math[fragment step-fade-in-then-out]
@@ -453,7 +453,7 @@ $3 \times 4$ matrix
 
 
 ---
-### Gaussian Elimination I
+### Gaussian Elimination (I)
 
 @snap[west fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -529,7 +529,7 @@ $3 \times 4$ matrix
 
 
 ---
-### Gaussian Elimination II
+### Gaussian Elimination (II)
 
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -710,16 +710,232 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    0 & 1 & 0 & 2 & 5 & 0 & 4 & 0 & 0 & 2 \\
-    0 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 \\
+    0 & 1 & 0 & 2 & 5 & 0 & 0 & 0 & 0 & 2 \\
+    0 & 0 & 1 & 1 & 0 & 0 & 4 & 0 & 0 & 1 \\
     0 & 0 & 0 & 0 & 0 & 1 & 3 & 0 & 0 & 0 \\
     0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 7 \\
     0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 6 \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \img[][20pt][]{https://github.com/yrodro/linear-algebra/blob/master/assets/img/Class02/x-wingSprite.png}
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
   \end{pmatrix}
 \]`
 @mathend
 @snapend
+
+
+---
+Systems with many solutions (I)
+
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1 & 2 & 3 &  8 \\
+    4 & 5 & 6 & 23 \\
+    7 & 8 & 9 & 38
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1 &  2 &  3 &  8 \\
+    0 & -3 & -6 & -9 \\
+    7 &  8 &  9 & 38
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1 &  2 &   3 &   8 \\
+    0 & -3 &  -6 &  -9 \\
+    0 & -6 & -12 & -18
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1 &  2 &   3 &   8 \\
+    0 &  1 &   2 &   3 \\
+    0 & -6 & -12 & -18
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1 &  0 &  -1 &   2 \\
+    0 &  1 &   2 &   3 \\
+    0 & -6 & -12 & -18
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1 & 0 & -1 &  2 \\
+    0 & 1 &  2 &  3 \\
+    0 & 0 &  0 &  0
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+@snap[south-west span-50]
+@math
+`\[
+   \begin{alignat*}{4}
+      x & {}+{} & 2y & {}+{} & 3z & {}={} & 0 \\
+     4x & {}+{} & 5y & {}+{} & 6z & {}={} & 0 \\
+     7x & {}+{} & 8y & {}+{} & 9z & {}={} & 0
+   \end{alignat*}
+  \]`
+@mathend @snapend
+
+@snap[south span-50]
+@math
+`\[
+   \begin{alignat*}{4}
+      x & {} {} &   & {}-{} &  z & {}={} & 2 \\
+        & {} {} & y & {}+{} & 2z & {}={} & 3 \\
+      0 & {}+{} & 0 & {}+{} &  0 & {}={} & 0
+   \end{alignat*}
+  \]`
+@mathend @snapend
+
+@snap[south-east span-50]
+@math
+`\[
+   \begin{alignat*}{4}
+      x & {}={} & 2 -   {\color{green}t} \\
+      y & {}={} & 3 - 2 {\color{green}t} \\
+      z & {}={} &       {\color{green}t}
+   \end{alignat*}
+  \]`
+@mathend @snapend
+
+
+---
+### Systems with many solutions (II)
+
+@snap[west]
+@math[]
+`\[
+  \begin{pmatrix}
+    0 & 1 & 0 & 2 & 5 & 0 & 0 & 0 & 0 & 2 \\
+    0 & 0 & 1 & 1 & 0 & 0 & 4 & 0 & 0 & 1 \\
+    0 & 0 & 0 & 0 & 0 & 1 & 3 & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 7 \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 6 \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+@snap[south-east span-50]
+@math
+`\[
+   \begin{alignat*}{4}
+      x_1 & {}={} &  \\
+      x_2 & {}={} &  \\
+      x_3 & {}={} &  \\
+      x_4 & {}={} &  \\
+      x_5 & {}={} &  \\
+      x_6 & {}={} &  \\
+      x_7 & {}={} &  \\
+      x_8 & {}={} &  \\
+      x_9 & {}={} &  \\
+   \end{alignat*}
+  \]`
+@mathend @snapend
+
+@snap[south-east span-50]
+@math
+`\[
+   \begin{alignat*}{4}
+      x_1 & {}={} & a \\
+      x_2 & {}={} &   \\
+      x_3 & {}={} &   \\
+      x_4 & {}={} &   \\
+      x_5 & {}={} &   \\
+      x_6 & {}={} &   \\
+      x_7 & {}={} &   \\
+      x_8 & {}={} &   \\
+      x_9 & {}={} &   \\
+   \end{alignat*}
+  \]`
+@mathend @snapend
+
+@snap[south-east span-50]
+@math
+`\[
+   \begin{alignat*}{4}
+      x_1 & {}={} & a \\
+      x_2 & {}={} &   \\
+      x_3 & {}={} &   \\
+      x_4 & {}={} & b \\
+      x_5 & {}={} & c \\
+      x_6 & {}={} &   \\
+      x_7 & {}={} & d \\
+      x_8 & {}={} &   \\
+      x_9 & {}={} &   \\
+   \end{alignat*}
+  \]`
+@mathend @snapend
+
+@snap[south-east span-50]
+@math
+-5c`\[
+   \begin{alignat*}{4}
+      x_1 & {}={} & a \\
+      x_2 & {}={} &   \\
+      x_3 & {}={} &   \\
+      x_4 & {}={} & b \\
+      x_5 & {}={} & c \\
+      x_6 & {}={} &   \\
+      x_7 & {}={} & d \\
+      x_8 & {}={} &   \\
+      x_9 & {}={} & 6 \\
+   \end{alignat*}
+  \]`
+@mathend @snapend
+
+@snap[south-east span-50]
+@math
+`\[
+   \begin{alignat*}{4}
+      x_1 & {}={} &   a \\
+      x_2 & {}={} &  2-2b-5c \\
+      x_3 & {}={} &  1-b-4d \\
+      x_4 & {}={} &   b \\
+      x_5 & {}={} &   c \\
+      x_6 & {}={} & -3d \\
+      x_7 & {}={} &   d \\
+      x_8 & {}={} &   7 \\
+      x_9 & {}={} &   6 \\
+   \end{alignat*}
+  \]`
+@mathend @snapend
+
+
+
 
 
 
