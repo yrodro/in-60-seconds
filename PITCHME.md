@@ -263,11 +263,11 @@ then these objects behave **Linearly**
 ![](assets/img/Class01/elmSt.jpg)
 @snapend
 
-@snap[midpoint span-20]
+@snap[south span-20]
 ![](assets/img/Class01/privetDr.jpg)
 @snapend
 
-@snap[north-east fragment span-20]
+@snap[south-east fragment span-30]
 ![](assets/img/Class01/chewbacca.jpg)
 
 It does not make sense!
