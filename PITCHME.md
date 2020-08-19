@@ -9,7 +9,22 @@ IUPUI, Fall 2020
 
 
 ---
-### **How** will we study Linear Algebra?
+### **Rules**
+
+@snap[midpoint span-90]
+@ul[list-spaced-bullets list-style: none text-09]
+- No homework
+- No attendance
+- No shared content
+- Office hours
+- Academic conduct
+- Inclusivity
+- Online behavior
+@ulend @snapend
+
+
+---
+### **How** will we study [LA]?
 
 @snap[midpoint span-90]
 @ul[list-spaced-bullets list-style: none text-09]
@@ -22,14 +37,14 @@ IUPUI, Fall 2020
 
 ---
 @snap[north span-80]
-### **Why** do we study Linear Algebra?
+### **Why** do we study [LA]?
 @snapend
 
 @snap[south span-70]
 @ul[list-spaced-bullets list-style: none text-09]
-- Solve systems of linear equations
+- Solve systems of **linear** equations
 - Do computer graphics computations
-- Solve linear programming optimization problems
+- Solve **linear** programming optimization problems
 - Solve eigen-problems, including
 - Markov chain processes
 @ulend @snapend
@@ -169,8 +184,6 @@ Linear Systems
 @mathend @snapend
 
 
-
-
 ---
 @snap[north span-80]
 ### Computer graphics
@@ -181,7 +194,7 @@ Linear Systems
 @snapend
 
 @snap[south span-80 fragment]
-**Want to land a dream job at Pixar?**
+**Want that dream job at Pixar?**
 @snapend
 
 
@@ -195,13 +208,13 @@ Linear Systems
 @snapend
 
 @snap[south fragment span-80]
-**Would you like to ace a class that can make you a billionaire?**
+**This class _could_ make you a billionaire**
 @snapend]
 
 
 ---
 @snap[north span-80]
-### **What** is Linear Algebra?
+### **What** is [LA]?
 @snapend
 
 @snap[midpoint span-70]
@@ -212,7 +225,7 @@ Linear Systems
 - **49000**
 @ulend@snapend
 
-@snap[south span-80 fragment]
+@snap[south span-50 fragment]
 The **Distributive Property** (or DP)
 @snapend
 
@@ -687,7 +700,6 @@ $`
 
 
 
----
-@snap[midpoint span-100]
-![](assets/img/thatsAllFolks.jpg)
-@snapend
+
+---?image=assets/img/thatsAllFolks.jpg
+
