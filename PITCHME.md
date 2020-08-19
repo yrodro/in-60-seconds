@@ -235,18 +235,20 @@ The **Distributive Property** (or DP)
 ### [LA] is all about Distributivity
 @snapend
 
-@snap[midpoint span-65]
-@quote[]
-  If some mathematical objects can be added and multiplied
-  by scalars (i.e., numbers), and if the addition and product
-  harmonize toghether nicely in the sense of following the (DP),
-  then these objects are behaving **LINEARLY**
-@quoteend@snapend
+@snap[midpoint span-80]
+If some mathematical objects satisfy:
+@ul[list-spaced-bullets list-style: none text-09]
+- They can be added together
+- They can be multiplied by scalars (i.e., numbers)
+- The addition and scalar product harmonize toghether (obey the DP)
+@ulend
+then these objects behave **Linearly**
+@snapend
 
 
 ---
 @snap[north span-80]
-### **What** is Linear Algebra?
+### **What** is [LA]?
 @snapend
 
 @snap[midpoint span-70]
@@ -256,11 +258,11 @@ The **Distributive Property** (or DP)
 - $ x     =  5$
 @ulend@snapend
 
-@snap[south span-60]
-@ul[list-spaced-bullets list-style: none text-09]
+
+@ul[south list-spaced-bullets list-style: none text-09]
 - Vectors
 - Matrices
-@ulend@snapend
+@ulend
 
 
 ---
