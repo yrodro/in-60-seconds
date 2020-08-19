@@ -368,7 +368,7 @@ $`
 ---
 ### Matrices 1
 
-@snap[midpoint]
+@snap[midpoint fragment]
 @math[]
 `$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
@@ -383,7 +383,9 @@ $`
 `$\downarrow 3 \quad \rightarrow 4$`
 @mathend
 
-so a $3 \times 4$ matrix
+so a
+
+$3 \times 4$ matrix
 @snapend
 
 @snap[south]
