@@ -715,7 +715,7 @@ $3 \times 4$ matrix
     0 & 0 & 0 & 0 & 0 & 1 & 3 & 0 & 0 & 0 \\
     0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 7 \\
     0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 6 \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \img{https://github.com/yrodro/linear-algebra/blob/master/assets/img/Class02/x-wingSprite.png}{}{20pt}{}
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & \img[][20pt][]{https://github.com/yrodro/linear-algebra/blob/master/assets/img/Class02/x-wingSprite.png}
   \end{pmatrix}
 \]`
 @mathend
