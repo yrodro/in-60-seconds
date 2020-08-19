@@ -515,7 +515,7 @@ $3 \times 4$ matrix
   \begin{alignat*}{4}
     -2x & {}+{} & 6y & {}-{} & 4z & {}={} & -4 \\
      3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
-        & {}+{} & 5y & {}-{} & 3z & {}={} & -1
+        &&        5y & {}-{} & 3z & {}={} & -1
   \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
@@ -531,7 +531,7 @@ $3 \times 4$ matrix
 ---
 ### Gaussian Elimination 2
 
-@snap[east span-50 fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -543,7 +543,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east span-50 fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -555,7 +555,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east span-50 fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -567,7 +567,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east span-50 fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -579,7 +579,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east span-50 color-red fragment current-visible]
+@snap[east color-red fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -591,7 +591,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east span-50 fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -603,7 +603,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east span-50 fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -615,7 +615,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east span-50 fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -627,7 +627,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east span-50 fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -639,7 +639,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east span-50 fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -651,7 +651,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east span-50 fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -663,7 +663,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[south-east fragment span-50 color-blue current-visible]
+@snap[south-east fragment color-blue current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{alignat*}{4}
