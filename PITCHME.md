@@ -365,7 +365,7 @@ It does not make sense!
 
 @snap[midpoint fragment current-visible]
 @math[fragment step-fade-in-then-out]
-`$(2,3) + \langle 2,1 \rangle \phantom{= (4,4)} \qquad (4,2) + \langle 2,1 \phantom{\rangle = (6,3)}
+`$(2,3) + \langle 2,1 \rangle \phantom{= (4,4)} \qquad (4,2) + \langle 2,1 \rangle \phantom{= (6,3)}
 $`
 @mathend
 @snapend
@@ -392,7 +392,7 @@ $`
 
 @snap[east fragment]
 @math
-`$\downarrow 3 \qquad \rightarrow 4$`
+`$\downarrow 3 \quad \rightarrow 4$`
 @mathend
 @snapend
 
@@ -456,7 +456,7 @@ $\begin{pmatrix}
 - **LA** is all about the **DP**.
 - Numbers, vectors, and matrices obey the DP.
 - Think of vectors as *directional instructions*.
-- Thnik of matrices as arrays of numbers with meaning.
+- Think of matrices as arrays of numbers with meaning.
 @ulend @snapend
 
 
@@ -467,9 +467,9 @@ $\begin{pmatrix}
 @math
 `\[
   \begin{align*}
-    2x &-&  y &+&  z &=&  3 \\
-    3x &+& 2y &-&  z &=& -1 \\
-    x &-& 3y &+& 2z &=&  2
+    2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
+    3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
+    x & {}-{} & 3y & {}+{} & 2z & {}={} &  2
   \end{align*}
   \longrightarrow
   \begin{pmatrix}
@@ -484,9 +484,9 @@ $\begin{pmatrix}
 @math
 `\[
   \begin{align*}
-    x &-& 3y &+& 2z &=&  2 \\
-    3x &+& 2y &-&  z &=& -1 \\
-    2x &-&  y &+&  z &=&  3
+    x & {}-{} & 3y & {}+{} & 2z & {}={} &  2 \\
+    3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
+    2x & {}-{} &  y & {}+{} &  z & {}={} &  3
   \end{align*}
   \longrightarrow
   \begin{pmatrix}
@@ -501,9 +501,9 @@ $\begin{pmatrix}
 @math
 `\[
   \begin{align*}
-    -2x &+& 6y &-& 4z &=& -4 \\
-     3x &+& 2y &-&  z &=& -1 \\
-     2x &-&  y &+&  z &=&  3
+    -2x & {}+{} & 6y & {}-{} & 4z & {}={} & -4 \\
+     3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
+     2x & {}-{} &  y & {}+{} &  z & {}={} &  3
   \end{align*}
   \longrightarrow
   \begin{pmatrix}
@@ -518,9 +518,9 @@ $\begin{pmatrix}
 @math
 `\[
   \begin{align*}
-    -2x &+& 6y &-& 4z &=& -4 \\
-     3x &+& 2y &-&  z &=& -1 \\
-        &+& 5y &-& 3z &=& -1
+    -2x & {}+{} & 6y & {}-{} & 4z & {}={} & -4 \\
+     3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
+        & {}+{} & 5y & {}-{} & 3z & {}={} & -1
   \end{align*}
   \longrightarrow
   \begin{pmatrix}
@@ -660,9 +660,9 @@ $\begin{pmatrix}
 @math
 `\[
   \begin{align*}
-    x & &   & &   &=& -1 \\
-      & & y & &   &=&  7 \\
-      & &   & & z &=&  12
+    x & &   & &   & {}={} & -1 \\
+      & & y & &   & {}={} &  7 \\
+      & &   & & z & {}={} &  12
   \end{align*}
 \]`
 @mathend@snapend
