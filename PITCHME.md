@@ -976,6 +976,7 @@ $3 \times 4$ matrix
     1 & 0 & -1 &  2 \\
     0 & 1 &  2 &  3 \\
     0 & 0 &  0 &  0
+  \end{pmatrix}
 \]`
 @mathend
 @snapend
