@@ -986,7 +986,7 @@ $3 \times 4$ matrix
 \]`
 @mathend
 
-@math[fragment text-05]
+@math[fragment]
 `\[
   \begin{pmatrix}
     1&0&0\\0&1&0\\0&6&1
