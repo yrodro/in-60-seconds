@@ -691,7 +691,7 @@ $3 \times 4$ matrix
 ---
 ### Reduced Row Echelon Form (**RREF**)
 
-@snap[east fragment current-visible text-08]
+@snap[midpoint fragment current-visible text-08]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -706,7 +706,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east fragment current-visible text-08]
+@snap[midpoint fragment current-visible text-08]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -723,7 +723,7 @@ $3 \times 4$ matrix
 
 
 ---
-Systems with many solutions (I)
+### Systems with many solutions (I)
 
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -936,12 +936,61 @@ Systems with many solutions (I)
 @mathend @snapend
 
 
+---
+### Elementary Matrices
+
+@snap[midpoint fragment text-02]
+@math[]
+`\[
+  \begin{pmatrix}
+    1 & 2 & 3 &  8 \\
+    4 & 5 & 6 & 23 \\
+    7 & 8 & 9 & 38
+  \end{pmatrix}
+\leftarrow
+  \begin{pmatrix}
+    1 &  2 &  3 &  8 \\
+    0 & -3 & -6 & -9 \\
+    7 &  8 &  9 & 38
+  \end{pmatrix}
+\leftarrow
+  \begin{pmatrix}
+    1 &  2 &   3 &   8 \\
+    0 & -3 &  -6 &  -9 \\
+    0 & -6 & -12 & -18
+  \end{pmatrix}
+\leftarrow
+  \begin{pmatrix}
+    1 &  2 &   3 &   8 \\
+    0 &  1 &   2 &   3 \\
+    0 & -6 & -12 & -18
+  \end{pmatrix}
+\leftarrow
+  \begin{pmatrix}
+    1 &  0 &  -1 &   2 \\
+    0 &  1 &   2 &   3 \\
+    0 & -6 & -12 & -18
+  \end{pmatrix}
+\leftarrow
+  \begin{pmatrix}
+    1 & 0 & -1 &  2 \\
+    0 & 1 &  2 &  3 \\
+    0 & 0 &  0 &  0
+\]`
+@mathend
+@snapend
 
 
 
 
 
 
+
+
+
+
+---
 
 ---?image=assets/img/thatsAllFolks.jpg
 
+---
