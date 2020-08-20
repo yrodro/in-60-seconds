@@ -937,7 +937,77 @@ $3 \times 4$ matrix
 
 
 ---
-### Elementary Matrices
+### Elementary Matrices (I)
+
+@snap[midpoint fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1 & 4 & 7 & 10 \\
+    2 & 5 & 8 & 11 \\
+    3 & 6 & 9 & 12
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&0&1\\0&1&0
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    1 & 4 & 7 & 10 \\
+    3 & 6 & 9 & 12 \\
+    2 & 5 & 8 & 11
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+@snap[midpoint fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1 & 4 & 7 & 10 \\
+    2 & 5 & 8 & 11 \\
+    3 & 6 & 9 & 12
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    -5&0&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    5 & 20 & 35 & 50 \\
+    2 &  5 &  8 & 11 \\
+    3 &  6 &  9 & 12
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+@snap[midpoint fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1 & 4 & 7 & 10 \\
+    2 & 5 & 8 & 11 \\
+    3 & 6 & 9 & 12
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&{\color{yellow}3}\\0&0&1
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+     1 &  4 &  7 & 10 \\
+    11 & 23 & 35 & 47 \\
+     3 &  6 &  9 & 12
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+
+---
+###Elementary Matrices (II)
 
 @snap[midpoint text-04]
 @math
