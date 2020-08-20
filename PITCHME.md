@@ -985,10 +985,8 @@ $3 \times 4$ matrix
   \end{pmatrix}
 \]`
 @mathend
-@snapend
 
-@snap[south fragment text-04]
-@math[]
+@math[fragment]
 `\[
   \begin{pmatrix}
     1&0&0\\0&1&0\\0&6&1
