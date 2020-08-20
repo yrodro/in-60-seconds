@@ -664,7 +664,7 @@ $3 \times 4$ matrix
 @snapend
 
 @snap[east fragment current-visible]
-@math[fragment]
+@math[fragment step-fade-in]
 `\[
   \begin{pmatrix}
     1 & 0 & 0 &  -1 \\
