@@ -797,7 +797,7 @@ Systems with many solutions (I)
 @mathend
 @snapend
 
-@snap[south-west]
+@snap[-west]
 @math
 `\[
    \begin{alignat*}{4}
