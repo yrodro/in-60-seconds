@@ -1091,7 +1091,7 @@ $3 \times 4$ matrix
 ---
 ### Elementary Matrices (III)
 
-@snap[south fragment text-05]
+@snap[midpoint fragment text-05]
 @math
 `\[
   \begin{pmatrix}

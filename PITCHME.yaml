@@ -22,7 +22,7 @@ theme-byline     : [ "Raleway", "#FFFFFF", "none", "#DD8866", "100", "110", "15"
 theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#C466DD", "100", "100", "15" ]
 theme-links      : [ "#F1C40F", "#5254F7" ]
 theme-code       : [ "Source Code Pro", "100", "120" ]
-theme-controls   : [ "#C0C0C0" ]
+theme-controls   : [ "#A0B0C0" ]
 theme-margins    : [ "0", "15px" ]
 layout           : top-left
 
