@@ -850,8 +850,8 @@ Systems with many solutions (I)
 @mathend
 @snapend
 
-@snap[south-east span-50]
-@math
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
       x_1 & {}={} &  \\
@@ -867,8 +867,8 @@ Systems with many solutions (I)
   \]`
 @mathend @snapend
 
-@snap[south-east span-50]
-@math
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
       x_1 & {}={} & a \\
@@ -884,8 +884,8 @@ Systems with many solutions (I)
   \]`
 @mathend @snapend
 
-@snap[south-east span-50]
-@math
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
       x_1 & {}={} & a \\
@@ -901,8 +901,8 @@ Systems with many solutions (I)
   \]`
 @mathend @snapend
 
-@snap[south-east span-50]
-@math
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
       x_1 & {}={} & a \\
@@ -918,8 +918,8 @@ Systems with many solutions (I)
   \]`
 @mathend @snapend
 
-@snap[south-east span-50]
-@math
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
       x_1 & {}={} &   a \\
