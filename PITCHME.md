@@ -817,7 +817,8 @@ Systems with many solutions (I)
       0 & {}+{} & 0 & {}+{} &  0 & {}={} & 0
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 @snap[south-east]
 @math
