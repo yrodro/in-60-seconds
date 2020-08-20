@@ -949,7 +949,7 @@ $3 \times 4$ matrix
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    1&0&0\\0&0&1\\0&1&0
+    1&0&0\\0&0&{\color{yellow}1}\\0&{\color{yellow}1}&0
   \end{pmatrix}
   =
   \begin{pmatrix}
@@ -971,7 +971,7 @@ $3 \times 4$ matrix
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    -5&0&0\\0&1&0\\0&0&1
+    {\color{yellow}-5}&0&0\\0&1&0\\0&0&1
   \end{pmatrix}
   =
   \begin{pmatrix}
