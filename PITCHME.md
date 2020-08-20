@@ -850,7 +850,7 @@ Systems with many solutions (I)
 @mathend
 @snapend
 
-@snap[east fragment current-visible]
+@snap[east fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
@@ -867,7 +867,7 @@ Systems with many solutions (I)
   \]`
 @mathend @snapend
 
-@snap[east fragment current-visible]
+@snap[east fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
@@ -884,7 +884,7 @@ Systems with many solutions (I)
   \]`
 @mathend @snapend
 
-@snap[east fragment current-visible]
+@snap[east fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
@@ -901,7 +901,7 @@ Systems with many solutions (I)
   \]`
 @mathend @snapend
 
-@snap[east fragment current-visible]
+@snap[east fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
@@ -918,7 +918,7 @@ Systems with many solutions (I)
   \]`
 @mathend @snapend
 
-@snap[east fragment current-visible]
+@snap[east fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
