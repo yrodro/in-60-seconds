@@ -987,7 +987,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[midpoint fragment text-04]
+@snap[south fragment text-04]
 @math[]
 `\[
   \begin{pmatrix}
