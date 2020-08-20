@@ -940,7 +940,7 @@ $3 \times 4$ matrix
 ### Elementary Matrices
 
 @snap[midpoint text-04]
-@math[fragment]
+@math
 `\[
   \begin{pmatrix}
     1 & 0 & -1 &  2 \\
@@ -985,8 +985,8 @@ $3 \times 4$ matrix
   \end{pmatrix}
 \]`
 @mathend
-
-@math[fragment]
+@snapend@snap[south fragment text-04]
+@math
 `\[
   \begin{pmatrix}
     1&0&0\\0&1&0\\0&6&1
