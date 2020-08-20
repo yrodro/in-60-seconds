@@ -1017,37 +1017,37 @@ $3 \times 4$ matrix
     0 & 1 &  2 &  3 \\
     0 & 0 &  0 &  0
   \end{pmatrix}
-\leftarrow
+{\color{blue}{\leftarrow}}
   \begin{pmatrix}
     1 &  0 &  -1 &   2 \\
     0 &  1 &   2 &   3 \\
     0 & -6 & -12 & -18
   \end{pmatrix}
-\leftarrow
+{\color{blue}{\leftarrow}}
   \begin{pmatrix}
     1 &  2 &   3 &   8 \\
     0 &  1 &   2 &   3 \\
     0 & -6 & -12 & -18
   \end{pmatrix}
-\leftarrow
+{\color{blue}{\leftarrow}}
   \begin{pmatrix}
     1 &  2 &   3 &   8 \\
     0 & -3 &  -6 &  -9 \\
     0 & -6 & -12 & -18
   \end{pmatrix}
-\leftarrow
+{\color{blue}{\leftarrow}}
   \begin{pmatrix}
     1 &  2 &  3 &  8 \\
     0 & -3 & -6 & -9 \\
     7 &  8 &  9 & 38
   \end{pmatrix}
-\leftarrow
+{\color{blue}{\leftarrow}}
   \begin{pmatrix}
     1 & 2 & 3 &  8 \\
     4 & 5 & 6 & 23 \\
     7 & 8 & 9 & 38
   \end{pmatrix}
-\leftarrow
+{\color{blue}{\leftarrow}}
   \begin{pmatrix}
     4 & 5 & 6 & 23 \\
     1 & 2 & 3 &  8 \\
@@ -1088,8 +1088,50 @@ $3 \times 4$ matrix
 @snapend
 
 
+---
+### Elementary Matrices (III)
 
-
+@snap[south fragment text-05]
+@math
+`\[
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&6&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&-2&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&\tfrac{-1}{3} &0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\-7&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\-4&1&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    0&1&0\\1&0&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    4 & 5 & 6 & 23 \\
+    1 & 2 & 3 &  8 \\
+    7 & 8 & 9 & 38
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    1 & 0 & -1 &  2 \\
+    0 & 1 &  2 &  3 \\
+    0 & 0 &  0 &  0
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
 
 
 
