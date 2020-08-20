@@ -939,7 +939,7 @@ $3 \times 4$ matrix
 ---
 ### Elementary Matrices
 
-@snap[midpoint fragment text-04]
+@snap[midpoint text-04]
 @math[]
 `\[
   \begin{pmatrix}
@@ -986,28 +986,28 @@ $3 \times 4$ matrix
 \]`
 @mathend
 
-@math[fragment]
+@math[fragment text-05]
 `\[
   \begin{pmatrix}
     1&0&0\\0&1&0\\0&6&1
   \end{pmatrix}
-  \qquad
+  \qquad\qquad
   \begin{pmatrix}
     1&-2&0\\0&1&0\\0&0&1
   \end{pmatrix}
-  \qquad
+  \qquad\qquad
   \begin{pmatrix}
     1&0&0\\0&\tfrac{-1}{3} &0\\0&0&1
   \end{pmatrix}
-  \qquad
+  \qquad\qquad
   \begin{pmatrix}
     1&0&0\\0&1&0\\-7&0&1
   \end{pmatrix}
-  \qquad
+  \qquad\qquad
   \begin{pmatrix}
     1&0&0\\-4&1&0\\0&0&1
   \end{pmatrix}
-  \qquad
+  \qquad\qquad
   \begin{pmatrix}
     0&1&0\\1&0&0\\0&0&1
   \end{pmatrix}
