@@ -835,7 +835,7 @@ Systems with many solutions (I)
 ---
 ### Systems with many solutions (II)
 
-@snap[west]
+@snap[west span-20]
 @math[]
 `\[
   \begin{pmatrix}
