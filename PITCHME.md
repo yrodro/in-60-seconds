@@ -977,10 +977,45 @@ $3 \times 4$ matrix
     4 & 5 & 6 & 23 \\
     7 & 8 & 9 & 38
   \end{pmatrix}
+\leftarrow
+  \begin{pmatrix}
+    4 & 5 & 6 & 23 \\
+    1 & 2 & 3 &  8 \\
+    7 & 8 & 9 & 38
+  \end{pmatrix}
 \]`
 @mathend
 @snapend
 
+@snap[midpoint fragment text-04]
+@math[]
+`\[
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&6&1
+  \end{pmatrix}
+  \quad
+  \begin{pmatrix}
+    1&-2&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+  \quad
+  \begin{pmatrix}
+    1&0&0\\0&\tfrac{-1}{3} &0\\0&0&1
+  \end{pmatrix}
+  \quad
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\-7&0&1
+  \end{pmatrix}
+  \quad
+  \begin{pmatrix}
+    1&0&0\\-4&1&0\\0&0&1
+  \end{pmatrix}
+  \quad
+  \begin{pmatrix}
+    0&1&0\\1&0&0\\0&0&1
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
 
 
 
