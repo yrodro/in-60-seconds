@@ -939,7 +939,7 @@ $3 \times 4$ matrix
 ---
 ### Elementary Matrices
 
-@snap[midpoint text-04]
+@snap[midpoint fragment text-04]
 @math[]
 `\[
   \begin{pmatrix}
