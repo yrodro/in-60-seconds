@@ -695,11 +695,11 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    0 & 1 & 0 & * & * & 0 & * & 0 & 0 & * \\
-    0 & 0 & 1 & * & * & 0 & * & 0 & 0 & * \\
-    0 & 0 & 0 & 0 & 0 & 1 & * & 0 & 0 & * \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & * \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & * \\
+    0 & 1 & 0 & {\color{yellow} *} & {\color{yellow} *} & 0 & {\color{yellow} *} & 0 & 0 & {\color{yellow} *} \\
+    0 & 0 & 1 & {\color{yellow} *} & {\color{yellow} *} & 0 & {\color{yellow} *} & 0 & 0 & {\color{yellow} *} \\
+    0 & 0 & 0 & 0 & 0 & 1 & {\color{yellow} *} & 0 & 0 & {\color{yellow} *} \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & {\color{yellow} *} \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & {\color{yellow} *} \\
     0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
   \end{pmatrix}
 \]`
