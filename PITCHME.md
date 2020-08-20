@@ -1007,7 +1007,7 @@ $3 \times 4$ matrix
 
 
 ---
-###Elementary Matrices (II)
+### Elementary Matrices (II)
 
 @snap[midpoint text-04]
 @math
