@@ -797,8 +797,8 @@ Systems with many solutions (I)
 @mathend
 @snapend
 
-@snap[west]
-@math
+@snap[west fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
       x & {}+{} & 2y & {}+{} & 3z & {}={} & 0 \\
@@ -808,8 +808,8 @@ Systems with many solutions (I)
   \]`
 @mathend @snapend
 
-@snap[south-west]
-@math
+@snap[south-west fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
       x & {} {} &   & {}-{} &  z & {}={} & 2 \\
@@ -820,8 +820,8 @@ Systems with many solutions (I)
 @mathend
 @snapend
 
-@snap[south-east]
-@math
+@snap[south-east fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
       x & {}={} & 2 -   {\color{green}t} \\
@@ -835,7 +835,7 @@ Systems with many solutions (I)
 ---
 ### Systems with many solutions (II)
 
-@snap[west text-05]
+@snap[west text-07]
 @math[]
 `\[
   \begin{pmatrix}
