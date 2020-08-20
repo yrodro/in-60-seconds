@@ -939,8 +939,8 @@ $3 \times 4$ matrix
 ---
 ### Elementary Matrices
 
-@snap[midpoint fragment text-04]
-@math[]
+@snap[midpoint text-04]
+@math[fragment]
 `\[
   \begin{pmatrix}
     1 & 0 & -1 &  2 \\
