@@ -983,12 +983,8 @@ $3 \times 4$ matrix
     1 & 2 & 3 &  8 \\
     7 & 8 & 9 & 38
   \end{pmatrix}
-\]`
-@mathend
-
-@math
-`\[
-  \begin{pmatrix}
+\newline
+\begin{pmatrix}
     1&0&0\\0&1&0\\0&6&1
   \end{pmatrix}
   \qquad\qquad
