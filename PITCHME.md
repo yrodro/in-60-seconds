@@ -902,7 +902,7 @@ Systems with many solutions (I)
 
 @snap[south-east span-50]
 @math
--5c`\[
+`\[
    \begin{alignat*}{4}
       x_1 & {}={} & a \\
       x_2 & {}={} &   \\
