@@ -664,7 +664,7 @@ $3 \times 4$ matrix
 @snapend
 
 @snap[east fragment current-visible]
-@math[fragment step-fade-in-then-out]
+@math[fragment]
 `\[
   \begin{pmatrix}
     1 & 0 & 0 &  -1 \\
@@ -675,7 +675,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[south-east fragment color-blue current-visible]
+@snap[south-east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{alignat*}{4}
@@ -691,7 +691,7 @@ $3 \times 4$ matrix
 ---
 ### Reduced Row Echelon Form (**RREF**)
 
-@snap[east fragment current-visible]
+@snap[east fragment current-visible text-08]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
@@ -706,7 +706,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east fragment current-visible]
+@snap[east fragment current-visible text-08]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
