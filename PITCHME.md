@@ -971,7 +971,7 @@ $3 \times 4$ matrix
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    {\color{yellow}-5}&0&0\\0&1&0\\0&0&1
+    {\color{yellow}{-5}}&0&0\\0&1&0\\0&0&1
   \end{pmatrix}
   =
   \begin{pmatrix}
