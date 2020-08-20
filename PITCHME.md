@@ -986,8 +986,7 @@ $3 \times 4$ matrix
 \]`
 @mathend
 
-
-@math
+@math[south]
 `\[
   \begin{pmatrix}
     1&0&0\\0&1&0\\0&6&1
