@@ -695,12 +695,12 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    0 & 1 & 0 & {\color{yellow} *} & {\color{yellow} *} & 0 & {\color{yellow} *} & 0 & 0 & {\color{yellow} *} \\
-    0 & 0 & 1 & {\color{yellow} *} & {\color{yellow} *} & 0 & {\color{yellow} *} & 0 & 0 & {\color{yellow} *} \\
-    0 & 0 & 0 & 0 & 0 & 1 & {\color{yellow} *} & 0 & 0 & {\color{yellow} *} \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & {\color{yellow} *} \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & {\color{yellow} *} \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
+    0 & 1 & 0 & {\color{yellow}{*}} & {\color{yellow}{*}} & 0 & {\color{yellow}{*}} & 0 & 0 & {\color{yellow}{*}} \\
+    0 & 0 & 1 & {\color{yellow}{*}} & {\color{yellow}{*}} & 0 & {\color{yellow}{*}} & 0 & 0 & {\color{yellow}{*}} \\
+    0 & 0 & 0 & 0                   & 0                   & 1 & {\color{yellow}{*}} & 0 & 0 & {\color{yellow}{*}} \\
+    0 & 0 & 0 & 0                   & 0                   & 0 & 0                   & 1 & 0 & {\color{yellow}{*}} \\
+    0 & 0 & 0 & 0                   & 0                   & 0 & 0                   & 0 & 1 & {\color{yellow}{*}} \\
+    0 & 0 & 0 & 0                   & 0                   & 0 & 0                   & 0 & 0 & 0
   \end{pmatrix}
 \]`
 @mathend
@@ -824,9 +824,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
-      x & {}={} & 2 -   {\color{green}t} \\
-      y & {}={} & 3 - 2 {\color{green}t} \\
-      z & {}={} &       {\color{green}t}
+      x & {}={} & 2 -   {\color{green}{t}} \\
+      y & {}={} & 3 - 2 {\color{green}{t}} \\
+      z & {}={} &       {\color{green}{t}}
    \end{alignat*}
   \]`
 @mathend @snapend
@@ -839,11 +839,11 @@ $3 \times 4$ matrix
 @math[]
 `\[
   \begin{pmatrix}
-    0 & {\color{yellow}1} & 0 & 2 & 5 & 0 & 0 & 0 & 0 & 2 \\
-    0 & 0 & {\color{yellow}1} & 1 & 0 & 0 & 4 & 0 & 0 & 1 \\
-    0 & 0 & 0 & 0 & 0 & {\color{yellow}1} & 3 & 0 & 0 & 0 \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & {\color{yellow}1} & 0 & 7 \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & {\color{yellow}1} & 6 \\
+    0 & {\color{yellow}{1}} & 0 & 2 & 5 & 0 & 0 & 0 & 0 & 2 \\
+    0 & 0 & {\color{yellow}{1}} & 1 & 0 & 0 & 4 & 0 & 0 & 1 \\
+    0 & 0 & 0 & 0 & 0 & {\color{yellow}{1}} & 3 & 0 & 0 & 0 \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & {\color{yellow}{1}} & 0 & 7 \\
+    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & {\color{yellow}{1}} & 6 \\
     0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
   \end{pmatrix}
 \]`
@@ -949,7 +949,7 @@ $3 \times 4$ matrix
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    1&0&0\\0&0&{\color{yellow}1}\\0&{\color{yellow}1}&0
+    1&0&0\\0&0&{\color{yellow}{1}}\\0&{\color{yellow}{1}}&0
   \end{pmatrix}
   =
   \begin{pmatrix}
@@ -993,7 +993,7 @@ $3 \times 4$ matrix
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    1&0&0\\0&1&{\color{yellow}3}\\0&0&1
+    1&0&0\\0&1&{\color{yellow}{3}}\\0&0&1
   \end{pmatrix}
   =
   \begin{pmatrix}
