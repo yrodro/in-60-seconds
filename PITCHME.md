@@ -25,7 +25,7 @@ IUPUI, Fall 2020
 ---
 ### **How** to study [LA]?
 
-@snap[midpoint]
+@snap[west]
 @ul[list-spaced-bullets text-07]
 - Dr Rodrigo Pérez, rperez@math.iupui.edu
 - Elementary Linear Algebra, H. Anton; 11th ed.
@@ -38,14 +38,15 @@ IUPUI, Fall 2020
 ---
 ### **Why** study [LA]?
 
-@snap[south span-70]
+@snap[west]
 @ul[list-spaced-bullets list-style: none text-09]
 - Solve systems of **linear** equations
 - Do computer graphics computations
 - Solve **linear** programming optimization problems
 - Solve eigen-problems, including
 - Markov chain processes
-@ulend @snapend
+@ulend
+@snapend
 
 
 ---
@@ -175,7 +176,7 @@ Linear Systems
 [![](https://img.youtube.com/vi/SMAnlPTmAwE/0.jpg)](https://www.youtube.com/watch?v=SMAnlPTmAwE)
 @snapend
 
-@snap[south span-80]
+@snap[south]
 **Want that dream job at Pixar?**
 @snapend
 
@@ -187,7 +188,7 @@ Linear Systems
 @img[span-65](assets/img/Class01/googlePagerank.jpg)
 @snapend
 
-@snap[south span-80]
+@snap[south]
 **This class could make you a billionaire**
 @snapend]
 
@@ -212,16 +213,14 @@ The Distributive Property (or **DP**)
 ---
 ### [LA] is all about Distributivity (II)
 
-@snap[midpoint span-90]
 If some mathematical objects:
 @ul[list-spaced-bullets]
 - Can be added together
 - Can be multiplied by scalars (i.e., numbers)
 - Obey the DP (addition and scalar product harmonize toghether)
 @ulend
-@snapend
 
-@snap[south fragment]
+@snap[south-west fragment]
 then these objects behave **Linearly**
 @snapend
 
