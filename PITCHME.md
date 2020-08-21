@@ -451,7 +451,6 @@ $3 \times 4$ matrix
 
 ---
 ### Matrices (III)
-
 **Rules**
 
 @snap[text-08]
