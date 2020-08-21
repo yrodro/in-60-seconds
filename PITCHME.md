@@ -268,7 +268,6 @@ then these objects behave **Linearly**
 
 @snap[south-west span-30]
 ![](assets/img/Class01/elmSt.jpg)
-+
 @snapend
 
 @snap[south span-40]
@@ -318,7 +317,7 @@ It does not make sense!
 @snap[west]
 @ul[list-spaced-bullets list-style: none text-09]
 - Location (as in *points*)
-- Direction (vectors?) **NO!**
+- Direction (vectors? **NO!**)
 - Directional Instructions
 @ulend
 @snapend
@@ -386,7 +385,7 @@ $`
 @mathend
 @snapend
 
-@snap[east fragment]
+@snap[east fragment text-06]
 @math[fragment step-fade-in-then-out]
 `$\downarrow 3 \quad \rightarrow 4$`
 @mathend
@@ -396,8 +395,8 @@ so a
 $3 \times 4$ matrix
 @snapend
 
-@snap[south]
-@math[fragment]
+@snap[south fragment]
+@math
 `$\begin{pmatrix}
 1 & 2 & 3
 \end{pmatrix} \qquad
