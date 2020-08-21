@@ -324,12 +324,8 @@ It does not make sense!
 @ulend
 @snapend
 
-@snap[east fragment span-60]
+@snap[east fragment span-60 text-06]
 ![](assets/img/Class01/dirInstrs.gif)
-1 step down **+** 1 step left
-@snapend
-
-@snap[south-east fragment]
 1 step down **+** 1 step left
 @snapend
 
