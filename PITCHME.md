@@ -262,7 +262,7 @@ then these objects behave **Linearly**
 ---
 ### Vectors (I)
 
-**Can address add?**
+**Can address be added?**
 
 @snap[west span-70 fragment]
 1428 Elm Street + 4 Privet Drive
@@ -296,7 +296,7 @@ It does not make sense!
 @snap[south fragment span-30]
 ![](assets/img/Class01/idiot.png)
 @snapend
-@snap[west fragment span-25]
+@snap[west fragmexnt span-25]
 ![](assets/img/Class01/alladin.gif)
 @snapend
 @snap[south-east fragment span-25]
@@ -320,7 +320,7 @@ It does not make sense!
 @ul[list-spaced-bullets]
 - Location (as in *points*)
 - Direction (vectors? **NO!**)
-- Directional Instructions
+- Directional Instructions (can be added)
 @ulend
 @snapend
 
