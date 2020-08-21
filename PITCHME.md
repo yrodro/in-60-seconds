@@ -319,8 +319,11 @@ It does not make sense!
 @ul[list-spaced-bullets]
 - Location (as in *points*)
 - Direction (vectors? **NO!**)
+- Directional Instructions
 @ulend
-Directional Instructions (can be added)
+@snapend
+@snap[south-west]
+(can be added)
 @snapend
 
 @snap[east fragment span-60 text-06]
