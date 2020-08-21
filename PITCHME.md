@@ -30,7 +30,7 @@ IUPUI, Fall 2020
 @ul[list-spaced-bullets list-style: none text-09]
 - Dr Rodrigo Pérez, rperez@math.iupui.edu
 - Elementary Linear Algebra, H. Anton; 11th ed.
-- $\text{\tt www.accessengineeringlibrary.com/content/book/9781260011449}$
+- @snap[text-06] www.accessengineeringlibrary.com/content/book/9781260011449 @snapend
 - Assignments 20%; 3 Exams 30% each; Final 20%
 - 50-65% **D**, 65-80% **C**, 80-90% **B**, 90-100% **A**
 @ulend @snapend
