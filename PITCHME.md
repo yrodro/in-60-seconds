@@ -393,7 +393,7 @@ so a
 $3 \times 4$ matrix
 @snapend
 
-@snap[south fragment text-08]
+@snap[south fragment text-06]
 @math
 `$\begin{pmatrix}
 1 & 2 & 3
