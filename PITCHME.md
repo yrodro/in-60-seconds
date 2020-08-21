@@ -11,7 +11,7 @@ IUPUI, Fall 2020
 ---
 ## **Rules**
 
-@ul[list-spaced-bullets text-06]
+@ul[list-spaced-bullets text-07]
 - No homework (but see syllabus)
 - No attendance (skip live session at your own risk)
 - Content @fa[copyright] (to share only with classmates)
@@ -25,14 +25,12 @@ IUPUI, Fall 2020
 ---
 ### **How** to study [LA]?
 
-@snap[midpoint]
-@ul[list-spaced-bullets]
+@ul[list-spaced-bullets text-07]
 - Dr Rodrigo Pérez, rperez@math.iupui.edu
 - Elementary Linear Algebra, H. Anton; 11th ed.
 - Assignments 20%; 3 Exams 30% each; Final 20%
 - 50-65% **D**, 65-80% **C**, 80-90% **B**, 90-100% **A**
 @ulend
-@snapend
 
 
 ---
