@@ -326,6 +326,7 @@ It does not make sense!
 
 @snap[east fragment span-60]
 ![](assets/img/Class01/dirInstrs.gif)
+1 step down **+** 1 step left
 @snapend
 
 @snap[south-east fragment]
