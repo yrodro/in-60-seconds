@@ -484,7 +484,7 @@ $3 \times 4$ matrix
 - $(kA) \cdot (\tfrac{1}{k}A^{-1}) = \tfrac{1}{k} (kA) \cdot A^{-1} = (\tfrac{1}{k} k) A \cdot A^{-1} = (1)I = I$
 @ulend
 
-@snap[south fragment]
+@snap[south fragment text-08]
 @math
 `\[
   \begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \dfrac{1}{ad-bc} \begin{pmatrix}d&-b\\-c&a\end{pmatrix}
@@ -505,6 +505,14 @@ $3 \times 4$ matrix
 - $(A \cdot B)^T = B^T \cdot A^T$
 - $(A^T)^{-1} = (A^{-1})^T$
 @ulend
+
+@snap[south fragment text-08]
+@math
+`\[
+  \begin{pmatrix}1&2&3&4\\5&6&7&8\\9&10&11&12\end{pmatrix}^T = \begin{pmatrix}1&5&9\\2&6&10\\3&7&11\\4&8&12\end{pmatrix}
+\]`
+@mathend
+@snapend
 
 
 ---
