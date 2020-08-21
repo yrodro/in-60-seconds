@@ -315,12 +315,13 @@ It does not make sense!
 ---
 ### Vectors (III)
 
-@snap[west]
+@snap[west fragment]
 @ul[list-spaced-bullets]
 - Location (as in *points*)
 - Direction (vectors? **NO!**)
 - Directional Instructions
 @ulend
+(can be added)
 @snapend
 @snap[south-west]
 (can be added)
