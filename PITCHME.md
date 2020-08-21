@@ -478,16 +478,18 @@ $3 \times 4$ matrix
 
 @ul[list-no-bullets text-07]
 - $A \cdot A^{-1} = A^{-1} \cdot A = I$
-- $(A \cdot B) \cdot (B^{-1} \cdot A^{-1}) = A \cdot (B \cdot (B^{-1}) \cdot A^{-1} = A \cdot I \cdot A^{-1} = A \cdot A^{-1} = I$
-- Therefore **$(AB)^{-1} = B^{-1} \cdot A^{-1}$**
-- $A^n = A \cdot \ldots \cdot A$ and $A^{-n} = (A^{-1})^n = A^{-1} \cdot \ldots \cdot A^{-1}$
+- $(A \cdot B) \cdot (B^{-1} \cdot A^{-1}) = A \cdot (B \cdot B^{-1}) \cdot A^{-1} = A \cdot I \cdot A^{-1} = A \cdot A^{-1} = I$
+- i.e., $(AB)^{-1} = B^{-1} \cdot A^{-1}$
+- $A^n = A \cdot \ldots \cdot A$, and $A^{-n} = (A^{-1})^n = A^{-1} \cdot \ldots \cdot A^{-1}$
 - $A^r \cdot A^s = A^{r+s}$ and $(A^r)^s A^{rs}$
 - If $k \neq 0$ and $A$ is invertible, then
-- $(A^{-1})^{-1} = A$, $(A^n)^{-1} = A^{-n} = (A^{-1})^n$, and $(kA)^{-1} = \tfrac{1}{k}A^{-1}$
+- $\circ\quad (A^{-1})^{-1} = A$,
+- $\circ\quad (A^n)^{-1} = A^{-n} = (A^{-1})^n$, and
+- $\circ\quad (kA)^{-1} = \tfrac{1}{k}A^{-1}$
 - $(kA) \cdot (\tfrac{1}{k}A^{-1}) = \tfrac{1}{k} (kA) \cdot A^{-1} = (\tfrac{1}{k} k) A \cdot A^{-1} = (1)I = I$
 @ulend
 
-@snap[south fragment text-08]
+@snap[south fragment text-07]
 @math
 `\[
   \begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \dfrac{1}{ad-bc} \begin{pmatrix}d&-b\\-c&a\end{pmatrix}
