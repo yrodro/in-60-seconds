@@ -315,16 +315,12 @@ It does not make sense!
 ---
 ### Vectors (III)
 
-@snap[west fragment]
+@snap[west]
 @ul[list-spaced-bullets]
 - Location (as in *points*)
 - Direction (vectors? **NO!**)
 - Directional Instructions
 @ulend
-(can be added)
-@snapend
-@snap[south-west]
-(can be added)
 @snapend
 
 @snap[east fragment span-60 text-06]
@@ -348,7 +344,7 @@ It does not make sense!
 @mathend
 @snapend
 
-@snap[midpoint fragment current-visible]
+@snap[midpoint fragment]
 @math[fragment step-fade-in-then-out]
 `$\langle 4,2 \rangle = \langle 4,0 \rangle + \langle 0,2 \rangle = 4 \langle 1,0 \rangle + 2 \langle 0,1 \rangle$`
 @mathend
