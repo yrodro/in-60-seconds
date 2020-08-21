@@ -213,15 +213,15 @@ The Distributive Property (or **DP**)
 ### [LA] is all about Distributivity (II)
 
 @snap[midpoint span-90]
-If some mathematical objects satisfy:
-@ul[list-spaced-bullets list-style: none text-09]
-- They can be added together
-- They can be multiplied by scalars (i.e., numbers)
-- The addition and scalar product harmonize toghether (they obey the DP)
+If some mathematical objects:
+@ul[list-spaced-bullets]
+- Can be added together
+- Can be multiplied by scalars (i.e., numbers)
+- Obey the DP (addition and scalar product harmonize toghether)
 @ulend
 @snapend
 
-@snap[fragment]
+@snap[midpoint fragment]
 then these objects behave **Linearly**
 @snapend
 
