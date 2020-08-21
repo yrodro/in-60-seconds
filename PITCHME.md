@@ -237,7 +237,7 @@ then these objects behave **Linearly**
 @ulend
 @snapend
 
-@ul[east list-spaced-bullets]
+@ul[south-east list-spaced-bullets]
 - Numbers
 - Vectors
 - Matrices
