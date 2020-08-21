@@ -385,7 +385,7 @@ $`
 
 @snap[east fragment text-07]
 @math[fragment step-fade-in-then-out]
-`$\downarrow 3 \quad \rightarrow 4$`
+`${\large\downarrow 3 \quad \rightarrow 4}$`
 @mathend
 
 so a
