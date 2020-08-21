@@ -1133,6 +1133,14 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
+@snap[south fragment text-07]
+@math
+`\[
+  E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A = A'
+\]`
+@mathend
+@snapend
+
 
 
 
