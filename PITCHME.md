@@ -205,7 +205,7 @@ Linear Systems
 @snapend
 
 @snap[south fragment]
-The **Distributive Property** (or DP)
+The Distributive Property (or **DP**)
 @snapend
 
 
@@ -219,6 +219,9 @@ If some mathematical objects satisfy:
 - They can be multiplied by scalars (i.e., numbers)
 - The addition and scalar product harmonize toghether (they obey the DP)
 @ulend
+@snapend
+
+@snap[fragment]
 then these objects behave **Linearly**
 @snapend
 
