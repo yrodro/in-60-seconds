@@ -450,7 +450,8 @@ $3 \times 4$ matrix
 
 
 ---
-### Matrices (III) **Rules**
+### Matrices (III)
+**Rules**
 
 @snap[text-08]
 @ol
