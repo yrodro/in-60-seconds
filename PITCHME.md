@@ -195,13 +195,14 @@ Linear Systems
 ---
 ### **What** is [LA]?
 
-@snap[north]
+@snap[midpoint]
 @ul[list-no-bullets none text-09]
 - 49 x 237  +  763 x 49  =  ?
 - 49 (237 + 763) =
 - 49    (1000)   =
 - **49000**
-@ulend@snapend
+@ulend
+@snapend
 
 @snap[south fragment]
 The **Distributive Property** (or DP)
