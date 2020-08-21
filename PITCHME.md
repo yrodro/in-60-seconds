@@ -213,7 +213,6 @@ The Distributive Property (or **DP**)
 ---
 ### [LA] is all about Distributivity (II)
 
-
 If some mathematical objects:
 
 @ul
@@ -222,10 +221,9 @@ If some mathematical objects:
 - Obey the DP (addition and scalar product harmonize toghether)
 @ulend
 
-@snap[south-west fragment]
+@snap[fragment]
 then these objects behave **Linearly**
 @snapend
-
 
 ---
 ### [LA] is all about Distributivity (III)
