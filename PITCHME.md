@@ -11,7 +11,7 @@ IUPUI, Fall 2020
 ---
 ## **Rules**
 
-@ul[list-spaced-bullets text-08]
+@ul[list-spaced-bullets text-06]
 - No homework (but see syllabus)
 - No attendance (skip live session at your own risk)
 - Content @fa[copyright] (to share only with classmates)
