@@ -9,9 +9,9 @@ IUPUI, Fall 2020
 
 
 ---
-### **Rules**
+## **Rules**
 
-@snap[midpoint span-90]
+@snap[midpoint]
 @ul[list-spaced-bullets list-style: none text-09]
 - No homework
 - No attendance
@@ -24,7 +24,7 @@ IUPUI, Fall 2020
 
 
 ---
-### **How** will we study [LA]?
+### **How** to study [LA]?
 
 @snap[midpoint span-90]
 @ul[list-spaced-bullets list-style: none text-09]
@@ -36,7 +36,7 @@ IUPUI, Fall 2020
 
 
 ---
-### **Why** do we study [LA]?
+### **Why** study [LA]?
 
 @snap[south span-70]
 @ul[list-spaced-bullets list-style: none text-09]
@@ -169,7 +169,7 @@ Linear Systems
 
 
 ---
-### Computer graphics
+### Computer Graphics
 
 @snap[midpoint]
 [![](https://img.youtube.com/vi/SMAnlPTmAwE/0.jpg)](https://www.youtube.com/watch?v=SMAnlPTmAwE)
@@ -181,9 +181,9 @@ Linear Systems
 
 
 ---
-### Eigenvectors and Markov processes
+### Eigenvectors & Markov Processes
 
-@snap[midpoint span-75]
+@snap[midpoint span-72]
 @img[span-65](assets/img/Class01/googlePagerank.jpg)
 @snapend
 
@@ -215,7 +215,9 @@ The **Distributive Property** (or DP)
 If some mathematical objects satisfy:
 @ul[list-spaced-bullets list-style: none text-09]
 - They can be added together
-- They can be multiplied by scalars (i.e., numbers)
+- They can be multiplied by scalars
+
+  (i.e., numbers)
 - The addition and scalar product harmonize toghether (they obey the DP)
 @ulend
 then these objects behave **Linearly**
