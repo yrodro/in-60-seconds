@@ -222,7 +222,7 @@ If some mathematical objects:
 @ulend
 
 @snap[fragment]
-then these objects behave **Linearly**
+Then these objects behave **linearly**
 @snapend
 
 ---
@@ -261,7 +261,7 @@ then these objects behave **Linearly**
 ---
 ### Vectors (I)
 
-**Can address be added?**
+**Can addresses be added?**
 
 @snap[west span-70 fragment]
 1428 Elm Street + 4 Privet Drive
