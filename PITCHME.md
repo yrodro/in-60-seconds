@@ -486,13 +486,28 @@ $3 \times 4$ matrix
 
 
 ---
+### Matrices (V)
+
+**Transpose**
+
+@ul[list-no-bullets text-07]
+- $(A^T)^T = A$
+- $(A + B)^T = A^T + B^T$
+- $(kA)^T = kA^T$
+- (A \cdot B)^T = B^T \cdot A^T$
+- $(A^T)^{-1} = (A^{-1})^T
+@ulend
+
+
+---
 ### Summary 1
 
 @ul[list-spaced-bullets]
 - **[LA]** is all about Distributivity
 - Numbers, vectors, and matrices are distributive, which is why these are the objects studied in [LA]
 - Think of vectors as *directional instructions*
-- Think of matrices as blocks of numbers with meaning
+- Think of matrices as blocks of numbers with meaning...
+- ... but also with arithmetic properties, inverses, and transpose
 @ulend
 
 
