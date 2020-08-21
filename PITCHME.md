@@ -213,6 +213,7 @@ The Distributive Property (or **DP**)
 ---
 ### [LA] is all about Distributivity (II)
 
+
 If some mathematical objects:
 
 @ul
