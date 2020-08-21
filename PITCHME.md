@@ -450,7 +450,7 @@ $3 \times 4$ matrix
 ---
 ### Matrices (III)
 
-snap[text=08]
+snap[text-08]
 @ol
 1. $A+B = B+A$
 1. $A+(B+C) = (A+B)+C$
