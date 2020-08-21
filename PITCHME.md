@@ -11,7 +11,6 @@ IUPUI, Fall 2020
 ---
 ## **Rules**
 
-@snap[midpoint]
 @ul[list-spaced-bullets]
 - No homework (but see syllabus)
 - No attendance (skip live session at your own risk)
@@ -21,7 +20,6 @@ IUPUI, Fall 2020
 - Inclusivity (do I need to be explicit?)
 - Online behavior (behave as you would in person)
 @ulend
-@snapend
 
 
 ---
