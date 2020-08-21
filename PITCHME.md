@@ -237,7 +237,7 @@ then these objects behave **Linearly**
 @ulend
 @snapend
 
-@ul[south list-spaced-bullets]
+@ul[east list-spaced-bullets]
 - Numbers
 - Vectors
 - Matrices
@@ -268,6 +268,7 @@ then these objects behave **Linearly**
 
 @snap[south-west span-30]
 ![](assets/img/Class01/elmSt.jpg)
++
 @snapend
 
 @snap[south span-40]
