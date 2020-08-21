@@ -385,7 +385,7 @@ $`
 @mathend
 @snapend
 
-@snap[east fragment text-06]
+@snap[east fragment text-07]
 @math[fragment step-fade-in-then-out]
 `$\downarrow 3 \quad \rightarrow 4$`
 @mathend
@@ -395,14 +395,14 @@ so a
 $3 \times 4$ matrix
 @snapend
 
-@snap[south fragment]
+@snap[south fragment text-08]
 @math
 `$\begin{pmatrix}
 1 & 2 & 3
-\end{pmatrix} \qquad
+\end{pmatrix}_{\text{this one is } 1 \times 3} \qquad
 \begin{pmatrix}
 1\\2\\3
-\end{pmatrix}$`
+\end{pmatrix}_{\text{this one is } 3 \times 1}$`
 @mathend
 @snapend
 
