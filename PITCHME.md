@@ -30,7 +30,6 @@ IUPUI, Fall 2020
 @ul[list-spaced-bullets list-style: none text-09]
 - Dr Rodrigo Pérez, rperez@math.iupui.edu
 - Elementary Linear Algebra, H. Anton; 11th ed.
-- @snap[text-06] www.accessengineeringlibrary.com/content/book/9781260011449 @snapend
 - Assignments 20%; 3 Exams 30% each; Final 20%
 - 50-65% **D**, 65-80% **C**, 80-90% **B**, 90-100% **A**
 @ulend @snapend
@@ -50,7 +49,7 @@ IUPUI, Fall 2020
 
 
 ---
-## Linear Systems
+### Linear Systems
 
 @snap[midpoint span-50 fragment current-visible]
 @math
@@ -154,7 +153,7 @@ Linear Systems
 Linear Systems
 
 @snap[south fragment]
-**We will fix that...**
+*Too cumbersome!* **We will fix that...**
 @snapend
 
 @snap[midpoint span-50]
@@ -184,7 +183,7 @@ Linear Systems
 ---
 ### Eigenvectors and Markov processes
 
-@snap[midpoint span-65]
+@snap[midpoint span-75]
 @img[span-65](assets/img/Class01/googlePagerank.jpg)
 @snapend
 
@@ -196,7 +195,7 @@ Linear Systems
 ---
 ### **What** is [LA]?
 
-@snap[midpoint span-70]
+@snap[midpoint]
 @ul[list-no-bullets none text-09]
 - 49 x 237  +  763 x 49  =  ?
 - 49 (237 + 763) =
@@ -204,7 +203,7 @@ Linear Systems
 - **49000**
 @ulend@snapend
 
-@snap[south span-50 fragment]
+@snap[south fragment]
 The **Distributive Property** (or DP)
 @snapend
 
