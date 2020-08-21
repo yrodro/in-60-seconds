@@ -449,10 +449,45 @@ $3 \times 4$ matrix
 
 ---
 ### Matrices (III)
+
 @ol
-- w
-- q
+1. $A+B = B+A$
+1. $A+(B+C) = (A+B)+C$
+1. $A(BC) = (AB)C$
+1. $A(B+C) = AB + AC$
+1. $(A+B)C = AC + BC$
+1. $s(B+C) = sB + sC$
+1. $(s+t)C = sC + tC$
+1. $s(tC) = (st)C$
+1. $s(BC) = (sB)C$
+1. $A+0 = 0+A = A$
+1. $A+(-1)A = A-A = 0$
+1. $0A = A0 = 0$
+1. $sA = 0$ means that either $s=0$ or $A=0$
 @olend
+
+
+---
+### Matrices (IV)
+
+Inverses
+
+@ul
+- $A \cdot A^{-1} = A^{-1} \cdot A = I$
+- $(A \cdot B) \cdot (B^{-1} \cdot A^{-1}) =
+   A \cdot (B \cdot (B^{-1}) \cdot A^{-1} =
+   A \cdot I \cdot A^{-1} = A \cdot A^{-1} =
+   I$
+   so that **$(AB)^{-1} = B^{-1} \cdot A^{-1}$**
+- $A^n = A \cdot \ldots \cdot A$ and
+  $A^{-n} = (A^{-1})^n = A^{-1} \cdot \ldots \cdot A^{-1}$
+- $A^r \cdot A^s = A^{r+s}$ and $(A^r)^s A^{rs}
+- If $k \neq 0$ and $A$ is invertible, then $(a^{-1})^{-1} = A$,
+  $(A^n)^{-1} = A^{-n} = (A^{-1})^n$, and $(kA)^{-1} = \tfrac{1}{k}A^{-1}$
+@ulend
+
+\snap[south fragment]
+$(kA) \cdot (\tfrac{1}{k}A^{-1}) = \tfrac{1}{k} (kA) \cdot A^{-1} = (\tfrac{1}{k} k) A \cdot A^{-1} = (1)I = I$
 
 ---
 ### Summary 1
@@ -460,8 +495,8 @@ $3 \times 4$ matrix
 @snap[midpoint span-70]
 @ul[list-spaced-bullets]
 - **[LA]** is all about Distributivity
-- Numbers, vectors, and matrices are distributive, therefore
-  studied in [LA]
+- Numbers, vectors, and matrices are distributive,
+  which is why these are the objects studied in [LA]
 - Think of vectors as *directional instructions*
 - Think of matrices as blocks of numbers with meaning
 @ulend @snapend
