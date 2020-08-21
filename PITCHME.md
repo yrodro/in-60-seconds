@@ -241,7 +241,7 @@ then these objects behave **Linearly**
 - Numbers
 - Vectors
 - Matrices
-- Other
+- & other
 @ulend
 
 
@@ -262,7 +262,9 @@ then these objects behave **Linearly**
 ---
 ### Vectors (I)
 
-@snap[west span-70]
+**Can address add?**
+
+@snap[west span-70 fragment]
 1428 Elm Street + 4 Privet Drive
 @snapend
 
@@ -281,9 +283,9 @@ It does not make sense!
 @snapend
 
 
-
 ---
 ### Vectors (II)
+**Position vs direction**
 
 @snap[midpoint fragment span-70 fragment step-fade-in-then-out]
 ![](assets/img/Class01/crowdPointing.jpg)
