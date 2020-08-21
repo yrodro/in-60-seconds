@@ -193,7 +193,7 @@ Linear Systems
 
 
 ---
-### **What** is [LA]?
+### [LA] is all about Distributivity (I)
 
 @snap[midpoint]
 @ul[list-no-bullets none text-09]
@@ -210,7 +210,7 @@ The **Distributive Property** (or DP)
 
 
 ---
-### [LA] is all about Distributivity
+### [LA] is all about Distributivity (II)
 
 @snap[midpoint span-90]
 If some mathematical objects satisfy:
@@ -224,16 +224,17 @@ then these objects behave **Linearly**
 
 
 ---
-### **What** is [LA]?
+### [LA] is all about Distributivity (III)
 
-@snap[midpoint span-70]
-@ul[list-no-bullets list-style: none text-09]
+@snap[midpoint]
+@ul[list-no-bullets]
 - $3x + 5 = 20$
 - $3x     = 15$
 - $ x     =  5$
-@ulend@snapend
+@ulend
+@snapend
 
-@ul[south list-spaced-bullets list-style: none text-09]
+@ul[south list-spaced-bullets]
 - Vectors
 - Matrices
 @ulend
