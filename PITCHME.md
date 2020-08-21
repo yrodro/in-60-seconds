@@ -373,6 +373,8 @@ $`
 ---
 ### Matrices (I)
 
+**Blocks of numbers**
+
 @snap[midpoint fragment]
 @math[]
 `$\begin{pmatrix}
@@ -408,7 +410,9 @@ $3 \times 4$ matrix
 ---
 ### Matrices (II)
 
-@snap[midpoint fragment current-visible] 
+**Adding and multiplying**
+
+@snap[midpoint fragment]
 @math[fragment step-fade-in-then-out]
 `$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
