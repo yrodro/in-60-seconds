@@ -399,7 +399,7 @@ $3 \times 4$ matrix
 @math
 `$\begin{pmatrix}
 1 & 2 & 3
-\end{pmatrix}_{\text{this one is } 1 \times 3} \qquad
+\end{pmatrix}_{1 \times 3} \qquad
 \begin{pmatrix}
 1\\2\\3
 \end{pmatrix}_{\text{this one is } 3 \times 1}$`
