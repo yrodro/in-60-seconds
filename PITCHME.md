@@ -197,7 +197,7 @@ Linear Systems
 ### [LA] is all about Distributivity (I)
 
 @snap[midpoint]
-@ul[list-no-bullets none text-09]
+@ul[list-no-bullets]
 - 49 x 237  +  763 x 49  =  ?
 - 49 (237 + 763) =
 - 49    (1000)   =
@@ -215,7 +215,7 @@ The Distributive Property (or **DP**)
 
 If some mathematical objects:
 
-@ul[list-spaced-bullets]
+@ul
 - Can be added together
 - Can be multiplied by scalars (i.e., numbers)
 - Obey the DP (addition and scalar product harmonize toghether)
