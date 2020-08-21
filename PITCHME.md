@@ -315,7 +315,7 @@ It does not make sense!
 ### Vectors (III)
 
 @snap[west]
-@ul[list-spaced-bullets list-style: none text-09]
+@ul[list-spaced-bullets]
 - Location (as in *points*)
 - Direction (vectors? **NO!**)
 - Directional Instructions
@@ -473,7 +473,7 @@ $3 \times 4$ matrix
 
 **Inverses**
 
-@ul
+@ul[list-no-bullets text=08]
 - $A \cdot A^{-1} = A^{-1} \cdot A = I$
 - $(A \cdot B) \cdot (B^{-1} \cdot A^{-1}) = A \cdot (B \cdot (B^{-1}) \cdot A^{-1} = A \cdot I \cdot A^{-1} = A \cdot A^{-1} = I$ so that **$(AB)^{-1} = B^{-1} \cdot A^{-1}$**
 - $A^n = A \cdot \ldots \cdot A$ and $A^{-n} = (A^{-1})^n = A^{-1} \cdot \ldots \cdot A^{-1}$
