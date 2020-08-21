@@ -295,7 +295,7 @@ It does not make sense!
 @snap[south fragment span-30]
 ![](assets/img/Class01/idiot.png)
 @snapend
-@snap[west fragmexnt span-25]
+@snap[west fragment span-25]
 ![](assets/img/Class01/alladin.gif)
 @snapend
 @snap[south-east fragment span-25]
@@ -319,8 +319,8 @@ It does not make sense!
 @ul[list-spaced-bullets]
 - Location (as in *points*)
 - Direction (vectors? **NO!**)
-- Directional Instructions (can be added)
 @ulend
+Directional Instructions (can be added)
 @snapend
 
 @snap[east fragment span-60 text-06]
