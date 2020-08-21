@@ -480,7 +480,7 @@ $3 \times 4$ matrix
 - $A^n = A \cdot \ldots \cdot A$ and $A^{-n} = (A^{-1})^n = A^{-1} \cdot \ldots \cdot A^{-1}$
 - $A^r \cdot A^s = A^{r+s}$ and $(A^r)^s A^{rs}$
 - If $k \neq 0$ and $A$ is invertible, then
-- $(a^{-1})^{-1} = A$, $(A^n)^{-1} = A^{-n} = (A^{-1})^n$, and $(kA)^{-1} = \tfrac{1}{k}A^{-1}$
+- $(A^{-1})^{-1} = A$, $(A^n)^{-1} = A^{-n} = (A^{-1})^n$, and $(kA)^{-1} = \tfrac{1}{k}A^{-1}$
 - $(kA) \cdot (\tfrac{1}{k}A^{-1}) = \tfrac{1}{k} (kA) \cdot A^{-1} = (\tfrac{1}{k} k) A \cdot A^{-1} = (1)I = I$
 @ulend
 
@@ -488,14 +488,12 @@ $3 \times 4$ matrix
 ---
 ### Summary 1
 
-@snap[midpoint span-70]
 @ul[list-spaced-bullets]
 - **[LA]** is all about Distributivity
-- Numbers, vectors, and matrices are distributive,
-  which is why these are the objects studied in [LA]
+- Numbers, vectors, and matrices are distributive, which is why these are the objects studied in [LA]
 - Think of vectors as *directional instructions*
 - Think of matrices as blocks of numbers with meaning
-@ulend @snapend
+@ulend
 
 
 ---
