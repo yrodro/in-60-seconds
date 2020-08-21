@@ -399,7 +399,7 @@ $3 \times 4$ matrix
 @math
 `$\begin{pmatrix}
 1 & 2 & 3
-\end{pmatrix}_{1 \times 3} \qquad
+\end{pmatrix}_{\text{this one is } 1 \times 3} \qquad
 \begin{pmatrix}
 1\\2\\3
 \end{pmatrix}_{\text{this one is } 3 \times 1}$`
@@ -448,14 +448,22 @@ $3 \times 4$ matrix
 
 
 ---
+### Matrices (III)
+@ol
+- w
+- q
+@olend
+
+---
 ### Summary 1
 
 @snap[midpoint span-70]
-@ul[list-spaced-bullets list-style: none text-09]
+@ul[list-spaced-bullets]
 - **[LA]** is all about Distributivity
-- Numbers, vectors, and matrices are distributive
+- Numbers, vectors, and matrices are distributive, therefore
+  studied in [LA]
 - Think of vectors as *directional instructions*
-- Think of matrices as arrays of numbers with meaning
+- Think of matrices as blocks of numbers with meaning
 @ulend @snapend
 
 
