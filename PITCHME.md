@@ -473,12 +473,14 @@ $3 \times 4$ matrix
 
 **Inverses**
 
-@ul[list-no-bullets text-08]
+@ul[list-no-bullets text-07]
 - $A \cdot A^{-1} = A^{-1} \cdot A = I$
-- $(A \cdot B) \cdot (B^{-1} \cdot A^{-1}) = A \cdot (B \cdot (B^{-1}) \cdot A^{-1} = A \cdot I \cdot A^{-1} = A \cdot A^{-1} = I$ so that **$(AB)^{-1} = B^{-1} \cdot A^{-1}$**
+- $(A \cdot B) \cdot (B^{-1} \cdot A^{-1}) = A \cdot (B \cdot (B^{-1}) \cdot A^{-1} = A \cdot I \cdot A^{-1} = A \cdot A^{-1} = I$
+- Therefore **$(AB)^{-1} = B^{-1} \cdot A^{-1}$**
 - $A^n = A \cdot \ldots \cdot A$ and $A^{-n} = (A^{-1})^n = A^{-1} \cdot \ldots \cdot A^{-1}$
-- $A^r \cdot A^s = A^{r+s}$ and $(A^r)^s A^{rs}
-- If $k \neq 0$ and $A$ is invertible, then $(a^{-1})^{-1} = A$, $(A^n)^{-1} = A^{-n} = (A^{-1})^n$, and $(kA)^{-1} = \tfrac{1}{k}A^{-1}$
+- $A^r \cdot A^s = A^{r+s}$ and $(A^r)^s A^{rs}$
+- If $k \neq 0$ and $A$ is invertible, then
+- $(a^{-1})^{-1} = A$, $(A^n)^{-1} = A^{-n} = (A^{-1})^n$, and $(kA)^{-1} = \tfrac{1}{k}A^{-1}$
 @ulend
 
 @snap[south fragment]
