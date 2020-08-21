@@ -12,27 +12,29 @@ IUPUI, Fall 2020
 ## **Rules**
 
 @snap[midpoint]
-@ul[list-spaced-bullets list-style: none text-09]
-- No homework
-- No attendance
-- No shared content
-- Office hours
-- Academic conduct
-- Inclusivity
-- Online behavior
-@ulend @snapend
+@ul[list-spaced-bullets]
+- No homework (but see syllabus)
+- No attendance (skip live session at your own risk)
+- Content @fa[copyright] (to share only with classmates)
+- Office hours (by appointment)
+- Academic conduct (complete 1st assignment on personal integrity)
+- Inclusivity (do I need to be explicit?)
+- Online behavior (behave as you would in person)
+@ulend
+@snapend
 
 
 ---
 ### **How** to study [LA]?
 
-@snap[midpoint span-90]
-@ul[list-spaced-bullets list-style: none text-09]
+@snap[midpoint]
+@ul[list-spaced-bullets]
 - Dr Rodrigo Pérez, rperez@math.iupui.edu
 - Elementary Linear Algebra, H. Anton; 11th ed.
 - Assignments 20%; 3 Exams 30% each; Final 20%
 - 50-65% **D**, 65-80% **C**, 80-90% **B**, 90-100% **A**
-@ulend @snapend
+@ulend
+@snapend
 
 
 ---
