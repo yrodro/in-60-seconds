@@ -221,7 +221,7 @@ If some mathematical objects:
 @ulend
 @snapend
 
-@snap[midpoint fragment]
+@snap[south fragment]
 then these objects behave **Linearly**
 @snapend
 
@@ -238,13 +238,15 @@ then these objects behave **Linearly**
 @snapend
 
 @ul[south list-spaced-bullets]
+- Numbers
 - Vectors
 - Matrices
+- Other
 @ulend
 
 
 ---
-### What is a ...
+### What is a . . .
 
 @snap[midpoint span-80 fragment]
 ![](assets/img/Class01/vector.png)
@@ -252,7 +254,7 @@ then these objects behave **Linearly**
 
 
 ---?image=assets/img/Class01/matrixBKGD.jpg
-@snap[south span-80]
+@snap[west]
 ## What is a **matrix**?
 @snapend
 
