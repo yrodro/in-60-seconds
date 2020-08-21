@@ -412,7 +412,7 @@ $3 \times 4$ matrix
 
 **Adding and multiplying**
 
-@snap[midpoint]
+@snap[midpoint fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
@@ -451,6 +451,8 @@ $3 \times 4$ matrix
 
 ---
 ### Matrices (III)
+
+**Rules**
 
 @snap[text-08]
 @ol
