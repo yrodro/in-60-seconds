@@ -475,7 +475,7 @@ $3 \times 4$ matrix
 
 @ul[list-no-bullets text-07]
 - $A \cdot A^{-1} = A^{-1} \cdot A = I$
--
+- 
 - $(A \cdot B) \cdot (B^{-1} \cdot A^{-1}) = A \cdot (B \cdot (B^{-1}) \cdot A^{-1} = A \cdot I \cdot A^{-1} = A \cdot A^{-1} = I$
 - Therefore **$(AB)^{-1} = B^{-1} \cdot A^{-1}$**
 - $A^n = A \cdot \ldots \cdot A$ and $A^{-n} = (A^{-1})^n = A^{-1} \cdot \ldots \cdot A^{-1}$
