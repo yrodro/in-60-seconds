@@ -1200,15 +1200,14 @@ $3 \times 4$ matrix
     0&1&0\\1&0&0\\0&0&1
   \end{pmatrix}
   \cdot
-  {\color{yellow}
   \begin{pmatrix}
     4 & 5 & 6 & 23 \\
     1 & 2 & 3 &  8 \\
     7 & 8 & 9 & 38
-  \end{pmatrix} }
+  \end{pmatrix}
   =
   \begin{pmatrix}
-    \color{blue 1 & 0 & -1 &  2 \\
+    \color{blue} 1 & 0 & -1 &  2 \\
     0 & 1 &  2 &  3 \\
     0 & 0 &  0 &  0
   \end{pmatrix}
