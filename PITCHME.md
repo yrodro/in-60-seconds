@@ -1200,16 +1200,15 @@ $3 \times 4$ matrix
     0&1&0\\1&0&0\\0&0&1
   \end{pmatrix}
   \cdot
-
-  \begin{pmatrix}  {\color{yellow}
+  {\color{yellow}
+  \begin{pmatrix}
     4 & 5 & 6 & 23 \\
     1 & 2 & 3 &  8 \\
-    7 & 8 & 9 & 38}
-  \end{pmatrix} 
+    7 & 8 & 9 & 38
+  \end{pmatrix} }
   =
-
   \begin{pmatrix}
-    1 & 0 & -1 &  2 \\
+    \color{blue 1 & 0 & -1 &  2 \\
     0 & 1 &  2 &  3 \\
     0 & 0 &  0 &  0
   \end{pmatrix}
@@ -1220,7 +1219,7 @@ $3 \times 4$ matrix
 @snap[south fragment text-09]
 @math
 `\[
-  E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot {\color{yellow}A} = {\color{blue}A'}
+  E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot {\color{yellow}A} = {\color{blue}B}
 \]`
 @mathend
 @snapend
