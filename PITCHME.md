@@ -558,15 +558,16 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{alignat*}{4}
+    \phantom{-}
     x & {}-{} & 3y & {}+{} & 2z & {}={} &  2 \\
     3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
     2x & {}-{} &  y & {}+{} &  z & {}={} &  3
   \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
-    1 &  3 & 2 &  2 \\
-    3 &  2 & 1 & -1 \\
-    2 & -1 & 1 &  3
+    1 &  3 & 2 &  \color{blue}{2} \\
+    3 &  2 & 1 & \color{blue}{-1} \\
+    2 & -1 & 1 &  \color{blue}{3}
   \end{pmatrix}
 \]`
 @mathend
