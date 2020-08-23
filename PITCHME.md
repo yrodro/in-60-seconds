@@ -539,15 +539,16 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{alignat*}{4}
+    \phantom{-}
     2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
     3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
     x & {}-{} & 3y & {}+{} & 2z & {}={} &  2
   \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
-    2 & -1 & 1 &  3 \\
-    3 &  2 & 1 & -1 \\
-    1 &  3 & 2 &  2
+    2 & -1 & 1 &  \color{blue}{3} \\
+    3 &  2 & 1 & \color{blue}{-1} \\
+    1 &  3 & 2 &  \color{blue}{2}
   \end{pmatrix}
 \]`
 @mathend
@@ -1218,7 +1219,7 @@ $3 \times 4$ matrix
 @snap[south fragment text-09]
 @math
 `\[
-  E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{B}
+  E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}
 \]`
 @mathend
 @snapend
