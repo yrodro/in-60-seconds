@@ -751,7 +751,7 @@ $3 \times 4$ matrix
   \begin{pmatrix}
     1 & 0 & 0 &  -1 \\
     0 & 1 & 0 &   7 \\
-    0 & 0 & \phantom{-}1 &  12
+    0 & 0 & 1\phantom{-} &  12
   \end{pmatrix}
 \]`
 @mathend
@@ -769,7 +769,7 @@ $3 \times 4$ matrix
   \begin{pmatrix}
     1 & 0 & 0 &  -1 \\
     0 & 1 & 0 &   7 \\
-    0 & 0 & \phantom{-}1 &  12
+    0 & 0 & 1\phantom{-} &  12
   \end{pmatrix}
 \]`
 @mathend
@@ -779,7 +779,7 @@ $3 \times 4$ matrix
 ---
 ### Reduced Row Echelon Form
 
-**RREF
+**RREF**
 
 @snap[midpoint fragment current-visible text-08]
 @math[fragment step-fade-in-then-out]
@@ -955,7 +955,8 @@ $3 \times 4$ matrix
       x_9 & {}={} &  \\
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 @snap[east fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
@@ -972,7 +973,8 @@ $3 \times 4$ matrix
       x_9 & {}={} &   \\
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 @snap[east fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
@@ -989,7 +991,8 @@ $3 \times 4$ matrix
       x_9 & {}={} &   \\
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 @snap[east fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
@@ -1006,7 +1009,8 @@ $3 \times 4$ matrix
       x_9 & {}={} & 6 \\
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 @snap[east fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
@@ -1023,7 +1027,8 @@ $3 \times 4$ matrix
       x_9 & {}={} &   6 \\
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 
 ---
