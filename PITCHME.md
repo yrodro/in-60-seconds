@@ -528,7 +528,7 @@ $3 \times 4$ matrix
 - Numbers, vectors, and matrices are distributive, which is why these are the objects studied in [LA]
 - Think of vectors as *directional instructions*
 - Think of matrices as blocks of numbers with meaning...
-- ... but also with arithmetic properties, inverses, and transpose
+- ... but also with arithmetic properties (including a multiplicative inverse), and a transpose operation
 @ulend
 
 
@@ -769,7 +769,9 @@ $3 \times 4$ matrix
 
 
 ---
-### Reduced Row Echelon Form (**RREF**)
+### Reduced Row Echelon Form
+
+**RREF
 
 @snap[midpoint fragment current-visible text-08]
 @math[fragment step-fade-in-then-out]
@@ -1171,7 +1173,7 @@ $3 \times 4$ matrix
 ---
 ### Elementary Matrices (III)
 
-@snap[midpoint fragment text-05]
+@snap[midpoint fragment text-04]
 @math
 `\[
   \begin{pmatrix}
@@ -1213,7 +1215,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[south fragment text-07]
+@snap[south fragment text-08]
 @math
 `\[
   E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A = A'
