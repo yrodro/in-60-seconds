@@ -1201,15 +1201,15 @@ $3 \times 4$ matrix
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    {\color{yellow}4} & {\color{yellow}5} & {\color{yellow}6} & \color{yellow}{23} \\
-    {\color{yellow}1} & {\color{yellow}2} & {\color{yellow}3} &  {\color{yellow}8} \\
-    {\color{yellow}7} & {\color{yellow}8} & {\color{yellow}9} & {\color{yellow}38}
+    \color{yellow}{4} & \color{yellow}{5} & \color{yellow}{6} & \color{yellow}{23} \\
+    \color{yellow}{1} & \color{yellow}{2} & \color{yellow}{3} &  \color{yellow}{8} \\
+    \color{yellow}{7} & \color{yellow}{8} & \color{yellow}{9} & \color{yellow}{38}
   \end{pmatrix}
   =
   \begin{pmatrix}
-    {\color{blue}1} & {\color{blue}0} & {\color{blue}-1} &  {\color{blue}2} \\
-    {\color{blue}0} & {\color{blue}1} &  {\color{blue}2} &  {\color{blue}3} \\
-    {\color{blue}0} & {\color{blue}0} &  {\color{blue}0} &  {\color{blue}0}
+    \color{blue}1} & \color{blue}{0} & \color{blue}{-1} &  \color{blue}{2} \\
+    \color{blue}0} & \color{blue}{1} &  \color{blue}{2} &  \color{blue}{3} \\
+    \color{blue}0} & \color{blue}{0} &  \color{blue}{0} &  \color{blue}{0}
   \end{pmatrix}
 \]`
 @mathend
@@ -1218,7 +1218,7 @@ $3 \times 4$ matrix
 @snap[south fragment text-09]
 @math
 `\[
-  E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot {\color{yellow}A} = {\color{blue}B}
+  E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{B}
 \]`
 @mathend
 @snapend
