@@ -1201,7 +1201,7 @@ $3 \times 4$ matrix
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    {\color{yellow}4} & {\color{yellow}5} & {\color{yellow}6} & {\color{yellow}23} \\
+    {\color{yellow}4} & {\color{yellow}5} & {\color{yellow}6} & \color{yellow}{23} \\
     {\color{yellow}1} & {\color{yellow}2} & {\color{yellow}3} &  {\color{yellow}8} \\
     {\color{yellow}7} & {\color{yellow}8} & {\color{yellow}9} & {\color{yellow}38}
   \end{pmatrix}
