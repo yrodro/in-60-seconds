@@ -1207,9 +1207,9 @@ $3 \times 4$ matrix
   \end{pmatrix}
   =
   \begin{pmatrix}
-    \color{blue}1} & \color{blue}{0} & \color{blue}{-1} &  \color{blue}{2} \\
-    \color{blue}0} & \color{blue}{1} &  \color{blue}{2} &  \color{blue}{3} \\
-    \color{blue}0} & \color{blue}{0} &  \color{blue}{0} &  \color{blue}{0}
+    \color{blue}{1} & \color{blue}{0} & \color{blue}{-1} &  \color{blue}{2} \\
+    \color{blue}{0} & \color{blue}{1} &  \color{blue}{2} &  \color{blue}{3} \\
+    \color{blue}{0} & \color{blue}{0} &  \color{blue}{0} &  \color{blue}{0}
   \end{pmatrix}
 \]`
 @mathend
