@@ -1173,7 +1173,7 @@ $3 \times 4$ matrix
 ---
 ### Elementary Matrices (III)
 
-@snap[midpoint fragment text-04]
+@snap[midpoint fragment text-05]
 @math
 `\[
   \begin{pmatrix}
@@ -1215,7 +1215,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[south fragment text-08]
+@snap[south fragment text-09]
 @math
 `\[
   E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A = A'
