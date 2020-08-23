@@ -737,7 +737,7 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 0 &  0 &  -1 \\
+    1 & 0 &  0 &  -1 \phantom{3} \\
     0 & 1 & -1 &  -5 \\
     0 & 0 &  1 &  12
   \end{pmatrix}
@@ -749,6 +749,7 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in]
 `\[
   \begin{pmatrix}
+    \phantom{-}
     1 & 0 & 0 &  -1 \\
     0 & 1 & 0 &   7 \\
     0 & 0 & 1 &  12
@@ -760,17 +761,18 @@ $3 \times 4$ matrix
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
-  \begin{pmatrix}
-    1 & 0 & 0 &  -1 \\
-    0 & 1 & 0 &   7 \\
-    0 & 0 & 1 &  12
-  \end{pmatrix}
-\qquad
 \begin{alignat*}{4}
     x & &   & &   & {}={} & -1 \\
       & & y & &   & {}={} &  7 \\
       & &   & & z & {}={} &  12
   \end{alignat*}
+\qquad
+  \begin{pmatrix}
+    \phantom{-}
+    1 & 0 & 0 &  -1 \\
+    0 & 1 & 0 &   7 \\
+    0 & 0 & 1 &  12
+  \end{pmatrix}
 \]`
 @mathend
 @snapend
