@@ -583,9 +583,9 @@ $3 \times 4$ matrix
   \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
-    -2 &  6 & -4 & -4 \\
-     3 &  2 &  1 & -1 \\
-     2 & -1 &  1 &  3
+    -2 &  6 & -4 & \color{blue}{-4} \\
+     3 &  2 &  1 & \color{blue}{-1} \\
+     2 & -1 &  1 &  \color{blue}{3}
   \end{pmatrix}
 \]`
 @mathend
@@ -757,10 +757,16 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[south-east fragment current-visible]
+@snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
-  \begin{alignat*}{4}
+  \begin{pmatrix}
+    1 & 0 & 0 &  -1 \\
+    0 & 1 & 0 &   7 \\
+    0 & 0 & 1 &  12
+  \end{pmatrix}
+\qquad
+\begin{alignat*}{4}
     x & &   & &   & {}={} & -1 \\
       & & y & &   & {}={} &  7 \\
       & &   & & z & {}={} &  12
