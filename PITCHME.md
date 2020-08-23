@@ -749,10 +749,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in]
 `\[
   \begin{pmatrix}
-    \phantom{-}
     1 & 0 & 0 &  -1 \\
     0 & 1 & 0 &   7 \\
-    0 & 0 & 1 &  12
+    0 & 0 & \phantom{-}1 &  12
   \end{pmatrix}
 \]`
 @mathend
@@ -768,10 +767,9 @@ $3 \times 4$ matrix
   \end{alignat*}
 \qquad
   \begin{pmatrix}
-    \phantom{-}
     1 & 0 & 0 &  -1 \\
     0 & 1 & 0 &   7 \\
-    0 & 0 & 1 &  12
+    0 & 0 & \phantom{-}1 &  12
   \end{pmatrix}
 \]`
 @mathend
