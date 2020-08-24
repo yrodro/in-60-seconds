@@ -918,8 +918,8 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[south-west fragment current-visible]
-@math[fragment step-fade-in-then-out]
+@snap[south-west fragment]
+@math
 `\[
    \begin{alignat*}{4}
       x & {} {} &   & {}-{} &  z & {}={} & 2 \\
@@ -930,8 +930,8 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[south-east fragment current-visible]
-@math[fragment step-fade-in-then-out]
+@snap[south fragment]
+@math
 `\[
    \begin{alignat*}{4}
       x & {}={} & 2 -   {\color{blue}{t}} \\
