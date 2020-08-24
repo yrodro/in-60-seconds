@@ -246,7 +246,7 @@ Then these objects behave **linearly**
 @snap[midpoint]
 @ul[list-no-bullets]
 - $3x + 5 = 20$
-- $3x     = 15 \text{ or } x + \tfrac{5}{3} = \tfrac{20}{3} \quad$
+- $3x     = 15 \color{yellow}{\text{ or }} x + \tfrac{5}{3} = \tfrac{20}{3} \qquad$
 - $ x     =  5$
 @ulend
 @snapend
