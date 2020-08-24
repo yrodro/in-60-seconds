@@ -64,7 +64,8 @@ www.accessengineeringlibrary.com/content/book/9781260011449
       x & {}-{} & 3y & {}+{} & 2z & {}={} &  2
    \end{alignat*}
 \]`
-@mathend@snapend
+@mathend
+@snapend
 
 @snap[midpoint span-50 fragment current-visible]
 @math
@@ -75,7 +76,8 @@ www.accessengineeringlibrary.com/content/book/9781260011449
       x & {}-{} & 3y & {}+{} & 2z & {}={} &  2
    \end{alignat*}
   \]`
-@mathend@snapend
+@mathend
+@snapend
 
 
 ---
@@ -90,7 +92,8 @@ Linear Systems
      3x & {}+{} &  y &&     & {}={} &  4
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 
 ---
@@ -105,7 +108,8 @@ Linear Systems
      3x & {}+{} &  y &&     & {}={} &  4
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 
 ---
@@ -120,7 +124,8 @@ Linear Systems
      3(-1) & {}+{} & y &&   & {}={} &  4
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 
 ---
@@ -135,7 +140,8 @@ Linear Systems
         &&   y &&     & {}={} &  7
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 
 ---
@@ -150,7 +156,8 @@ Linear Systems
            &&  y &&    & {}={} &  7
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 
 ---
@@ -169,7 +176,8 @@ Linear Systems
         &&     &&    z & {}={} & 12
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 
 ---
