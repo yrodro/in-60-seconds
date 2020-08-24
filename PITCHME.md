@@ -35,7 +35,7 @@ IUPUI, Fall 2020
 @snapend
 
 @snap[south-west fragment text-06]
-\url{http://www.q.com}
+www.accessengineeringlibrary.com/content/book/9781260011449
 
 
 ---
