@@ -427,8 +427,8 @@ $3 \times 4$ matrix
 
 **Adding and multiplying**
 
-@snap[midpoint fragment current-visible text-08]
-@math[fragment step-fade-in-then-out]
+@snap[midpoint fragment current-visible]
+@math[fragment step-fade-in-then-out text-08]
 `$\begin{pmatrix}
 1 &  2 &  3 & 4 \\
 5 &  6 &  7 & 8 \\
