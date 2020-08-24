@@ -681,9 +681,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & -3 &  2 &  2 \\
-    0 &  1 & \tfrac{-7}{11} & \tfrac{-7}{11} \\
-    0 &  5 & -3 & -1
+    1 & -3 &  2 &  \color{blue}{2} \\
+    0 &  1 & \tfrac{-7}{11} & \color{blue}{\tfrac{-7}{11}} \\
+    0 &  5 & -3 & \color{blue}{-1}
   \end{pmatrix}
 \]`
 @mathend
@@ -816,12 +816,12 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    0 & 1 & 0 & 2 & 5 & 0 & 0 & 0 & 0 & 2 \\
-    0 & 0 & 1 & 1 & 0 & 0 & 4 & 0 & 0 & 1 \\
-    0 & 0 & 0 & 0 & 0 & 1 & 3 & 0 & 0 & 0 \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 7 \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 6 \\
-    0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0
+    0 & 1 & 0 & \color{yellow}{2} & \color{yellow}{5} & 0 & \color{yellow}{0} & 0 & 0 & \color{yellow}{2} \\
+    0 & 0 & 1 & \color{yellow}{1} & \color{yellow}{0} & 0 & \color{yellow}{4} & 0 & 0 & \color{yellow}{1} \\
+    0 & 0 & 0 & 0                 & 0                 & 1 & \color{yellow}{3} & 0 & 0 & \color{yellow}{0} \\
+    0 & 0 & 0 & 0                 & 0                 & 0 & 0                 & 1 & 0 & \color{yellow}{7} \\
+    0 & 0 & 0 & 0                 & 0                 & 0 & 0                 & 0 & 1 & \color{yellow}{6} \\
+    0 & 0 & 0 & 0                 & 0                 & 0 & 0                 & 0 & 0 & 0
   \end{pmatrix}
 \]`
 @mathend
@@ -835,7 +835,7 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 2 & 3 &  8 \\
+    1 & 2 & \p 3 &  8 \\
     4 & 5 & 6 & 23 \\
     7 & 8 & 9 & 38
   \end{pmatrix}
