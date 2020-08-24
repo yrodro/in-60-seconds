@@ -797,7 +797,7 @@ $3 \times 4$ matrix
 ---
 ### Reduced Row Echelon Form
 
-**$\S$1.2 - RREF**
+**$\S$1.2 - (in short, RREF)**
 
 @snap[midpoint fragment current-visible text-08]
 @math[fragment step-fade-in-then-out]
@@ -883,7 +883,7 @@ $3 \times 4$ matrix
 @snapend
 
 @snap[east fragment current-visible]
-@math[fragment step-fade-in-then-out]
+@math[fragment]
 `\[
   \begin{pmatrix}
     1 &  0 &  -1 &   2 \\
