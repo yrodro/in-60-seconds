@@ -195,7 +195,9 @@ www.accessengineeringlibrary.com/content/book/9781260011449
 
 
 ---
-### Eigenvectors \& Markov Processes
+### Eigenvectors &
+
+### Markov Processes
 
 @snap[midpoint span-70]
 @img[span-65](assets/img/Class01/googlePagerank.jpg)
@@ -244,7 +246,7 @@ Then these objects behave **linearly**
 @snap[midpoint]
 @ul[list-no-bullets]
 - $3x + 5 = 20$
-- $3x     = 15$
+- $3x     = 15 \qquad x + \tfrac{5}{3} = \tfrac{20}{3}$
 - $ x     =  5$
 @ulend
 @snapend
