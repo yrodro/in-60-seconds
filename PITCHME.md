@@ -573,7 +573,7 @@ $3 \times 4$ matrix
 
 @snap[west fragment current-visible]
 @math[fragment step-fade-in-then-out]
-`\[{\ }
+`\[{\ }{\ }
   \begin{alignat*}{4}
     \phantom{-}
      x & {}-{} & 3y & {}+{} & 2z & {}={} &  2 \\
