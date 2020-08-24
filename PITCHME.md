@@ -34,6 +34,9 @@ IUPUI, Fall 2020
 @ulend
 @snapend
 
+@snap[south-west fragment text-06]
+\url{http://www.q.com}
+
 
 ---
 ### **Why** study [LA]?
