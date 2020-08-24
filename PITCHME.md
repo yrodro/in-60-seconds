@@ -505,7 +505,7 @@ $3 \times 4$ matrix
 - i.e., $(kA)^{-1} = \tfrac{1}{k}A^{-1}$
 @ulend
 
-@snap[south fragment text-06]
+@snap[south-east fragment text-07]
 @math
 `\[
   \begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \dfrac{1}{ad-bc} \begin{pmatrix}d&-b\\-c&a\end{pmatrix}
