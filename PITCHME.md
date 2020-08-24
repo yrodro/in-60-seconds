@@ -466,7 +466,7 @@ $3 \times 4$ matrix
 
 ---
 ### Matrices (III)
-**Rules**
+$\S$ 1.3 **Rules**
 
 @snap[text-07]
 @ol
@@ -931,9 +931,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
    \begin{alignat*}{4}
-      x & {}={} & 2 -   {\color{green}{t}} \\
-      y & {}={} & 3 - 2 {\color{green}{t}} \\
-      z & {}={} &       {\color{green}{t}}
+      x & {}={} & 2 -   {\color{blue}{t}} \\
+      y & {}={} & 3 - 2 {\color{blue}{t}} \\
+      z & {}={} &       {\color{blue}{t}}
    \end{alignat*}
   \]`
 @mathend
@@ -1204,7 +1204,7 @@ $3 \times 4$ matrix
 ---
 ### Elementary Matrices (III)
 
-@snap[midpoint fragment text-04]
+@snap[midpoint fragment text-05]
 @math
 `\[
   \begin{pmatrix}
