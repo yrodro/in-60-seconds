@@ -617,9 +617,9 @@ $3 \times 4$ matrix
   \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
-    -2 & 6 & -4 & -4 \\
-     3 & 2 &  1 & -1 \\
-     0 & 5 & -3 & -1
+    -2 & 6 & -4 & \color{blue}{-4} \\
+     3 & 2 &  1 & \color{blue}{-1} \\
+     0 & 5 & -3 & \color{blue}{-1}
   \end{pmatrix}
 \]`
 @mathend
@@ -633,9 +633,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    2 & -1 &  1 &  3 \\
-    3 &  2 & -1 & -1 \\
-    1 & -3 &  2 &  2
+    2 & -1 &  1 &  \color{blue}{3} \\
+    3 &  2 & -1 & \color{blue}{-1} \\
+    1 & -3 &  2 &  \color{blue}{2}
   \end{pmatrix}
 \]`
 @mathend
@@ -645,9 +645,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & -3 &  2 &  2 \\
-    3 &  2 & -1 & -1 \\
-    2 & -1 &  1 &  3
+    1 & -3 &  2 &  \color{blue}{2} \\
+    3 &  2 & -1 & \color{blue}{-1} \\
+    2 & -1 &  1 &  \color{blue}{3}
   \end{pmatrix}
 \]`
 @mathend
@@ -657,9 +657,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & -3 &  2 &  2 \\
-    0 & 11 & -7 & -7 \\
-    2 & -1 &  1 &  3
+    1 & -3 &  2 &  \color{blue}{2} \\
+    0 & 11 & -7 & \color{blue}{-7} \\
+    2 & -1 &  1 &  \color{blue}{3}
   \end{pmatrix}
 \]`
 @mathend
@@ -669,9 +669,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & -3 &  2 &  2 \\
-    0 & 11 & -7 & -7 \\
-    0 &  5 & -3 & -1
+    1 & -3 &  2 &  \color{blue}{2} \\
+    0 & 11 & -7 & \color{blue}{-7} \\
+    0 &  5 & -3 & \color{blue}{-1}
   \end{pmatrix}
 \]`
 @mathend
@@ -693,9 +693,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & -3 &  2 &  2 \\
-    0 & 11 & -7 & -7 \\
-    0 &  5 & -3 & -1
+    1 & -3 &  2 &  \color{blue}{2} \\
+    0 & 11 & -7 & \color{blue}{-7} \\
+    0 &  5 & -3 & \color{blue}{-1}
   \end{pmatrix}
 \]`
 @mathend
@@ -705,9 +705,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & -3 &  2 &  2 \\
-    0 &  1 & -1 & -5 \\
-    0 &  5 & -3 & -1
+    1 & -3 &  2 &  \color{blue}{2} \\
+    0 &  1 & -1 & \color{blue}{-5} \\
+    0 &  5 & -3 & \color{blue}{-1}
   \end{pmatrix}
 \]`
 @mathend
@@ -717,9 +717,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 0 & -1 & -13 \\
-    0 & 1 & -1 &  -5 \\
-    0 & 5 & -3 &  -1
+    1 & 0 & -1 & \color{blue}{-13} \\
+    0 & 1 & -1 &  \color{blue}{-5} \\
+    0 & 5 & -3 &  \color{blue}{-1}
   \end{pmatrix}
 \]`
 @mathend
@@ -729,9 +729,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 0 & -1 & -13 \\
-    0 & 1 & -1 &  -5 \\
-    0 & 0 &  2 &  24
+    1 & 0 & -1 & \color{blue}{-13} \\
+    0 & 1 & -1 &  \color{blue}{-5} \\
+    0 & 0 &  2 &  \color{blue}{24}
   \end{pmatrix}
 \]`
 @mathend
@@ -741,9 +741,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 0 & -1 & -13 \\
-    0 & 1 & -1 &  -5 \\
-    0 & 0 &  1 &  12
+    1 & 0 & -1 & \color{blue}{-13} \\
+    0 & 1 & -1 &  \color{blue}{-5} \\
+    0 & 0 &  1 &  \color{blue}{12}
   \end{pmatrix}
 \]`
 @mathend
@@ -753,9 +753,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 0 &  0 &  -1 \phantom{3} \\
-    0 & 1 & -1 &  -5 \\
-    0 & 0 &  1 &  12
+    1 & 0 &  0 &  \color{blue}{-1} \phantom{3} \\
+    0 & 1 & -1 &  \color{blue}{-5} \\
+    0 & 0 &  1 &  \color{blue}{12}
   \end{pmatrix}
 \]`
 @mathend
@@ -765,9 +765,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in]
 `\[
   \begin{pmatrix}
-    1 & 0 & 0 &  -1 \\
-    0 & 1 & 0 &   7 \\
-    0 & 0 & 1\phantom{-} &  12
+    1 & 0 & 0 &  \color{blue}{-1} \\
+    0 & 1 & 0 &   \color{blue}{7} \\
+    0 & 0 & 1\phantom{-} &  \color{blue}{12}
   \end{pmatrix}
 \]`
 @mathend
@@ -783,9 +783,9 @@ $3 \times 4$ matrix
   \end{alignat*}
 \qquad
   \begin{pmatrix}
-    1 & 0 & 0 &  -1 \\
-    0 & 1 & 0 &   7 \\
-    0 & 0 & 1\phantom{-} &  12
+    1 & 0 & 0 &  \color{blue}{-1} \\
+    0 & 1 & 0 &   \color{blue}{7} \\
+    0 & 0 & 1\phantom{-} &  \color{blue}{12}
   \end{pmatrix}
 \]`
 @mathend
