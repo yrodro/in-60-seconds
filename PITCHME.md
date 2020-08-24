@@ -501,10 +501,11 @@ $3 \times 4$ matrix
 - $\circ\quad (A^{-1})^{-1} = A$,
 - $\circ\quad (A^n)^{-1} = A^{-n} = (A^{-1})^n$, and
 - $\circ\quad (kA)^{-1} = \tfrac{1}{k}A^{-1}$
-- $(kA) \cdot (\tfrac{1}{k}A^{-1}) = \tfrac{1}{k} (kA) \cdot A^{-1} = (\tfrac{1}{k} k) A \cdot A^{-1} = (1)I = I$ i.e., $(kA)^{-1} = \tfrac{1}{k}A^{-1}$
+- $(kA) \cdot (\tfrac{1}{k}A^{-1}) = \tfrac{1}{k} (kA) \cdot A^{-1} = (\tfrac{1}{k} k) A \cdot A^{-1} = (1)I = I$
+- i.e., $(kA)^{-1} = \tfrac{1}{k}A^{-1}$
 @ulend
 
-@snap[south fragment text-07]
+@snap[south fragment text-06]
 @math
 `\[
   \begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \dfrac{1}{ad-bc} \begin{pmatrix}d&-b\\-c&a\end{pmatrix}
