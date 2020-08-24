@@ -491,14 +491,6 @@ $3 \times 4$ matrix
 
 **Inverses**
 
-@snap[south-east text-07]
-@math
-`\[
-  \begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \dfrac{1}{ad-bc} \begin{pmatrix}d&-b\\-c&a\end{pmatrix}
-\]`
-@mathend
-@snapend
-
 @ul[list-no-bullets text-07]
 - $A \cdot A^{-1} = A^{-1} \cdot A = I$
 - $(A \cdot B) \cdot (B^{-1} \cdot A^{-1}) = A \cdot (B \cdot B^{-1}) \cdot A^{-1} = A \cdot I \cdot A^{-1} = A \cdot A^{-1} = I$
@@ -513,19 +505,19 @@ $3 \times 4$ matrix
 - i.e., $(kA)^{-1} = \tfrac{1}{k}A^{-1}$
 @ulend
 
+@snap[south-east fragment text-07]
+@math
+`\[
+  \begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \dfrac{1}{ad-bc} \begin{pmatrix}d&-b\\-c&a\end{pmatrix}
+\]`
+@mathend
+@snapend
+
 
 ---
 ### Matrices (V)
 
 **Transpose**
-
-@ul[list-no-bullets text-07]
-- $(A^T)^T = A$
-- $(A + B)^T = A^T + B^T$
-- $(kA)^T = kA^T$
-- $(A \cdot B)^T = B^T \cdot A^T$
-- $(A^T)^{-1} = (A^{-1})^T$
-@ulend
 
 @snap[south fragment text-08]
 @math
@@ -534,6 +526,14 @@ $3 \times 4$ matrix
 \]`
 @mathend
 @snapend
+
+@ul[list-no-bullets text-07]
+- $(A^T)^T = A$
+- $(A + B)^T = A^T + B^T$
+- $(kA)^T = kA^T$
+- $(A \cdot B)^T = B^T \cdot A^T$
+- $(A^T)^{-1} = (A^{-1})^T$
+@ulend
 
 
 ---
