@@ -489,7 +489,7 @@ $3 \times 4$ matrix
 ---
 ### Matrices (IV)
 
-**Inverses**
+**$\S$1.4 - Inverses**
 
 @ul[list-no-bullets text-07]
 - $A \cdot A^{-1} = A^{-1} \cdot A = I$
@@ -517,7 +517,7 @@ $3 \times 4$ matrix
 ---
 ### Matrices (V)
 
-**Transpose**
+**$\S$1.4 - Transposes**
 
 @snap[south fragment text-08]
 @math
@@ -550,6 +550,7 @@ $3 \times 4$ matrix
 
 ---
 ### Gaussian Elimination (I)
+**$\S$1.2**
 
 @snap[west fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -628,6 +629,7 @@ $3 \times 4$ matrix
 
 ---
 ### Gaussian Elimination (II)
+**$\S$1.2**
 
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -795,7 +797,7 @@ $3 \times 4$ matrix
 ---
 ### Reduced Row Echelon Form
 
-**RREF**
+**$\S$1.2 - RREF**
 
 @snap[midpoint fragment current-visible text-08]
 @math[fragment step-fade-in-then-out]
@@ -830,6 +832,7 @@ $3 \times 4$ matrix
 
 ---
 ### Systems with many solutions (I)
+**$\S$1.2**
 
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -942,6 +945,7 @@ $3 \times 4$ matrix
 
 ---
 ### Systems with many solutions (II)
+**$\S$1.2**
 
 @snap[west text-07]
 @math[]
@@ -1051,6 +1055,7 @@ $3 \times 4$ matrix
 
 ---
 ### Elementary Matrices (I)
+**$\S$1.5**
 
 @snap[midpoint fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
@@ -1121,6 +1126,7 @@ $3 \times 4$ matrix
 
 ---
 ### Elementary Matrices (II)
+**$\S$1.5**
 
 @snap[midpoint text-04]
 @math
@@ -1203,6 +1209,7 @@ $3 \times 4$ matrix
 
 ---
 ### Elementary Matrices (III)
+**$\S$1.5**
 
 @snap[midpoint fragment text-05]
 @math
