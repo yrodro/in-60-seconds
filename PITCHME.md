@@ -195,11 +195,9 @@ www.accessengineeringlibrary.com/content/book/9781260011449
 
 
 ---
-### Eigenvectors &
+### Eigenvectors \& Markov Processes
 
-### Markov Processes
-
-@snap[midpoint span-72]
+@snap[midpoint span-70]
 @img[span-65](assets/img/Class01/googlePagerank.jpg)
 @snapend
 
