@@ -164,7 +164,9 @@ www.accessengineeringlibrary.com/content/book/9781260011449
 ### Linear Systems
 
 @snap[south fragment]
-*Too cumbersome!* **We will fix that...**
+*Too cumbersome!*
+
+**We will fix that...**
 @snapend
 
 @snap[midpoint span-50]
@@ -193,7 +195,9 @@ www.accessengineeringlibrary.com/content/book/9781260011449
 
 
 ---
-### Eigenvectors & Markov Processes
+### Eigenvectors &
+
+### Markov Processes
 
 @snap[midpoint span-72]
 @img[span-65](assets/img/Class01/googlePagerank.jpg)
