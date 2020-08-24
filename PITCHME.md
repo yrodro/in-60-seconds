@@ -932,7 +932,7 @@ $3 \times 4$ matrix
 
 @snap[south fragment]
 @math
-`\[
+`\[\qquad
    \begin{alignat*}{4}
       x & {}={} & 2 -   {\color{blue}{t}} \\
       y & {}={} & 3 - 2 {\color{blue}{t}} \\
@@ -1006,6 +1006,24 @@ $3 \times 4$ matrix
       x_2 & {}={} & \phantom{2-2b-5c} \\
       x_3 & {}={} &   \\
       x_4 & {}={} & b \\
+      x_5 & {}={} &   \\
+      x_6 & {}={} &   \\
+      x_7 & {}={} &   \\
+      x_8 & {}={} &   \\
+      x_9 & {}={} &   \\
+   \end{alignat*}
+  \]`
+@mathend
+@snapend
+
+@snap[east fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+   \begin{alignat*}{4}
+      x_1 & {}={} & a \\
+      x_2 & {}={} & \phantom{2-2b-5c} \\
+      x_3 & {}={} &   \\
+      x_4 & {}={} & b \\
       x_5 & {}={} & c \\
       x_6 & {}={} &   \\
       x_7 & {}={} & d \\
@@ -1029,6 +1047,60 @@ $3 \times 4$ matrix
       x_7 & {}={} & d \\
       x_8 & {}={} &   \\
       x_9 & {}={} & 6 \\
+   \end{alignat*}
+  \]`
+@mathend
+@snapend
+
+@snap[east fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+   \begin{alignat*}{4}
+      x_1 & {}={} & a \\
+      x_2 & {}={} & \phantom{2-2b-5c} \\
+      x_3 & {}={} &   \\
+      x_4 & {}={} & b \\
+      x_5 & {}={} & c \\
+      x_6 & {}={} &   \\
+      x_7 & {}={} & d \\
+      x_8 & {}={} & 7 \\
+      x_9 & {}={} & 6 \\
+   \end{alignat*}
+  \]`
+@mathend
+@snapend
+
+@snap[east fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+   \begin{alignat*}{4}
+      x_1 & {}={} &   a \\
+      x_2 & {}={} & \phantom{2-2b-5c} \\
+      x_3 & {}={} &     \\
+      x_4 & {}={} &   b \\
+      x_5 & {}={} &   c \\
+      x_6 & {}={} & -3d \\
+      x_7 & {}={} &   d \\
+      x_8 & {}={} &   7 \\
+      x_9 & {}={} &   6 \\
+   \end{alignat*}
+  \]`
+@mathend
+@snapend
+
+@snap[east fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+   \begin{alignat*}{4}
+      x_1 & {}={} &   a \\
+      x_2 & {}={} & \phantom{2-2b-5c} \\
+      x_3 & {}={} &  1-b-4d \\
+      x_4 & {}={} &   b \\
+      x_5 & {}={} &   c \\
+      x_6 & {}={} & -3d \\
+      x_7 & {}={} &   d \\
+      x_8 & {}={} &   7 \\
+      x_9 & {}={} &   6 \\
    \end{alignat*}
   \]`
 @mathend
