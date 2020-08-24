@@ -1186,7 +1186,7 @@ $3 \times 4$ matrix
 ---
 ### Elementary Matrices (III)
 
-@snap[midpoint fragment text-05]
+@snap[midpoint fragment text-04]
 @math
 `\[
   \begin{pmatrix}
