@@ -19,7 +19,7 @@ theme            : template
 theme-background : [ "#66BBDD" ]
 theme-headline   : [ "Montserrat", "#DD8866", "none", "#FFFFFF", "100", "120", "15" ]
 theme-byline     : [ "Raleway", "#FFFFFF", "none", "#DD8866", "100", "110", "15" ]
-theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#C466DD", "100", "100", "15" ]
+theme-text       : [ "Ubuntu", "#FFFFFF", "none", "#55CC66", "100", "100", "15" ]
 theme-links      : [ "#F1C40F", "#5254F7" ]
 theme-code       : [ "Source Code Pro", "100", "120" ]
 theme-controls   : [ "#A0B0C0" ]

@@ -29,7 +29,8 @@ IUPUI, Fall 2020
 @ul[list-spaced-bullets text-07]
 - Dr Rodrigo Pérez, rperez@math.iupui.edu
 - Elementary Linear Algebra, H. Anton; 11th ed.
-- Assignments 20%; 3 Exams 30% each; Final 20%
+- Homework 20%; 2 Tests (25% higher, 20% lower); Final 35%
+- Complete the **Honor Code Pledge** assignment
 - 50-65% **D**, 65-80% **C**, 80-90% **B**, 90-100% **A**
 @ulend
 @snapend
