@@ -882,8 +882,8 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east fragment]
-@math
+@snap[east fragment current-visible]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1 &  0 &  -1 &   2 \\
@@ -894,8 +894,8 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east fragment current-visible]
-@math[fragment step-fade-in-then-out]
+@snap[east fragment]
+@math
 `\[
   \begin{pmatrix}
     1 & 0\phantom{-} & -1 &  2 \\
@@ -906,8 +906,8 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[west fragment current-visible]
-@math[fragment step-fade-in-then-out]
+@snap[west fragment]
+@math
 `\[
    \begin{alignat*}{4}
       x & {}+{} & 2y & {}+{} & 3z & {}={} & 0 \\
