@@ -466,7 +466,7 @@ $3 \times 4$ matrix
 
 ---
 ### Matrices (III)
-**$\S 1.3 \quad$ Rules**
+**$\S$ 1.3- Rules**
 
 @snap[text-07]
 @ol
