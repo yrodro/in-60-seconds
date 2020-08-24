@@ -835,9 +835,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 2 & \p 3 &  8 \\
-    4 & 5 & 6 & 23 \\
-    7 & 8 & 9 & 38
+    1 & 2\phantom{-} & 3\phantom{-} &  8 \\
+    4 & 5            & 6            & 23 \\
+    7 & 8            & 9            & 38\phantom{-}
   \end{pmatrix}
 \]`
 @mathend
@@ -849,7 +849,7 @@ $3 \times 4$ matrix
   \begin{pmatrix}
     1 &  2 &  3 &  8 \\
     0 & -3 & -6 & -9 \\
-    7 &  8 &  9 & 38
+    7 &  8 &  9 & 38\phantom{-}
   \end{pmatrix}
 \]`
 @mathend
@@ -895,9 +895,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 0 & -1 &  2 \\
-    0 & 1 &  2 &  3 \\
-    0 & 0 &  0 &  0
+    1 & 0\phantom{-} & -1 &  2 \\
+    0 & 1            &  2 &  3 \\
+    0 & 0            &  0 &  0\phantom{-}
   \end{pmatrix}
 \]`
 @mathend
@@ -912,7 +912,8 @@ $3 \times 4$ matrix
      7x & {}+{} & 8y & {}+{} & 9z & {}={} & 0
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 @snap[south-west fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -935,7 +936,8 @@ $3 \times 4$ matrix
       z & {}={} &       {\color{green}{t}}
    \end{alignat*}
   \]`
-@mathend @snapend
+@mathend
+@snapend
 
 
 ---
