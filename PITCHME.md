@@ -882,8 +882,8 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[east fragment current-visible]
-@math[fragment]
+@snap[east fragment]
+@math
 `\[
   \begin{pmatrix}
     1 &  0 &  -1 &   2 \\
