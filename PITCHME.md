@@ -1257,7 +1257,7 @@ $3 \times 4$ matrix
   \end{pmatrix}
   \qquad\quad
   \begin{pmatrix}
-    1&{\color{yellow}{-2}&0\\0&1&0\\0&0&1
+    1&{\color{yellow}{-2}}&0\\0&1&0\\0&0&1
   \end{pmatrix}
   \qquad\quad
   \begin{pmatrix}
