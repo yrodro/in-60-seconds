@@ -1282,12 +1282,12 @@ $3 \times 4$ matrix
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    {\color{yellow}{-\tfrac{1}{5}}}&0&0\\0&1&0\\0&0&1
+    -\tfrac{1}{5}&0&0\\0&1&0\\0&0&1
   \end{pmatrix}
 \phantom{  =
-  \begin{pmatrix}
+  {\color{red}{\begin{pmatrix}
     1&0&0\\0&1&0\\0&0&1
-  \end{pmatrix} }
+  \end{pmatrix} }} }
 \]`
 @mathend
 @snapend
