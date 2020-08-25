@@ -1145,8 +1145,8 @@ $3 \times 4$ matrix
   =
   \begin{pmatrix}
     1 & 4 & 7 & 10 \\
-    3 & 6 & 9 & 12 \\
-    2 & 5 & 8 & 11
+    {\color{yellow}{3} & {\color{yellow}{6} & {\color{yellow}{9} & {\color{yellow}{12} \\
+    {\color{green}{2} & {\color{green}{5} & {\color{green}{8} & {\color{green}{11}
   \end{pmatrix}
 \]`
 @mathend
@@ -1166,7 +1166,7 @@ $3 \times 4$ matrix
   \end{pmatrix}
   =
   \begin{pmatrix}
-    5 & 20 & 35 & 50 \\
+    {\color{green}{5} & {\color{green}{20} & {\color{green}{35} & {\color{green}{50} \\
     2 &  5 &  8 & 11 \\
     3 &  6 &  9 & 12
   \end{pmatrix}
@@ -1189,7 +1189,7 @@ $3 \times 4$ matrix
   =
   \begin{pmatrix}
      1 &  4 &  7 & 10 \\
-    11 & 23 & 35 & 47 \\
+    {\color{green}{11} & {\color{green}{23} & {\color{green}{35} & {\color{green}{47} \\
      3 &  6 &  9 & 12
   \end{pmatrix}
 \]`
