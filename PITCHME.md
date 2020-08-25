@@ -1207,7 +1207,7 @@ $3 \times 4$ matrix
   \begin{pmatrix}
     1&0&0\\0&0&{\color{yellow}{1}}\\0&{\color{yellow}{1}}&0
   \end{pmatrix}
-\phantom  \cdot
+\phantom{  \cdot
   \begin{pmatrix}
     1&0&0\\0&0&1\\0&1&0
   \end{pmatrix}
@@ -1229,7 +1229,7 @@ $3 \times 4$ matrix
   \begin{pmatrix}
     1&0&0\\0&0&1\\0&1&0
   \end{pmatrix}
-\pahntom  =
+\phantom{  =
   \begin{pmatrix}
     1&0&0\\0&1&0\\0&0&1
   \end{pmatrix} }
