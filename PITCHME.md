@@ -1134,13 +1134,13 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 4 & 7 & 10 \\
-    2 & 5 & 8 & 11 \\
-    3 & 6 & 9 & 12
+    1&0&0\\0&0&{\color{yellow}{1}}\\0&{\color{yellow}{1}}&0
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    1&0&0\\0&0&{\color{yellow}{1}}\\0&{\color{yellow}{1}}&0
+    1 & 4 & 7 & 10 \\
+    2 & 5 & 8 & 11 \\
+    3 & 6 & 9 & 12
   \end{pmatrix}
   =
   \begin{pmatrix}
@@ -1156,13 +1156,13 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 4 & 7 & 10 \\
-    2 & 5 & 8 & 11 \\
-    3 & 6 & 9 & 12
+    {\color{yellow}{-5}}&0&0\\0&1&0\\0&0&1
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    {\color{yellow}{-5}}&0&0\\0&1&0\\0&0&1
+    1 & 4 & 7 & 10 \\
+    2 & 5 & 8 & 11 \\
+    3 & 6 & 9 & 12
   \end{pmatrix}
   =
   \begin{pmatrix}
@@ -1178,13 +1178,13 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 4 & 7 & 10 \\
-    2 & 5 & 8 & 11 \\
-    3 & 6 & 9 & 12
+    1&0&0\\0&1&{\color{yellow}{3}}\\0&0&1
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    1&0&0\\0&1&{\color{yellow}{3}}\\0&0&1
+    1 & 4 & 7 & 10 \\
+    2 & 5 & 8 & 11 \\
+    3 & 6 & 9 & 12
   \end{pmatrix}
   =
   \begin{pmatrix}
