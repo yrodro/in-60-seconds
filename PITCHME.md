@@ -1201,6 +1201,125 @@ $3 \times 4$ matrix
 ### Elementary Matrices (II)
 **$\S$1.5**
 
+@snap[midpoint fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1&0&0\\0&0&{\color{yellow}{1}}\\0&{\color{yellow}{1}}&0
+  \end{pmatrix}
+\phantom  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&0&1\\0&1&0
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&0&1
+  \end{pmatrix} }
+\]`
+@mathend
+@snapend
+
+@snap[midpoint fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1&0&0\\0&0&{\color{yellow}{1}}\\0&{\color{yellow}{1}}&0
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&0&1\\0&1&0
+  \end{pmatrix}
+\pahntom  =
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&0&1
+  \end{pmatrix} }
+\]`
+@mathend
+@snapend
+
+@snap[midpoint fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1&0&0\\0&0&{\color{yellow}{1}}\\0&{\color{yellow}{1}}&0
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&0&1\\0&1&0
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+
+
+
+
+
+
+
+
+
+@snap[midpoint fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    {\color{yellow}{-5}}&0&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1 & 4 & 7 & 10 \\
+    2 & 5 & 8 & 11 \\
+    3 & 6 & 9 & 12
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    {\color{green}{5}} & {\color{green}{20}} & {\color{green}{35}} & {\color{green}{50}} \\
+    2 &  5 &  8 & 11 \\
+    3 &  6 &  9 & 12
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+
+
+
+
+
+
+
+@snap[midpoint fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    1&0&0\\0&1&{\color{yellow}{3}}\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1 & 4 & 7 & 10 \\
+    2 & 5 & 8 & 11 \\
+    3 & 6 & 9 & 12
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+     1 &  4 &  7 & 10 \\
+    {\color{green}{11}} & {\color{green}{23}} & {\color{green}{35}} & {\color{green}{47}} \\
+     3 &  6 &  9 & 12
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+
+---
+### Elementary Matrices (III)
+**$\S$1.5**
+
 @snap[midpoint text-04]
 @math
 `\[
@@ -1281,7 +1400,7 @@ $3 \times 4$ matrix
 
 
 ---
-### Elementary Matrices (III)
+### Elementary Matrices (IV)
 **$\S$1.5**
 
 @snap[midpoint fragment text-05]
