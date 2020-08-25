@@ -1256,13 +1256,23 @@ $3 \times 4$ matrix
 @snapend
 
 
-
-
-
-
-
-
-
+@snap[midpoint fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    {\color{yellow}{-5}}&0&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+\phantom{  \cdot
+  \begin{pmatrix}
+    {\color{yellow}{-\tfrac{1}{5}}}&0&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&0&1
+  \end{pmatrix} }
+\]`
+@mathend
+@snapend
 
 @snap[midpoint fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
@@ -1272,25 +1282,33 @@ $3 \times 4$ matrix
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
-    1 & 4 & 7 & 10 \\
-    2 & 5 & 8 & 11 \\
-    3 & 6 & 9 & 12
+    {\color{yellow}{-\tfrac{1}{5}}}&0&0\\0&1&0\\0&0&1
   \end{pmatrix}
-  =
+\phantom{  =
   \begin{pmatrix}
-    {\color{green}{5}} & {\color{green}{20}} & {\color{green}{35}} & {\color{green}{50}} \\
-    2 &  5 &  8 & 11 \\
-    3 &  6 &  9 & 12
-  \end{pmatrix}
+    1&0&0\\0&1&0\\0&0&1
+  \end{pmatrix} }
 \]`
 @mathend
 @snapend
 
-
-
-
-
-
+@snap[midpoint fragment current-visible text-07]
+@math[fragment step-fade-in-then-out]
+`\[
+  \begin{pmatrix}
+    {\color{yellow}{-5}}&0&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    {\color{yellow}{-\tfrac{1}{5}}}&0&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
 
 
 @snap[midpoint fragment current-visible text-07]
@@ -1300,16 +1318,9 @@ $3 \times 4$ matrix
     1&0&0\\0&1&{\color{yellow}{3}}\\0&0&1
   \end{pmatrix}
   \cdot
-  \begin{pmatrix}
-    1 & 4 & 7 & 10 \\
-    2 & 5 & 8 & 11 \\
-    3 & 6 & 9 & 12
-  \end{pmatrix}
   =
   \begin{pmatrix}
-     1 &  4 &  7 & 10 \\
-    {\color{green}{11}} & {\color{green}{23}} & {\color{green}{35}} & {\color{green}{47}} \\
-     3 &  6 &  9 & 12
+    1&0&0\\0&1&0\\0&0&1
   \end{pmatrix}
 \]`
 @mathend
