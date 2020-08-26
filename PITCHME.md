@@ -1638,15 +1638,15 @@ and the inverse is also an elementary matrix
 ### Invertibility Properties
 **$\S$1.5 &ndash; This is the Most Important Slide**
 
-<br /><br />
 @snap[midpoint fragment span-85]
+<br /><br />
 *Theorem* If $A$ is an $n \times n$ matrix, then the following statements are equivalent:
-@ol
-a. $A$ is invertible.
-a. The equation $\vec Ax = 0$ has only the trivial solution.
-a. The RREF of $A$ is $I$.
-a. $A$ is a product of elementary matrices.
-@olend
+@ul[list-no-bullets]
+- **a)** $A$ is invertible.
+- **b)** The equation $A \vec{x} = \vec{0}$ has only the trivial solution.
+- **c)** The RREF of $A$ is $I$.
+- **d)** $A$ is a product of elementary matrices.
+@ulend
 @snapend
 
 
