@@ -1365,6 +1365,10 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
+@snap[south fragment]
+** Theorem 1.5.2** Every elementary matrix is invertible,
+and the inverse is also an elementary matrix
+
 
 ---
 ### Elementary Matrices (III)
