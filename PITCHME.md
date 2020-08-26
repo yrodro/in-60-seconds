@@ -1501,8 +1501,8 @@ and the inverse is also an elementary matrix
 
 @snap[south fragment text-08]
 @ul
-- `$E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}`$
-- `$E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}`$
+- $E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}$
+- $E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}$
 @ulend
 @snapend
 
