@@ -1570,7 +1570,7 @@ and the inverse is also an elementary matrix
 
 @snap[south fragment text-04]
 @math
-`\[\left[
+`\[
   \begin{pmatrix} 1&0&0\\0&1&0\\0&0&1 \end{pmatrix}
   \color{red}{=}
   \begin{pmatrix} 1&0&0\\0&1&1\\0&0&1 \end{pmatrix}
@@ -1587,7 +1587,7 @@ and the inverse is also an elementary matrix
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&0\\-2&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix} \right]
+  \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix}
   \cdot
 \begin{pmatrix}
   \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
@@ -1622,7 +1622,7 @@ and the inverse is also an elementary matrix
 \]`
 
 <br />
-`\[{\ }\qquad\qquad\qquad\qquad\qquad
+`\[{\ }\qquad\qquad
   \color{red}{=}
 \begin{pmatrix}
 \tfrac{1}{2} & \tfrac{1}{2} & \tfrac{-1}{2} \\
