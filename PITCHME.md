@@ -835,7 +835,7 @@ $3 \times 4$ matrix
 
 ---
 ### Systems with many solutions (I)
-**$\S$1.2** RREF is not identity
+**$\S$1.2 When the RREF is not identity**
 
 @snap[west fragment]
 @math
