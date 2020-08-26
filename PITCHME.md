@@ -915,7 +915,7 @@ $3 \times 4$ matrix
   \begin{pmatrix}
     1 & 0\phantom{-} & -1 &  \color{blue}{2} \\
     0 & 1            &  2 &  \color{blue}{3} \\
-    0 & 0            &  0 &  \phantom{-2}\color{blue}{0}
+    0 & 0            &  0 &  \phantom{-}\color{blue}{0}\phantom{2}
   \end{pmatrix}
 \]`
 @mathend
