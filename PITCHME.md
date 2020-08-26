@@ -1502,7 +1502,7 @@ xs@ulend
 ### Elementary Matrices (V)
 **$\S$1.5 Row Operations as Matrix Multiplication**
 
-@snap[midpoint text-04]
+@snap[south text-04]
 @math
 `\[
 {\color{blue}{\leftarrow}}
