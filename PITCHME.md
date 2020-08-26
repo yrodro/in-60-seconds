@@ -1558,8 +1558,13 @@ xs@ulend
   \begin{pmatrix}
     1&3&0\\0&1&0\\0&0&1
   \end{pmatrix}
+  \cdot
 \begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}
 \]`
+
+
+<br />
+`\[q\]`
 @mathend
 @snapend
 
