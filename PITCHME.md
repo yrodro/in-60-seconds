@@ -1548,6 +1548,52 @@ xs@ulend
   \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
   \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
   \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
+\end{pmatrix}
+\]`
+@mathend
+@snapend
+
+
+---
+### Elementary Matrices (VI)
+**$\S$1.5 &ndash; What we Found**
+
+
+@snap[fragment text-07]
+<br />
+$I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$
+
+<br />
+$\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) \cdot A$
+
+<br /><br /><br /><br />
+$A^{-1} = \big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big)
+@snapend
+
+@snap[south fragment text-04]
+`\[
+  \begin{pmatrix} 1&0&0\\0&1&0\\0&0&1 \end{pmatrix}
+  \color{red}{=}
+  \begin{pmatrix} 1&0&0\\0&1&1\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&1\\0&1&0\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&0\\0&0&\tfrac{1}{2} \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&0\\0&-5&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&3&0\\0&1&0\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&-2\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&0\\-2&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix}
+  \cdot
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
+  \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
+  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
 \end{pmatrix} \qquad\qquad\qquad{\ }
 \]`
 
@@ -1600,23 +1646,7 @@ xs@ulend
   \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
 \end{pmatrix}
 \]`
-@mathend
 @snapend
-
-
----
-### Elementary Matrices (VI)
-**$\S$1.5 &ndash; What we Found**
-
-@snap[fragment text-07]
-$I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$
-
-<br \>
-$I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$
-@snapend
-
-
-
 
 
 
