@@ -1622,7 +1622,7 @@ and the inverse is also an elementary matrix
 \]`
 
 <br />
-`\[{\ }\qquad\qquad
+`\[{\ }\qquad
   \color{red}{=}
 \begin{pmatrix}
 \tfrac{1}{2} & \tfrac{1}{2} & \tfrac{-1}{2} \\
