@@ -1494,7 +1494,8 @@ xs@ulend
 ### Elementary Matrices (V)
 **$\S$1.5 &ndash; RREF as Matrix Multiplication**
 
-@snap[south fragment text-04]
+@snap[fragment text-05]
+<br /><br />
 @math
 `\[
 {\color{blue}{\leftarrow}}
@@ -1524,7 +1525,7 @@ xs@ulend
 {\color{blue}{\leftarrow}}
 \]`
 
-<br />
+<br /><br /><br />
 `\[
   \begin{pmatrix} 1&0&0\\0&1&0\\0&0&1 \end{pmatrix}
   \color{red}{=}
@@ -1564,13 +1565,14 @@ xs@ulend
 $I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$
 
 <br />
-$\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) \cdot A$
+$\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A$
 
 <br /><br /><br /><br />
 $A^{-1} = \big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big)
 @snapend
 
 @snap[south fragment text-04]
+@math
 `\[
   \begin{pmatrix} 1&0&0\\0&1&0\\0&0&1 \end{pmatrix}
   \color{red}{=}
@@ -1646,6 +1648,7 @@ $A^{-1} = \big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^
   \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
 \end{pmatrix}
 \]`
+@mathend
 @snapend
 
 
