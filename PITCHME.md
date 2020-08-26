@@ -1560,17 +1560,17 @@ and the inverse is also an elementary matrix
 
 ---
 ### Elementary Matrices (VI)
-**$\S$1.5 &ndash; What we Found**
+**$\S$1.5 &ndash; What we Have Found**
 
-@ul[list-no-bullets fragment text-07]
-- $I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br />
+@ul[list-no-bullets text-07]
+- $I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br /><br />
 - $\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A$ <br /><br />
 - $A^{-1} = \big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big)$
 @ulend
 
 @snap[south fragment text-04]
 @math
-`\[
+`\[\left[
   \begin{pmatrix} 1&0&0\\0&1&0\\0&0&1 \end{pmatrix}
   \color{red}{=}
   \begin{pmatrix} 1&0&0\\0&1&1\\0&0&1 \end{pmatrix}
@@ -1587,7 +1587,7 @@ and the inverse is also an elementary matrix
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&0\\-2&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix}
+  \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix} \right]
   \cdot
 \begin{pmatrix}
   \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
@@ -1602,43 +1602,27 @@ and the inverse is also an elementary matrix
   \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
   \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
   \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
-\end{pmatrix}
+\end{pmatrix}^{-1}
   \color{red}{=}
-  \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix}^{-1}
+  \begin{pmatrix} 1&0&0\\0&1&1\\0&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix} 1&0&0\\0&1&0\\-2&0&1 \end{pmatrix}^{-1}
+  \begin{pmatrix} 1&0&1\\0&1&0\\0&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix} 1&0&0\\0&1&-2\\0&0&1 \end{pmatrix}^{-1}
+  \begin{pmatrix} 1&0&0\\0&1&0\\0&0&\tfrac{1}{2} \end{pmatrix}
   \cdot
-  \begin{pmatrix} 1&3&0\\0&1&0\\0&0&1 \end{pmatrix}^{-1}
+  \begin{pmatrix} 1&0&0\\0&1&0\\0&-5&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix} 1&0&0\\0&1&0\\0&-5&1 \end{pmatrix}^{-1}
+  \begin{pmatrix} 1&3&0\\0&1&0\\0&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix} 1&0&0\\0&1&0\\0&0&\tfrac{1}{2} \end{pmatrix}^{-1}
+  \begin{pmatrix} 1&0&0\\0&1&-2\\0&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix} 1&0&1\\0&1&0\\0&0&1 \end{pmatrix}^{-1}
+  \begin{pmatrix} 1&0&0\\0&1&0\\-2&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix} 1&0&0\\0&1&1\\0&0&1 \end{pmatrix}^{-1}
+  \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix}
 \]`
 
 <br />
 `\[{\ }\qquad\qquad\qquad\qquad\qquad
-  \color{red}{=}
-  \begin{pmatrix} 1&0&0\\3&1&0\\0&0&1 \end{pmatrix}
-  \cdot
-  \begin{pmatrix} 1&0&0\\0&1&0\\2&0&1 \end{pmatrix}
-  \cdot
-  \begin{pmatrix} 1&0&0\\0&1&2\\0&0&1 \end{pmatrix}
-  \cdot
-  \begin{pmatrix} 1&-3&0\\0&1&0\\0&0&1 \end{pmatrix}
-  \cdot
-  \begin{pmatrix} 1&0&0\\0&1&0\\0&5&1 \end{pmatrix}
-  \cdot
-  \begin{pmatrix} 1&0&0\\0&1&0\\0&0&2 \end{pmatrix}
-  \cdot
-  \begin{pmatrix} 1&0&-1\\0&1&0\\0&0&1 \end{pmatrix}
-  \cdot
-  \begin{pmatrix} 1&0&0\\0&1&-1\\0&0&1 \end{pmatrix}
   \color{red}{=}
 \begin{pmatrix}
 \tfrac{1}{2} & \tfrac{1}{2} & \tfrac{-1}{2} \\
