@@ -1577,7 +1577,11 @@ xs@ulend
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&1\\0&0&1 \end{pmatrix}^{-1}
   \color{red}{=}
-\begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
+  \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
+  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
+\end{pmatrix}
 \]`
 
 <br />
@@ -1598,7 +1602,11 @@ xs@ulend
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&-1\\0&0&1 \end{pmatrix}
   \color{red}{=}
-\begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
+  \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
+  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
+\end{pmatrix}
 \]`
 @mathend
 @snapend
