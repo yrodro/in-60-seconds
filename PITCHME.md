@@ -467,7 +467,7 @@ $3 \times 4$ matrix
 
 ---
 ### Matrices (III)
-**$\S$1.3 - Rules**
+**$\S$1.3 -- Rules**
 
 @snap[text-07]
 @ol
@@ -490,7 +490,7 @@ $3 \times 4$ matrix
 ---
 ### Matrices (IV)
 
-**$\S$1.4 - Inverses**
+**$\S$1.4 Inverses**
 
 @ul[list-no-bullets text-07]
 - $A \cdot A^{-1} = A^{-1} \cdot A = I$
@@ -509,7 +509,7 @@ $3 \times 4$ matrix
 @snap[south-east fragment text-07]
 @math
 `\[
-  \begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \dfrac{1}{ad-bc} \begin{pmatrix}d&-b\\-c&a\end{pmatrix}
+  \begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \tfrac{1}{ad-bc} \begin{pmatrix}d&-b\\-c&a\end{pmatrix}
 \]`
 @mathend
 @snapend
@@ -518,7 +518,7 @@ $3 \times 4$ matrix
 ---
 ### Matrices (V)
 
-**$\S$1.4 - Transposes**
+**$\S$1.4 Transposing a Matrix**
 
 @snap[south fragment text-08]
 @math
@@ -540,7 +540,7 @@ $3 \times 4$ matrix
 ---
 ### Summary 1
 
-@ul[list-spaced-bullets]
+@ul[list-spaced-bullets text-08]
 - **[LA]** is all about Distributivity
 - Numbers, vectors, and matrices are distributive, which is why these are the objects studied in [LA]
 - Think of vectors as *directional instructions*
@@ -551,7 +551,7 @@ $3 \times 4$ matrix
 
 ---
 ### Gaussian Elimination (I)
-**$\S$1.2**
+**$\S$1.2 More Efficient System Solving**
 
 @snap[west fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -632,7 +632,7 @@ $3 \times 4$ matrix
 
 ---
 ### Gaussian Elimination (II)
-**$\S$1.2**
+**$\S$1.2 The Full Procedure**
 
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -800,7 +800,7 @@ $3 \times 4$ matrix
 ---
 ### Reduced Row Echelon Form
 
-**$\S$1.2 - (in short, RREF)**
+**$\S$1.2 or RREF for friends**
 
 @snap[midpoint fragment current-visible text-08]
 @math[fragment step-fade-in-then-out]
@@ -948,7 +948,7 @@ $3 \times 4$ matrix
 
 ---
 ### Systems with many solutions (II)
-**$\S$1.2**
+**$\S$1.2 General Method**
 
 @snap[west text-07]
 @math[]
@@ -1130,7 +1130,7 @@ $3 \times 4$ matrix
 
 ---
 ### Elementary Matrices (I)
-**$\S$1.5**
+**$\S$1.5 Row Operations as Matrix Multiplication**
 
 @snap[midpoint fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
@@ -1374,7 +1374,7 @@ and the inverse is also an elementary matrix
 
 ---
 ### Elementary Matrices (III)
-**$\S$1.5** Revisit Elimination
+**$\S$1.5 Revisit Elimination**
 
 @snap[midpoint text-04]
 @math
@@ -1457,7 +1457,7 @@ and the inverse is also an elementary matrix
 
 ---
 ### Elementary Matrices (IV)
-**$\S$1.5 Row Operations as Matrix Multiplication**
+**$\S$1.5 RREF as Matrix Multiplication**
 
 @snap[midpoint fragment text-05]
 @math
@@ -1500,7 +1500,7 @@ xs@ulend
 
 ---
 ### Elementary Matrices (V)
-**$\S$1.5 Row Operations as Matrix Multiplication**
+**$\S$1.5 RREF as Matrix Multiplication**
 
 @snap[south text-04]
 @math
