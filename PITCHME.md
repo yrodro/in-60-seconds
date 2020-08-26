@@ -1562,9 +1562,7 @@ and the inverse is also an elementary matrix
 ### Elementary Matrices (VI)
 **$\S$1.5 &ndash; What we Found**
 
-
-<br />
-@ul[fragment text-07]
+@ul[list-no-bullets fragment text-07]
 - $I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br />
 - $\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A$ <br /><br />
 - $A^{-1} = \big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big)$
@@ -1595,11 +1593,17 @@ and the inverse is also an elementary matrix
   \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
   \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
   \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
-\end{pmatrix} \qquad\qquad\qquad{\ }
+\end{pmatrix}
 \]`
 
 <br />
-`\[{\ }\qquad\qquad
+`\[
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
+  \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
+  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
+\end{pmatrix}
+  \color{red}{=}
   \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix}^{-1}
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&0\\-2&0&1 \end{pmatrix}^{-1}
@@ -1615,16 +1619,11 @@ and the inverse is also an elementary matrix
   \begin{pmatrix} 1&0&1\\0&1&0\\0&0&1 \end{pmatrix}^{-1}
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&1\\0&0&1 \end{pmatrix}^{-1}
-  \color{red}{=}
-\begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
-  \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
-  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
-\end{pmatrix}
 \]`
 
 <br />
 `\[{\ }\qquad\qquad\qquad\qquad\qquad
+  \color{red}{=}
   \begin{pmatrix} 1&0&0\\3&1&0\\0&0&1 \end{pmatrix}
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&0\\2&0&1 \end{pmatrix}
@@ -1642,9 +1641,9 @@ and the inverse is also an elementary matrix
   \begin{pmatrix} 1&0&0\\0&1&-1\\0&0&1 \end{pmatrix}
   \color{red}{=}
 \begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
-  \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
-  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
+\tfrac{1}{2} & \tfrac{1}{2} & \tfrac{-1}{2} \\
+\tfrac{-5}{2} & \tfrac{-3}{2} & \tfrac{7}{2} \\
+\tfrac{-7}{2} & \tfrac{-5}{2} & \tfrac{11}{2}
 \end{pmatrix}
 \]`
 @mathend
