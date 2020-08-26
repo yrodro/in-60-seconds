@@ -1531,12 +1531,8 @@ xs@ulend
 \begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & 2\end{pmatrix}
 {\color{blue}{\leftarrow}}
 \]`
-@mathend
-@snapend
 
 <br />
-@snap[south fragment text-04]
-@math
 `\[
   \begin{pmatrix}
     1&0&0\\0&1&0\\0&0&1
