@@ -276,7 +276,6 @@ Then these objects behave **linearly**
 
 ---
 ### Vectors (I)
-
 **Can addresses be added?**
 
 @snap[west span-70 fragment]
@@ -388,7 +387,6 @@ $`
 
 ---
 ### Matrices (I)
-
 **Blocks of numbers**
 
 @snap[midpoint fragment]
@@ -425,7 +423,6 @@ $3 \times 4$ matrix
 
 ---
 ### Matrices (II)
-
 **Adding and multiplying**
 
 @snap[midpoint text-8]
@@ -488,8 +485,7 @@ $3 \times 4$ matrix
 @snapend
 
 ---
-### Matrices (IV)
-
+### Matrices &ndash; (IV)
 **$\S$1.4 Inverses**
 
 @ul[list-no-bullets text-07]
@@ -517,8 +513,7 @@ $3 \times 4$ matrix
 
 ---
 ### Matrices (V)
-
-**$\S$1.4 Transposing a Matrix**
+**$\S$1.4 &ndash; Transposing a Matrix**
 
 @snap[south fragment text-08]
 @math
@@ -551,7 +546,7 @@ $3 \times 4$ matrix
 
 ---
 ### Gaussian Elimination (I)
-**$\S$1.2 More Efficient System Solving**
+**$\S$1.2 &ndash; More Efficient System Solving**
 
 @snap[west fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -632,7 +627,7 @@ $3 \times 4$ matrix
 
 ---
 ### Gaussian Elimination (II)
-**$\S$1.2 The Full Procedure**
+**$\S$1.2 &ndash; The Full Procedure**
 
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
@@ -799,8 +794,7 @@ $3 \times 4$ matrix
 
 ---
 ### Reduced Row Echelon Form
-
-**$\S$1.2 or RREF for friends**
+**$\S$1.2 &ndash; or RREF for friends**
 
 @snap[midpoint fragment current-visible text-08]
 @math[fragment step-fade-in-then-out]
@@ -835,7 +829,7 @@ $3 \times 4$ matrix
 
 ---
 ### Systems with many solutions (I)
-**$\S$1.2 When the RREF is not identity**
+**$\S$1.2 &ndash; When the RREF is not identity**
 
 @snap[west fragment]
 @math
@@ -948,7 +942,7 @@ $3 \times 4$ matrix
 
 ---
 ### Systems with many solutions (II)
-**$\S$1.2 General Method**
+**$\S$1.2 &ndash; General Method**
 
 @snap[west text-07]
 @math[]
@@ -1130,7 +1124,7 @@ $3 \times 4$ matrix
 
 ---
 ### Elementary Matrices (I)
-**$\S$1.5 Row Operations as Matrix Multiplication**
+**$\S$1.5 &ndash; Row Operations as Matrix Multiplication**
 
 @snap[midpoint fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
@@ -1201,7 +1195,7 @@ $3 \times 4$ matrix
 
 ---
 ### Elementary Matrices (II)
-**$\S$1.5 Invertibility**
+**$\S$1.5 &ndash; Invertibility**
 
 @snap[midpoint fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
@@ -1374,7 +1368,7 @@ and the inverse is also an elementary matrix
 
 ---
 ### Elementary Matrices (III)
-**$\S$1.5 Revisit Elimination**
+**$\S$1.5 &ndash; Revisit Elimination**
 
 @snap[midpoint text-04]
 @math
@@ -1457,7 +1451,7 @@ and the inverse is also an elementary matrix
 
 ---
 ### Elementary Matrices (IV)
-**$\S$1.5 RREF as Matrix Multiplication**
+**$\S$1.5 &ndash; RREF as Matrix Multiplication**
 
 @snap[midpoint fragment text-05]
 @math
@@ -1500,7 +1494,7 @@ xs@ulend
 
 ---
 ### Elementary Matrices (V)
-**$\S$1.5 RREF as Matrix Multiplication**
+**$\S$1.5 &ndash; RREF as Matrix Multiplication**
 
 @snap[south text-04]
 @math
