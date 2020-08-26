@@ -1504,10 +1504,32 @@ xs@ulend
 
 @snap[midpoint text-05]
 @math
-`\[{\color{blue}{\leftarrow}} \begin{pmatrix}1 & -3 & 2 \\ 0 & 1 & -1 \\ 0 & 5 & -3\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1 & -3 & 2 \\ 0 & 11 & -7 \\ 0 & 5 & -3\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1 & -3 & 2 \\ 0 & 11 & -7 \\ 2 & -1 & 1\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1 & -3 & 2 \\ 3 & 2 & -1 \\ 2 & -1 & 1\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}\]`
+`\[
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 5 & -3\end{pmatrix}
+{\color{blue}{\longleftarrow}}\]`
+\begin{pmatrix}1 & -3 & 2 \\ 0 & 1 & -1 \\ 0 & 5 & -3\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}1 & -3 & 2 \\ 0 & 11 & -7 \\ 0 & 5 & -3\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}1 & -3 & 2 \\ 0 & 11 & -7 \\ 2 & -1 & 1\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
+  \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
+  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
+\end{pmatrix}\]`
 
 <br />
-`\[\begin{pmatrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1 & 0 & 0 \\ 0 & 1 & -1 \\ 0 & 0 & 1\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & 1\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & 2\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 5 & -3\end{pmatrix}{\color{blue}{\leftarrow}}\]`
+`\[
+\begin{pmatrix}1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}1 & 0 & 0 \\ 0 & 1 & -1 \\ 0 & 0 & 1\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & 1\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & 2\end{pmatrix}
+{\color{blue}{\leftarrow}}
 @mathend
 @snapend
 
