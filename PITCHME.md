@@ -1372,7 +1372,7 @@ and the inverse is also an elementary matrix
 
 ---
 ### Elementary Matrices (III)
-**$\S$1.5**
+**$\S$1.5** Revisit Elimination
 
 @snap[midpoint text-04]
 @math
@@ -1499,12 +1499,11 @@ and the inverse is also an elementary matrix
 @mathend
 @snapend
 
-@snap[south fragment text-09]
-@math
-`\[
-  E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}
-\]`
-@mathend
+@snap[south fragment text-08]
+@ul
+- `$E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}`$
+- `$E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}`$
+@ulend
 @snapend
 
 
