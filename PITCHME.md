@@ -1347,8 +1347,8 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[midpoint fragment current-visible text-07]
-@math[fragment step-fade-in]
+@snap[midpoint fragment text-07]
+@math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
     1&0&0\\0&1&{\color{yellow}{3}}\\0&0&1
