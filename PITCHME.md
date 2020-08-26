@@ -1524,8 +1524,11 @@ xs@ulend
 \begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & 2\end{pmatrix}
 {\color{blue}{\leftarrow}}
 \]`
+@mathend
+@snapend
 
-<br /><br /><br />
+@snap[south fragment text-04]
+@math
 `\[
   \begin{pmatrix} 1&0&0\\0&1&0\\0&0&1 \end{pmatrix}
   \color{red}{=}
@@ -1560,16 +1563,12 @@ xs@ulend
 **$\S$1.5 &ndash; What we Found**
 
 
-@snap[fragment text-07]
+@ul[fragment text-07]
 <br />
-$I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$
-
-<br />
-$\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A$
-
-<br /><br /><br /><br />
-$A^{-1} = \big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big)
-@snapend
+- $I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br />
+- $\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A$ <br /><br />
+- $A^{-1} = \big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big)$
+@ulend
 
 @snap[south fragment text-04]
 @math
