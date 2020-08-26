@@ -1486,7 +1486,7 @@ and the inverse is also an elementary matrix
 @ul[south list-no-bullets text-08]
 - $E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}$<br /><br />
 - $\color{yellow}{A} = E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot \color{blue}{R}$<br /><br />
-xs@ulend
+@ulend
 @snapend
 
 
@@ -1563,8 +1563,8 @@ xs@ulend
 **$\S$1.5 &ndash; What we Found**
 
 
-@ul[fragment text-07]
 <br />
+@ul[fragment text-07]
 - $I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br />
 - $\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A$ <br /><br />
 - $A^{-1} = \big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big)$
