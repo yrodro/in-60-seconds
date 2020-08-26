@@ -1524,7 +1524,7 @@ xs@ulend
 {\color{blue}{\leftarrow}}
 \]`
 
-<br />
+<br />\hline
 `\[
   \begin{pmatrix} 1&0&0\\0&1&0\\0&0&1 \end{pmatrix}
   \color{red}{=}
