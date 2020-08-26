@@ -1511,7 +1511,7 @@ xs@ulend
 @mathend
 @snapend
 
-
+<br />
 @snap[south fragment text-03]
 @math
 `\[
