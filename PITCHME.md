@@ -1512,7 +1512,7 @@ xs@ulend
 @snapend
 
 
-@snap[south fagment text-05]
+@snap[south fragment text-04]
 @math
 `\[
   \begin{pmatrix}
