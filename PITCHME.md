@@ -1462,29 +1462,17 @@ and the inverse is also an elementary matrix
 @snap[midpoint fragment text-05]
 @math
 `\[
-  \begin{pmatrix}
-    1&0&0\\0&1&0\\0&6&1
-  \end{pmatrix}
+  \begin{pmatrix} 1&0&0\\0&1&0\\0&6&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix}
-    1&-2&0\\0&1&0\\0&0&1
-  \end{pmatrix}
+  \begin{pmatrix} 1&-2&0\\0&1&0\\0&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix}
-    1&0&0\\0&\tfrac{-1}{3} &0\\0&0&1
-  \end{pmatrix}
+  \begin{pmatrix} 1&0&0\\0&\tfrac{-1}{3} &0\\0&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix}
-    1&0&0\\0&1&0\\-7&0&1
-  \end{pmatrix}
+  \begin{pmatrix} 1&0&0\\0&1&0\\-7&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix}
-    1&0&0\\-4&1&0\\0&0&1
-  \end{pmatrix}
+  \begin{pmatrix} 1&0&0\\-4&1&0\\0&0&1 \end{pmatrix}
   \cdot
-  \begin{pmatrix}
-    0&1&0\\1&0&0\\0&0&1
-  \end{pmatrix}
+  \begin{pmatrix} 0&1&0\\1&0&0\\0&0&1 \end{pmatrix}
   \cdot
   \begin{pmatrix}
     \color{yellow}{4} & \color{yellow}{5} & \color{yellow}{6} & \color{yellow}{23} \\
@@ -1513,6 +1501,41 @@ xs@ulend
 ---
 ### Elementary Matrices (V)
 **$\S$1.5 Row Operations as Matrix Multiplication**
+
+
+
+
+
+@snap[midpoint text-04]
+@math
+`\[
+\begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix}
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}1&0&0\\0&1&-1\\0&0&1\end{pmatrix}
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}1&0&-1\\0&1&-1\\0&0&1\end{pmatrix}
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}1&0&-1\\0&1&-1\\0&0&2\end{pmatrix}
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}1&0&-1\\0&1&-1\\0&5&-3\end{pmatrix}
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}1&-3&2\\0&1&-1\\0&5&-3\end{pmatrix}
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}1&-3&2\\0&11&-7\\0&5&-3\end{pmatrix}
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}1&-3&2\\0&11&-7\\2&-1&1\end{pmatrix}
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}1&-3&2\\3&2&-1\\2&-1&1\end{pmatrix}
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}2&-1&1\\3&2&-1\\1&-3&2\end{pmatrix}
+\]`
+@mathend
+@snapend
+
+
+---
+
+
 
 @snap[midpoint fragment text-05]
 @math
@@ -1555,6 +1578,22 @@ xs@ulend
 \]`
 @mathend
 @snapend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
