@@ -1518,7 +1518,7 @@ xs@ulend
   \begin{pmatrix}
     1&0&0\\0&1&0\\0&0&1
   \end{pmatrix}
-  =
+  \color{red}{=}
   \begin{pmatrix}
     1&0&0\\0&1&1\\0&0&1
   \end{pmatrix}
@@ -1565,35 +1565,7 @@ xs@ulend
 <br />
 `\[
   \begin{pmatrix}
-    1&0&0\\0&1&1\\0&0&1
-  \end{pmatrix}^{-1}
-  \cdot
-  \begin{pmatrix}
-    1&0&1\\0&1&0\\0&0&1
-  \end{pmatrix}^{-1}
-  \cdot
-  \begin{pmatrix}
-    1&0&0\\0&1&0\\0&0&\tfrac{1}{2}
-  \end{pmatrix}^{-1}
-  \cdot
-  \begin{pmatrix}
-    1&0&0\\0&1&0\\0&-5&1
-  \end{pmatrix}^{-1}
-  \cdot
-  \begin{pmatrix}
     1&3&0\\0&1&0\\0&0&1
-  \end{pmatrix}^{-1}
-  \cdot
-  \begin{pmatrix}
-    1&0&0\\0&1&-2\\0&0&1
-  \end{pmatrix}^{-1}
-  \cdot
-  \begin{pmatrix}
-    1&0&0\\0&1&0\\-2&0&1
-  \end{pmatrix}^{-1}
-  \cdot
-  \begin{pmatrix}
-    1&0&0\\-3&1&0\\0&0&1
   \end{pmatrix}^{-1}
   \cdot
   \begin{pmatrix}
@@ -1601,9 +1573,37 @@ xs@ulend
   \end{pmatrix}^{-1}
   \cdot
   \begin{pmatrix}
+    1&0&0\\-3&1&0\\0&0&1
+  \end{pmatrix}^{-1}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\-2&0&1
+  \end{pmatrix}^{-1}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&-2\\0&0&1
+  \end{pmatrix}^{-1}
+  \cdot
+  \begin{pmatrix}
     1&3&0\\0&1&0\\0&0&1
   \end{pmatrix}^{-1}
   \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&-5&1
+  \end{pmatrix}^{-1}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&0&\tfrac{1}{2}
+  \end{pmatrix}^{-1}
+  \cdot
+  \begin{pmatrix}
+    1&0&1\\0&1&0\\0&0&1
+  \end{pmatrix}^{-1}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&1\\0&0&1
+  \end{pmatrix}^{-1}
+  \color{red}{=}
 \begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}
 \]`
 
