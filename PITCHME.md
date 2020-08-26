@@ -1548,7 +1548,7 @@ xs@ulend
   \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
   \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
   \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
-\end{pmatrix} \qquad\qquad{\ }
+\end{pmatrix} \qquad\qquad\qquad{\ }
 \]`
 
 <br />
@@ -1577,7 +1577,7 @@ xs@ulend
 \]`
 
 <br />
-`\[{\ }\qquad\qquad
+`\[{\ }\qquad\qquad\qquad\qquad
   \begin{pmatrix} 1&0&0\\3&1&0\\0&0&1 \end{pmatrix}
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&0\\2&0&1 \end{pmatrix}
