@@ -1577,7 +1577,7 @@ xs@ulend
 \]`
 
 <br />
-`\[{\ }\qquad\qquad\qquad\qquad
+`\[{\ }\qquad\qquad\qquad\qquad\qquad
   \begin{pmatrix} 1&0&0\\3&1&0\\0&0&1 \end{pmatrix}
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&0\\2&0&1 \end{pmatrix}
@@ -1604,7 +1604,21 @@ xs@ulend
 @snapend
 
 
+---
+### Elementary Matrices (VI)
+**$\S$1.5 &ndash; What we Found**
 
+@math[fragment text-07]
+`\[
+I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A
+\]`
+@mathend
+
+@math[fragment text-07]
+`\[
+I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A
+\]`
+@mathend
 
 
 
@@ -1622,6 +1636,16 @@ xs@ulend
 
 
 ---
+### 
+**$\S$ &ndash; **
+
+
+
+---
+### 
+**$\S$ &ndash; **
+
+
 
 ---?image=assets/img/thatsAllFolks.jpg
 
