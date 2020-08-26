@@ -1605,6 +1605,50 @@ xs@ulend
   \end{pmatrix}^{-1}
   \color{red}{=}
 \begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}
+
+<br />
+`\[
+  \begin{pmatrix}
+    1&-3&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&0&1\\0&1&0
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\3&1&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\2&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&2\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&-3&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&5&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&0&2
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&-1\\0&1&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&-1\\0&0&1
+  \end{pmatrix}
+  \color{red}{=}
+\begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}
 \]`
 
 
