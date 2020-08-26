@@ -564,9 +564,9 @@ $3 \times 4$ matrix
   \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
-    2 & -1 & 1 &  \color{blue}{3} \\
-    3 &  2 & 1 & \color{blue}{-1} \\
-    1 &  3 & 2 &  \color{blue}{2}
+    2 & -1 &  1 &  \color{blue}{3} \\
+    3 &  2 & -1 & \color{blue}{-1} \\
+    1 & -3 &  2 &  \color{blue}{2}
   \end{pmatrix}
 \]`
 @mathend
@@ -583,9 +583,9 @@ $3 \times 4$ matrix
   \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
-    1 &  3 & 2 &  \color{blue}{2} \\
-    3 &  2 & 1 & \color{blue}{-1} \\
-    2 & -1 & 1 &  \color{blue}{3}
+    1 & -3 &  2 &  \color{blue}{2} \\
+    3 &  2 & -1 & \color{blue}{-1} \\
+    2 & -1 &  1 &  \color{blue}{3}
   \end{pmatrix}
 \]`
 @mathend
@@ -1455,7 +1455,7 @@ and the inverse is also an elementary matrix
 
 ---
 ### Elementary Matrices (IV)
-**$\S$1.5**
+**$\S$1.5 Row Operations as Matrix Multiplication**
 
 @snap[midpoint fragment text-05]
 @math
@@ -1506,6 +1506,57 @@ and the inverse is also an elementary matrix
 - ${\ }$
 xs@ulend
 @snapend
+
+
+---
+### Elementary Matrices (V)
+**$\S$1.5 Row Operations as Matrix Multiplication**
+
+@snap[midpoint fragment text-05]
+@math
+`\[
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\0&6&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&-2&0\\0&1&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&\tfrac{-1}{3} &0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\0&1&0\\-7&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    1&0&0\\-4&1&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    0&1&0\\1&0&0\\0&0&1
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    \color{yellow}{4} & \color{yellow}{5} & \color{yellow}{6} & \color{yellow}{23} \\
+    \color{yellow}{1} & \color{yellow}{2} & \color{yellow}{3} &  \color{yellow}{8} \\
+    \color{yellow}{7} & \color{yellow}{8} & \color{yellow}{9} & \color{yellow}{38}
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    \color{blue}{1} & \color{blue}{0} & \color{blue}{-1} &  \color{blue}{2} \\
+    \color{blue}{0} & \color{blue}{1} &  \color{blue}{2} &  \color{blue}{3} \\
+    \color{blue}{0} & \color{blue}{0} &  \color{blue}{0} &  \color{blue}{0}
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+
+
+
 
 
 
