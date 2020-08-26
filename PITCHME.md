@@ -1499,10 +1499,12 @@ and the inverse is also an elementary matrix
 @mathend
 @snapend
 
-@ul[south list-no-bullets text-08 span-50]
+@ul[south list-no-bullets text-08]
 - $E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}$
+- ${\ }$
 - $\color{yellow}{A} = E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot \color{blue}{R}$
-@ulend
+- ${\ }$
+xs@ulend
 @snapend
 
 
