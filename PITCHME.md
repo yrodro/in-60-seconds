@@ -564,6 +564,7 @@ $3 \times 4$ matrix
   \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
+    \phantom{-}
     2 & -1 &  1 &  \color{blue}{3} \\
     3 &  2 & -1 & \color{blue}{-1} \\
     1 & -3 &  2 &  \color{blue}{2}
@@ -583,6 +584,7 @@ $3 \times 4$ matrix
   \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
+    \phantom{-}
     1 & -3 &  2 &  \color{blue}{2} \\
     3 &  2 & -1 & \color{blue}{-1} \\
     2 & -1 &  1 &  \color{blue}{3}
@@ -602,7 +604,7 @@ $3 \times 4$ matrix
   \longrightarrow
   \begin{pmatrix}
     -2 &  6 & -4 & \color{blue}{-4} \\
-     3 &  2 &  1 & \color{blue}{-1} \\
+     3 &  2 & -1 & \color{blue}{-1} \\
      2 & -1 &  1 &  \color{blue}{3}
   \end{pmatrix}
 \]`
@@ -619,9 +621,9 @@ $3 \times 4$ matrix
   \end{alignat*}
   \longrightarrow
   \begin{pmatrix}
-    -2 & 6 & -4 & \color{blue}{-4} \\
-     3 & 2 &  1 & \color{blue}{-1} \\
-     0 & 5 & -3 & \color{blue}{-1}
+    -2 & 6 &        -4 & \color{blue}{-4} \\
+     3 & 2 &        -1 & \color{blue}{-1} \\
+     0 & \phantom{-} 5 & -3 & \color{blue}{-1}
   \end{pmatrix}
 \]`
 @mathend
