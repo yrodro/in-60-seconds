@@ -835,15 +835,27 @@ $3 \times 4$ matrix
 
 ---
 ### Systems with many solutions (I)
-**$\S$1.2**
+**$\S$1.2** RREF is not identity
+
+@snap[west]
+@math
+`\[
+   \begin{alignat*}{4}
+      x & {}+{} & 2y & {}+{} & 3z & {}={} &  8 \\
+     4x & {}+{} & 5y & {}+{} & 6z & {}={} & 23 \\
+     7x & {}+{} & 8y & {}+{} & 9z & {}={} & 38
+   \end{alignat*}
+  \]`
+@mathend
+@snapend
 
 @snap[east fragment current-visible]
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 & 2\phantom{-} & 3\phantom{-} &  8 \\
-    4 & 5            & 6            & 23 \\
-    7 & 8            & 9            & 38\phantom{-}
+    1 & 2\phantom{-} & 3\phantom{-} &  \color{blue}{8} \\
+    4 & 5            & 6\phantom{2} & \color{blue}{23} \\
+    7 & 8            & 9            & \color{blue}{38}\phantom{-}
   \end{pmatrix}
 \]`
 @mathend
@@ -853,9 +865,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 &  2 &  3 &  8 \\
-    0 & -3 & -6 & -9 \\
-    7 &  8 &  9 & 38\phantom{-}
+    1 &  2 &  3 &  \color{blue}{8} \\
+    0 & -3 & -6 & \color{blue}{-9} \\
+    7 &  8 &  9 & \color{blue}{38}\phantom{-}
   \end{pmatrix}
 \]`
 @mathend
@@ -865,9 +877,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 &  2 &   3 &   8 \\
-    0 & -3 &  -6 &  -9 \\
-    0 & -6 & -12 & -18
+    1 &  2 &   3 &   \color{blue}{8} \\
+    0 & -3 &  -6 &  \color{blue}{-9} \\
+    0 & -6 & -12 & \color{blue}{-18}
   \end{pmatrix}
 \]`
 @mathend
@@ -877,9 +889,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 &  2 &   3 &   8 \\
-    0 &  1 &   2 &   3 \\
-    0 & -6 & -12 & -18
+    1 &  2 &   3 &   \color{blue}{8} \\
+    0 &  1 &   2 &   \color{blue}{3} \\
+    0 & -6 & -12 & \color{blue}{-18}
   \end{pmatrix}
 \]`
 @mathend
@@ -889,9 +901,9 @@ $3 \times 4$ matrix
 @math[fragment step-fade-in-then-out]
 `\[
   \begin{pmatrix}
-    1 &  0 &  -1 &   2 \\
-    0 &  1 &   2 &   3 \\
-    0 & -6 & -12 & -18
+    1 &  0 &  -1 &   \color{blue}{2} \\
+    0 &  1 &   2 &   \color{blue}{3} \\
+    0 & -6 & -12 & \color{blue}{-18}
   \end{pmatrix}
 \]`
 @mathend
@@ -901,23 +913,11 @@ $3 \times 4$ matrix
 @math
 `\[
   \begin{pmatrix}
-    1 & 0\phantom{-} & -1 &  2 \\
-    0 & 1            &  2 &  3 \\
-    0 & 0            &  0 &  0\phantom{-}
+    1 & 0\phantom{-} & -1 &  \color{blue}{2} \\
+    0 & 1            &  2 &  \color{blue}{3} \\
+    0 & 0            &  0 &  \color{blue}{0}\phantom{-}
   \end{pmatrix}
 \]`
-@mathend
-@snapend
-
-@snap[west fragment]
-@math
-`\[
-   \begin{alignat*}{4}
-      x & {}+{} & 2y & {}+{} & 3z & {}={} & 0 \\
-     4x & {}+{} & 5y & {}+{} & 6z & {}={} & 0 \\
-     7x & {}+{} & 8y & {}+{} & 9z & {}={} & 0
-   \end{alignat*}
-  \]`
 @mathend
 @snapend
 
