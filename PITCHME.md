@@ -1348,7 +1348,7 @@ $3 \times 4$ matrix
 @snapend
 
 @snap[midpoint fragment current-visible text-07]
-@math[fragment step-fade-in-then-out]
+@math[fragment]
 `\[
   \begin{pmatrix}
     1&0&0\\0&1&{\color{yellow}{3}}\\0&0&1
@@ -1365,7 +1365,7 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-@snap[south fragment]
+@snap[south span-80 fragment]
 ** Theorem 1.5.2** Every elementary matrix is invertible,
 and the inverse is also an elementary matrix
 
