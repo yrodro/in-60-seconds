@@ -1507,7 +1507,7 @@ xs@ulend
 `\[
 {\color{blue}{\leftarrow}}
 \begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 5 & -3\end{pmatrix}
-{\color{blue}{\longleftarrow}}\]`
+{\color{blue}{\longleftarrow}}
 \begin{pmatrix}1 & -3 & 2 \\ 0 & 1 & -1 \\ 0 & 5 & -3\end{pmatrix}
 {\color{blue}{\longleftarrow}}
 \begin{pmatrix}1 & -3 & 2 \\ 0 & 11 & -7 \\ 0 & 5 & -3\end{pmatrix}
@@ -1530,6 +1530,7 @@ xs@ulend
 {\color{blue}{\longleftarrow}}
 \begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & 2\end{pmatrix}
 {\color{blue}{\leftarrow}}
+\]`
 @mathend
 @snapend
 
