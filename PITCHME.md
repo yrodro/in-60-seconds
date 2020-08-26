@@ -1605,6 +1605,7 @@ xs@ulend
   \end{pmatrix}^{-1}
   \color{red}{=}
 \begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}
+\]`
 
 <br />
 `\[
