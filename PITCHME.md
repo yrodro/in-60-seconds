@@ -1514,11 +1514,11 @@ xs@ulend
 
 @snap[south fragment text-04]
 @math
-`\[
+`\begin{multline}
   \begin{pmatrix}
     1&0&0\\0&1&0\\0&0&1
   \end{pmatrix}
-  =
+  = \\
   \begin{pmatrix}
     1&0&0\\0&1&1\\0&0&1
   \end{pmatrix}
@@ -1557,9 +1557,10 @@ xs@ulend
   \cdot
   \begin{pmatrix}
     1&3&0\\0&1&0\\0&0&1
-  \end{pmatrix}
+  \end{pmatrix} \cdot \\
+  \cdot
 \begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}
-\]`
+\end{multline}`
 @mathend
 @snapend
 
