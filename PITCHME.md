@@ -1502,12 +1502,12 @@ xs@ulend
 ### Elementary Matrices (V)
 **$\S$1.5 Row Operations as Matrix Multiplication**
 
-@snap[midpoint text-04]
+@snap[midpoint text-05]
 @math
-`\[{\color{blue}{\leftarrow}} \begin{pmatrix}1&-3&2\\0&1&-1\\0&5&-3\end{pmatrix} {\color{blue}{\leftarrow}} \begin{pmatrix}1&-3&2\\0&11&-7\\0&5&-3\end{pmatrix} {\color{blue}{\leftarrow}} \begin{pmatrix}1&-3&2\\0&11&-7\\2&-1&1\end{pmatrix} {\color{blue}{\leftarrow}} \begin{pmatrix}1&-3&2\\3&2&-1\\2&-1&1\end{pmatrix} {\color{blue}{\leftarrow}} \begin{pmatrix}2&-1&1\\3&2&-1\\1&-3&2\end{pmatrix}\]`
+`\[{\color{blue}{\leftarrow}} \begin{pmatrix}1&-3&2\\0&1&-1\\0&5&-3\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1&-3&2\\0&11&-7\\0&5&-3\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1&-3&2\\0&11&-7\\2&-1&1\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1&-3&2\\3&2&-1\\2&-1&1\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}2&-1&1\\3&2&-1\\1&-3&2\end{pmatrix}\]`
 
 <br />
-`\[\begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix} {\color{blue}{\leftarrow}} \begin{pmatrix}1&0&0\\0&1&-1\\0&0&1\end{pmatrix} {\color{blue}{\leftarrow}} \begin{pmatrix}1&0&-1\\0&1&-1\\0&0&1\end{pmatrix} {\color{blue}{\leftarrow}} \begin{pmatrix}1&0&-1\\0&1&-1\\0&0&2\end{pmatrix} {\color{blue}{\leftarrow}} \begin{pmatrix}1&0&-1\\0&1&-1\\0&5&-3\end{pmatrix}{\color{blue}{\leftarrow}}\]`
+`\[\begin{pmatrix}1&0&0\\0&1&0\\0&0&1\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1&0&0\\0&1&-1\\0&0&1\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1&0&-1\\0&1&-1\\0&0&1\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1&0&-1\\0&1&-1\\0&0&2\end{pmatrix} {\color{blue}{\longleftarrow}} \begin{pmatrix}1&0&-1\\0&1&-1\\0&5&-3\end{pmatrix}{\color{blue}{\leftarrow}}\]`
 @mathend
 @snapend
 
