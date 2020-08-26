@@ -837,7 +837,7 @@ $3 \times 4$ matrix
 ### Systems with many solutions (I)
 **$\S$1.2** RREF is not identity
 
-@snap[west]
+@snap[west fragment]
 @math
 `\[
    \begin{alignat*}{4}
@@ -915,7 +915,7 @@ $3 \times 4$ matrix
   \begin{pmatrix}
     1 & 0\phantom{-} & -1 &  \color{blue}{2} \\
     0 & 1            &  2 &  \color{blue}{3} \\
-    0 & 0            &  0 &  \color{blue}{0}\phantom{-}
+    0 & 0            &  \phantom{-}0 &  \color{blue}{0}\phantom{-}
   \end{pmatrix}
 \]`
 @mathend
@@ -937,9 +937,9 @@ $3 \times 4$ matrix
 @math
 `\[\qquad
    \begin{alignat*}{4}
-      x & {}={} & 2 -   {\color{blue}{t}} \\
-      y & {}={} & 3 - 2 {\color{blue}{t}} \\
-      z & {}={} &       {\color{blue}{t}}
+      x & {}={} & 2 -   {\color{green}{t}} \\
+      y & {}={} & 3 - 2 {\color{green}{t}} \\
+      z & {}={} &       {\color{green}{t}}
    \end{alignat*}
   \]`
 @mathend
