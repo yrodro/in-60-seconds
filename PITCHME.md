@@ -1502,7 +1502,7 @@ xs@ulend
 ### Elementary Matrices (V)
 **$\S$1.5 Row Operations as Matrix Multiplication**
 
-@snap[midpoint text-05]
+@snap[midpoint text-04]
 @math
 `\[
 {\color{blue}{\leftarrow}}
@@ -1535,7 +1535,7 @@ xs@ulend
 @snapend
 
 <br />
-@snap[south fragment text-03]
+@snap[south fragment text-04]
 @math
 `\[
   \begin{pmatrix}
@@ -1574,15 +1574,11 @@ xs@ulend
     1&0&0\\-3&1&0\\0&0&1
   \end{pmatrix}
   \cdot
-  \begin{pmatrix}
-    1&0&0\\0&0&1\\0&1&0
-  \end{pmatrix}
-  \cdot
-  \begin{pmatrix}
-    1&3&0\\0&1&0\\0&0&1
-  \end{pmatrix}
-  \cdot
-\begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
+  \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
+  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
+\end{pmatrix}
 \]`
 
 <br />
