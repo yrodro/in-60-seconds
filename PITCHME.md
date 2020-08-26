@@ -1494,7 +1494,7 @@ xs@ulend
 ### Elementary Matrices (V)
 **$\S$1.5 &ndash; RREF as Matrix Multiplication**
 
-@snap[south text-04]
+@snap[south fragment text-04]
 @math
 `\[
 {\color{blue}{\leftarrow}}
@@ -1524,7 +1524,7 @@ xs@ulend
 {\color{blue}{\leftarrow}}
 \]`
 
-<br />\hline
+<br />
 `\[
   \begin{pmatrix} 1&0&0\\0&1&0\\0&0&1 \end{pmatrix}
   \color{red}{=}
@@ -1548,11 +1548,11 @@ xs@ulend
   \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
   \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
   \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
-\end{pmatrix}
+\end{pmatrix} \qquad
 \]`
 
 <br />
-`\[
+`\[\qquad
   \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix}^{-1}
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&0\\-2&0&1 \end{pmatrix}^{-1}
@@ -1577,7 +1577,7 @@ xs@ulend
 \]`
 
 <br />
-`\[
+`\[\qquad
   \begin{pmatrix} 1&0&0\\3&1&0\\0&0&1 \end{pmatrix}
   \cdot
   \begin{pmatrix} 1&0&0\\0&1&0\\2&0&1 \end{pmatrix}
