@@ -1650,8 +1650,6 @@ xs@ulend
   \color{red}{=}
 \begin{pmatrix}\color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} \\ \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\ \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2}\end{pmatrix}
 \]`
-
-
 @mathend
 @snapend
 
