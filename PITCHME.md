@@ -1747,6 +1747,7 @@ We proved **c)**
 Start assuming the RREF of $A$ is $I$.
 
 @snap[midpoint text-05]
+<br /><br />
 @math
 `\[
    {\color{blue}{\leftarrow}}
@@ -1785,7 +1786,8 @@ We proved **d)**
 Start assuming $A$ is a product of elementary matrices.
 
 @ul[south list-no-bullets]
--
+- Each elementary matrix is invertible
+- The product of invertible matrices is invertible
 @ulend
 
 @snap[south fragment]
@@ -1793,10 +1795,25 @@ We proved **a)**
 @snapend
 
 
+---
+### Elementary Matrices in Action
+**$\S$1.5 &ndash; Finding $A^{-1}$**
+
+@ul[list-no-bullets text-07]
+- $I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br /><br />
+- $\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A$ <br /><br />
+- $A^{-1} = \big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big)$
+@ulend
 
 
 
 
+
+
+
+---
+### 
+**$\S$ &ndash; **
 
 
 ---
