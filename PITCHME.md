@@ -1766,9 +1766,12 @@ Start assuming the RREF of $A$ is $I$.
 \]`
 
 <br />
-$I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br /><br />
+`\[I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A\]`
 
-$\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A$ <br /><br />
+<br /><br />
+`\[\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A\]`
+
+<br /><br />
 @mathend
 @snapend
 
