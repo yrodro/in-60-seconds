@@ -1708,16 +1708,17 @@ Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 @snap[midpoint fragment text-06]
 @math
 `\[
-   \begin{alignat*}{5}
+   \begin{alignat*}{4}
      a_{11} x_1 & + \cdots + & a_{1n} x_n & {}={} & 0 \\
      \vdots     &   \ddots   & \vdots     & {}={} & 0 \\
-     a_{n1} x_1 & + \cdots + & a_{nn} x_n & {}={} & 0
+     a_{n1} x_1 & + \cdots + & a_{nn} x_n & {}={} & 0 \\
    \end{alignat*}
   \quad\longleftrightarrow\quad
-   \begin{alignat*}{5}
+  \]`@mathend
+   \begin{alignat*}{4}
      x_1 &        &        & {}={} & 0 \\
          & \ddots &        & {}={} & 0 \\
-            &        & x_n & {}={} & 0
+            &        & x_n & {}={} & 0 \\
    \end{alignat*}
 \]`
 @mathend
@@ -1725,9 +1726,9 @@ Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 @math
 `\[
    \begin{pmatrix}
-     a_{11} & \cdots & a_{1n} & 0      \\
+     a_{11} & \cdots & a_{1n} & {\color{blue}{0}} \\
      \vdots & \ddots & \vdots & \vdots \\
-     a_{n1} & \cdots & a_{nn} & 0
+     a_{n1} & \cdots & a_{nn} & {\color{blue}{0}}
    \end{pmatrix}
   \quad\longleftrightarrow\quad
    \begin{pmatrix}
