@@ -489,7 +489,9 @@ $3 \times 4$ matrix
 ### Matrices (IV)
 **$\S$1.3 &ndash; Matrix Multiplication**
 
+@snap[midpoint span-60 fragment]
 ![](assets/img/Class03/matrixMultiplication.jpg)
+@snapend
 
 
 ---
@@ -1682,11 +1684,11 @@ and the inverse is also an elementary matrix
 
 ---
 ### Invertibility Properties (II)
-**$\S$1.5 &ndash; Proof of a) $\Longrightarrow$ b)**
+**$\S$1.5 &ndash; Proof of a) $\Rightarrow$ b)**
 
 Start assuming $A$ is an invertible matrix.
 
-@ul[south list-no-bullets]
+@ul[midpoint list-no-bullets]
 - $A \vec{x_0} = \vec{0}$
 - $A^{-1} A \vec{x_0} = A^{-1} \vec{0}$
 - $\vec{x_0} = \vec{0}$
@@ -1717,7 +1719,7 @@ Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
             &        & x_n & {}={} & 0
    \end{alignat*}
 \]`
-
+@mathend
 `\[
    \begin{pmatrix}
      a_{11} & \cdots & a_{1n} & 0      \\
