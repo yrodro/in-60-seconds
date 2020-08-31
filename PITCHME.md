@@ -1746,9 +1746,8 @@ We proved **c)**
 
 Start assuming the RREF of $A$ is $I$.
 
-@ul[south list-no-bullets]
-- We already did this
-- ${\tiny{\color{blue}{\leftarrow}}
+@snap[midpoint text-03]
+${\tiny{\color{blue}{\leftarrow}}
    \begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 5 & -3\end{pmatrix}
    {\color{blue}{\longleftarrow}}
    \begin{pmatrix}1 & -3 & 2 \\ 0 & 1 & -1 \\ 0 & 5 & -3\end{pmatrix}
@@ -1762,9 +1761,11 @@ Start assuming the RREF of $A$ is $I$.
      \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
      \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
    \end{pmatrix}}$
-- $I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br /><br />
-- $\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A$ <br /><br />
-@ulend
+
+$I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br /><br />
+
+$\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A$ <br /><br />
+@snapend
 
 @snap[south fragment]
 We proved **d)**
