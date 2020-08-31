@@ -1705,17 +1705,19 @@ We proved **b)**
 
 Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 
+<br /><br />
 @snap[midpoint fragment text-06]
 @math
 `\[
    \begin{alignat*}{6}
-     a_{11} x_1 & + \cdots + {\ }          & a_{1n} x_n & {}={} & 0 &                     & x_1 &        &     & {}={} & 0 \\
-     \vdots     &   \phantom{{\ }+} \ddots & \vdots     & {}={} & 0 & \longleftrightarrow &     & \ddots &     & {}={} & \vdots \\
-     a_{n1} x_1 & + \cdots + {\ }          & a_{nn} x_n & {}={} & 0 &                     &     &        & x_n & {}={} & 0
+     a_{11} x_1 & + \cdots + {\ }          & a_{1n} x_n & {}={} & 0 &                                  & x_1 &        &     & {}={} & 0 \\
+     \vdots     &   \phantom{{\ }+} \ddots & \vdots     & {}={} & 0 & \qquad\longleftrightarrow \qquad &     & \ddots &     & {}={} & \vdots \\
+     a_{n1} x_1 & + \cdots + {\ }          & a_{nn} x_n & {}={} & 0 &                                  &     &        & x_n & {}={} & 0
    \end{alignat*}
 \]`
 @mathend
 
+<br />
 @math
 `\[
    \begin{pmatrix}
@@ -1732,48 +1734,6 @@ Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 \]`
 @mathend
 @snapend
-
-
----
-### Invertibility Properties (III)
-**$\S$1.5 &ndash; Proof of b) $\Longrightarrow$ c)**
-
-Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
-
-@snap[midpoint fragment text-06]
-@math
-`\[
-   \begin{alignat*}{6}
-     a_{11} x_1 & + \cdots + {\ }          & a_{1n} x_n & {}={} & 0 \\
-     \vdots     &   \phantom{{\ }+} \ddots & \vdots     & {}={} & 0 \\
-     a_{n1} x_1 & + \cdots + {\ }          & a_{nn} x_n & {}={} & 0
-   \end{alignat*}
-  \quad\longleftrightarrow\quad
-   \begin{alignat*}{6}
-     x_1 &        &     & {}={} & 0 \\
-         & \ddots &     & {}={} & \vdots \\
-         &        & x_n & {}={} & 0
-   \end{alignat*}
-\]`
-@mathend
-
-@math
-`\[
-   \begin{pmatrix}
-     a_{11} & \cdots & a_{1n} & {\color{blue}{0}} \\
-     \vdots & \ddots & \vdots & \vdots \\
-     a_{n1} & \cdots & a_{nn} & {\color{blue}{0}}
-   \end{pmatrix}
-  \quad\longleftrightarrow\quad
-   \begin{pmatrix}
-     1      & \cdots & 0      & {\color{blue}{0}} \\
-     \vdots & \ddots & \vdots & \vdots \\
-     0      & \cdots & 1      & {\color{blue}{0}}
-   \end{pmatrix}
-\]`
-@mathend
-@snapend
-
 
 @snap[south fragment]
 We proved **c)**
