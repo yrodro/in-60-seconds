@@ -1746,7 +1746,7 @@ We proved **c)**
 
 Start assuming the RREF of $A$ is $I$.
 
-@snap[midpoint text-03]
+@snap[midpoint text-04]
 @math
 `\[
    {\color{blue}{\leftarrow}}
