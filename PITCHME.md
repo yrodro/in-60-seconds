@@ -1714,17 +1714,16 @@ Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
      a_{n1} x_1 & + \cdots + {\ }          & a_{nn} x_n & {}={} & 0
    \end{alignat*}
   \quad\longleftrightarrow\quad
-\]`
-@mathend
-@math
-`\[\begin{alignat*}{6}
+   \begin{alignat*}{6}
      x_1 &        &     & {}={} & 0 \\
          & \ddots &     & {}={} & \vdots \\
          &        & x_n & {}={} & 0
    \end{alignat*}
 \]`
 @mathend
+@snapend
 
+@snap
 @math
 `\[
    \begin{pmatrix}
