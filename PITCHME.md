@@ -425,6 +425,7 @@ $3 \times 4$ matrix
 ### Matrices (II)
 **$\S$1.3 &ndash; Systems of Equations as Matrices**
 
+@snap[midpoint fragment text-07]
 @math
 `\[
   \begin{alignat*}{4}
@@ -440,6 +441,7 @@ $3 \times 4$ matrix
   \end{pmatrix}
 \]`
 @mathend
+@snapend
 
 
 ---
