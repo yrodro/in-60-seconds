@@ -1785,8 +1785,8 @@ We proved **d)**
 
 Start assuming $A$ is a product of elementary matrices.
 
-@ul[midpoint list-no-bullets]
-- <br /> Each elementary matrix is invertible
+@ul[midpoint list-no-bullets span-80]
+- <br /> Each elementary matrix is invertible <br />
 - The product of invertible matrices is invertible
 @ulend
 
