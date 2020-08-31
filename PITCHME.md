@@ -1706,7 +1706,7 @@ We proved **b)**
 Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 
 @snap[midpoint fragment text-06]
-<br /><br />
+<br /><br /><br /><br />
 @math
 `\[
    \begin{alignat*}{6}
