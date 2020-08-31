@@ -1709,16 +1709,20 @@ Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 @math
 `\[
    \begin{alignat*}{4}
-     a_{11} x_1 & + \cdots + & a_{1n} x_n & {}={} & 0 \\
-     \vdots     &   \ddots   & \vdots     & {}={} & 0 \\
-     a_{n1} x_1 & + \cdots + & a_{nn} x_n & {}={} & 0 \\
+     x_1 &        &     & {}={} & 0 \\
+         & \ddots &     & {}={} & \vdots \\
+         &        & x_n & {}={} & 0 \\
+   \end{alignat*}
+\]`   \begin{alignat*}{4}
+     a_{11} x_1 & + \cdots + {\ }          & a_{1n} x_n & {}={} & 0 \\
+     \vdots     &   \phantom{{\ }+} \ddots & \vdots     & {}={} & 0 \\
+     a_{n1} x_1 & + \cdots + {\ }          & a_{nn} x_n & {}={} & 0 \\
    \end{alignat*}
   \quad\longleftrightarrow\quad
-  \]`@mathend
    \begin{alignat*}{4}
-     x_1 &        &        & {}={} & 0 \\
-         & \ddots &        & {}={} & 0 \\
-            &        & x_n & {}={} & 0 \\
+     x_1 &        &     & {}={} & 0 \\
+         & \ddots &     & {}={} & \vdots \\
+         &        & x_n & {}={} & 0 \\
    \end{alignat*}
 \]`
 @mathend
