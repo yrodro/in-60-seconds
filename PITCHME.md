@@ -1762,7 +1762,7 @@ Start assuming the RREF of $A$ is $I$.
      \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
      \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
      \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
-   \end{pmatrix}}
+   \end{pmatrix}
 \]`
 
 `\[I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A\]`
