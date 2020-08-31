@@ -1705,7 +1705,8 @@ We proved **b)**
 
 Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 
-@math[midpoint fragment text-06]
+@snap[midpoint fragment text-06]
+@math
 `\[
    \begin{alignat*}{4}
      a_{11} x_1 & + \cdots + & a_{1n} x_n & {}={} & 0 \\
@@ -1720,6 +1721,8 @@ Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
    \end{alignat*}
 \]`
 @mathend
+
+@math
 `\[
    \begin{pmatrix}
      a_{11} & \cdots & a_{1n} & 0      \\
@@ -1734,6 +1737,7 @@ Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
    \end{pmatrix}
 \]`
 @mathend
+@snapend
 
 
 @snap[south fragment]
