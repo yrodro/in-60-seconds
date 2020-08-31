@@ -1708,13 +1708,13 @@ Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 @snap[midpoint fragment text-06]
 @math
 `\[
-   \begin{alignat*}{4}
+   \begin{alignat*}{5}
      a_{11} x_1 & + \cdots + & a_{1n} x_n & {}={} & 0 \\
      \vdots     &   \ddots   & \vdots     & {}={} & 0 \\
      a_{n1} x_1 & + \cdots + & a_{nn} x_n & {}={} & 0
    \end{alignat*}
-  \quad\leftrightarrow\quad
-   \begin{alignat*}{4}
+  \quad\longleftrightarrow\quad
+   \begin{alignat*}{5}
      x_1 &        &        & {}={} & 0 \\
          & \ddots &        & {}={} & 0 \\
             &        & x_n & {}={} & 0
@@ -1729,7 +1729,7 @@ Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
      \vdots & \ddots & \vdots & \vdots \\
      a_{n1} & \cdots & a_{nn} & 0
    \end{pmatrix}
-  \quad\leftrightarrow\quad
+  \quad\longleftrightarrow\quad
    \begin{pmatrix}
      1      & \cdots & 0      & {\color{blue}{0}} \\
      \vdots & \ddots & \vdots & \vdots \\
