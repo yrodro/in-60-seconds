@@ -1746,7 +1746,7 @@ We proved **c)**
 
 Start assuming the RREF of $A$ is $I$.
 
-@snap[midpoint text-04]
+@snap[midpoint text-05]
 @math
 `\[
    {\color{blue}{\leftarrow}}
@@ -1765,8 +1765,10 @@ Start assuming the RREF of $A$ is $I$.
    \end{pmatrix}
 \]`
 
+<br /><br />
 `\[I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A\]`
 
+<br /><br />
 `\[\big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big) = A\]`
 @mathend
 @snapend
