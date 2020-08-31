@@ -489,7 +489,7 @@ $3 \times 4$ matrix
 ### Matrices (IV)
 **$\S$1.3 &ndash; Matrix Multiplication**
 
-![](assets/img/Class03/matrixMultiplication.gif)
+![](assets/img/Class03/matrixMultiplication.jpg)
 
 
 ---
