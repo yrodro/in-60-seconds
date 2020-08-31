@@ -423,7 +423,28 @@ $3 \times 4$ matrix
 
 ---
 ### Matrices (II)
-**$\S$1.3 &ndash; Adding and Multiplying**
+**$\S$1.3 &ndash; Systems of Equations as Matrices**
+
+@math
+`\[
+  \begin{alignat*}{4}
+    2x & {}-{} &  y & {}+{} &  z & {}={} &  3 \\
+    3x & {}+{} & 2y & {}-{} &  z & {}={} & -1 \\
+     x & {}-{} & 3y & {}+{} & 2z & {}={} &  2
+  \end{alignat*}
+  \longrightarrow
+  \begin{pmatrix}
+    2 & -1 &  1 &  \color{blue}{3} \\
+    3 &  2 & -1 & \color{blue}{-1} \\
+    1 & -3 &  2 &  \color{blue}{2}
+  \end{pmatrix}
+\]`
+@mathend
+
+
+---
+### Matrices (III)
+**$\S$1.3 &ndash; Addition and Scalar Product**
 
 @snap[midpoint text-07]
 @math
@@ -454,16 +475,23 @@ $3 \times 4$ matrix
 9 & 10 & 11 & 12 \\
 \end{pmatrix} =
 \begin{pmatrix}
- 5 & 20 & 35 & 50 \\
-10 & 25 & 40 & 55 \\
-15 & 30 & 45 & 60 \\
+ 5 & 10 & 15 & 20 \\
+25 & 30 & 35 & 40 \\
+45 & 50 & 55 & 60 \\
 \end{pmatrix}$`
 @mathend
 @snapend
 
 
 ---
-### Matrices (III)
+### Matrices (IV)
+**$\S$1.3 &ndash; Matrix Multiplication**
+
+![](assets/img/Class03/matrixMultiplication.gif)
+
+
+---
+### Matrices (V)
 **$\S$1.3 &ndash; Rules**
 
 @snap[text-07]
@@ -485,7 +513,7 @@ $3 \times 4$ matrix
 @snapend
 
 ---
-### Matrices &ndash; (IV)
+### Matrices (VI)
 **$\S$1.4 &ndash; Inverses**
 
 @ul[list-no-bullets text-07]
@@ -512,7 +540,7 @@ $3 \times 4$ matrix
 
 
 ---
-### Matrices (V)
+### Matrices (VII)
 **$\S$1.4 &ndash; Transposing a Matrix**
 
 @snap[south fragment text-08]
@@ -1635,7 +1663,7 @@ and the inverse is also an elementary matrix
 
 
 ---
-### Invertibility Properties
+### Invertibility Properties (I)
 **$\S$1.5 &ndash; This is the Most Important Slide**
 
 @snap[midpoint fragment span-85]
@@ -1649,6 +1677,94 @@ and the inverse is also an elementary matrix
 @ulend
 @snapend
 
+
+---
+### Invertibility Properties (II)
+**$\S$1.5 &ndash; Proof of a) $\Longrightarrow$ b)**
+
+Start assuming $A$ is an invertible matrix.
+
+@ul[south list-no-bullets]
+- $A \vec{x_0} = \vec{0}$
+- $A^{-1} A \vec{x_0} = A^{-1} \vec{0}$
+- $\vec{x_0} = \vec{0}$
+@ulend
+
+@snap[south fragment]
+We proved **b)**
+@snapend
+
+
+---
+### Invertibility Properties (III)
+**$\S$1.5 &ndash; Proof of b) $\Longrightarrow$ c)**
+
+Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
+
+@math[midpoint fragment text-06]
+`\[
+   \begin{alignat*}{4}
+     a_{11} x_1 & + \cdots + & a_{1n} x_n & {}={} & 0 \\
+     \vdots     &   \ddots   & \vdots     & {}={} & 0 \\
+     a_{n1} x_1 & + \cdots + & a_{nn} x_n & {}={} & 0
+   \end{alignat*}
+  \quad\leftrightarrow\quad
+   \begin{alignat*}{4}
+     x_1 &        &        & {}={} & 0 \\
+         & \ddots &        & {}={} & 0 \\
+            &        & x_n & {}={} & 0
+   \end{alignat*}
+\]`
+
+`\[
+   \begin{pmatrix}
+     a_{11} & \cdots & a_{1n} & 0      \\
+     \vdots & \ddots & \vdots & \vdots \\
+     a_{n1} & \cdots & a_{nn} & 0
+   \end{pmatrix}
+  \quad\leftrightarrow\quad
+   \begin{pmatrix}
+     1      & \cdots & 0      & {\color{blue}{0}} \\
+     \vdots & \ddots & \vdots & \vdots \\
+     0      & \cdots & 1      & {\color{blue}{0}}
+   \end{pmatrix}
+\]`
+@mathend
+
+
+@snap[south fragment]
+We proved **c)**
+@snapend
+
+
+---
+### Invertibility Properties (IV)
+**$\S$1.5 &ndash; Proof of c) $\Longrightarrow$ d)**
+
+Start assuming the RREF of $A$ is $I$.
+
+@ul[south list-no-bullets]
+-
+@ulend
+
+@snap[south fragment]
+We proved **d)**
+@snapend
+
+
+---
+### Invertibility Properties (V)
+**$\S$1.5 &ndash; Proof of d) $\Longrightarrow$ a)**
+
+Start assuming $A$ is a product of elementary matrices.
+
+@ul[south list-no-bullets]
+-
+@ulend
+
+@snap[south fragment]
+We proved **a)**
+@snapend
 
 
 
