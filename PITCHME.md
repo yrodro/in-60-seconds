@@ -1701,11 +1701,11 @@ We proved **b)**
 
 ---
 ### Invertibility Properties (III)
-**$\S$1.5 &ndash; Proof of b) $\Longrightarrow$ c)**
+**$\S$1.5 &ndash; Proof of b) $\Rightarrow$ c)**
 
 Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 
-<br /><br />
+<br /><br /><br /><br />
 @snap[midpoint fragment text-06]
 @math
 `\[
@@ -1742,7 +1742,7 @@ We proved **c)**
 
 ---
 ### Invertibility Properties (IV)
-**$\S$1.5 &ndash; Proof of c) $\Longrightarrow$ d)**
+**$\S$1.5 &ndash; Proof of c) $\Rightarrow$ d)**
 
 Start assuming the RREF of $A$ is $I$.
 
@@ -1757,7 +1757,7 @@ We proved **d)**
 
 ---
 ### Invertibility Properties (V)
-**$\S$1.5 &ndash; Proof of d) $\Longrightarrow$ a)**
+**$\S$1.5 &ndash; Proof of d) $\Rightarrow$ a)**
 
 Start assuming $A$ is a product of elementary matrices.
 
