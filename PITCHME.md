@@ -1900,15 +1900,15 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 `\[
 \color{blue}{\leftarrow}
 \begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
-  \color{yellow}{0} & \color{yellow}{11} & \color{yellow}{-7} \\
-  \color{yellow}{0} & \color{yellow}{5} & \color{yellow}{-3}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} & \color{green}{1} & \color{green}{0} & \color{green}{0} \\
+  \color{yellow}{0} & \color{yellow}{11} & \color{yellow}{-7} & \color{green}{-3} & \color{green}{1} & \color{green}{0} \\
+  \color{yellow}{0} & \color{yellow}{5} & \color{yellow}{-3} & \color{green}{-2} & \color{green}{0} & \color{green}{1}
 \end{pmatrix}
 {\color{blue}{\longleftarrow}}
 \begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
-  \color{yellow}{0} & \color{yellow}{11} & \color{yellow}{-7} \\
-  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} & \color{green}{1} & \color{green}{0} & \color{green}{0} \\
+  \color{yellow}{0} & \color{yellow}{11} & \color{yellow}{-7} & \color{green}{-3} & \color{green}{1} & \color{green}{0} \\
+  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} & \color{green}{0} & \color{green}{0} & \color{green}{1}
 \end{pmatrix}
 {\color{blue}{\longleftarrow}}
 \begin{pmatrix}
@@ -1922,45 +1922,45 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 `\[
 {\color{blue}{\leftarrow}}
 \begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{-1} \\
-  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} \\
-  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{2}
+  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{-1} & \color{green}{4} & \color{green}{3} & \color{green}{-6} \\
+  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} & \color{green}{1} & \color{green}{1} & \color{green}{-2} \\
+  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{2} & \color{green}{-7} & \color{green}{5} & \color{green}{11}
 \end{pmatrix}
 {\color{blue}{\longleftarrow}}
 \begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{-1} \\
-  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} \\
-  \color{yellow}{0} & \color{yellow}{5} & \color{yellow}{-3}
+  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{-1} & \color{green}{4} & \color{green}{3} & \color{green}{-6} \\
+  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} & \color{green}{1} & \color{green}{1} & \color{green}{-2} \\
+  \color{yellow}{0} & \color{yellow}{5} & \color{yellow}{-3} & \color{green}{-2} & \color{green}{0} & \color{green}{1}
 \end{pmatrix}
 {\color{blue}{\longleftarrow}}
 \begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
-  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} \\
-  \color{yellow}{0} & \color{yellow}{5} & \color{yellow}{-3}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} & \color{green}{1} & \color{green}{0} & \color{green}{0} \\
+  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} & \color{green}{1} & \color{green}{1} & \color{green}{-2} \\
+  \color{yellow}{0} & \color{yellow}{5} & \color{yellow}{-3} & \color{green}{2} & \color{green}{0} & \color{green}{1}
 \end{pmatrix}
 \color{blue}{\leftarrow}
 \]`
 
 <br />
 `\[
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{0} & \color{green}{} & \color{green}{} & \color{green}{} \\
+  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{0} & \color{green}{} & \color{green}{} & \color{green}{} \\
+  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1} & \color{green}{} & \color{green}{} & \color{green}{}
+\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{0} & \color{green}{} & \color{green}{} & \color{green}{} \\
+  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} & \color{green}{} & \color{green}{} & \color{green}{} \\
+  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1} & \color{green}{} & \color{green}{} & \color{green}{}
+\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{-1} & \color{green}{} & \color{green}{} & \color{green}{} \\
+  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} & \color{green}{} & \color{green}{} & \color{green}{} \\
+  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1} & \color{green}{} & \color{green}{} & \color{green}{}
+\end{pmatrix}
 \color{blue}{\leftarrow}
-\begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{0} \\
-  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{0} \\
-  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1}
-\end{pmatrix}
-{\color{blue}{\longleftarrow}}
-\begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{0} \\
-  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} \\
-  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1}
-\end{pmatrix}
-{\color{blue}{\longleftarrow}}
-\begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{-1} \\
-  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} \\
-  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1}
-\end{pmatrix}
 \]`
 @mathend
 @snapend
