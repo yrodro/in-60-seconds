@@ -1194,7 +1194,7 @@ $3 \times 4$ matrix
   \end{pmatrix}
   =
   \begin{pmatrix}
-    {\color{green}{5}} & {\color{green}{20}} & {\color{green}{35}} & {\color{green}{50}} \\
+    {\color{green}{-5}} & {\color{green}{-20}} & {\color{green}{-35}} & {\color{green}{-50}} \\
     2 &  5 &  8 & 11 \\
     3 &  6 &  9 & 12
   \end{pmatrix}
@@ -1689,8 +1689,8 @@ and the inverse is also an elementary matrix
 Start assuming $A$ is an invertible matrix.
 
 @ul[midpoint list-no-bullets]
-- $A \vec{x_0} = \vec{0}$ <br />
-- $A^{-1} A \vec{x_0} = A^{-1} \vec{0}$ <br />
+- $A \vec{x_0} = \vec{0}$ <br /> <br />
+- $A^{-1} A \vec{x_0} = A^{-1} \vec{0}$ <br /> <br />
 - $\vec{x_0} = \vec{0}$
 @ulend
 
@@ -1796,16 +1796,178 @@ We proved **a)**
 
 
 ---
-### Elementary Matrices in Action
+### Elementary Matrices in Action (I)
 **$\S$1.5 &ndash; Finding $A^{-1}$**
 
 @snap[midpoint span-80 text-07]
 @ul[list-no-bullets]
 - $I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br /><br />
 - $A^{-1} = \big( E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \big)$ <br /><br />
-- $A = \big( E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot E_7^{-1} \cdot E_8^{-1} \big)$
+- $A^{-1} = \big( E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \big) \cdot I$
 @ulend
 @snapend
+
+@snap[south fragment]
+The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
+@snapend
+
+
+---
+### Elementary Matrices in Action (II)
+**$\S$1.5 &ndash; Finding $A^{-1}$**
+
+@snap[midpoint span-80 text-07]
+@ul[list-no-bullets]
+- $I = E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot A$ <br /><br />
+- $A^{-1} = \big( E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \big)$ <br /><br />
+- $A^{-1} = \big( E_8 \cdot E_7 \cdot E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \big) \cdot I$
+@ulend
+@snapend
+
+@snap[south fragment text-04]
+@math
+`\[
+  \begin{pmatrix}
+    \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{0}\\
+    \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{0}\\
+    \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1}
+  \end{pmatrix}
+  \color{red}{=}
+  \begin{pmatrix} 1&0&0\\0&1&1\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&1\\0&1&0\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&0\\0&0&\tfrac{1}{2} \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&0\\0&-5&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&3&0\\0&1&0\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&-2\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&0\\-2&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix}
+  \cdot
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
+  \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
+  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
+\end{pmatrix}
+\]`
+
+<br />
+`\[
+  \begin{pmatrix}
+    \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} \\
+    \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} \\
+    \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1}
+  \end{pmatrix}^{-1}
+  \color{red}{=}
+  \begin{pmatrix} 1&0&0\\0&1&1\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&1\\0&1&0\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&0\\0&0&\tfrac{1}{2} \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&0\\0&-5&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&3&0\\0&1&0\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&-2\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\0&1&0\\-2&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix} 1&0&0\\-3&1&0\\0&0&1 \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{0}\\
+    \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{0}\\
+    \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1}
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+
+---
+### Elementary Matrices in Action (III)
+**$\S$1.5 &ndash; Finding $A^{-1}$**
+
+@snap[fragment text-05]
+<br /><br />
+@math
+`\[
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}
+  1 & -3 & 2 \\
+  0 & 11 & -7 \\
+  0 & 5 & -3
+\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}
+  1 & -3 & 2 \\
+  0 & 11 & -7 \\
+  2 & -1 & 1
+\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}
+  \color{yellow}{1} & \color{yellow}{-3} & \color{yellow}{2} & \color{green}{1} & \color{green}{0} & \color{green}{0} \\
+  \color{yellow}{3} & \color{yellow}{2} & \color{yellow}{-1} & \color{green}{0} & \color{green}{1} & \color{green}{0} \\
+  \color{yellow}{2} & \color{yellow}{-1} & \color{yellow}{1} & \color{green}{0} & \color{green}{0} & \color{green}{1}
+\end{pmatrix}
+\]`
+
+<br />
+`\[
+{\color{blue}{\leftarrow}}
+\begin{pmatrix}
+  1 & 0 & -1 \\
+  0 & 1 & -1 \\
+  0 & 0 & 2
+\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}
+  1 & 0 & -1 \\
+  0 & 1 & -1 \\
+  0 & 5 & -3
+\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}
+  1 & -3 & 2 \\
+  0 & 1 & -1 \\
+  0 & 5 & -3
+\end{pmatrix}
+\leftarrow
+\]`
+
+<br />
+`\[
+\leftarrow
+\begin{pmatrix}
+  1 & 0 & 0 \\
+  0 & 1 & 0 \\
+  0 & 0 & 1
+\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}
+  1 & 0 & 0 \\
+  0 & 1 & -1 \\
+  0 & 0 & 1
+\end{pmatrix}
+{\color{blue}{\longleftarrow}}
+\begin{pmatrix}
+  1 & 0 & -1 \\
+  0 & 1 & -1 \\
+  0 & 0 & 1
+\end{pmatrix}
+\]`
+@mathend
+@snapend
+
+
+
+
 
 
 
@@ -1815,6 +1977,19 @@ We proved **a)**
 ---
 ### 
 **$\S$ &ndash; **
+
+
+
+---
+### 
+**$\S$ &ndash; **
+
+
+
+---
+### 
+**$\S$ &ndash; **
+
 
 
 ---
