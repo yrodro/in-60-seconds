@@ -1944,21 +1944,21 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 <br />
 `\[
 \begin{pmatrix}
-  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{0} & \color{green}{} & \color{green}{} & \color{green}{} \\
-  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{0} & \color{green}{} & \color{green}{} & \color{green}{} \\
-  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1} & \color{green}{} & \color{green}{} & \color{green}{}
+  \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{0} & \color{green}{\tfrac{1}{2}} & \color{green}{\tfrac{1}{2}} & \color{green}{-1} \\
+  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{0} & \color{green}{\tfrac{-5}{2}} & \color{green}{\tfrac{-3}{2}} & \color{green}{7} \\
+  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1} & \color{green}{\tfrac{-7}{2}} & \color{green}{\tfrac{-5}{2}} & \color{green}{11}
 \end{pmatrix}
 {\color{blue}{\longleftarrow}}
 \begin{pmatrix}
   \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{0} & \color{green}{4} & \color{green}{3} & \color{green}{-6} \\
-  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} & \color{green}{} & \color{green}{} & \color{green}{} \\
-  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1} & \color{green}{} & \color{green}{} & \color{green}{}
+  \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} & \color{green}{\tfrac{-5}{2}} & \color{green}{\tfrac{-3}{2}} & \color{green}{7} \\
+  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1} & \color{green}{\tfrac{-7}{2}} & \color{green}{\tfrac{-5}{2}} & \color{green}{11}
 \end{pmatrix}
 {\color{blue}{\longleftarrow}}
 \begin{pmatrix}
   \color{yellow}{1} & \color{yellow}{0} & \color{yellow}{-1} & \color{green}{4} & \color{green}{3} & \color{green}{-6} \\
   \color{yellow}{0} & \color{yellow}{1} & \color{yellow}{-1} & \color{green}{1} & \color{green}{1} & \color{green}{-2} \\
-  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1} & \color{green}{} & \color{green}{} & \color{green}{}
+  \color{yellow}{0} & \color{yellow}{0} & \color{yellow}{1} & \color{green}{\tfrac{-7}{2}} & \color{green}{\tfrac{-5}{2}} & \color{green}{11}
 \end{pmatrix}
 \color{blue}{\leftarrow}
 \]`
