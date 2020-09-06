@@ -1992,8 +1992,8 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 @snapend
 
 <br />
-@ul[list-no-bullets span-70 text-07]
-- $A(A^{-1})\vec{b} = \vec{b}$, so $A^{-1}\vec{b}$ **is** a solution
+@ul[list-no-bullets span-65 text-07]
+- $A(A^{-1})\vec{b} = \vec{b}$, so $A^{-1}\vec{b}$ **is** a solution <br />
 - If $A\vec{x_0}=\vec{b}$ (i.e. $\vec{x_0}$ is a solution), then multiply both sides by $A^{-1}$ to find $\vec{x_0} = A^{-1}\vec{b}$
 @ulend
 
@@ -2005,7 +2005,7 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 @snap[fragment text-08]
 @math
 `\[
-A\vec{x}=b \qquad
+A\vec{x}=\vec{b} \qquad
  A=\begin{pmatrix}2&-1&1\\3&2&-1\\1&-3&2\end{pmatrix} \quad
  \vec{b}=\begin{pmatrix}3\\-1\\2\end{pmatrix}
 \]`
@@ -2013,8 +2013,8 @@ A\vec{x}=b \qquad
 @snapend
 
 @ul[list-no-bullets text-07]
-- $A\vec{x} = \vec{b}$
-- $A^{-1}A\vec{x} = A^{-1}\vec{b}$
+- $A\vec{x} = \vec{b}$ <br />
+- $A^{-1}A\vec{x} = A^{-1}\vec{b}$ <br />
 - $\vec{x} = A^{-1}\vec{b}$
 @ulend
 
