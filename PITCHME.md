@@ -1966,35 +1966,78 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 @snapend
 
 
+---
+### How many solutions?
+**$\S$1.6 &ndash; $,0,\, 1,$ or $\infty$!**
 
+@snap[fragment]
+**Theorem 1.6.1** A system of equations has zero, one, or infinitely many solutions.
+@snapend
 
-
-
-
-
+<br />
+@ul[list-no-bullets text-07]
+- Say the system is $A\vec{x} = \vec{b}$
+- If $\vec{x_1},\vec{v_2}$ are two solutions, call $\vec{x_0} = \vec{x_1}-\vec{x_2}$.
+- $A \vec{x_0} = A(\vec{x_1} - \vec{x_2}) = A\vec{x_1} - A\vec{x_2} = \vec{b} - \vec{b} = \vec{0}$
+- For any scalar $k$, $A(\vec{x_1}+k\vec{x_0}) = A\vec{x_1} + kA\vec{x_0} = \vec{b}+k\vec{0} = \vec{b}$
+@ulend
 
 
 ---
-### 
-**$\S$ &ndash; **
+### Invertible systems (I)
+**$\S$1.6 &ndash; How many solutions if $A$ is invertible?**
 
+@snap[fragment]
+**Theorem 1.6.2** If $A$ is invertible, the system $A\vec{x} = \vec{b}$ has exactly one solution.
+@snapend
+
+<br />
+@ul{list-no-bullets text-07]
+- $A(A^{-1})\vec{b} = \vec{b}$, so $A^{-1}\vec{b}$ **is** a solution
+- If $A\vec{x_0}=\vec{b}$ (i.e. $\vec{x_0}$ is a solution), then multiply both sides by
+  $A^{-1}$ to find $\vec{x_0} = A^{-1}\vec{b}$
+@ulend
 
 
 ---
-### 
-**$\S$ &ndash; **
+### Invertible systems (II)
+**$\S$1.6 &ndash; Solving invertible systems**
 
+$A\vec{x}=b \qquad
+ A=\begin{pmatrix}2&-1&1\\3&2&-1\\1&-3&2\end{pmatrix} \quad
+ \vec{b}=\begin{pmatrix}3\\-1\\2\end{pmatrix}
+$
+
+@ul[text-07]
+- $A\vec{x} = \vec{b}$
+- $A^{-1}A\vec{x} = A^{-1}\vec{b}$
+- $\vec{x} = A^{-1}\vec{b}$
+@ulend
+
+@snap[sounth fragment]
+@math
+`\[
+  \begin{pmatrix}
+    \tfrac{1}{2} & \tfrac{1}{2} & \tfrac{-1}{2} \\
+    \tfrac{-5}{2} & \tfrac{-3}{2} & \tfrac{7}{2} \\
+    \tfrac{-7}{2} & \tfrac{-5}{2} & \tfrac{11}{2}
+  \end{pmatrix}
+  \cdot
+  \begin{pmatrix}
+    3\\-1\\2
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    -1\\7\\12
+  \end{pmatrix}
+\]`
+@mathend
+@snapend
 
 
 ---
-### 
-**$\S$ &ndash; **
-
-
-
----
-### 
-**$\S$ &ndash; **
+### Invertible systems (II)
+**$\S$1.6 &ndash; Solving invertible systems**
 
 
 
