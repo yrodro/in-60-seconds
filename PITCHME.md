@@ -2051,23 +2051,24 @@ A\vec{x}=\vec{b} \qquad
 @ulend
 @snapend
 
-@ul[text-07]
+<br />
+@ul[list-no-bullets text-07]
 - Let $\vec{x_0}$ be a solution of $A\vec{x} = \vec{0}$
 - $BA\vec{x_0} = B\vec{0}$
 - $I\vec{x_0} = B\vec{0}$
 - $\vec{x_0} = B\vec{0}$
 - So $A$ **is** invertible
 - $BA = I$
-- BAA^{-1} = IA^{-1}$
+- $BAA^{-1} = IA^{-1}$
 - $B = A^{-1}$
 @ulend
 
 
 ---
 ### Invertibility Properties (II)
-**$\S$1.5 &ndash; This is the Most Important Slide**
+**$\S$1.6 &ndash; This is the Most Important Slide**
 
-@snap[midpoint fragment span-85]
+@snap[midpoint fragment text-08]
 <br /><br />
 *Theorem* If $A$ is an $n \times n$ matrix, then the following statements are equivalent:
 @ul[list-no-bullets]
@@ -2080,7 +2081,7 @@ A\vec{x}=\vec{b} \qquad
 @ulend
 @snapend
 
-@snap[south fragment text-06]
+@snap[south fragment span-80 text-06]
 We proved a) $\Rightarrow$ f) in Theorem 1.6.2, so we only need to prove
 f) $\Rightarrow$e) $\Rightarrow$ a)
 @snapend
