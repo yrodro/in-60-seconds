@@ -2003,10 +2003,15 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 ### Invertible systems (II)
 **$\S$1.6 &ndash; Solving invertible systems**
 
-$A\vec{x}=b \qquad
+@snap[fragment]
+@math
+`\[
+A\vec{x}=b \qquad
  A=\begin{pmatrix}2&-1&1\\3&2&-1\\1&-3&2\end{pmatrix} \quad
  \vec{b}=\begin{pmatrix}3\\-1\\2\end{pmatrix}
-$
+\]`
+@mathend
+@snapend
 
 @ul[text-07]
 - $A\vec{x} = \vec{b}$
