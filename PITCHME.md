@@ -2022,9 +2022,9 @@ A\vec{x}=\vec{b} \qquad
 @math
 `\[
   \begin{pmatrix}
-    \tfrac{1}{2} & \tfrac{1}{2} & \tfrac{-1}{2} \\
-    \tfrac{-5}{2} & \tfrac{-3}{2} & \tfrac{7}{2} \\
-    \tfrac{-7}{2} & \tfrac{-5}{2} & \tfrac{11}{2}
+    \tfrac{-1}{2} & \tfrac{1}{2} & \tfrac{1}{2} \\
+    \tfrac{7}{2} & \tfrac{-3}{2} & \tfrac{-5}{2} \\
+    \tfrac{11}{2} & \tfrac{-5}{2} & \tfrac{-7}{2}
   \end{pmatrix}
   \cdot
   \begin{pmatrix}
