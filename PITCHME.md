@@ -2021,8 +2021,8 @@ A\vec{x}=\vec{b} \qquad
 @snapend
 
 @ul[list-no-bullets text-07]
-- $A\vec{x} = \vec{b}$ <br />
-- $A^{-1}A\vec{x} = A^{-1}\vec{b}$ <br />
+- $A\vec{x} = \vec{b}$ <br /><br />
+- $A^{-1}A\vec{x} = A^{-1}\vec{b}$ <br /><br />
 - $\vec{x} = A^{-1}\vec{b}$
 @ulend
 
@@ -2061,13 +2061,12 @@ A\vec{x}=\vec{b} \qquad
 
 <br />
 @ul[list-no-bullets text-07]
-- Let $\vec{x_0}$ be a solution of $A\vec{x} = \vec{0}$
-- $BA\vec{x_0} = B\vec{0}$
-- $I\vec{x_0} = B\vec{0}$, that is, $\vec{x_0} = \vec{0}$
-- So $A$ **is** invertible
-- $BA = I$
-- $BAA^{-1} = IA^{-1}$
-- $B = A^{-1}$
+- Let $\vec{x_0}$ be a solution of $A\vec{x} = \vec{0}$<br /><br />
+- $BA\vec{x_0} = B\vec{0}$<br /><br />
+- $I\vec{x_0} = B\vec{0}$, that is, $\vec{x_0} = \vec{0}$<br /><br />
+- So $A$ **is** invertible<br /><br />
+- $BA = I$<br /><br />
+- $BAA^{-1} = IA^{-1}$; so $B = A^{-1}$
 @ulend
 
 
