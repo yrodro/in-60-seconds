@@ -2070,6 +2070,7 @@ A\vec{x}=\vec{b} \qquad
 @ul[south-east list-no-bullets text-07]
 - $BA = I$<br /><br />
 - $BAA^{-1} = IA^{-1}$; so $B = A^{-1}$
+- &nbsp;
 @ulend
 
 
