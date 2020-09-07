@@ -2119,12 +2119,13 @@ D'uh! If there is exactly one solution, there **are** solutions.
 Start assuming that the system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.
 @snapend
 
-@snap[east fragment text-04]
+@snap[east fragment text-05]
 @math
 `\[
   A\vec{x_1}=\begin{pmatrix}1 \\ 0 \\ \vdots \\ 0\end{pmatrix},
 \]`
 @mathend
+<br />
 @math
 `\[
   A\vec{x_2}=\begin{pmatrix}0 \\ 1 \\ \vdots \\ 0\end{pmatrix},
@@ -2142,7 +2143,7 @@ Start assuming that the system $A\vec{x} = \vec{b}$ is consistent; i.e., it has 
 
 @ul[west list-no-bullets text-07]
 - Find the solutions $\vec{x_i}$ to the systems on the right.
-- Construct the matrix $C= \left( \vec{x_1} | \vec{x_2} | \ldots | \vec{x_n} \right)$
+- Construct the matrix $C= \left( \vec{x_1} \left| \vec{x_2} | \ldots | \vec{x_n} \right)$
 @ulend
 
 @snap[south fragment]
