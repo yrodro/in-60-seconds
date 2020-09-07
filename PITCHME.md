@@ -2191,8 +2191,8 @@ We proved **a)**
 @math
 `\[
   \begin{pmatrix} \color{yellow}{1} & 0 & 0 & 0 \\ 0 & \color{yellow}{0} & 0 & 0 \\ 0 & 0 & \color{yellow}{6} & 0 \\ 0 & 0 & 0 & \color{yellow}{6} \end{pmatrix} \qquad
-    \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 3 \\ 0 & \color{yellow}{0} & 4 & 5 \\ 0 & 0 & \color{yellow}{6} & 6 \\ 0 & 0 & 0 & \color{yellow}{6} \end{pmatrix} \qquad
-      \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 3 \\ 1 & \color{yellow}{0} & 4 & 5 \\ 2 & 4 & \color{yellow}{6} & 6 \\ 3 & 5  & 6 & \color{yellow}{6} \end{pmatrix}
+    \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 0 \\ 0 & \color{yellow}{0} & 3 & 4 \\ 0 & 0 & \color{yellow}{6} & 5 \\ 0 & 0 & 0 & \color{yellow}{6} \end{pmatrix} \qquad
+      \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 0 \\ 1 & \color{yellow}{0} & 3 & 4 \\ 2 & 3 & \color{yellow}{6} & 5 \\ 0 & 4  & 5 & \color{yellow}{6} \end{pmatrix}
 \]`
 @mathend
 @snapend
@@ -2203,7 +2203,7 @@ We proved **a)**
 - Lower diagonal is defined similarly
 - Both diagonal and off-diagonal entries **can** be zero
 - Upper **and** lower triangular $\Leftrightarrow$ diagonal
-- Symmetric and triangular $\Leftrightarrow$ diagonal
+- Symmetric **and** triangular $\Leftrightarrow$ diagonal
 @ulend
 
 
