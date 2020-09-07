@@ -2119,7 +2119,8 @@ D'uh! If there is exactly one solution, there **are** solutions.
 **$\S$1.6 &ndash; Proof of e) $\Rightarrow$ a)**
 
 @snap[fragment span-80 text-07]
-Start assuming **e)**: The system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.
+Start assuming **e)**: The system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.<br /><br />
+
 @snapend
 
 @snap[east fragment text-05]
@@ -2145,7 +2146,6 @@ Start assuming **e)**: The system $A\vec{x} = \vec{b}$ is consistent; i.e., it h
 @snapend
 
 @ul[west list-no-bullets text-07]
-<br /><br />
 - Find the solutions $\vec{x_i}$ to the systems on the right<br /><br />
 - Construct the matrix $C= \left( \vec{x_1} \big| \vec{x_2} \big| \ldots \big| \vec{x_n} \right)$<br /><br />
 - Notice that $AC = I$, so $C = A^{-1}$
