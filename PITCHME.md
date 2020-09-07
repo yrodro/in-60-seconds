@@ -1687,7 +1687,7 @@ and the inverse is also an elementary matrix
 **$\S$1.5 &ndash; Proof of a) $\Rightarrow$ b)**
 
 @snap[fragment text-07]
-Start assuming a): $A$ is an invertible matrix.
+Start assuming **a)**: $A$ is an invertible matrix.
 @snapend
 
 @ul[midpoint list-no-bullets text-07]
@@ -1706,7 +1706,7 @@ We proved **b)**
 **$\S$1.5 &ndash; Proof of b) $\Rightarrow$ c)**
 
 @snap[fragment text-07]
-Start assuming b): $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
+Start assuming **b)**: $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 @snapend
 
 @snap[point fragment text-06]
@@ -1749,7 +1749,7 @@ We proved **c)**
 **$\S$1.5 &ndash; Proof of c) $\Rightarrow$ d)**
 
 @snap[fragment text-07]
-Start assuming c): The RREF of $A$ is $I$.
+Start assuming **c)**: The RREF of $A$ is $I$.
 @snapend
 
 @snap[midpoint text-05]
@@ -1790,7 +1790,7 @@ We proved **d)**
 **$\S$1.5 &ndash; Proof of d) $\Rightarrow$ a)**
 
 @snap[fragment text-07]
-Start assuming d): $A$ is a product of elementary matrices.
+Start assuming **d)**: $A$ is a product of elementary matrices.
 @snapend
 
 @ul[midpoint list-no-bullets span-80 text-07]
@@ -2116,7 +2116,7 @@ D'uh! If there is exactly one solution, there **are** solutions.
 **$\S$1.6 &ndash; Proof of e) $\Rightarrow$ a)**
 
 @snap[fragment span-80 text-07]
-Start assuming e): The system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.
+Start assuming **e)**: The system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.
 @snapend
 
 @snap[east fragment text-05]
