@@ -2179,6 +2179,7 @@ We proved **a)**
 ### Special Matrix Shapes (II)
 **$\S$1.7 &ndash; Symmetry (diagonals and triangles)**
 
+<br />
 @snap[fragment text-07]
 @math
 `\[
@@ -2189,8 +2190,9 @@ We proved **a)**
 @mathend
 @snapend
 
+<br \>
 @snap[fragment text-09]
-&nbsp;Diagonal, Upper Triangular, Symmetric
+These are **d**iagonal, Upper **t**riangular, and **s**ymmetric matrices
 @snapend
 
 
