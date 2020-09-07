@@ -2187,8 +2187,13 @@ We proved **a)**
       \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 3 \\ 1 & \color{yellow}{0} & 4 & 5 \\ 2 & 4 & \color{yellow}{6} & 6 \\ 3 & 5  & 6 & \color{yellow}{6} \end{pmatrix}
 \]`
 @mathend
-Diagonal Upper Triangular, Symmetric
-@snapendxs
+@snapend
+
+@snap[fragment text-08]
+Diagonal, Upper Triangular, Symmetric
+
+@snapend
+
 
 ---
 ### 
