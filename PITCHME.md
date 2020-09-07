@@ -2198,9 +2198,13 @@ We proved **a)**
 @snapend
 
 <br \>
-@snap[fragment text-09]
-These are **d**iagonal, upper **t**riangular, and **s**ymmetric matrices
-@snapend
+@ul[list-no-bullets text-07]
+- These are **d**iagonal, upper **t**riangular, and **s**ymmetric matrices
+- Lower diagonal is defined similarly
+- Both diagonal and off-diagonal entries **can** be zero
+- Upper **and** lower triangular $\Leftrightarrow$ diagonal
+- Symmetric and triangular $\Leftrightarrow$ diagonal
+@ulend
 
 
 ---
