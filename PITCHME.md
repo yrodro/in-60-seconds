@@ -1686,7 +1686,7 @@ and the inverse is also an elementary matrix
 ### Invertibility Properties (II)
 **$\S$1.5 &ndash; Proof of a) $\Rightarrow$ b)**
 
-@snap[midpoint fragment text-07]
+@snap[fragment text-07]
 Start assuming $A$ is an invertible matrix.
 @snapend
 
@@ -1705,11 +1705,11 @@ We proved **b)**
 ### Invertibility Properties (III)
 **$\S$1.5 &ndash; Proof of b) $\Rightarrow$ c)**
 
-@snap[midpoint fragment text-07]
+@snap[fragment text-07]
 Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 @snapend
 
-@snap[midpoint fragment text-06]
+@snap[point fragment text-06]
 <br /><br /><br /><br />
 @math
 `\[
@@ -1748,7 +1748,7 @@ We proved **c)**
 ### Invertibility Properties (IV)
 **$\S$1.5 &ndash; Proof of c) $\Rightarrow$ d)**
 
-@snap[midpoint fragment text-07]
+@snap[fragment text-07]
 Start assuming the RREF of $A$ is $I$.
 @snapend
 
@@ -1789,7 +1789,7 @@ We proved **d)**
 ### Invertibility Properties (V)
 **$\S$1.5 &ndash; Proof of d) $\Rightarrow$ a)**
 
-@snap[midpoint fragment text-07]
+@snap[fragment text-07]
 Start assuming $A$ is a product of elementary matrices.
 @snapend
 
@@ -2143,7 +2143,8 @@ Start assuming that the system $A\vec{x} = \vec{b}$ is consistent; i.e., it has 
 
 @ul[west list-no-bullets text-07]
 - Find the solutions $\vec{x_i}$ to the systems on the right.
-- Construct the matrix $C= \left( \vec{x_1} \big| \vec{x_2} | \ldots | \vec{x_n} \right)$
+- Construct the matrix $C= \left( \vec{x_1} \big| \vec{x_2} \big| \ldots \big| \vec{x_n} \right)$
+- Notice that $AC = I$, so $C = A^{-1}$
 @ulend
 
 @snap[south fragment]
