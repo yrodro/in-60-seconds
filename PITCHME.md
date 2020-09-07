@@ -1709,7 +1709,7 @@ We proved **b)**
 Start assuming **b)**: $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
 @snapend
 
-@snap[point fragment text-06]
+@snap[midpoint fragment text-06]
 <br /><br /><br /><br />
 @math
 `\[
