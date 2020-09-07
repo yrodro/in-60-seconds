@@ -1976,7 +1976,7 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 
 ---
 ### How many solutions?
-**$\S$1.6 &ndash; $0,\, 1$, or $\infty$**!
+**$\S$1.6 &ndash; $0,\, 1$, or $\infty$ !**
 
 @snap[fragment]
 **Theorem 1.6.1** A system of equations has zero, one, or infinitely many solutions.
