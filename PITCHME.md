@@ -2068,7 +2068,7 @@ A\vec{x}=\vec{b} \qquad
 @ulend
 
 @ul[south-east list-no-bullets text-07]
-- Let's prove **a)**
+- Let's prove **a)** <br /><br />
 - $BA = I$<br /><br />
 - $BAA^{-1} = IA^{-1}$; so $B = A^{-1}$
 @ulend
@@ -2125,13 +2125,13 @@ Start assuming **e)**: The system $A\vec{x} = \vec{b}$ is consistent; i.e., it h
 @snap[east fragment text-05]
 @math
 `\[
-  A\vec{x_1}=\begin{pmatrix}1 \\ 0 \\ \vdots \\ 0\end{pmatrix},
+  A\vec{x_1}=\begin{pmatrix}1 \\ 0 \\ \vdots \\ 0\end{pmatrix}
 \]`
 @mathend
 <br />
 @math
 `\[
-  A\vec{x_2}=\begin{pmatrix}0 \\ 1 \\ \vdots \\ 0\end{pmatrix},
+  A\vec{x_2}=\begin{pmatrix}0 \\ 1 \\ \vdots \\ 0\end{pmatrix}
 \]`
 @mathend
 @math
@@ -2144,6 +2144,7 @@ Start assuming **e)**: The system $A\vec{x} = \vec{b}$ is consistent; i.e., it h
 @mathend
 @snapend
 
+<br /><br />
 @ul[west list-no-bullets text-07]
 - Find the solutions $\vec{x_i}$ to the systems on the right.
 - Construct the matrix $C= \left( \vec{x_1} \big| \vec{x_2} \big| \ldots \big| \vec{x_n} \right)$
