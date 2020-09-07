@@ -2179,11 +2179,12 @@ We proved **a)**
 ### Special Matrix Shapes (II)
 **$\S$1.7 &ndash; Symmetry (diagonals and triangles)**
 
-@math[fragment text-07]
+@snap[fragment text-07]
+@math
 `\[
-  \begin{pmatrix} \color{yellow}{1} & 0 & 0 & 0 \\ 0 & \color{yellow}{0} & 0 & 0 \\ 0 & 0 \color{yellow}{6} & 0 \\ 0 & 0 & 0 & \color{yllow}{6} \end{pmatrix} \qquad
-    \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 3 \\ 0 & \color{yellow}{0} & 4 & 5 \\ 0 & 0 \color{yellow}{6} & 6 \\ 0 & 0 & 0 & \color{yllow}{6} \end{pmatrix} \qquad
-      \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 3 \\ 1 & \color{yellow}{0} & 4 & 5 \\ 2 & 5 \color{yellow}{6} & 6 \\ 3 & 4 & 6 & \color{yllow}{6} \end{pmatrix}
+  \begin{pmatrix} \color{yellow}{1} & 0 & 0 & 0 \\ 0 & \color{yellow}{0} & 0 & 0 \\ 0 & 0 & \color{yellow}{6} & 0 \\ 0 & 0 & 0 & \color{yellow}{6} \end{pmatrix} \qquad
+    \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 3 \\ 0 & \color{yellow}{0} & 4 & 5 \\ 0 & 0 & \color{yellow}{6} & 6 \\ 0 & 0 & 0 & \color{yellow}{6} \end{pmatrix} \qquad
+      \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 3 \\ 1 & \color{yellow}{0} & 4 & 5 \\ 2 & 5 & \color{yellow}{6} & 6 \\ 3 & 4 & 6 & \color{yellow}{6} \end{pmatrix}
 \]`
 @mathend
 
