@@ -2068,9 +2068,9 @@ A\vec{x}=\vec{b} \qquad
 @ulend
 
 @ul[south-east list-no-bullets text-07]
+- Let's prove **a)**
 - $BA = I$<br /><br />
 - $BAA^{-1} = IA^{-1}$; so $B = A^{-1}$
-- &nbsp;
 @ulend
 
 
