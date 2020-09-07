@@ -1752,11 +1752,11 @@ We proved **c)**
 Start assuming **c)**: The RREF of $A$ is $I$.
 @snapend
 
-@snap[midpoint text-05]
+@snap[midpoint fragment text-05]
 <br /><br />
 @math
 `\[
-   {\color{blue}{\leftarrow}}
+   \cdots {\color{blue}{\leftarrow}}
    \begin{pmatrix}1 & 0 & -1 \\ 0 & 1 & -1 \\ 0 & 5 & -3\end{pmatrix}
    {\color{blue}{\longleftarrow}}
    \begin{pmatrix}1 & -3 & 2 \\ 0 & 1 & -1 \\ 0 & 5 & -3\end{pmatrix}
@@ -1976,7 +1976,7 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 
 ---
 ### How many solutions?
-**$\S$1.6 &ndash; $,0,\, 1,$ or $\infty$!**
+**$\S$1.6 &ndash; $0,\, 1$, or $\infty$**!
 
 @snap[fragment]
 **Theorem 1.6.1** A system of equations has zero, one, or infinitely many solutions.
@@ -2153,13 +2153,39 @@ We proved **a)**
 
 
 ---
-### 
-**$\S$ &ndash; **
+### Special Matrix Shapes (I)
+**$\S$1.4 &ndash; More on Transposes**
+
+@snap[fragment text-07]
+**Theorem 1.4.9** If $A$ is invertible, then $A^T$ is invertible and
+@math
+`\[
+  \big( A^T \big)^{-1} = \big( A^{-1} \big)^T
+\]`
+@mathend
+@snapend
+
+@ul[list-no-bullets text-07]
+- Since $(AB)^T = B^T A^T$, we have
+- A^T \big(A^{-1} \big)^T = \big( A^{-1}A \big )^T = I^T = I$
+- Similarly,
+- \big(A^{-1} \big)^T A^T = \big( AA^{-1} \big )^T = I$
+- This means that
+- $A^T \big( A^{-1} \big)^T = \big( A^{-1} \big)^T A^T = I$
+@ulend
 
 
 ---
-### 
-**$\S$ &ndash; **
+### Special Matrix Shapes (II)
+**$\S$1.7 &ndash; Symmetry (diagonals and triangles)**
+
+@math[fragment text-07]
+`\[
+  \begin{pmatrix} \color{yellow}{1} & 0 & 0 & 0 \\ 0 & \color{yellow}{0} & 0 & 0 \\ 0 & 0 \color{yellow}{6} & 0 \\ 0 & 0 & 0 & \color{yllow}{6} \end{pmatrix} \qquad
+    \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 3 \\ 0 & \color{yellow}{0} & 4 & 5 \\ 0 & 0 \color{yellow}{6} & 6 \\ 0 & 0 & 0 & \color{yllow}{6} \end{pmatrix} \qquad
+      \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 3 \\ 1 & \color{yellow}{0} & 4 & 5 \\ 2 & 5 \color{yellow}{6} & 6 \\ 3 & 4 & 6 & \color{yllow}{6} \end{pmatrix}
+\]`
+@mathend
 
 
 ---
