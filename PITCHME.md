@@ -1976,7 +1976,7 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 
 ---
 ### How many solutions?
-**$\S$1.6 &ndash; $0,\, 1$, or $\infty$ !**
+**$\S$1.6 &ndash; Not much choice; $0,\, 1$, or $\infty$ !**
 
 @snap[fragment]
 **Theorem 1.6.1** A system of equations has zero, one, or infinitely many solutions.
@@ -1995,13 +1995,13 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 ### Invertible systems (I)
 **$\S$1.6 &ndash; How many solutions if $A$ is invertible?**
 
-@snap[fragment]
+@snap[fragment text-07]
 **Theorem 1.6.2** If $A$ is invertible, the system $A\vec{x} = \vec{b}$ has exactly one solution.
 @snapend
 
 <br />
 @ul[list-no-bullets span-65 text-07]
-- $A(A^{-1})\vec{b} = \vec{b}$, so $A^{-1}\vec{b}$ **is** a solution <br />
+- $A(A^{-1})\vec{b} = \vec{b}$, so $x_0 = A^{-1}\vec{b}$ **is** a solution <br /><br />
 - If $A\vec{x_0}=\vec{b}$ (i.e. $\vec{x_0}$ is a solution), then multiply both sides by $A^{-1}$ to find $\vec{x_0} = A^{-1}\vec{b}$
 @ulend
 
