@@ -2115,7 +2115,7 @@ D'uh! If there is exactly one solution, there **are** solutions.
 ### Invertibility Properties (IX)
 **$\S$1.6 &ndash; Proof of e) $\Rightarrow$ a)**
 
-@snap[midpoint fragment span-80 text-07]
+@snap[fragment span-80 text-07]
 Start assuming that the system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.
 @snapend
 
