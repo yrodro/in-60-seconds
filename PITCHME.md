@@ -2164,12 +2164,12 @@ We proved **a)**
 \]`
 @mathend
 @snapend
-
+<br \>
 @ul[list-no-bullets text-07]
 - Since $(AB)^T = B^T A^T$, we have
-- A^T \big(A^{-1} \big)^T = \big( A^{-1}A \big )^T = I^T = I$
+- $A^T \big(A^{-1} \big)^T = \big( A^{-1}A \big )^T = I^T = I$
 - Similarly,
-- \big(A^{-1} \big)^T A^T = \big( AA^{-1} \big )^T = I$
+- $\big(A^{-1} \big)^T A^T = \big( AA^{-1} \big )^T = I$
 - This means that
 - $A^T \big( A^{-1} \big)^T = \big( A^{-1} \big)^T A^T = I$
 @ulend
@@ -2192,7 +2192,7 @@ We proved **a)**
 
 <br \>
 @snap[fragment text-09]
-These are **d**iagonal, Upper **t**riangular, and **s**ymmetric matrices
+These are **d**iagonal, upper **t**riangular, and **s**ymmetric matrices
 @snapend
 
 
