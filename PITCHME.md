@@ -2055,7 +2055,7 @@ A\vec{x}=\vec{b} \qquad
 @ul[list-no-bullets text-07]
 - Let $\vec{x_0}$ be a solution of $A\vec{x} = \vec{0}$
 - $BA\vec{x_0} = B\vec{0}$
-- $I\vec{x_0} = B\vec{0}$, that is, $\vec{x_0} = B\vec{0}$
+- $I\vec{x_0} = B\vec{0}$, that is, $\vec{x_0} = \vec{0}$
 - So $A$ **is** invertible
 - $BA = I$
 - $BAA^{-1} = IA^{-1}$
@@ -2064,7 +2064,7 @@ A\vec{x}=\vec{b} \qquad
 
 
 ---
-### Invertibility Properties (II)
+### Invertibility Properties (VI)
 **$\S$1.6 &ndash; This is the Most Important Slide**
 
 <br />
@@ -2082,12 +2082,42 @@ A\vec{x}=\vec{b} \qquad
 @snapend
 
 @snap[south-east fragment span-60 text-06]
-We proved a) $\Rightarrow$ f) in Theorem 1.6.2, so we only need to prove
-f) $\Rightarrow$e) $\Rightarrow$ a)
+We proved a) $\Rightarrow$ f) in Theorem 1.6.2, so we only need to prove f) $\Rightarrow$e) $\Rightarrow$ a)
 @snapend
 
 
 ---
+### Invertibility Properties (VII)
+**$\S$1.6 &ndash; Proof of a) $\Rightarrow$ f)**
+
+We did it! If $A$ is invertible, the system $A \vec{x} = \vec{b}$ **always has one solution.
+
+@ul[midpoint list-no-bullets]
+- 
+@ulend
+
+
+---
+###  Invertibility Properties (VIII)
+**$\S$1.6 &ndash; Proof of f) $\Rightarrow$ e)**
+
+D'uh! If there is exacctly one solution, there **are** solutions.
+
+
+--- Invertibility Properties (IX)
+**$\S$1.6 &ndash; Proof of e) $\Rightarrow$ a)**
+
+Start assuming The system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.
+
+@ul[midpoint list-no-bullets]
+- Find the solutions $\vec{x_i}$ to the systems $A\begin{pmatrix}1 \\ 0 \\ \vdots \\ 0\end{pmatrix}$
+@ulend
+
+@snap[south fragment]
+We proved **a)**
+@snapend
+
+
 ### 
 **$\S$ &ndash; **
 
@@ -2109,17 +2139,19 @@ f) $\Rightarrow$e) $\Rightarrow$ a)
 
 ---
 ### 
-**$\S$ &ndash; **
+### Invertibility Properties (VII)
+**$\S$1.6 &ndash; Proof of ) $\Rightarrow$ )**
 
+Start assuming .
 
----
-### 
-**$\S$ &ndash; **
+@ul[midpoint list-no-bullets]
+- 
+@ulend
 
+@snap[south fragment]
+We proved **)**
+@snapend
 
----
-### 
-**$\S$ &ndash; **
 
 
 
