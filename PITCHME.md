@@ -2122,12 +2122,12 @@ Start assuming that the system $A\vec{x} = \vec{b}$ is consistent; i.e., it has 
 @snap[east fragment text-06]
 @math
 `\[
-  A\begin{pmatrix}1 \\ 0 \\ \vdots \\ 0\end{pmatrix},
+  A\vec{x}=\begin{pmatrix}1 \\ 0 \\ \vdots \\ 0\end{pmatrix},
 \]`
 @mathend
 @math
 `\[
-  A\begin{pmatrix}0 \\ 1 \\ \vdots \\ 0\end{pmatrix},
+  A\vec{x}=\begin{pmatrix}0 \\ 1 \\ \vdots \\ 0\end{pmatrix},
 \]`
 @mathend
 @math
@@ -2135,7 +2135,7 @@ Start assuming that the system $A\vec{x} = \vec{b}$ is consistent; i.e., it has 
 @mathend
 @math
 `\[
-  A\begin{pmatrix}0 \\ 0 \\ \vdots \\ 1\end{pmatrix},
+  A\vec{x}=\begin{pmatrix}0 \\ 0 \\ \vdots \\ 1\end{pmatrix},
 \]`
 @mathend
 @snapend
