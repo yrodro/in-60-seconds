@@ -2099,7 +2099,7 @@ We proved a) $\Leftrightarrow$ f) in Theorem 1.6.2, so we only need to prove a) 
 **$\S$1.6 &ndash; Proof of a) $\Rightarrow$ f)**
 
 @snap[midpoint fragment text-07]
-We did it! If $A$ is invertible, the system $A \vec{x} = \vec{b}$ **always** has one solution.
+We already did it! If $A$ is invertible, the system $A \vec{x} = \vec{b}$ **always** has exactly one solution.
 @snapend
 
 
@@ -2115,8 +2115,8 @@ D'uh! If there is exactly one solution, there **are** solutions.
 ### Invertibility Properties (IX)
 **$\S$1.6 &ndash; Proof of e) $\Rightarrow$ a)**
 
-@snap[midpoint fragment text-07]
-Start assuming The system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.
+@snap[midpoint fragment span-80 text-07]
+Start assuming that the system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.
 @snapend
 
 @ul[midpoint list-no-bullets]
@@ -2128,6 +2128,7 @@ We proved **a)**
 @snapend
 
 
+---
 ### 
 **$\S$ &ndash; **
 
