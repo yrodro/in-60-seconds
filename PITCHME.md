@@ -2026,7 +2026,7 @@ A\vec{x}=\vec{b} \qquad
 - $\vec{x} = A^{-1}\vec{b}$
 @ulend
 
-@snap[south text-08 fragment]
+@snap[south-east text-08 fragment]
 @math
 `\[
   \begin{pmatrix}
