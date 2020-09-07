@@ -1686,9 +1686,11 @@ and the inverse is also an elementary matrix
 ### Invertibility Properties (II)
 **$\S$1.5 &ndash; Proof of a) $\Rightarrow$ b)**
 
+@snap[midpoint fragment text-07]
 Start assuming $A$ is an invertible matrix.
+@snapend
 
-@ul[midpoint list-no-bullets]
+@ul[midpoint list-no-bullets text-07]
 - $A \vec{x_0} = \vec{0}$ <br /> <br />
 - $A^{-1} A \vec{x_0} = A^{-1} \vec{0}$ <br /> <br />
 - $\vec{x_0} = \vec{0}$
@@ -1703,7 +1705,9 @@ We proved **b)**
 ### Invertibility Properties (III)
 **$\S$1.5 &ndash; Proof of b) $\Rightarrow$ c)**
 
+@snap[midpoint fragment text-07]
 Start assuming $\vec{0}$ is the only solution to $A \vec{x} = \vec{0}$.
+@snapend
 
 @snap[midpoint fragment text-06]
 <br /><br /><br /><br />
@@ -1744,7 +1748,9 @@ We proved **c)**
 ### Invertibility Properties (IV)
 **$\S$1.5 &ndash; Proof of c) $\Rightarrow$ d)**
 
+@snap[midpoint fragment text-07]
 Start assuming the RREF of $A$ is $I$.
+@snapend
 
 @snap[midpoint text-05]
 <br /><br />
@@ -1783,9 +1789,11 @@ We proved **d)**
 ### Invertibility Properties (V)
 **$\S$1.5 &ndash; Proof of d) $\Rightarrow$ a)**
 
+@snap[midpoint fragment text-07]
 Start assuming $A$ is a product of elementary matrices.
+@snapend
 
-@ul[midpoint list-no-bullets span-80]
+@ul[midpoint list-no-bullets span-80 text-07]
 - <br /> Each elementary matrix is invertible
 - <br /> The product of invertible matrices is invertible
 @ulend
@@ -2082,7 +2090,7 @@ A\vec{x}=\vec{b} \qquad
 @snapend
 
 @snap[south-east fragment span-60 text-06]
-We proved a) $\Rightarrow$ f) in Theorem 1.6.2, so we only need to prove a) $\Rightarrow$ f) $\Rightarrow$ e) $\Rightarrow$ a)
+We proved a) $\Leftrightarrow$ f) in Theorem 1.6.2, so we only need to prove a) $\Rightarrow$ f) $\Rightarrow$ e) $\Rightarrow$ a)
 @snapend
 
 
@@ -2099,14 +2107,17 @@ We did it! If $A$ is invertible, the system $A \vec{x} = \vec{b}$ **always** has
 ###  Invertibility Properties (VIII)
 **$\S$1.6 &ndash; Proof of f) $\Rightarrow$ e)**
 
+@snap[midpoint fragment text-07]
 D'uh! If there is exactly one solution, there **are** solutions.
-
+@snapend
 
 ---
 ### Invertibility Properties (IX)
 **$\S$1.6 &ndash; Proof of e) $\Rightarrow$ a)**
 
+@snap[midpoint fragment text-07]
 Start assuming The system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.
+@snapend
 
 @ul[midpoint list-no-bullets]
 - Find the solutions $\vec{x_i}$ to the systems $A\begin{pmatrix}1 \\ 0 \\ \vdots \\ 0\end{pmatrix}$
