@@ -2142,7 +2142,7 @@ Start assuming that the system $A\vec{x} = \vec{b}$ is consistent; i.e., it has 
 
 @ul[west list-no-bullets text-07]
 - Find the solutions $\vec{x_i}$ to the systems on the right.
-- Construct the matrix $C= \big( \vec{x_1}{\ }\vec{x_2} \;\ldots\; \vec{x_n} \big)$
+- Construct the matrix $C= \left( \vec{x_1} | \vec{x_2} | \ldots | \vec{x_n} \right)$
 @ulend
 
 @snap[south fragment]
