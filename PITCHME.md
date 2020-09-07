@@ -2144,10 +2144,10 @@ Start assuming **e)**: The system $A\vec{x} = \vec{b}$ is consistent; i.e., it h
 @mathend
 @snapend
 
-<br /><br />
+<br /><br /><br />
 @ul[west list-no-bullets text-07]
-- Find the solutions $\vec{x_i}$ to the systems on the right.
-- Construct the matrix $C= \left( \vec{x_1} \big| \vec{x_2} \big| \ldots \big| \vec{x_n} \right)$
+- Find the solutions $\vec{x_i}$ to the systems on the right<br /><br />
+- Construct the matrix $C= \left( \vec{x_1} \big| \vec{x_2} \big| \ldots \big| \vec{x_n} \right)$<br /><br />
 - Notice that $AC = I$, so $C = A^{-1}$
 @ulend
 
