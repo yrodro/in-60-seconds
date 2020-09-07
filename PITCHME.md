@@ -2082,7 +2082,7 @@ A\vec{x}=\vec{b} \qquad
 @snapend
 
 @snap[south-east fragment span-60 text-06]
-We proved a) $\Rightarrow$ f) in Theorem 1.6.2, so we only need to prove f) $\Rightarrow$e) $\Rightarrow$ a)
+We proved a) $\Rightarrow$ f) in Theorem 1.6.2, so we only need to prove a) $\Rightarrow$ f) $\Rightarrow$ e) $\Rightarrow$ a)
 @snapend
 
 
@@ -2090,21 +2090,20 @@ We proved a) $\Rightarrow$ f) in Theorem 1.6.2, so we only need to prove f) $\Ri
 ### Invertibility Properties (VII)
 **$\S$1.6 &ndash; Proof of a) $\Rightarrow$ f)**
 
-We did it! If $A$ is invertible, the system $A \vec{x} = \vec{b}$ **always has one solution.
-
-@ul[midpoint list-no-bullets]
-- 
-@ulend
+@snap[midpoint fragment text-07]
+We did it! If $A$ is invertible, the system $A \vec{x} = \vec{b}$ **always** has one solution.
+@snapend
 
 
 ---
 ###  Invertibility Properties (VIII)
 **$\S$1.6 &ndash; Proof of f) $\Rightarrow$ e)**
 
-D'uh! If there is exacctly one solution, there **are** solutions.
+D'uh! If there is exactly one solution, there **are** solutions.
 
 
---- Invertibility Properties (IX)
+---
+### Invertibility Properties (IX)
 **$\S$1.6 &ndash; Proof of e) $\Rightarrow$ a)**
 
 Start assuming The system $A\vec{x} = \vec{b}$ is consistent; i.e., it has at least a solution, no matter what vector $\vec{b}$ we choose.
