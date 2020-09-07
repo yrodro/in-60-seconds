@@ -2189,9 +2189,8 @@ We proved **a)**
 @mathend
 @snapend
 
-@snap[fragment text-08]
-Diagonal, Upper Triangular, Symmetric
-
+@snap[fragment text-09]
+&nbsp;Diagonal, Upper Triangular, Symmetric
 @snapend
 
 
