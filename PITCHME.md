@@ -2059,7 +2059,7 @@ A\vec{x}=\vec{b} \qquad
 @ulend
 @snapend
 
-@snap[south-west fragment text-07]
+@snap[south-west text-07]
 @ul[list-no-bullets]
 - Let $\vec{x_0}$ be a solution of $A\vec{x} = \vec{0}$<br /><br />
 - $BA\vec{x_0} = B\vec{0}$<br /><br />
@@ -2068,11 +2068,13 @@ A\vec{x}=\vec{b} \qquad
 @ulend
 @snapend
 
-@ul[south-east list-no-bullets text-07]
+@snap[south-east text-07]
+@ul[list-no-bullets]
 - Let's prove **a)** <br /><br />
 - $BA = I$<br /><br />
 - $BAA^{-1} = IA^{-1}$; so $B = A^{-1}$
 @ulend
+@snapend
 
 
 ---
