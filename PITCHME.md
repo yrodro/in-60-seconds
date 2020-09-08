@@ -2060,12 +2060,14 @@ A\vec{x}=\vec{b} \qquad
 @snapend
 
 <br />
-@ul[south-west list-no-bullets text-07]
+@snap[south-west]
+@ul[list-no-bullets text-07]
 - Let $\vec{x_0}$ be a solution of $A\vec{x} = \vec{0}$<br /><br />
 - $BA\vec{x_0} = B\vec{0}$<br /><br />
 - $I\vec{x_0} = B\vec{0}$, that is, $\vec{x_0} = \vec{0}$<br /><br />
 - So $A$ **is** invertible
 @ulend
+@snapend
 
 @ul[south-east list-no-bullets text-07]
 - Let's prove **a)** <br /><br />
