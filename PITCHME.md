@@ -1338,7 +1338,6 @@ $3 \times 4$ matrix
 @mathend
 @snapend
 
-
 @snap[midpoint fragment current-visible text-07]
 @math[fragment step-fade-in-then-out]
 `\[
@@ -1396,7 +1395,7 @@ $3 \times 4$ matrix
 @snap[south span-80 fragment text-08]
 ** Theorem 1.5.2** Every elementary matrix is invertible,
 and the inverse is also an elementary matrix
-
+@snapend
 
 ---
 ### Elementary Matrices (III)
@@ -1515,7 +1514,8 @@ and the inverse is also an elementary matrix
 @mathend
 @snapend
 
-@ul[south list-no-bullets text-08]
+@snap[south text-08]
+@ul[list-no-bullets]
 - $E_6 \cdot E_5 \cdot E_4 \cdot E_3 \cdot E_2 \cdot E_1 \cdot \color{yellow}{A} = \color{blue}{R}$<br /><br />
 - $\color{yellow}{A} = E_1^{-1} \cdot E_2^{-1} \cdot E_3^{-1} \cdot E_4^{-1} \cdot E_5^{-1} \cdot E_6^{-1} \cdot \color{blue}{R}$<br /><br />
 @ulend
