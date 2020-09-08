@@ -2059,9 +2059,8 @@ A\vec{x}=\vec{b} \qquad
 @ulend
 @snapend
 
-<br />
-@snap[south-west]
-@ul[list-no-bullets text-07]
+@snap[south-west fragment text-07]
+@ul[list-no-bullets]
 - Let $\vec{x_0}$ be a solution of $A\vec{x} = \vec{0}$<br /><br />
 - $BA\vec{x_0} = B\vec{0}$<br /><br />
 - $I\vec{x_0} = B\vec{0}$, that is, $\vec{x_0} = \vec{0}$<br /><br />
