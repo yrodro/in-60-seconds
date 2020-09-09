@@ -2147,11 +2147,13 @@ Start assuming **e)**: The system $A\vec{x} = \vec{b}$ is consistent; i.e., it h
 @mathend
 @snapend
 
-@ul[south-west list-no-bullets text-07]
+@snap[south-west text-07]
+@ul[list-no-bullets]
 - Find the solutions $\vec{x_i}$ to the systems on the right<br /><br />
 - Construct the matrix $C= \left( \vec{x_1} \big| \vec{x_2} \big| \ldots \big| \vec{x_n} \right)$<br /><br />
 - Notice that $AC = I$, so $C = A^{-1}$
 @ulend
+@snapend
 
 @snap[south-east fragment]
 We proved **a)**
@@ -2205,13 +2207,15 @@ We proved **a)**
 @snapend
 
 <br \>
-@ul[list-no-bullets text-07]
+@snap[text-07]
+@ul[list-no-bullets]
 - These are **d**iagonal, upper **t**riangular, and **s**ymmetric matrices
 - Lower diagonal is defined similarly
 - Both diagonal and off-diagonal entries **can** be zero
 - Upper **and** lower triangular $\Leftrightarrow$ diagonal
 - Symmetric **and** triangular $\Leftrightarrow$ diagonal
 @ulend
+@snapend
 
 
 ---
