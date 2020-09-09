@@ -1983,12 +1983,14 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 @snapend
 
 <br />
-@ul[list-no-bullets text-07]
+@snap[text-07]
+@ul[list-no-bullets]
 - Say the system is $A\vec{x} = \vec{b}$<br /><br />
 - If $\vec{x_1},\vec{v_2}$ are two solutions, call $\vec{x_0} = \vec{x_1}-\vec{x_2}$<br /><br />
 - $A \vec{x_0} = A(\vec{x_1} - \vec{x_2}) = A\vec{x_1} - A\vec{x_2} = \vec{b} - \vec{b} = \vec{0}$<br /><br />
 - For any scalar $k$, $A(\vec{x_1}+k\vec{x_0}) = A\vec{x_1} + kA\vec{x_0} = \vec{b}+k\vec{0} = \vec{b}$
 @ulend
+@snapend
 
 
 ---
