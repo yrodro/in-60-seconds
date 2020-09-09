@@ -2172,12 +2172,14 @@ We proved **a)**
 @snapend
 
 <br \>
-@ul[south-west list-no-bullets text-07]
+@snap[south-west text-07]
+@ul[list-no-bullets]
 - Since $(AB)^T = B^T A^T$, we have<br /><br />
 - $A^T \big(A^{-1} \big)^T = \big( A^{-1}A \big )^T = I^T = I$<br /><br />
 - Similarly,<br /><br />
 - $\big(A^{-1} \big)^T A^T = \big( AA^{-1} \big )^T = I$
 @ulend
+@snapend
 
 @ul[south-east list-no-bullets text-07]
 - This means that<br /><br />
