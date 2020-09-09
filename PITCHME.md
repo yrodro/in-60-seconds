@@ -2181,10 +2181,12 @@ We proved **a)**
 @ulend
 @snapend
 
-@ul[south-east list-no-bullets text-07]
+@snap[south-east text-07]
+@ul[list-no-bullets]
 - This means that<br /><br />
 - $A^T \big( A^{-1} \big)^T = \big( A^{-1} \big)^T A^T = I$
 @ulend
+@snapend
 
 
 ---
