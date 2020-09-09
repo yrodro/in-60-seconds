@@ -2234,7 +2234,8 @@ We proved **a)**
 @snapend
 
 <br \>
-@snap[text-07]
+@snap[fragment text-07]
+**Theorem 1.7.1
 @ul[list-no-bullets]
 - **a)** The transpose of a **lower** diagonal is **upper** diagonal and viceversa
 - **b)** The product of lower diagonals is lower diagonal, and viceversa
@@ -2245,8 +2246,17 @@ We proved **a)**
 
 
 ---
-### 
-**$\S$ &ndash; **
+### Special Matrix Shapes (IV)
+**$\S$1.7 &ndash; Proofs**
+
+@snap[text-07]
+@ul[list-no-bullets]
+- **a)** Is evident
+- **b)** If $A=(a_{ij}),B=(b_{ij})$, lower triangular means that all entries $a_{ij},b_{ij}$ with $j>i$ **must** be zero
+- The $ij$th entry of the product $AB$ is $\big( a_{i1}b_{1j}+\ldots+a_{i(j-1)}b_{(j-1)j} \big) + \big( a_{1j}b_{jj}+\ldots+a_{in}b_{nj} \big)$
+- If $j>i, the first part is 0 because all the $b_{ij}$ are 0, while the second part is 0 because all the $a_{ij}$ are 0
+@ulend
+@snapend
 
 
 ---
