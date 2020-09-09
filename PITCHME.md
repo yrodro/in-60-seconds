@@ -2252,9 +2252,9 @@ We proved **a)**
 @snap[text-07]
 @ul[list-no-bullets]
 - **a)** Is evident
-- **b)** If `$A=(a\_{ij}),B=(b\_{ij})$`, lower triangular means that all entries $a_{ij},b_{ij}$ with $j>i$ **must** be zero
-- The $(i,j)$-th entry of the product $AB$ is $\big( a_{i1}b_{1j}+\ldots+a_{i(j-1)}b_{(j-1)j} \big) + \big( a_{1j}b_{jj}+\ldots+a_{in}b_{nj} \big)$
-- If $j>i$, the first part is 0 because all the $b_{ij}$ are 0, while the second part is 0 because all the $a_{ij}$ are 0
+- **b)** If `$A=(a\_{ij}),B=(b\_{ij})$`, lower triangular means that all entries `$a\_{ij},b\_{ij}$` with $j>i$ **must** be zero
+- The $(i,j)$-th entry of the product $AB$ is `$\big( a\_{i1}b\_{1j}+\ldots+a\_{i(j-1)}b\_{(j-1)j} \big) + \big( a\_{1j}b\_{jj}+\ldots+a\_{in}b\_{nj} \big)$`
+- If $j>i$, the first part is 0 because all the `$b\_{ij}$` are 0, while the second part is 0 because all the `$a\_{ij}$` are 0
 @ulend
 @snapend
 
