@@ -2240,7 +2240,7 @@ We proved **a)**
 1. The product of lower diagonals is lower diagonal, and viceversa
 1. A triangular matrix is invertible $\Leftrightarrow$ all its diagonal entries are non-zero
 1. The inverse of a lower diagonal is lower diagonal and viceversa
-@lend
+@olend
 @snapend
 
 
