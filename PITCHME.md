@@ -2219,6 +2219,32 @@ We proved **a)**
 
 
 ---
+### Special Matrix Shapes (III)
+**$\S$1.7 &ndash; Symmetry (diagonals and triangles)**
+
+<br />
+@snap[text-07]
+@math
+`\[
+  \begin{pmatrix} \color{yellow}{1} & 0 & 0 & 0 \\ 0 & \color{yellow}{0} & 0 & 0 \\ 0 & 0 & \color{yellow}{6} & 0 \\ 0 & 0 & 0 & \color{yellow}{6} \end{pmatrix} \qquad
+    \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 0 \\ 0 & \color{yellow}{0} & 3 & 4 \\ 0 & 0 & \color{yellow}{6} & 5 \\ 0 & 0 & 0 & \color{yellow}{6} \end{pmatrix} \qquad
+      \begin{pmatrix} \color{yellow}{1} & 1 & 2 & 0 \\ 1 & \color{yellow}{0} & 3 & 4 \\ 2 & 3 & \color{yellow}{6} & 5 \\ 0 & 4  & 5 & \color{yellow}{6} \end{pmatrix}
+\]`
+@mathend
+@snapend
+
+<br \>
+@snap[text-07]
+@ul[list-no-bullets]
+- The transpose of a lower diagonal is upper diagonal and viceversa
+- The product of lower diagonals is lower diagonal, and the product of upper diagonals is upper diagonal
+- A triangular matrix is invertible $\Leftrightarrow$ all its diagonal entries are non-zero
+- The inverse of a lower diagonal is lower diagonal and viceversa
+@ulend
+@snapend
+
+
+---
 ### 
 **$\S$ &ndash; **
 
