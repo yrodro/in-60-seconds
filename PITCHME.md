@@ -2255,6 +2255,9 @@ We proved **a)**
 - **b)** If `$A=(a\_{ij}),B=(b\_{ij})$`, lower triangular means that all entries `$a\_{ij},b\_{ij}$` with $j>i$ **must** be zero
 - The $(i,j)$-th entry of the product $AB$ is `$\big( a\_{i1}b\_{1j}+\ldots+a\_{i(j-1)}b\_{(j-1)j} \big) + \big( a\_{1j}b\_{jj}+\ldots+a\_{in}b\_{nj} \big)$`
 - If $j>i$, the first part is 0 because all the `$b\_{ij}$` are 0, while the second part is 0 because all the `$a\_{ij}$` are 0
+- **c)** If a diagonal entry is 0, the RREF cannot be $I$
+- **d)** If $A$ is upper triangular, all the elementary moves needed to reduce it to $I$ affect only the upper triangle
+- When computing $A^{-1}$, the same elementary moves affect only the upper triangle of $I$
 @ulend
 @snapend
 
