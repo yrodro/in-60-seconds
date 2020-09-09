@@ -2193,7 +2193,7 @@ We proved **a)**
 
 ---
 ### Special Matrix Shapes (II)
-**$\S$1.7 &ndash; Symmetry (diagonals and triangles)**
+**$\S$1.7 &ndash; Symmetry (Diagonals and Triangles)**
 
 <br />
 @snap[fragment text-07]
@@ -2220,7 +2220,7 @@ We proved **a)**
 
 ---
 ### Special Matrix Shapes (III)
-**$\S$1.7 &ndash; Symmetry (diagonals and triangles)**
+**$\S$1.7 &ndash; More Symmetry Facts**
 
 <br />
 @snap[text-07]
@@ -2235,12 +2235,12 @@ We proved **a)**
 
 <br \>
 @snap[text-07]
-@ul[list-no-bullets]
-- The transpose of a lower diagonal is upper diagonal and viceversa
-- The product of lower diagonals is lower diagonal, and the product of upper diagonals is upper diagonal
-- A triangular matrix is invertible $\Leftrightarrow$ all its diagonal entries are non-zero
-- The inverse of a lower diagonal is lower diagonal and viceversa
-@ulend
+@ol[list-alpha-bullets]
+1. The transpose of a \color{yellow}{lower} diagonal is \color{yellow}{upper} diagonal and viceversa
+1. The product of lower diagonals is lower diagonal, and viceversa
+1. A triangular matrix is invertible $\Leftrightarrow$ all its diagonal entries are non-zero
+1. The inverse of a lower diagonal is lower diagonal and viceversa
+@lend
 @snapend
 
 
