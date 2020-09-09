@@ -2235,12 +2235,12 @@ We proved **a)**
 
 <br \>
 @snap[text-07]
-@ol[list-alpha-bullets]
-1. The transpose of a \color{yellow}{lower} diagonal is \color{yellow}{upper} diagonal and viceversa
-1. The product of lower diagonals is lower diagonal, and viceversa
-1. A triangular matrix is invertible $\Leftrightarrow$ all its diagonal entries are non-zero
-1. The inverse of a lower diagonal is lower diagonal and viceversa
-@olend
+@ul[list-alpha-bullets]
+- The transpose of a \color{yellow}{lower} diagonal is \color{yellow}{upper} diagonal and viceversa
+- The product of lower diagonals is lower diagonal, and viceversa
+- A triangular matrix is invertible $\Leftrightarrow$ all its diagonal entries are non-zero
+- The inverse of a lower diagonal is lower diagonal and viceversa
+@ulend
 @snapend
 
 
