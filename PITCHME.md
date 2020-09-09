@@ -2002,10 +2002,12 @@ The operations that turn $A$ into $I$ will also turn $I$ into $A^{-1}$
 @snapend
 
 <br />
-@ul[list-no-bullets span-65 text-07]
+@snap[span-65 text-07]
+@ul[list-no-bullets]
 - $A(A^{-1})\vec{b} = \vec{b}$, so $x_0 = A^{-1}\vec{b}$ **is** a solution <br /><br />
 - If $A\vec{x_0}=\vec{b}$ (i.e. $\vec{x_0}$ is a solution), then multiply both sides by $A^{-1}$ to find $\vec{x_0} = A^{-1}\vec{b}$
 @ulend
+@snapend
 
 
 ---
