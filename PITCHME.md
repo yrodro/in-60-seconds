@@ -2024,11 +2024,13 @@ A\vec{x}=\vec{b} \qquad
 @mathend
 @snapend
 
-@ul[list-no-bullets text-07]
+@snap[list-no-bullets text-07]
+@ul
 - $A\vec{x} = \vec{b}$ <br /><br />
 - $A^{-1}A\vec{x} = A^{-1}\vec{b}$ <br /><br />
 - $\vec{x} = A^{-1}\vec{b}$
 @ulend
+@snapend
 
 @snap[south-east text-08 fragment]
 @math
