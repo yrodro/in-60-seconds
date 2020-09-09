@@ -2193,6 +2193,7 @@ We proved **a)**
 @ul[list-no-bullets]
 - This means that<br /><br />
 - $A^T \big( A^{-1} \big)^T = \big( A^{-1} \big)^T A^T = I$
+- i.e., $\big( A^T \big)^{-1} = \big( A^{-1} \big)^T$
 @ulend
 @snapend
 
