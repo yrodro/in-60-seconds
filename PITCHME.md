@@ -2235,7 +2235,7 @@ We proved **a)**
 
 <br \>
 @snap[fragment text-07]
-**Theorem 1.7.1
+**Theorem 1.7.1**
 @ul[list-no-bullets]
 - **a)** The transpose of a **lower** diagonal is **upper** diagonal and viceversa
 - **b)** The product of lower diagonals is lower diagonal, and viceversa
